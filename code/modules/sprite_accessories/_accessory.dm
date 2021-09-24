@@ -25,5 +25,5 @@
 	var/list/species_allowed = list(SPECIES_HUMAN,
 									SPECIES_SHELL) // Restrict some styles to specific bodytypes
 	var/list/subspecies_allowed                    // Restrict some styles to specific species names
-	var/do_colouration = 1                         // Whether or not the accessory can be affected by colouration
+	var/do_coloration = DO_COLORATION_USER         // Whether or not the accessory can be affected by colouration
 	var/blend = ICON_ADD
