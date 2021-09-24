@@ -1,6 +1,5 @@
 /datum/sprite_accessory/marking/shell
 	icon = 'icons/mob/human_races/species/shell/markings.dmi'
-	do_colouration = 1
 	blend = ICON_MULTIPLY
 	species_allowed = list(SPECIES_SHELL, SPECIES_HUMAN)
 
