@@ -54,7 +54,7 @@
 		var/species_name = "\improper "
 		if(is_synth && species.cyborg_noun)
 			species_name += "[species.cyborg_noun] [species.get_bodytype(src)]"
-		else if(species.name == "Shell IPC")
+		else if(species.name == SPECIES_SHELL)
 			species_name += "Cyborg Human"
 		else
 			species_name += "[species.name]"
