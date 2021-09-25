@@ -27,7 +27,7 @@
 	strength = STR_HIGH
 
 	min_age = 1
-	max_age = 13
+	max_age = 14
 
 	warning_low_pressure = 50
 	hazard_low_pressure = -1
@@ -100,21 +100,21 @@
 	brute_mod =      1.2
 	burn_mod =       1.6
 
-/datum/species/shell/handle_death(var/mob/living/carbon/human/H)
+/datum/species/machine/shell/handle_death(var/mob/living/carbon/human/H)
 	..()
 	if(istype(H.wear_mask,/obj/item/clothing/mask/monitor))
 		var/obj/item/clothing/mask/monitor/M = H.wear_mask
 		M.monitor_state_index = "blank"
 		M.update_icon()
 
-/datum/species/shell/post_organ_rejuvenate(var/obj/item/organ/org, var/mob/living/carbon/human/H)
+/datum/species/machine/shell/post_organ_rejuvenate(var/obj/item/organ/org, var/mob/living/carbon/human/H)
 	var/obj/item/organ/external/E = org
 	if(istype(E) && !BP_IS_ROBOTIC(E))
 		E.robotize("Vey-Med")
 
-/datum/species/shell/get_blood_name()
+/datum/species/machine/shell/get_blood_name()
 	return "coolant"
 
-/datum/species/shell/disfigure_msg(var/mob/living/carbon/human/H)
+/datum/species/machine/shell/disfigure_msg(var/mob/living/carbon/human/H)
 	var/datum/gender/T = gender_datums[H.get_gender()]
 	return "<span class='danger'>[T.His] faceplate is dented and ruined!</span>\n"
