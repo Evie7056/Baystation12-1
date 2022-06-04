@@ -110,6 +110,11 @@ var/const/ERT_FREQ	= 1345
 var/const/AI_FREQ	= 1343
 var/const/ENT_FREQ	= 1461 //entertainment frequency. This is not a diona exclusive frequency.
 
+//Altantis comms
+var/const/ATL_COM	= 1339
+var/const/ATL_CMD	= 1337
+var/const/ATL_MAR	= 1335
+
 //antagonist channels
 var/const/DTH_FREQ	= 1341
 var/const/SYND_FREQ = 1213
