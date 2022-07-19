@@ -129,3 +129,37 @@
 		/obj/item/rig_module/cooling_unit,
 		/obj/item/rig_module/datajack
 		)
+
+//no sprites. for now?
+/obj/item/rig/ert/fleet/command
+	name = "emergency response command hardsuit control module"
+	desc = "A hardsuit utilised especially by Fleet combat teams. Has navy blue highlights and Sol-patterned crests on the shoulders."
+	suit_type = "emergency response fleet command"
+
+/obj/item/rig/ert/fleet/command/medical
+	name = "emergency response medical hardsuit control module"
+	desc = "A hardsuit utilised especially by Fleet combat teams. Has navy blue highlights and Sol-patterned crests on the shoulders."
+	suit_type = "emergency response fleet medical "
+
+	initial_modules = list(
+		/obj/item/rig_module/ai_container,
+		/obj/item/rig_module/maneuvering_jets,
+		/obj/item/rig_module/device/healthscanner,
+		/obj/item/rig_module/chem_dispenser/injector,
+		/obj/item/rig_module/cooling_unit
+		)
+
+/obj/item/rig/ert/fleet/command/engineering
+	name = "emergency response engineering hardsuit control module"
+	desc = "A hardsuit utilised especially by Fleet combat teams. Has navy blue highlights and Sol-patterned crests on the shoulders."
+	suit_type = "emergency response fleet engineering"
+
+	initial_modules = list(
+		/obj/item/rig_module/ai_container,
+		/obj/item/rig_module/maneuvering_jets,
+		/obj/item/rig_module/mounted/plasmacutter,
+		/obj/item/rig_module/device/rcd,
+		/obj/item/rig_module/cooling_unit
+		)
+
+	glove_type = /obj/item/clothing/gloves/rig/ert/engineer

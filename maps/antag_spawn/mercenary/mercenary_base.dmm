@@ -1043,7 +1043,7 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/obj/item/clothing/glasses/thermal,
+/obj/item/bikehorn/rubberducky,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/merc_shuttle)
 "lz" = (
@@ -1600,10 +1600,11 @@
 	pixel_x = -1
 	},
 /obj/item/rig/merc/heavy/empty,
-/obj/item/rig/merc/heavy/empty,
-/obj/item/cell/super,
 /obj/item/cell/super,
 /obj/effect/floor_decal/corner/blue/mono,
+/obj/item/bikehorn/rubberducky{
+	name = "crimson EOD ducky"
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/map_template/merc_spawn)
 "rt" = (
@@ -2644,6 +2645,16 @@
 "Hr" = (
 /obj/structure/curtain/open/bed,
 /turf/simulated/floor/tiled/dark,
+/area/map_template/merc_spawn)
+"Ht" = (
+/obj/structure/closet,
+/obj/item/storage/belt/security,
+/obj/item/storage/belt/holster/security/tactical,
+/obj/item/clothing/accessory/storage/holster/thigh,
+/obj/item/inflatable_duck{
+	name = "tacticool duck"
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/map_template/merc_spawn)
 "Hw" = (
 /obj/effect/floor_decal/corner/purple{
@@ -7591,7 +7602,7 @@ Hr
 gF
 Fy
 RT
-RT
+Ht
 Qg
 fi
 mo
@@ -7794,7 +7805,7 @@ kb
 mo
 kQ
 FC
-RT
+Ht
 RT
 EU
 bZ
