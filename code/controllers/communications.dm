@@ -111,9 +111,9 @@ var/global/const/AI_FREQ	= 1343
 var/global/const/ENT_FREQ	= 1461 //entertainment frequency. This is not a diona exclusive frequency.
 
 //Altantis comms
-var/const/ATL_COM	= 1339
-var/const/ATL_CMD	= 1337
-var/const/ATL_MAR	= 1335
+var/const/ATL_COM	= 1533
+var/const/ATL_CMD	= 1537
+var/const/ATL_MAR	= 1535
 
 //antagonist channels
 var/global/const/DTH_FREQ	= 1341
@@ -172,7 +172,11 @@ var/global/list/radiochannels = list(
 	"AI Private"	= AI_FREQ,
 	"Entertainment" = ENT_FREQ,
 	"Medical (I)"	= MED_I_FREQ,
-	"Security (I)"	= SEC_I_FREQ
+	"Security (I)"	= SEC_I_FREQ,
+	//atlanis
+	"Atlantis Common"	= ATL_COM,
+	"Atlantis Command"	= ATL_CMD,
+	"Marine Squad"		= ATL_MAR,
 )
 
 var/global/list/channel_color_presets = list(

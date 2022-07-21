@@ -1,0 +1,8921 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ad" = (
+/turf/simulated/wall/r_titanium,
+/area/map_template/rescue_base/base)
+"af" = (
+/obj/machinery/door/airlock/civilian{
+	autoset_access = 0;
+	name = "Head"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"ag" = (
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"ah" = (
+/obj/structure/bed/chair/comfy/captain{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"aj" = (
+/obj/structure/catwalk,
+/obj/machinery/pointdefense,
+/obj/machinery/power/terminal,
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/unsimulated/floor/plating,
+/area/map_template/rescue_base/base)
+"ak" = (
+/turf/simulated/wall/r_titanium,
+/area/space)
+"al" = (
+/obj/machinery/computer/modular/preset/cardslot/command,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"ap" = (
+/obj/item/modular_computer/tablet/lease/preset/command,
+/obj/structure/table/woodentable_reinforced/ebony/walnut,
+/obj/item/device/radio/intercom/specops{
+	dir = 1;
+	pixel_y = -22
+	},
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"ar" = (
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"ax" = (
+/obj/machinery/recharger/wallcharger{
+	dir = 4;
+	pixel_x = -23;
+	pixel_y = -3
+	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"az" = (
+/obj/structure/catwalk,
+/obj/machinery/pointdefense,
+/obj/machinery/power/terminal,
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/unsimulated/floor/plating,
+/area/map_template/rescue_base/base)
+"aC" = (
+/obj/machinery/disperser/front{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
+/area/map_template/rescue_base/base)
+"aF" = (
+/obj/structure/catwalk,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/sign/solgov{
+	pixel_y = -32
+	},
+/turf/unsimulated/floor/plating,
+/area/map_template/rescue_base/base)
+"be" = (
+/obj/effect/wingrille_spawn/reinforced/crescent,
+/turf/space,
+/area/map_template/rescue_base/base)
+"bi" = (
+/obj/structure/bed/chair/comfy/blue{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"bo" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"bE" = (
+/obj/machinery/disperser/middle{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
+/area/map_template/rescue_base/base)
+"bF" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 10
+	},
+/obj/machinery/hologram/holopad/longrange,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"bG" = (
+/obj/machinery/disperser/back{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
+/area/map_template/rescue_base/base)
+"bH" = (
+/obj/structure/table/glass,
+/obj/effect/floor_decal/corner/blue/three_quarters{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"bI" = (
+/obj/machinery/computer/modular/preset/full/ert,
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"bL" = (
+/obj/machinery/computer/modular/preset/cardslot/command,
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"bM" = (
+/turf/unsimulated/floor{
+	icon_state = "freezerfloor"
+	},
+/area/map_template/rescue_base/base)
+"bT" = (
+/obj/machinery/computer/ship/navigation,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"cg" = (
+/obj/machinery/computer/modular/preset/full/ert,
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"ck" = (
+/obj/machinery/computer/modular/preset/full/ert,
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/obj/item/device/radio/intercom/specops{
+	pixel_y = 22
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"co" = (
+/obj/structure/table/glass,
+/obj/item/book/manual/solgov_law{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/effect/floor_decal/corner/blue/three_quarters{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"cp" = (
+/obj/structure/window/reinforced/crescent,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
+/area/map_template/rescue_base/base)
+"cq" = (
+/obj/structure/table/glass,
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"cr" = (
+/obj/structure/bed/chair/comfy/blue{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"cF" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"cH" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"cK" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"cN" = (
+/obj/structure/bed/chair/comfy/blue{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"cS" = (
+/obj/structure/table/glass,
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"cU" = (
+/obj/effect/wingrille_spawn/reinforced/crescent,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
+/area/map_template/rescue_base/base)
+"cZ" = (
+/obj/structure/table/glass,
+/obj/item/book/manual/sol_sop,
+/obj/effect/floor_decal/corner/blue/three_quarters,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"db" = (
+/obj/effect/floor_decal/scglogo{
+	dir = 8;
+	icon_state = "top-left"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"dk" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"dn" = (
+/obj/effect/floor_decal/scglogo{
+	dir = 8;
+	icon_state = "bottom-left"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"dx" = (
+/obj/effect/floor_decal/scglogo{
+	dir = 8;
+	icon_state = "center-left"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"dA" = (
+/obj/structure/table/glass,
+/obj/item/book/manual/military_law,
+/obj/effect/floor_decal/corner/blue/three_quarters{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"dB" = (
+/obj/structure/noticeboard{
+	pixel_x = 32
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"dH" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"ec" = (
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "reinforced"
+	},
+/area/map_template/rescue_base/base)
+"ed" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"ee" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/blue,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"el" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/obj/effect/floor_decal/spline/fancy/black,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"en" = (
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"ey" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/item/storage/box/cups,
+/obj/effect/floor_decal/spline/fancy/black,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"ez" = (
+/obj/structure/closet/emcloset,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/floor_decal/spline/fancy/black,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"eA" = (
+/obj/machinery/door/airlock/centcom{
+	autoset_access = 0;
+	name = "Atlantis Bridge";
+	req_access = list(101)
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"eB" = (
+/obj/structure/table/glass,
+/obj/item/paper_bin{
+	pixel_x = -3;
+	pixel_y = 7
+	},
+/obj/item/pen,
+/obj/item/pen,
+/obj/item/pen{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/pen/multi,
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 10
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"eC" = (
+/obj/structure/table/glass,
+/obj/machinery/photocopier/faxmachine{
+	department = "Atlantis - Bridge"
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 10
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"eD" = (
+/obj/structure/table/glass,
+/obj/structure/flora/pottedplant/deskleaf,
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 10
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"eE" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/effect/floor_decal/spline/fancy/black,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"eF" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/effect/floor_decal/spline/fancy/black,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"eG" = (
+/turf/unsimulated/wall{
+	desc = "A secure airlock. Doesn't look like you can get through easily.";
+	dir = 4;
+	icon = 'icons/obj/doors/centcomm/door.dmi';
+	icon_state = "closed";
+	name = "Fire Control"
+	},
+/area/map_template/rescue_base/base)
+"eO" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 9
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"eX" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"fc" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 5
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"fl" = (
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"fq" = (
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"fv" = (
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"fw" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"fF" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"fG" = (
+/obj/structure/undies_wardrobe,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"fH" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/captain,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"fM" = (
+/obj/structure/filingcabinet/chestdrawer,
+/obj/item/folder,
+/obj/item/folder/nt,
+/obj/item/folder/red,
+/obj/item/folder/white,
+/obj/item/folder/yellow,
+/obj/item/folder/blue,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"fQ" = (
+/obj/machinery/papershredder,
+/obj/item/device/radio/intercom/specops{
+	pixel_y = 22
+	},
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"fU" = (
+/obj/structure/table/woodentable_reinforced/walnut/maple,
+/obj/machinery/chemical_dispenser/bar_coffee/full{
+	pixel_y = 3
+	},
+/obj/structure/sign/double/solgovflag/left{
+	pixel_y = 32
+	},
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"fW" = (
+/obj/structure/table/woodentable_reinforced/walnut/maple,
+/obj/item/reagent_containers/food/drinks/glass2/coffeecup/black,
+/obj/structure/sign/double/solgovflag/right{
+	pixel_y = 32
+	},
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"gc" = (
+/obj/structure/table/glass,
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 9
+	},
+/obj/structure/sign/solgov{
+	pixel_y = 32
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"gg" = (
+/obj/structure/table/glass,
+/obj/structure/noticeboard{
+	pixel_y = 30
+	},
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"gl" = (
+/obj/structure/table/glass,
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 5
+	},
+/obj/item/device/radio/intercom/specops{
+	pixel_y = 22
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"gm" = (
+/obj/machinery/papershredder,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"gu" = (
+/obj/structure/table/steel_reinforced,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"gv" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/box/trackimp,
+/obj/item/storage/box/cdeathalarm_kit,
+/turf/unsimulated/floor{
+	dir = 1;
+	icon_state = "vault"
+	},
+/area/map_template/rescue_base/base)
+"gB" = (
+/obj/structure/table/reinforced,
+/obj/prefab/hand_teleporter,
+/obj/item/device/radio/intercom/specops{
+	pixel_y = 22
+	},
+/turf/unsimulated/floor{
+	dir = 1;
+	icon_state = "vault"
+	},
+/area/map_template/rescue_base/base)
+"gC" = (
+/obj/structure/curtain/black,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"gD" = (
+/obj/machinery/door/airlock/centcom{
+	autoset_access = 0;
+	name = "Commanding Officer's Office";
+	req_access = list(109)
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"gE" = (
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 4;
+	pixel_y = 32
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"gR" = (
+/obj/structure/sign/double/solgovflag/left{
+	pixel_y = 32
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"gS" = (
+/obj/structure/sign/double/solgovflag/right{
+	pixel_y = 32
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"gZ" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Squad Leader's Office"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"ha" = (
+/obj/structure/table/reinforced,
+/obj/item/aicard,
+/obj/item/pinpointer/advpinpointer,
+/turf/unsimulated/floor{
+	dir = 1;
+	icon_state = "vault"
+	},
+/area/map_template/rescue_base/base)
+"hb" = (
+/obj/structure/table/woodentable_reinforced/walnut/maple,
+/obj/random/drinkbottle,
+/obj/random/drinkbottle,
+/obj/item/reagent_containers/food/drinks/glass2/rocks,
+/obj/item/reagent_containers/food/drinks/glass2/rocks,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"hl" = (
+/turf/space,
+/area/space)
+"ij" = (
+/obj/structure/table/woodentable_reinforced/ebony/walnut,
+/obj/item/storage/fancy/cigar,
+/obj/item/flame/lighter/zippo/brass,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"iD" = (
+/obj/structure/closet/athletic_mixed,
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"jk" = (
+/obj/structure/hygiene/toilet{
+	dir = 4
+	},
+/obj/item/taperoll/bog,
+/turf/unsimulated/floor{
+	icon_state = "freezerfloor"
+	},
+/area/map_template/rescue_base/base)
+"kp" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/blue,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"ks" = (
+/obj/structure/bed/chair/comfy/captain{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"kH" = (
+/obj/structure/table/rack,
+/obj/item/clothing/suit/armor/pcarrier/medium/command,
+/obj/item/clothing/head/helmet/solgov/command,
+/obj/item/gun/energy/gun,
+/turf/unsimulated/floor{
+	dir = 1;
+	icon_state = "vault"
+	},
+/area/map_template/rescue_base/base)
+"kQ" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Atlantis Bridge"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"mY" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/item/device/radio/intercom/specops{
+	dir = 1;
+	pixel_y = -22
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"nL" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 10
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"nQ" = (
+/obj/structure/table/woodentable_reinforced/ebony/walnut,
+/obj/item/reagent_containers/food/drinks/glass2/coffeecup/SCG,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"oC" = (
+/obj/structure/table/woodentable_reinforced/ebony/walnut,
+/obj/item/reagent_containers/food/drinks/flask{
+	pixel_x = 8
+	},
+/obj/item/clothing/mask/smokable/cigarette/cigar,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"oW" = (
+/obj/structure/table/rack,
+/obj/item/storage/backpack/ert/commander,
+/obj/item/storage/belt/holster/security/tactical,
+/turf/unsimulated/floor{
+	dir = 1;
+	icon_state = "vault"
+	},
+/area/map_template/rescue_base/base)
+"oY" = (
+/obj/structure/bed/chair/comfy/blue{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"qL" = (
+/turf/simulated/wall,
+/area/map_template/rescue_base/base)
+"rv" = (
+/obj/structure/hygiene/shower{
+	dir = 4
+	},
+/obj/item/soap,
+/turf/unsimulated/floor{
+	icon_state = "freezerfloor"
+	},
+/area/map_template/rescue_base/base)
+"rC" = (
+/obj/structure/table/rack,
+/obj/item/storage/box/flashbangs,
+/obj/item/storage/box/teargas,
+/obj/item/storage/box/handcuffs,
+/obj/item/melee/baton/loaded,
+/turf/unsimulated/floor{
+	dir = 1;
+	icon_state = "vault"
+	},
+/area/map_template/rescue_base/base)
+"rF" = (
+/obj/machinery/disperser/back{
+	dir = 1
+	},
+/turf/simulated/wall/r_titanium,
+/area/map_template/rescue_base/base)
+"rK" = (
+/obj/structure/table/rack,
+/obj/item/clothing/head/beret/centcom/captain,
+/obj/item/storage/secure/briefcase,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"rL" = (
+/obj/effect/floor_decal/corner/blue/border,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"rW" = (
+/obj/structure/closet/emcloset,
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"sO" = (
+/obj/item/storage/mirror{
+	pixel_y = 32
+	},
+/turf/unsimulated/floor{
+	icon_state = "freezerfloor"
+	},
+/area/map_template/rescue_base/base)
+"uv" = (
+/obj/machinery/recharger/wallcharger{
+	dir = 1;
+	pixel_y = -22
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"uB" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"uQ" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 9
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"vk" = (
+/obj/machinery/recharger/wallcharger{
+	dir = 8;
+	pixel_x = 23;
+	pixel_y = -3
+	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"vz" = (
+/obj/structure/table/woodentable_reinforced/ebony/walnut,
+/obj/item/paper_bin{
+	pixel_x = -3;
+	pixel_y = 7
+	},
+/obj/item/pen/multi/cmd/co,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"vR" = (
+/obj/structure/railing/mapped{
+	dir = 8;
+	icon_state = "railing0-1"
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"xM" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 5
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"xZ" = (
+/obj/effect/floor_decal/scglogo{
+	dir = 1;
+	icon_state = "top-right"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"zE" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"Ad" = (
+/obj/effect/floor_decal/corner/blue,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"AB" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Command"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"Bo" = (
+/obj/structure/table/woodentable_reinforced/ebony/walnut,
+/obj/item/stamp/solgov,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"Bt" = (
+/obj/structure/table/reinforced,
+/obj/effect/floor_decal/spline/fancy/black,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"By" = (
+/obj/structure/railing/mapped{
+	dir = 8;
+	icon_state = "railing0-1"
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"BE" = (
+/obj/effect/floor_decal/scglogo{
+	dir = 4;
+	icon_state = "top-center"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"BN" = (
+/obj/machinery/disperser/middle{
+	dir = 1
+	},
+/turf/simulated/wall/r_titanium,
+/area/map_template/rescue_base/base)
+"Ee" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/stamp/solgov,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"Em" = (
+/obj/structure/hygiene/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/turf/unsimulated/floor{
+	icon_state = "freezerfloor"
+	},
+/area/map_template/rescue_base/base)
+"Et" = (
+/obj/structure/table/rack,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/glasses/tacgoggles,
+/turf/unsimulated/floor{
+	dir = 1;
+	icon_state = "vault"
+	},
+/area/map_template/rescue_base/base)
+"EV" = (
+/obj/structure/table/woodentable_reinforced/walnut/maple,
+/obj/item/device/flashlight/lamp/green,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"FI" = (
+/obj/structure/bookcase,
+/obj/item/book/manual/military_law,
+/obj/item/book/manual/sol_sop,
+/obj/item/book/manual/solgov_law,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"Gt" = (
+/obj/effect/floor_decal/scglogo{
+	icon_state = "bottom-right"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"LC" = (
+/obj/structure/closet/secure_closet/cos,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"LP" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"Mu" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/clothing/head/beret/solgov/fleet/command,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"Na" = (
+/obj/structure/closet/secure_closet/CO{
+	storage_capacity = 60
+	},
+/obj/item/clothing/head/solgov/dress/fleet/command,
+/obj/item/clothing/suit/storage/jacket/solgov/fleet/command,
+/obj/item/clothing/suit/storage/solgov/dress/fleet/command,
+/obj/item/clothing/suit/storage/solgov/service/fleet/command,
+/obj/item/clothing/under/solgov/utility/fleet/combat/command,
+/obj/item/clothing/accessory/solgov/department/command/fleet,
+/obj/item/clothing/accessory/solgov/fleet_patch/fifth,
+/obj/item/clothing/accessory/solgov/specialty/officer,
+/obj/item/clothing/accessory/solgov/ec_scarf/observatory,
+/obj/item/clothing/accessory/solgov/rank/fleet/officer/o5,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"Nq" = (
+/obj/machinery/recharger/wallcharger{
+	dir = 4;
+	pixel_x = -23;
+	pixel_y = -3
+	},
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"NA" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Briefing Room"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"ND" = (
+/obj/structure/bed/chair/comfy/captain{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"NN" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 10
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"OQ" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/device/radio/intercom/specops,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"PC" = (
+/obj/effect/floor_decal/scglogo{
+	icon_state = "bottom-center"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"Qa" = (
+/turf/simulated/wall,
+/area/space)
+"Qj" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"QR" = (
+/obj/machinery/recharger/wallcharger{
+	dir = 1;
+	pixel_y = -22
+	},
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"Rh" = (
+/obj/structure/bed/chair/comfy/blue,
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"Rz" = (
+/obj/machinery/computer/ship/engines,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"Se" = (
+/obj/machinery/door/airlock/sol{
+	autoset_access = 0;
+	name = "CO's Quarters";
+	req_access = list(109);
+	secured_wires = 1
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"Sp" = (
+/obj/machinery/hologram/holopad/longrange,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"Sy" = (
+/obj/structure/table/reinforced,
+/obj/item/tableflag,
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 6
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"Tl" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 6
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"Ty" = (
+/obj/structure/railing/mapped{
+	dir = 4;
+	icon_state = "railing0-1"
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"Ua" = (
+/obj/machinery/computer/modular/preset/full/ert{
+	dir = 1
+	},
+/obj/machinery/recharger/wallcharger{
+	dir = 1;
+	pixel_y = -22
+	},
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"UI" = (
+/obj/effect/wingrille_spawn/reinforced/crescent,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"UR" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"WR" = (
+/obj/effect/floor_decal/scglogo,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"Xb" = (
+/obj/structure/undies_wardrobe,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/map_template/rescue_base/base)
+"YA" = (
+/obj/structure/displaycase,
+/obj/item/gun/magnetic/railgun/automatic/mmi{
+	pixel_y = -3
+	},
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+"ZB" = (
+/obj/effect/floor_decal/scglogo{
+	dir = 4;
+	icon_state = "bottom-center"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"ZI" = (
+/turf/space,
+/area/map_template/rescue_base/start)
+"ZJ" = (
+/obj/structure/railing/mapped{
+	dir = 4;
+	icon_state = "railing0-1"
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
+"ZS" = (
+/turf/space,
+/area/map_template/rescue_base/base)
+"ZY" = (
+/obj/machinery/computer/modular/preset/full/ert{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	color = "#543c30";
+	icon = 'icons/turf/flooring/wood.dmi';
+	icon_state = "wood"
+	},
+/area/map_template/rescue_base/base)
+
+(1,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(2,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(3,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(4,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(5,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(6,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(7,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(8,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(9,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(10,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(11,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(12,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(13,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(14,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(15,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(16,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(17,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(18,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(19,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(20,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(21,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(22,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(23,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ak
+ak
+Qa
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(24,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ak
+ak
+ak
+qL
+qL
+qL
+hb
+EV
+qL
+rv
+jk
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(25,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ak
+ak
+ak
+ec
+ec
+qL
+fG
+gC
+ND
+Na
+qL
+sO
+bM
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(26,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ak
+ak
+ak
+ec
+ec
+ec
+ec
+qL
+fH
+gC
+ag
+FI
+qL
+bM
+Em
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(27,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ak
+ec
+ec
+ec
+ec
+ec
+ec
+qL
+qL
+qL
+Se
+qL
+qL
+af
+qL
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(28,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ad
+ec
+ec
+ec
+ec
+ec
+ec
+qL
+fM
+ag
+ag
+ag
+Nq
+ag
+YA
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(29,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ad
+ad
+cp
+ec
+ec
+ec
+ec
+ec
+qL
+fQ
+ag
+ag
+ag
+nQ
+ag
+ap
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(30,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+aC
+bE
+bG
+cp
+ec
+ec
+ec
+ec
+ec
+qL
+fU
+ag
+ag
+Rh
+Bo
+ah
+ZY
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(31,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ad
+ad
+cp
+ec
+ec
+ec
+ec
+ec
+qL
+fW
+ag
+ag
+ag
+vz
+ij
+oC
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(32,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ad
+qL
+qL
+qL
+qL
+qL
+eG
+qL
+qL
+gD
+qL
+qL
+cU
+cU
+cU
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(33,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ad
+ad
+en
+en
+en
+qL
+el
+eO
+fw
+fw
+fw
+NN
+UI
+uQ
+ed
+ed
+ax
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(34,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+aj
+aF
+ad
+en
+en
+en
+en
+qL
+ey
+eX
+ar
+ar
+ar
+rL
+kQ
+dk
+ar
+ar
+ar
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(35,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ad
+qL
+qL
+qL
+qL
+qL
+ez
+fc
+fF
+fF
+fF
+Tl
+UI
+xM
+cK
+cK
+cK
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(36,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ad
+bH
+cq
+cZ
+qL
+qL
+qL
+fl
+fl
+qL
+cU
+cU
+qL
+NA
+qL
+cU
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(37,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+be
+cU
+cU
+cU
+ad
+bI
+cr
+LP
+zE
+zE
+eA
+fq
+fq
+qL
+en
+en
+en
+en
+en
+en
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(38,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+cU
+bo
+ZJ
+cH
+en
+Ty
+cF
+en
+en
+uv
+qL
+qL
+qL
+qL
+gE
+en
+en
+uB
+uB
+uB
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(39,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+cU
+dH
+al
+en
+UR
+bL
+cH
+dn
+BE
+xZ
+eB
+qL
+qL
+gc
+fl
+nL
+en
+uB
+uB
+mY
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(40,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+cU
+dH
+bT
+bi
+bF
+bT
+ks
+dx
+WR
+PC
+eC
+qL
+qL
+gg
+fq
+Bt
+Sp
+en
+en
+uv
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(41,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+cU
+dH
+Rz
+en
+kp
+cg
+cF
+db
+ZB
+Gt
+eD
+qL
+qL
+gl
+fv
+Sy
+en
+uB
+uB
+uB
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(42,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+cU
+ee
+By
+cF
+en
+vR
+cH
+en
+en
+uv
+qL
+qL
+qL
+qL
+gR
+en
+en
+uB
+uB
+uB
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(43,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+be
+cU
+cU
+cU
+ad
+ck
+cN
+Ad
+dB
+Qj
+eA
+fq
+fq
+qL
+gS
+en
+en
+en
+en
+en
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(44,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ad
+co
+cS
+dA
+qL
+qL
+qL
+fv
+fv
+qL
+cU
+cU
+qL
+NA
+qL
+cU
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(45,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ad
+qL
+qL
+qL
+qL
+qL
+ez
+eO
+fw
+fw
+fw
+NN
+UI
+uQ
+ed
+ed
+ed
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(46,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+az
+aF
+ad
+ag
+ag
+ag
+ag
+qL
+eE
+eX
+ar
+ar
+ar
+rL
+kQ
+dk
+ar
+ar
+ar
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(47,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ad
+ad
+ag
+ag
+ag
+qL
+eF
+fc
+fF
+fF
+fF
+Tl
+UI
+xM
+cK
+cK
+vk
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(48,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ad
+qL
+qL
+qL
+qL
+qL
+eG
+qL
+qL
+gZ
+qL
+qL
+cU
+cU
+cU
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(49,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ad
+ad
+cp
+ec
+ec
+ec
+ec
+ec
+qL
+gm
+ag
+ag
+ag
+OQ
+Mu
+Ee
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(50,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+aC
+BN
+rF
+cp
+ec
+ec
+ec
+ec
+ec
+qL
+fM
+ag
+ag
+Rh
+gu
+oY
+Ua
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(51,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ad
+ad
+cp
+ec
+ec
+ec
+ec
+ec
+qL
+gu
+ag
+ag
+ag
+gu
+ag
+LC
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(52,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ad
+ec
+ec
+ec
+ec
+ec
+ec
+qL
+gu
+ag
+ag
+ag
+ag
+ag
+rK
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(53,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ak
+ec
+ec
+ec
+ec
+ec
+ec
+qL
+qL
+cU
+cU
+cU
+AB
+qL
+qL
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(54,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ak
+ak
+ak
+ec
+ec
+ec
+ec
+qL
+gv
+ar
+ar
+ar
+ar
+ar
+qL
+iD
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(55,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ak
+ak
+ak
+ec
+ec
+qL
+gB
+ha
+ar
+ar
+ar
+QR
+qL
+rW
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(56,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ak
+ak
+ak
+qL
+qL
+qL
+rC
+Et
+oW
+kH
+qL
+Xb
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(57,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ak
+ak
+ak
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(58,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(59,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(60,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(61,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(62,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(63,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(64,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(65,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(66,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(67,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(68,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(69,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(70,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(71,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(72,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(73,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(74,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(75,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(76,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(77,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(78,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(79,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}
+(80,1,1) = {"
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+"}

@@ -142,6 +142,18 @@
 	name = "\improper ERT radio encryption key"
 	channels = list("Response Team" = 1, "Science" = 1, "Command" = 1, "Medical" = 1, "Engineering" = 1, "Security" = 1, "Supply" = 1, "Service" = 1, "Hailing" = 1)
 
+/obj/item/device/encryptionkey/atlantis/com
+	name = "\improper SCGF radio encryption key"
+	channels = list("Atlantis Common" = 1, "Hailing" = 1)
+
+/obj/item/device/encryptionkey/atlantis/cmd
+	name = "\improper SCGF command radio encryption key"
+	channels = list("Atlantis Command" = 1, "Marine Squad" = 1, "Atlantis Common" = 1, "Hailing" = 1)
+
+/obj/item/device/encryptionkey/atlantis/mar
+	name = "\improper SCGF marine radio encryption key"
+	channels = list("Marine Squad" = 1, "Atlantis Common" = 1, "Hailing" = 1)
+
 /obj/item/device/encryptionkey/specops //for events
 	name = "special operations radio encryption key"
 	icon_state = "bin_cypherkey"

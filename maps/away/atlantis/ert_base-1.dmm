@@ -202,9 +202,7 @@
 	},
 /area/map_template/rescue_base/base)
 "bj" = (
-/obj/effect/landmark{
-	name = "Response Team"
-	},
+/obj/effect/submap_landmark/spawnpoint/fleetship,
 /turf/unsimulated/floor{
 	dir = 8;
 	icon_state = "vault"
@@ -1578,7 +1576,6 @@
 /area/map_template/rescue_base/base)
 "iS" = (
 /obj/effect/floor_decal/corner/blue/diagonal,
-/obj/item/storage/box/sinpockets,
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /obj/item/reagent_containers/food/condiment/enzyme,
 /turf/unsimulated/floor{
@@ -2266,6 +2263,13 @@
 	icon_state = "monotiledark"
 	},
 /area/map_template/rescue_base/base)
+"rc" = (
+/obj/effect/submap_landmark/joinable_submap/fleetship,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "dark"
+	},
+/area/map_template/rescue_base/base)
 "rg" = (
 /obj/structure/closet{
 	name = "insignias closet"
@@ -2418,10 +2422,6 @@
 "ta" = (
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/blue/diagonal,
-/obj/item/storage/box/donkpockets{
-	pixel_x = 3;
-	pixel_y = 3
-	},
 /turf/unsimulated/floor{
 	icon = 'icons/turf/flooring/tiles.dmi';
 	icon_state = "dark"
@@ -2529,12 +2529,6 @@
 /area/map_template/rescue_base/base)
 "uL" = (
 /obj/structure/table/rack,
-/obj/item/rig/ert/assetprotection,
-/obj/item/rig/ert/assetprotection,
-/obj/item/rig/ert/assetprotection,
-/obj/item/rig/ert/assetprotection,
-/obj/item/rig/ert/assetprotection,
-/obj/item/rig/ert/assetprotection,
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/flooring/tiles.dmi';
@@ -2772,8 +2766,6 @@
 	pixel_y = -22
 	},
 /obj/structure/table/rack,
-/obj/item/tank/emergency/oxygen/double,
-/obj/item/tank/emergency/oxygen/double,
 /obj/effect/floor_decal/corner/black/border,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/map_template/rescue_base/start)
@@ -2844,9 +2836,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 6
 	},
-/obj/effect/landmark{
-	name = "Response Team"
-	},
+/obj/effect/submap_landmark/spawnpoint/fleetship,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/flooring/tiles.dmi';
 	icon_state = "dark"
@@ -3907,9 +3897,7 @@
 /area/map_template/rescue_base/base)
 "JI" = (
 /obj/effect/floor_decal/corner/blue/border,
-/obj/effect/landmark{
-	name = "Response Team"
-	},
+/obj/effect/submap_landmark/spawnpoint/fleetship,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/flooring/tiles.dmi';
 	icon_state = "dark"
@@ -4118,8 +4106,6 @@
 /area/map_template/rescue_base/start)
 "Lz" = (
 /obj/structure/closet,
-/obj/item/storage/box/sinpockets,
-/obj/item/storage/box/sinpockets,
 /obj/effect/floor_decal/corner/lightgrey/border{
 	dir = 10
 	},
@@ -4384,9 +4370,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 1
 	},
-/obj/effect/landmark{
-	name = "Response Team"
-	},
+/obj/effect/submap_landmark/spawnpoint/fleetship,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/flooring/tiles.dmi';
 	icon_state = "dark"
@@ -8930,7 +8914,7 @@ gg
 fq
 Bt
 Sp
-en
+rc
 en
 uv
 ad
