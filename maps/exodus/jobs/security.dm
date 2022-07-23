@@ -34,7 +34,12 @@
 		access_external_airlocks
 	)
 	minimal_player_age = 14
-
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee
+	)
 	outfit_type = /decl/hierarchy/outfit/job/security/hos
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
@@ -83,6 +88,12 @@
 	)
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/security/warden
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee
+	)
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
 		SKILL_EVA       = SKILL_BASIC,
@@ -123,6 +134,14 @@
 	)
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/security/detective
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/civ,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
 		SKILL_COMPUTER  = SKILL_BASIC,
@@ -163,7 +182,13 @@
 	)
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/security/officer
-
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_BASIC,
 		SKILL_EVA       = SKILL_BASIC,

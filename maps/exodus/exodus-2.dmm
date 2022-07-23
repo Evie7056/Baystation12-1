@@ -34,23 +34,9 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/security/meeting)
 "aac" = (
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 2;
-	icon_state = "shutter0";
-	id_tag = "acutesep";
-	name = "Acute Separation Shutters";
-	opacity = 0
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 5
-	},
-/obj/machinery/door/airlock/multi_tile/glass/medical{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/exodus/medical/sleeper)
+/obj/random_multi/single_item/punitelly,
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/security/lobby)
 "aad" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass/security{
@@ -83,13 +69,12 @@
 /turf/space,
 /area/space)
 "aag" = (
-/obj/effect/floor_decal/corner/lime{
-	dir = 10
+/obj/effect/floor_decal/corner/white{
+	dir = 5
 	},
-/obj/structure/table/standard,
-/obj/structure/table/standard,
-/turf/simulated/floor/tiled/white,
-/area/exodus/medical/virology)
+/obj/random_multi/single_item/punitelly,
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/crew_quarters/fitness)
 "aah" = (
 /turf/simulated/wall/prepainted,
 /area/space)
@@ -706,6 +691,16 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/security/range)
+"abL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/random_multi/single_item/punitelly,
+/turf/simulated/floor/tiled/freezer,
+/area/exodus/crew_quarters/toilet)
 "abM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -845,6 +840,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/foresolar)
+"abZ" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
+/obj/random_multi/single_item/punitelly,
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/bridge)
 "aca" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -2560,6 +2562,7 @@
 	},
 /obj/item/stool/padded,
 /obj/effect/floor_decal/corner/red/full,
+/obj/random_multi/single_item/punitelly,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/security/main)
 "afO" = (
@@ -2626,6 +2629,10 @@
 /turf/simulated/wall/titanium,
 /turf/space,
 /area/shuttle/escape_pod_3)
+"afX" = (
+/obj/random_multi/single_item/punitelly,
+/turf/simulated/floor/wood/walnut,
+/area/exodus/library)
 "afY" = (
 /obj/structure/closet,
 /obj/item/clothing/glasses/welding,
@@ -2760,6 +2767,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/security_starboard)
+"agm" = (
+/obj/random_multi/single_item/punitelly,
+/turf/simulated/floor/carpet,
+/area/exodus/chapel/main)
 "agn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -3637,6 +3648,10 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/security/brig/processing)
+"ain" = (
+/obj/random_multi/single_item/punitelly,
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/crew_quarters/locker)
 "aio" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/computer/modular/preset/security{
@@ -4681,6 +4696,10 @@
 /obj/random/maintenance,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/dormitory)
+"akr" = (
+/obj/random_multi/single_item/punitelly,
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/storage/tools)
 "aks" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -6193,6 +6212,14 @@
 	},
 /turf/simulated/floor/carpet,
 /area/exodus/security/detectives_office)
+"anr" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/random_multi/single_item/punitelly,
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/hallway/secondary/exit)
 "ans" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -6461,6 +6488,11 @@
 /obj/item/storage/fancy/cigarettes/dromedaryco,
 /turf/simulated/floor/tiled/dark,
 /area/exodus/lawoffice)
+"anU" = (
+/obj/machinery/hologram/holopad,
+/obj/random_multi/single_item/punitelly,
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/quartermaster/office)
 "anV" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin{
@@ -6501,6 +6533,24 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/security/prison)
+"aob" = (
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 2;
+	icon_state = "shutter0";
+	id_tag = "acutesep";
+	name = "Acute Separation Shutters";
+	opacity = 0
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
+/obj/machinery/door/airlock/multi_tile/glass/medical{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exodus/medical/sleeper)
 "aoc" = (
 /obj/structure/cable/green,
 /obj/structure/cable/green{
@@ -7193,6 +7243,14 @@
 "apI" = (
 /turf/simulated/floor/tiled/dark,
 /area/exodus/lawoffice)
+"apJ" = (
+/obj/effect/floor_decal/corner/lime{
+	dir = 10
+	},
+/obj/structure/table/standard,
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/virology)
 "apK" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
@@ -7365,6 +7423,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/random_multi/single_item/punitelly,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/security/prison)
 "aqc" = (
@@ -11288,6 +11347,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/item/stock_parts/computer/hard_drive/portable,
+/obj/random_multi/single_item/punitelly,
 /turf/simulated/floor/tiled/dark,
 /area/exodus/crew_quarters/sleep)
 "ayR" = (
@@ -18817,7 +18877,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/mob/living/carbon/human/monkey/punpun,
+/obj/random_multi/single_item/punitelly,
 /turf/simulated/floor/lino,
 /area/exodus/crew_quarters/bar)
 "aPK" = (
@@ -22000,6 +22060,11 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/research/mixing)
+"aXz" = (
+/obj/structure/table/woodentable,
+/obj/random_multi/single_item/punitelly,
+/turf/simulated/floor/wood/walnut,
+/area/exodus/crew_quarters/bar)
 "aXA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/floor_decal/corner/brown/diagonal{
@@ -29338,6 +29403,7 @@
 	dir = 8;
 	icon_state = "pipe-c"
 	},
+/obj/random_multi/single_item/punitelly,
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/reception)
 "bnX" = (
@@ -32632,6 +32698,9 @@
 /obj/structure/hygiene/toilet{
 	dir = 4
 	},
+/obj/random_multi/single_item/captains_spare_id{
+	weight = 10
+	},
 /turf/simulated/floor/tiled/freezer,
 /area/exodus/crew_quarters/captain)
 "bvi" = (
@@ -33585,6 +33654,9 @@
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
+	},
+/obj/random_multi/single_item/captains_spare_id{
+	weight = 10
 	},
 /turf/simulated/floor/carpet,
 /area/exodus/crew_quarters/captain)
@@ -37210,6 +37282,9 @@
 /area/exodus/quartermaster/storage)
 "bFc" = (
 /obj/machinery/recharge_station,
+/obj/effect/landmark{
+	name = "JoinLateCyborg"
+	},
 /turf/simulated/floor/bluegrid,
 /area/exodus/turret_protected/ai_cyborg_station)
 "bFd" = (
@@ -37947,6 +38022,9 @@
 /obj/machinery/camera/network/command{
 	c_tag = "AI - Cyborg Station";
 	dir = 1
+	},
+/obj/effect/landmark{
+	name = "JoinLateCyborg"
 	},
 /turf/simulated/floor/bluegrid,
 /area/exodus/turret_protected/ai_cyborg_station)
@@ -49211,10 +49289,6 @@
 /area/exodus/research/test_area)
 "ceu" = (
 /obj/machinery/light,
-/obj/machinery/camera/network/research{
-	c_tag = "Research - Toxins Test Chamber South";
-	dir = 1;
-	},
 /turf/simulated/floor/tiled/airless,
 /area/exodus/research/test_area)
 "cev" = (
@@ -80014,7 +80088,7 @@ bFV
 aLK
 aTL
 aTz
-aTz
+ain
 beI
 bam
 bbO
@@ -84897,7 +84971,7 @@ hgF
 aRX
 aLK
 aVF
-aXg
+akr
 aXg
 bas
 bcp
@@ -84915,7 +84989,7 @@ bfm
 buS
 bga
 byb
-bkC
+anU
 bga
 bga
 aQO
@@ -89492,7 +89566,7 @@ ala
 anA
 amn
 amp
-amp
+aac
 amp
 amp
 aoP
@@ -89779,7 +89853,7 @@ aPA
 eEV
 azb
 aXQ
-aVU
+abZ
 aVU
 aYY
 aUp
@@ -93623,7 +93697,7 @@ axW
 aAW
 aBj
 aDb
-aEt
+abL
 aBj
 aBj
 aBj
@@ -95434,7 +95508,7 @@ aHT
 aTX
 aUF
 aZm
-aZm
+aXz
 aSS
 bbo
 aSS
@@ -95718,7 +95792,7 @@ bIh
 bEL
 bLp
 bEL
-aac
+aob
 bEL
 bQZ
 bSm
@@ -96444,7 +96518,7 @@ aBl
 auX
 crV
 axA
-ayg
+aag
 azc
 aAf
 aBm
@@ -100896,7 +100970,7 @@ cDM
 cEy
 cuP
 cEy
-aag
+apJ
 bmh
 cLU
 cLU
@@ -104942,7 +105016,7 @@ aZH
 hLX
 hLX
 hLX
-hLX
+afX
 aWl
 aZD
 aRL
@@ -107769,7 +107843,7 @@ aHA
 aRr
 aTo
 aVi
-aTo
+agm
 aTo
 aTo
 aTo
@@ -109570,7 +109644,7 @@ aSw
 aUT
 aWx
 aYa
-jva
+anr
 jva
 jva
 jva

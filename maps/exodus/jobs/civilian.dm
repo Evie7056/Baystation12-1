@@ -9,7 +9,14 @@
 	access = list()
 	alt_titles = list("Technical Assistant","Medical Intern","Research Assistant","Visitor")
 	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/passenger
-
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/civ,
+		/datum/mil_rank/civ/contractor
+	)
 
 /datum/job/chaplain
 	title = "Chaplain"
@@ -25,6 +32,14 @@
 		access_maint_tunnels
 	)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/service/chaplain
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/civ,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_FINANCE  = SKILL_BASIC
@@ -46,6 +61,14 @@
 	)
 	alt_titles = list("Barista")
 	outfit_type = /decl/hierarchy/outfit/job/service/bartender
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/civ,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
 		SKILL_COOKING   = SKILL_BASIC,
@@ -66,6 +89,14 @@
 	)
 	alt_titles = list("Cook")
 	outfit_type = /decl/hierarchy/outfit/job/service/chef
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/civ,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
 		SKILL_COOKING   = SKILL_ADEPT,
@@ -86,6 +117,14 @@
 	)
 	alt_titles = list("Hydroponicist")
 	outfit_type = /decl/hierarchy/outfit/job/service/gardener
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/civ,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
 		SKILL_BOTANY    = SKILL_BASIC,
@@ -113,6 +152,12 @@
 	minimal_player_age = 3
 	ideal_character_age = 40
 	outfit_type = /decl/hierarchy/outfit/job/cargo/qm
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee
+	)
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 	    SKILL_FINANCE  = SKILL_BASIC,
@@ -148,6 +193,14 @@
 	)
 
 	outfit_type = /decl/hierarchy/outfit/job/cargo/cargo_tech
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/civ,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_FINANCE  = SKILL_BASIC,
@@ -184,6 +237,14 @@
 		"Prospector"
 	)
 	outfit_type = /decl/hierarchy/outfit/job/cargo/mining
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/civ,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_HAULING  = SKILL_ADEPT,
@@ -213,6 +274,14 @@
 		"Sanitation Technician"
 	)
 	outfit_type = /decl/hierarchy/outfit/job/service/janitor
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/civ,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_HAULING  = SKILL_BASIC
@@ -233,6 +302,14 @@
 	)
 	alt_titles = list("Journalist")
 	outfit_type = /decl/hierarchy/outfit/job/librarian
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/civ,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_FINANCE  = SKILL_BASIC
@@ -257,6 +334,12 @@
 
 	minimal_player_age = 10
 	outfit_type = /decl/hierarchy/outfit/job/internal_affairs_agent
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee
+	)
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_FINANCE  = SKILL_BASIC

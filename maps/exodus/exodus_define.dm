@@ -12,17 +12,33 @@
 	company_short = "NT"
 	system_name   = "Nyx"
 
+	flags = MAP_HAS_BRANCH | MAP_HAS_RANK
 	admin_levels  = list(3)
-	escape_levels = list(4)
+	escape_levels = list(3,4)
 	empty_levels  = list(5)
-	accessible_z_levels = list("1"=1,"2"=2)
-	overmap_ids = list(OVERMAP_ID_SPACE)
+	overmap_size = 35
+	overmap_event_areas = 34
+	accessible_z_levels = list("1"=1,"2"=1,"5"=3)
+	usable_email_tlds = list("torch.ec.scg", "torch.fleet.mil", "army.mil", "freemail.net", "torch.scg")
+
 	num_exoplanets = 1
+
+	allowed_spawns = list("Arrivals Shuttle","Cryogenic Storage", "Cyborg Storage")
+	default_spawn = "Arrivals Shuttle"
 
 	lobby_screens = list(
 		'maps/exodus/lobby/exodus.png'
 	)
 
+	map_admin_faxes = list(
+		"SFP Territory Support",
+		"SFP Special Investigations",
+		"SFP Fugitive Recovery",
+		"Bureau of Diplomatic Affairs",
+		"Emergency Management Bureau",
+		"NT Luna Headquarters",
+		"NT Central Command"
+	)
 	evac_controller_type = /datum/evacuation_controller/shuttle
 
 //  For /datum/evacuation_controller/shuttle

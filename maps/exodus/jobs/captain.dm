@@ -12,6 +12,12 @@
 	minimal_player_age = 14
 	economic_power = 20
 	ideal_character_age = 70
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee
+	)
 	outfit_type = /decl/hierarchy/outfit/job/captain
 	min_skill = list(
 		SKILL_LITERACY    = SKILL_ADEPT,
@@ -51,6 +57,12 @@
 	minimal_player_age = 14
 	economic_power = 10
 	ideal_character_age = 50
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee
+	)
 	access = list(
 		access_security,
 		access_sec_doors,

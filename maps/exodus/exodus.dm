@@ -31,6 +31,8 @@
 	#include "outfits/science.dm"
 	#include "outfits/security.dm"
 
+	#include "exodus_define.dm"
+	#include "exodus_ranks.dm"
 	#include "exodus_announcements.dm"
 	#include "exodus_antagonism.dm"
 	#include "exodus_areas.dm"

@@ -32,7 +32,12 @@
 	)
 	minimal_player_age = 14
 	ideal_character_age = 50
-
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee
+	)
 	outfit_type = /decl/hierarchy/outfit/job/science/rd
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
@@ -78,6 +83,13 @@
 	)
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/science/scientist
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_COMPUTER = SKILL_BASIC,
@@ -114,6 +126,14 @@
 		"Mechatronic Engineer")
 	minimal_player_age = 3
 	outfit_type = /decl/hierarchy/outfit/job/science/roboticist
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/civ,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_COMPUTER = SKILL_ADEPT,

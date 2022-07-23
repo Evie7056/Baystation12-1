@@ -31,6 +31,12 @@
 	ideal_character_age = 50
 
 	outfit_type = /decl/hierarchy/outfit/job/medical/cmo
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee
+	)
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
 		SKILL_MEDICAL   = SKILL_EXPERT,
@@ -51,7 +57,7 @@
 	)
 
 /datum/job/doctor
-	title = "Medical Doctor"
+	title = "Paramedic"
 	department = "Medical"
 	department_flag = MED
 	minimal_player_age = 3
@@ -73,12 +79,19 @@
 		access_psychiatrist
 	)
 	alt_titles = list(
-		"Surgeon" =             /decl/hierarchy/outfit/job/medical/doctor/surgeon,
 		"Emergency Physician" = /decl/hierarchy/outfit/job/medical/doctor/emergency_physician,
 		"Nurse" =               /decl/hierarchy/outfit/job/medical/doctor/nurse,
 		"Virologist" =          /decl/hierarchy/outfit/job/medical/doctor/virologist
 	)
-	outfit_type = /decl/hierarchy/outfit/job/medical/doctor
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/contractor
+	)
+	outfit_type = /decl/hierarchy/outfit/job/medical/doctor/emergency_physician
+
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_EVA      = SKILL_BASIC,
@@ -110,7 +123,13 @@
 	alt_titles = list(
 		"Surgeon")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/contractor/senior
-
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
 	                    SKILL_MEDICAL     = SKILL_EXPERT,
 	                    SKILL_ANATOMY     = SKILL_EXPERT,
@@ -123,9 +142,16 @@
 	skill_points = 20
 
 	access = list(
-		access_medical, access_morgue, access_virology, access_maint_tunnels, access_emergency_storage,
-		access_crematorium, access_chemistry, access_surgery,
-		access_medical_equip, access_solgov_crew, access_senmed, access_radio_med
+		access_medical,
+		access_medical_equip,
+		access_morgue,
+		access_surgery,
+		access_chemistry,
+		access_virology,
+		access_eva,
+		access_maint_tunnels,
+		access_external_airlocks,
+		access_psychiatrist
 	)
 
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
@@ -149,7 +175,13 @@
 		access_chemistry,
 		access_virology
 	)
-
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/contractor
+	)
 	outfit_type = /decl/hierarchy/outfit/job/medical/chemist
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
@@ -184,6 +216,13 @@
 		access_psychiatrist
 	)
 	outfit_type = /decl/hierarchy/outfit/job/medical/psychiatrist
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_MEDICAL  = SKILL_BASIC

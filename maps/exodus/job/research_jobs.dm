@@ -43,52 +43,52 @@
 	skill_points = 20
 	possible_goals = list(/datum/goal/achievement/notslimefodder)
 
-/datum/job/scientist
-	title = "Scientist"
-	total_positions = 6
-	spawn_positions = 6
-	supervisors = "the Chief Science Officer"
-	economic_power = 10
-	minimum_character_age = list(SPECIES_HUMAN = 25)
-	ideal_character_age = 45
-	minimal_player_age = 0
-	alt_titles = list(
-		"Xenoarcheologist",
-		"Anomalist",
-		"Researcher",
-		"Xenobiologist",
-		"Xenobotanist"
-	)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
-	                    SKILL_COMPUTER    = SKILL_BASIC,
-	                    SKILL_DEVICES     = SKILL_BASIC,
-	                    SKILL_SCIENCE     = SKILL_ADEPT)
+// /datum/job/scientist
+// 	title = "Scientist"
+// 	total_positions = 6
+// 	spawn_positions = 6
+// 	supervisors = "the Chief Science Officer"
+// 	economic_power = 10
+// 	minimum_character_age = list(SPECIES_HUMAN = 25)
+// 	ideal_character_age = 45
+// 	minimal_player_age = 0
+// 	alt_titles = list(
+// 		"Xenoarcheologist",
+// 		"Anomalist",
+// 		"Researcher",
+// 		"Xenobiologist",
+// 		"Xenobotanist"
+// 	)
+// 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
+// 	                    SKILL_COMPUTER    = SKILL_BASIC,
+// 	                    SKILL_DEVICES     = SKILL_BASIC,
+// 	                    SKILL_SCIENCE     = SKILL_ADEPT)
 
-	max_skill = list(   SKILL_ANATOMY     = SKILL_MAX,
-	                    SKILL_DEVICES     = SKILL_MAX,
-	                    SKILL_SCIENCE     = SKILL_MAX)
+// 	max_skill = list(   SKILL_ANATOMY     = SKILL_MAX,
+// 	                    SKILL_DEVICES     = SKILL_MAX,
+// 	                    SKILL_SCIENCE     = SKILL_MAX)
 
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research/scientist
-	allowed_branches = list(
-		/datum/mil_branch/civilian,
-		/datum/mil_branch/solgov,
-		/datum/mil_branch/expeditionary_corps
-	)
-	allowed_ranks = list(
-		/datum/mil_rank/ec/o1,
-		/datum/mil_rank/civ/contractor = /decl/hierarchy/outfit/job/torch/passenger/research/scientist,
-		/datum/mil_rank/sol/scientist = /decl/hierarchy/outfit/job/torch/passenger/research/scientist/solgov
-	)
+// 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research/scientist
+// 	allowed_branches = list(
+// 		/datum/mil_branch/civilian,
+// 		/datum/mil_branch/solgov,
+// 		/datum/mil_branch/expeditionary_corps
+// 	)
+// 	allowed_ranks = list(
+// 		/datum/mil_rank/ec/o1,
+// 		/datum/mil_rank/civ/contractor = /decl/hierarchy/outfit/job/torch/passenger/research/scientist,
+// 		/datum/mil_rank/sol/scientist = /decl/hierarchy/outfit/job/torch/passenger/research/scientist/solgov
+// 	)
 
-	access = list(
-		access_tox, access_tox_storage, access_research, access_petrov, access_petrov_helm,
-		access_mining_office, access_mining_station, access_xenobiology, access_guppy_helm,
-		access_xenoarch, access_nanotrasen, access_solgov_crew, access_expedition_shuttle, access_guppy, access_hangar,
-		access_petrov_analysis, access_petrov_phoron, access_petrov_toxins, access_petrov_chemistry, access_petrov_control, access_torch_fax,
-		access_petrov_maint, access_radio_sci, access_radio_exp, access_research_storage
-	)
-	skill_points = 20
-	possible_goals = list(/datum/goal/achievement/notslimefodder)
+// 	access = list(
+// 		access_tox, access_tox_storage, access_research, access_petrov, access_petrov_helm,
+// 		access_mining_office, access_mining_station, access_xenobiology, access_guppy_helm,
+// 		access_xenoarch, access_nanotrasen, access_solgov_crew, access_expedition_shuttle, access_guppy, access_hangar,
+// 		access_petrov_analysis, access_petrov_phoron, access_petrov_toxins, access_petrov_chemistry, access_petrov_control, access_torch_fax,
+// 		access_petrov_maint, access_radio_sci, access_radio_exp, access_research_storage
+// 	)
+// 	skill_points = 20
+// 	possible_goals = list(/datum/goal/achievement/notslimefodder)
 
 /datum/job/scientist_assistant
 	title = "Research Assistant"

@@ -32,6 +32,12 @@
 	)
 	minimal_player_age = 14
 	outfit_type = /decl/hierarchy/outfit/job/engineering/chief_engineer
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee
+	)
 	min_skill = list(
 		SKILL_LITERACY     = SKILL_ADEPT,
 		SKILL_COMPUTER     = SKILL_ADEPT,
@@ -90,6 +96,14 @@
 		"Atmospheric Technician" = /decl/hierarchy/outfit/job/engineering/atmos
 	)
 	outfit_type = /decl/hierarchy/outfit/job/engineering/engineer
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/employee,
+		/datum/mil_rank/civ/civ,
+		/datum/mil_rank/civ/contractor
+	)
 	min_skill = list(
 		SKILL_LITERACY     = SKILL_ADEPT,
 		SKILL_COMPUTER     = SKILL_BASIC,
