@@ -24,7 +24,7 @@
 	num_exoplanets = 1
 
 	allowed_spawns = list("Arrivals Shuttle","Cryogenic Storage", "Cyborg Storage")
-	default_spawn = "Arrivals Shuttle"
+	default_spawn = "Cryogenic Storage"
 
 	lobby_screens = list(
 		'maps/exodus/lobby/exodus.png'
