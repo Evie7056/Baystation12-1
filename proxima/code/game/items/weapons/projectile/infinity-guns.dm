@@ -1,6 +1,6 @@
 /obj/item/gun/projectile/automatic/corpo
 	name = "corporate submachine gun"
-	desc = "The NT41 Enforcer is a self-defense weapon made on bullpup system. Produced by NanoTrasen for it's Security Force. Looks cool and stylish, but sometimes too uncomfortably to run with it. Uses 5.7x28mm rounds."
+	desc = "The NT41 Enforcer is a self-defense weapon made on bullpup system. Produced by NanoTrasen for it's Security Force. Looks cool and stylish, but sometimes too uncomfortably to run with it. Uses 6mmR rounds."
 	icon_state = "nt41"
 	item_state = "nt41"
 	icon = 'proxima/icons/obj/guns/guns.dmi'
@@ -35,7 +35,7 @@
 
 /obj/item/gun/projectile/automatic/amrcarabine
 	name = "corporate carabine"
-	desc = "The sielent and deadly and manufactured by Aussec Armory, bullpup carabine LDC-542 is a common weapon for a long-medium ranged combat units in Private Military Companies. Uses 12.7x55mm rounds."
+	desc = "The sielent and deadly and manufactured by Aussec Armory, bullpup carabine LDC-542 is a common weapon for a long-medium ranged combat units in Private Military Companies. Uses 12mmR rounds."
 	icon = 'proxima/icons/obj/guns/guns.dmi'
 	icon_state = "amrcarabine"
 	item_state = "z8carbine"
@@ -65,7 +65,7 @@
 
 /obj/item/gun/projectile/automatic/pdw
 	name = "corporate personal defense weapons"
-	desc = "The BP-15 'Moloh' is a  personal defense weapon, produced by Aussec Armory for use by police spec ops or solders. Uses 5.7x28 mm rounds."
+	desc = "The BP-15 'Moloh' is a  personal defense weapon, produced by Aussec Armory for use by police spec ops or solders. Uses 6mmR rounds."
 	icon = 'proxima/icons/obj/guns/guns.dmi'
 	icon_state = "pdw"
 	item_state = "c20r"
@@ -76,10 +76,10 @@
 	caliber = CALIBER_PISTOL_FAST
 	origin_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 2)
 	slot_flags = SLOT_BELT
-	ammo_type = /obj/item/ammo_casing/c57
+	ammo_type = /obj/item/ammo_casing/pdw
 	load_method = MAGAZINE
-	magazine_type = /obj/item/ammo_magazine/mc57
-	allowed_magazines = /obj/item/ammo_magazine/mc57
+	magazine_type = /obj/item/ammo_magazine/pdw
+	allowed_magazines = /obj/item/ammo_magazine/pdw
 
 	//machine pistol, like SMG but easier to one-hand with
 	firemodes = list(

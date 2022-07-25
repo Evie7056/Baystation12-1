@@ -14,7 +14,7 @@
 	caliber = CALIBER_ANTIMATERIAL_SMALL
 	matter = list(MATERIAL_STEEL = 500)
 
-/obj/item/ammo_casing/c57
+/obj/item/ammo_casing/pdw
 	desc = "A bullet casing. Somewhat near 5,5mm"
 	caliber = CALIBER_PISTOL_FAST
 	projectile_type = /obj/item/projectile/bullet/pistol/medium/fast
@@ -48,7 +48,7 @@
 	icon = 'proxima/icons/obj/guns/ammo.dmi'
 	icon_state = "uzi9mm" //more states, lmao
 	mag_type = MAGAZINE
-	ammo_type = /obj/item/ammo_casing/c57
+	ammo_type = /obj/item/ammo_casing/pdw
 	matter = list(MATERIAL_STEEL = 1200)
 	caliber = CALIBER_PISTOL_FAST
 	max_ammo = 30
