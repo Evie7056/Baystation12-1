@@ -57,6 +57,6 @@
 
 /datum/fabricator_recipe/arms_ammo/magazine_nt41
 	name = "ammunition (corporate smg magazine)"
-	path = /obj/item/ammo_magazine/n10mm
+	path = /obj/item/ammo_magazine/corpo
 	hidden = 1
 	category = "Arms and Ammunition"
