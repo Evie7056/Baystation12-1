@@ -25,7 +25,7 @@
 		list(mode_name="short bursts",   burst=4, fire_delay=null, move_delay=4,    one_hand_penalty=4, burst_accuracy=list(0,-1,-1.5,-2), dispersion=list(0.6, 0.8, 1.0, 1.4)),
 		)
 
-	bulk = GUN_BULK_CARABINE
+	bulk = GUN_BULK_RIFLE - 1
 	w_class = ITEM_SIZE_NORMAL
 	one_hand_penalty = 2
 
@@ -88,7 +88,7 @@
 		list(mode_name="short bursts",   burst=5, fire_delay=null, move_delay=2,    one_hand_penalty=2, burst_accuracy=list(0,-1,-1,-1,-2), dispersion=list(0.6, 0.6, 1.0, 1.0, 1.2)),
 		)
 
-	bulk = GUN_BULK_SMG
+	bulk = GUN_BULK_RIFLE - 3
 	w_class = ITEM_SIZE_NORMAL
 	one_hand_penalty = 3
 
