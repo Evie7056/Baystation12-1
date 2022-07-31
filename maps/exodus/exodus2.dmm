@@ -2463,6 +2463,13 @@
 /obj/effect/shuttle_landmark/escape_pod/start/pod1,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/escape_pod_1)
+"afC" = (
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/obj/structure/closet/secure_closet/engineering_electrical,
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/engineering/workshop)
 "afE" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -59654,15 +59661,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/exodus_pod_engineering)
-"cQV" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/closet/radiation,
-/obj/item/clothing/glasses/meson,
-/obj/item/clothing/glasses/meson,
-/turf/simulated/floor/tiled/steel_grid,
-/area/exodus/engineering)
 "cQX" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
@@ -59807,6 +59805,35 @@
 /obj/machinery/computer/ship/helm,
 /turf/simulated/floor/tiled/steel_grid,
 /area/ship/exodus_pod_mining)
+"egT" = (
+/obj/effect/floor_decal/corner/grey/diagonal{
+	dir = 4
+	},
+/obj/item/rig/hazmat/equipped,
+/obj/structure/table/rack{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window/brigdoor/southleft{
+	dir = 1;
+	name = "suit storage"
+	},
+/turf/simulated/floor/tiled/white,
+/area/exodus/crew_quarters/heads/hor)
+"ejg" = (
+/obj/machinery/door/airlock/research{
+	name = "Miscellaneous Reseach Room"
+	},
+/turf/space,
+/area/exodus/research/misc_lab)
 "ejv" = (
 /obj/effect/shuttle_landmark/research_pod_dock,
 /obj/structure/catwalk,
@@ -59815,21 +59842,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_research)
-"enW" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/item/stack/material/rods{
-	amount = 50
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/exodus/engineering/workshop)
 "esY" = (
 /obj/effect/paint_stripe/blue,
 /turf/simulated/wall/titanium,
@@ -59863,6 +59875,21 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/shuttle/arrival/station)
+"eLX" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/item/stack/material/rods{
+	amount = 50
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/engineering/workshop)
 "eNu" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -60038,10 +60065,6 @@
 /obj/effect/floor_decal/industrial/warning/full,
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_research)
-"gUc" = (
-/mob/living/carbon/slime,
-/turf/simulated/floor/reinforced,
-/area/exodus/research/xenobiology)
 "hbt" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -60136,6 +60159,19 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/ship/exodus_pod_mining)
+"hXs" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/item/cell/high,
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/engineering/workshop)
 "hZw" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -60251,10 +60287,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/starboard)
-"jfU" = (
-/obj/structure/closet/crate/solar,
-/turf/simulated/floor/plating,
-/area/exodus/engineering/storage)
 "jko" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
@@ -60323,20 +60355,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/exodus_pod_research)
-"kuE" = (
-/obj/structure/table/steel,
-/obj/item/airalarm_electronics,
-/obj/item/airalarm_electronics,
-/obj/item/module/power_control,
-/obj/item/module/power_control,
-/obj/item/airlock_electronics,
-/obj/item/airlock_electronics,
-/obj/item/airlock_electronics,
-/obj/item/airlock_electronics,
-/obj/item/airlock_electronics,
-/obj/item/airlock_electronics,
+"kqw" = (
+/obj/random_multi/single_item/runtime,
 /turf/simulated/floor/tiled/steel_grid,
-/area/exodus/engineering/workshop)
+/area/exodus/quartermaster/office)
 "kvT" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -60409,6 +60431,20 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/exodus_pod_engineering)
+"lSg" = (
+/obj/structure/table/steel,
+/obj/item/airalarm_electronics,
+/obj/item/airalarm_electronics,
+/obj/item/module/power_control,
+/obj/item/module/power_control,
+/obj/item/airlock_electronics,
+/obj/item/airlock_electronics,
+/obj/item/airlock_electronics,
+/obj/item/airlock_electronics,
+/obj/item/airlock_electronics,
+/obj/item/airlock_electronics,
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/engineering/workshop)
 "miB" = (
 /obj/structure/cable/green,
 /obj/machinery/ion_engine{
@@ -60424,10 +60460,6 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/exodus/bridge)
-"mzp" = (
-/obj/random_multi/single_item/runtime,
-/turf/simulated/floor/tiled/white,
-/area/exodus/medical/reception)
 "mGD" = (
 /obj/machinery/robotics_fabricator,
 /turf/simulated/floor/tiled/steel_grid,
@@ -60525,6 +60557,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/storage)
+"nQt" = (
+/obj/structure/table/steel,
+/obj/item/device/paint_sprayer,
+/obj/item/device/paint_sprayer,
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/engineering/workshop)
 "nYi" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -60555,12 +60593,15 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/research/chargebay)
-"oey" = (
-/obj/machinery/door/airlock/research{
-	name = "Miscellaneous Reseach Room"
+"oqO" = (
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/space,
-/area/exodus/research/misc_lab)
+/obj/structure/closet/radiation,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/meson,
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/engineering)
 "otj" = (
 /obj/structure/sign/warning/airlock,
 /turf/simulated/wall/prepainted,
@@ -60709,19 +60750,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/engineering_monitoring)
-"rfa" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/item/cell/high,
-/turf/simulated/floor/tiled/steel_grid,
-/area/exodus/engineering/workshop)
 "rhM" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 5
@@ -60775,12 +60803,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/arrival/station)
-"rNz" = (
-/obj/structure/table/steel,
-/obj/item/device/paint_sprayer,
-/obj/item/device/paint_sprayer,
-/turf/simulated/floor/tiled/steel_grid,
-/area/exodus/engineering/workshop)
 "rPP" = (
 /obj/machinery/computer/ship/engines{
 	dir = 1
@@ -60865,32 +60887,19 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/quartermaster/miningdock)
+"shE" = (
+/obj/structure/closet/crate/solar,
+/turf/simulated/floor/plating,
+/area/exodus/engineering/storage)
 "ssg" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/exodus/engineering/storage)
-"svs" = (
-/obj/effect/floor_decal/corner/grey/diagonal{
-	dir = 4
+"swM" = (
+/obj/effect/landmark/map_data{
+	height = 2
 	},
-/obj/item/rig/hazmat/equipped,
-/obj/structure/table/rack{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 2
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/door/window/brigdoor/southleft{
-	dir = 1;
-	name = "suit storage"
-	},
-/turf/simulated/floor/tiled/white,
-/area/exodus/crew_quarters/heads/hor)
+/turf/space,
+/area/space)
 "sxY" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/machinery/door/firedoor,
@@ -61269,6 +61278,10 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/central_two)
+"xax" = (
+/obj/machinery/portable_atmospherics/canister/phoron,
+/turf/simulated/floor/plating,
+/area/exodus/engineering/storage)
 "xhz" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 5
@@ -61286,6 +61299,14 @@
 "xrP" = (
 /turf/simulated/floor/wood/walnut,
 /area/exodus/engineering/break_room)
+"xto" = (
+/mob/living/carbon/slime,
+/turf/simulated/floor/reinforced,
+/area/exodus/research/xenobiology)
+"xxJ" = (
+/obj/random_multi/single_item/runtime,
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/reception)
 "xFu" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 6
@@ -61322,25 +61343,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_mining)
-"xLh" = (
-/obj/random_multi/single_item/runtime,
-/turf/simulated/floor/tiled/steel_grid,
-/area/exodus/quartermaster/office)
-"xMf" = (
-/obj/structure/window/reinforced{
-	dir = 2
-	},
-/obj/structure/closet/secure_closet/engineering_electrical,
-/turf/simulated/floor/tiled/steel_grid,
-/area/exodus/engineering/workshop)
 "xOe" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white,
 /area/exodus/research)
-"xRY" = (
-/obj/machinery/portable_atmospherics/canister/phoron,
-/turf/simulated/floor/plating,
-/area/exodus/engineering/storage)
 "xVx" = (
 /obj/structure/bed/chair/shuttle/black{
 	dir = 8
@@ -61646,7 +61652,7 @@ cLU
 cLU
 cLU
 cLU
-cLU
+swM
 "}
 (2,1,1) = {"
 cLU
@@ -83374,7 +83380,7 @@ btg
 buM
 bwj
 bga
-xLh
+kqw
 bga
 bga
 bEq
@@ -91372,10 +91378,10 @@ cmL
 cnO
 coM
 coR
-rNz
+nQt
 coR
 bCF
-rfa
+hXs
 coR
 coR
 coR
@@ -91629,10 +91635,10 @@ cmL
 cnO
 coP
 coR
-kuE
+lSg
 coR
-xMf
-enW
+afC
+eLX
 cvH
 coR
 coR
@@ -92154,7 +92160,7 @@ coR
 coR
 bkA
 cBn
-cQV
+oqO
 cDr
 cDr
 cDr
@@ -93940,13 +93946,13 @@ ckg
 clv
 cmS
 cgs
-xRY
-xRY
+xax
+xax
 bSK
 cCf
 cfq
-jfU
-jfU
+shE
+shE
 cww
 cww
 blp
@@ -98273,7 +98279,7 @@ bii
 rkN
 blQ
 bmb
-mzp
+xxJ
 bnX
 brQ
 btM
@@ -103435,7 +103441,7 @@ bMO
 bMO
 bMO
 bMO
-oey
+ejg
 bIw
 bIw
 bIw
@@ -105505,15 +105511,15 @@ cLU
 cLU
 cdO
 coj
-gUc
+xto
 coY
 com
 coj
-gUc
+xto
 coY
 com
 coj
-gUc
+xto
 coY
 cdO
 aaf
@@ -109595,7 +109601,7 @@ bVo
 bMb
 bCg
 cxs
-svs
+egT
 bzb
 bzE
 bQg
