@@ -43,13 +43,12 @@
 	#include "exodus_shuttles.dm"
 	#include "exodus_unit_testing.dm"
 
-	#include "exodus-1.dmm"
-	#include "exodus-2.dmm"
+	#include "exodus1.dmm"
+	#include "exodus2.dmm"
 	#include "exodus-admin.dmm"
 	#include "exodus-transit.dmm"
 
 	#include "torch_areas.dm"
-	#include "torch_elevator.dm"
 	#include "torch_events.dm"
 	#include "torch_holodecks.dm"
 	#include "torch_lobby.dm"
