@@ -171,7 +171,7 @@
 	#include "../away/scavver/scavver_gantry.dm"
 
 	#include "../event/iccgn_ship/icgnv_hound.dm"
-
+	#include "../away/ascent_caulship/_ascent_caulship.dm"
 
 	#define using_map_DATUM /datum/map/torch
 
