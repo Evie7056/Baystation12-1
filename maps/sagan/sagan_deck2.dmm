@@ -10,40 +10,9 @@
 /obj/structure/closet/secure_closet/engineering_electrical,
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
-"aG" = (
-/obj/structure/table/rack,
-/obj/item/stack/material/steel{
-	amount = 50
-	},
-/obj/item/stack/material/steel{
-	amount = 50
-	},
-/obj/item/stack/material/steel{
-	amount = 50
-	},
-/obj/item/stack/material/steel{
-	amount = 50
-	},
-/obj/item/stack/material/steel{
-	amount = 50
-	},
-/obj/item/stack/material/steel{
-	amount = 50
-	},
-/obj/effect/floor_decal/techfloor{
-	dir = 9;
-	icon_state = "techfloor_edges"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
-"aV" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 8;
-	icon_state = "techfloor_edges"
-	},
-/obj/structure/window/phoronreinforced,
-/obj/machinery/portable_atmospherics/canister/phoron,
-/turf/simulated/floor/tiled/techfloor,
+"aI" = (
+/obj/structure/flora/pottedplant/crystal,
+/turf/simulated/floor/wood/yew,
 /area/space)
 "bW" = (
 /obj/machinery/door/airlock/glass/engineering{
@@ -109,16 +78,24 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "fg" = (
-/obj/structure/closet/secure_closet/engineering_chief_torch,
-/obj/item/storage/box/encryptionkey/engineering,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/wood/walnut,
+/obj/machinery/door/airlock/engineering{
+	name = "SMES Maintenance"
+	},
+/turf/simulated/floor,
 /area/space)
 "fv" = (
 /turf/simulated/floor/reinforced,
 /area/space)
 "fI" = (
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/techfloor{
+	dir = 9;
+	icon_state = "techfloor_edges"
+	},
+/obj/machinery/power/port_gen/pacman{
+	anchored = 0;
+	sheets = 25
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/space)
 "fM" = (
 /obj/machinery/computer/modular/preset/engineering{
@@ -128,16 +105,6 @@
 /area/space)
 "fR" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/space)
-"fU" = (
-/obj/structure/flora/pottedplant/crystal,
-/turf/simulated/floor/wood/yew,
-/area/space)
-"gi" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Engine Control Room"
-	},
-/turf/simulated/floor,
 /area/space)
 "gm" = (
 /obj/effect/floor_decal/techfloor{
@@ -179,24 +146,12 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "ib" = (
-/obj/item/device/integrated_circuit_printer,
-/obj/item/device/integrated_electronics/analyzer,
-/obj/item/device/integrated_electronics/wirer,
-/obj/item/device/integrated_electronics/debugger,
-/obj/structure/table/steel,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/space)
-"iq" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
+/obj/effect/floor_decal/techfloor{
+	dir = 8;
+	icon_state = "techfloor_edges"
 	},
-/obj/item/stamp/ce,
-/obj/item/pen,
-/obj/item/paper_bin{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/turf/simulated/floor/wood/walnut,
+/obj/machinery/power/emitter,
+/turf/simulated/floor/tiled/techfloor,
 /area/space)
 "iw" = (
 /obj/structure/closet/crate,
@@ -215,21 +170,6 @@
 	icon_state = "techfloor_edges"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
-"iH" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 4;
-	icon_state = "techfloor_edges"
-	},
-/obj/structure/table/rack{
-	dir = 8
-	},
-/obj/item/device/paint_sprayer,
-/obj/item/device/paint_sprayer,
-/obj/item/reagent_containers/spray/cleaner,
-/obj/item/device/lightreplacer,
-/obj/item/device/lightreplacer,
-/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "iK" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -256,21 +196,20 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/space)
 "jY" = (
-/obj/machinery/hologram/holopad,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/techfloor{
+	dir = 8;
+	icon_state = "techfloor_edges"
+	},
+/obj/structure/window/phoronreinforced,
+/obj/machinery/portable_atmospherics/canister/phoron,
+/turf/simulated/floor/tiled/techfloor,
 /area/space)
 "kr" = (
 /turf/simulated/wall/prepainted,
 /area/space)
 "kF" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
-/turf/simulated/floor/wood/walnut,
+/obj/machinery/door/airlock/hatch/maintenance,
+/turf/simulated/floor,
 /area/space)
 "kJ" = (
 /obj/structure/table/woodentable/walnut,
@@ -299,18 +238,39 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
-"lJ" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 10;
-	icon_state = "techfloor_edges"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
 "mB" = (
 /obj/machinery/suit_storage_unit/atmos/alt/sol,
 /turf/simulated/floor,
 /area/space)
 "nz" = (
+/obj/structure/filingcabinet/chestdrawer{
+	dir = 1
+	},
+/obj/item/folder/blue,
+/obj/item/folder/red,
+/obj/item/folder,
+/obj/item/folder/nt,
+/obj/item/folder/yellow,
+/obj/item/folder/white,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/paper/monitorkey,
+/turf/simulated/floor/wood/yew,
+/area/space)
+"nO" = (
+/obj/effect/floor_decal/corner/yellow/half{
+	dir = 1;
+	icon_state = "bordercolorhalf"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/space)
+"ox" = (
+/obj/machinery/door/airlock/hatch,
+/turf/space,
+/area/space)
+"oF" = (
+/turf/simulated/floor/tiled/steel_grid,
+/area/space)
+"pi" = (
 /obj/item/rcd,
 /obj/structure/table/rack,
 /obj/structure/window/reinforced{
@@ -325,42 +285,14 @@
 /obj/machinery/door/window/brigdoor/eastleft{
 	name = "CE's Equipment Storage"
 	},
-/turf/simulated/floor/wood/walnut,
-/area/space)
-"nO" = (
-/obj/effect/floor_decal/corner/yellow/half{
-	dir = 1;
-	icon_state = "bordercolorhalf"
-	},
-/turf/simulated/floor/tiled/monotile,
-/area/space)
-"on" = (
-/obj/structure/bed/chair/comfy/yellow{
-	dir = 8
-	},
-/turf/simulated/floor/wood/walnut,
-/area/space)
-"ox" = (
-/obj/machinery/door/airlock/hatch,
-/turf/space,
-/area/space)
-"oF" = (
-/turf/simulated/floor/tiled/steel_grid,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/wood/yew,
 /area/space)
 "pM" = (
 /obj/machinery/suit_cycler/engineering/alt,
 /turf/simulated/floor,
 /area/space)
 "qi" = (
-/obj/effect/floor_decal/carpet/purple{
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/purple{
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet/purple{
-	dir = 9
-	},
 /turf/simulated/floor/carpet/green,
 /area/space)
 "qy" = (
@@ -437,8 +369,9 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
 "sy" = (
-/obj/machinery/computer/shuttle_control/lift/robotics,
-/turf/simulated/floor,
+/obj/machinery/papershredder,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/wood/yew,
 /area/space)
 "tr" = (
 /obj/machinery/door/airlock/hatch{
@@ -452,13 +385,6 @@
 /obj/machinery/papershredder,
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
-"tz" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 9;
-	icon_state = "techfloor_edges"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
 "tH" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -468,35 +394,15 @@
 	},
 /turf/simulated/floor/carpet/green,
 /area/space)
-"tS" = (
-/obj/effect/floor_decal/carpet/purple,
-/obj/effect/floor_decal/carpet/purple{
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet/purple{
-	dir = 10
-	},
-/turf/simulated/floor/carpet/green,
+"tL" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/wood/yew,
 /area/space)
 "tT" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/space)
-"ue" = (
-/obj/structure/closet/secure_closet/engineering_chief_torch,
-/obj/item/storage/box/encryptionkey/engineering,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/wood/yew,
-/area/space)
-"up" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 8;
-	icon_state = "techfloor_edges"
-	},
-/obj/machinery/power/emitter,
-/turf/simulated/floor/tiled/techfloor,
 /area/space)
 "uQ" = (
 /obj/machinery/door/airlock/highsecurity{
@@ -505,6 +411,10 @@
 	req_access = list("ACCESS_BRIDGE","ACCESS_TECH_STORAGE")
 	},
 /turf/simulated/floor,
+/area/space)
+"uX" = (
+/obj/machinery/disposal,
+/turf/simulated/floor/wood/yew,
 /area/space)
 "vc" = (
 /obj/machinery/light{
@@ -525,12 +435,6 @@
 	icon_state = "techfloor_edges"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
-"vx" = (
-/obj/structure/flora/pottedplant/smallcactus{
-	desc = "This is a small cactus. Its needles are sharp. It seems neglected, as if no one loves it."
-	},
-/turf/simulated/floor/wood/walnut,
 /area/space)
 "vI" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -553,10 +457,45 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "vY" = (
-/obj/structure/bed/chair/office/comfy/yellow{
-	dir = 4
+/obj/structure/table/rack,
+/obj/item/stack/material/steel{
+	amount = 50
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 9;
+	icon_state = "techfloor_edges"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"wz" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4;
+	icon_state = "techfloor_edges"
+	},
+/obj/structure/table/rack{
+	dir = 8
+	},
+/obj/item/device/paint_sprayer,
+/obj/item/device/paint_sprayer,
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/device/lightreplacer,
+/obj/item/device/lightreplacer,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "wT" = (
 /obj/effect/wallframe_spawn/reinforced_phoron,
@@ -581,20 +520,31 @@
 /turf/simulated/floor/bluegrid,
 /area/space)
 "xB" = (
-/obj/effect/floor_decal/carpet/purple{
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/purple{
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/purple{
-	dir = 5
-	},
 /obj/machinery/computer/modular/preset/engineering{
 	dir = 8
 	},
 /obj/item/modular_computer/tablet/lease/preset/command,
 /turf/simulated/floor/carpet/green,
+/area/space)
+"xR" = (
+/obj/structure/table/rack,
+/obj/structure/window/reinforced,
+/obj/machinery/door/window/brigdoor/westright{
+	autoset_access = 0;
+	dir = 4;
+	name = "CE's suit storage";
+	req_access = list("ACCESS_CHIEF_ENGINEER")
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/rig/ce/equipped,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/wood/yew,
 /area/space)
 "yb" = (
 /obj/machinery/door/airlock/external{
@@ -605,17 +555,6 @@
 	name = "Engineering External Access"
 	},
 /turf/simulated/floor,
-/area/space)
-"yc" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 9;
-	icon_state = "techfloor_edges"
-	},
-/obj/machinery/power/port_gen/pacman{
-	anchored = 0;
-	sheets = 25
-	},
-/turf/simulated/floor/tiled/techfloor,
 /area/space)
 "ye" = (
 /obj/structure/table/rack{
@@ -644,11 +583,6 @@
 /obj/item/grenade/chem_grenade/metalfoam,
 /obj/item/grenade/chem_grenade/metalfoam,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/space)
-"yp" = (
-/obj/machinery/papershredder,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/wood/yew,
 /area/space)
 "yA" = (
 /obj/structure/dispenser/oxygen,
@@ -771,24 +705,47 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
 "GQ" = (
-/obj/effect/floor_decal/carpet/purple{
-	dir = 1
-	},
 /obj/structure/bed/chair/comfy/yellow,
 /turf/simulated/floor/carpet/green,
 /area/space)
+"GZ" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Engine Control Room"
+	},
+/turf/simulated/floor,
+/area/space)
 "Hg" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4;
+	icon_state = "techfloor_edges"
+	},
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/device/suit_cooling_unit,
+/obj/item/device/suit_cooling_unit,
+/obj/structure/table/rack,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"Hj" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
-/obj/item/toy/desk/newtoncradle,
-/turf/simulated/floor/wood/walnut,
+/obj/machinery/photocopier/faxmachine{
+	department = "Sagan - Chief Engineer"
+	},
+/turf/simulated/floor/carpet/green,
 /area/space)
 "HX" = (
-/obj/machinery/door/airlock/multi_tile/engineering{
-	name = "Engineering Bay"
-	},
-/turf/simulated/floor,
+/obj/structure/closet/secure_closet/engineering_chief_torch,
+/obj/item/storage/box/encryptionkey/engineering,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/wood/yew,
 /area/space)
 "Ie" = (
 /obj/effect/wallframe_spawn/reinforced_phoron,
@@ -810,7 +767,6 @@
 /turf/simulated/floor,
 /area/space)
 "JA" = (
-/obj/effect/floor_decal/carpet/purple,
 /obj/structure/bed/chair/office/comfy/yellow{
 	dir = 1
 	},
@@ -831,59 +787,32 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/space)
-"Lc" = (
-/obj/structure/table/rack,
-/obj/structure/window/reinforced,
-/obj/machinery/door/window/brigdoor/westright{
-	autoset_access = 0;
-	dir = 4;
-	name = "CE's suit storage";
-	req_access = list("ACCESS_CHIEF_ENGINEER")
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/rig/ce/equipped,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/wood/yew,
-/area/space)
 "Lf" = (
-/obj/structure/filingcabinet/chestdrawer{
-	dir = 1
+/obj/effect/floor_decal/techfloor{
+	dir = 4;
+	icon_state = "techfloor_edges"
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/structure/table/rack,
+/obj/item/device/radio/off,
+/obj/item/device/radio/off,
+/obj/item/device/radio/off,
+/obj/item/device/radio/off,
+/obj/item/device/radio/off,
+/obj/item/device/radio/off,
+/obj/item/tape_roll,
+/obj/item/tape_roll,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "Lq" = (
 /turf/simulated/floor/wood/yew,
 /area/space)
+"LN" = (
+/obj/structure/flora/pottedplant/aquatic,
+/turf/simulated/floor/tiled/monotile,
+/area/space)
 "Mb" = (
 /obj/machinery/light,
 /turf/simulated/floor/tiled/steel_grid,
-/area/space)
-"Mz" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
-/obj/machinery/photocopier/faxmachine{
-	department = "Sagan - Chief Engineer"
-	},
-/turf/simulated/floor/wood/walnut,
-/area/space)
-"MJ" = (
-/obj/effect/floor_decal/carpet/purple{
-	dir = 4
-	},
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
-/obj/machinery/photocopier/faxmachine{
-	department = "Sagan - Chief Engineer"
-	},
-/turf/simulated/floor/carpet/green,
 /area/space)
 "Nv" = (
 /turf/simulated/floor/tiled/techfloor,
@@ -911,49 +840,7 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
-"Ol" = (
-/obj/machinery/suit_storage_unit/engineering/alt/sol,
-/turf/simulated/floor,
-/area/space)
-"OZ" = (
-/obj/machinery/disposal,
-/turf/simulated/floor/wood/yew,
-/area/space)
-"PU" = (
-/obj/machinery/door/airlock/engineering{
-	name = "SMES Maintenance"
-	},
-/turf/space,
-/area/space)
-"PV" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/bed/chair/padded/yellow{
-	dir = 8;
-	icon_state = "chair_preview"
-	},
-/turf/simulated/floor/wood/walnut,
-/area/space)
-"Qm" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 4;
-	icon_state = "techfloor_edges"
-	},
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/device/suit_cooling_unit,
-/obj/item/device/suit_cooling_unit,
-/obj/structure/table/rack,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
-"Qp" = (
+"Of" = (
 /obj/structure/table/rack,
 /obj/item/stack/material/plasteel{
 	amount = 10
@@ -971,6 +858,20 @@
 /obj/item/stack/material/titanium/fifty,
 /obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"Ol" = (
+/obj/machinery/suit_storage_unit/engineering/alt/sol,
+/turf/simulated/floor,
+/area/space)
+"PV" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/bed/chair/padded/yellow{
+	dir = 8;
+	icon_state = "chair_preview"
+	},
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "QC" = (
 /obj/structure/closet/secure_closet/engineering_welding,
@@ -1012,52 +913,11 @@
 "SB" = (
 /turf/unsimulated/mask,
 /area/space)
-"SS" = (
-/obj/item/rcd,
-/obj/structure/table/rack,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 2
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/door/window/brigdoor/eastleft{
-	name = "CE's Equipment Storage"
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/wood/yew,
-/area/space)
-"Tt" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 4;
-	icon_state = "techfloor_edges"
-	},
-/obj/structure/table/rack,
-/obj/item/device/radio/off,
-/obj/item/device/radio/off,
-/obj/item/device/radio/off,
-/obj/item/device/radio/off,
-/obj/item/device/radio/off,
-/obj/item/device/radio/off,
-/obj/item/tape_roll,
-/obj/item/tape_roll,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
 "TO" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
 "Ue" = (
-/obj/effect/floor_decal/carpet/purple{
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/purple,
-/obj/effect/floor_decal/carpet/purple{
-	dir = 6
-	},
 /obj/machinery/photocopier,
 /turf/simulated/floor/carpet/green,
 /area/space)
@@ -1070,9 +930,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/space)
 "Vw" = (
-/obj/effect/floor_decal/carpet/purple{
-	dir = 8
-	},
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
@@ -1095,20 +952,6 @@
 /obj/structure/closet/secure_closet/engineering_torch,
 /turf/simulated/floor/tiled/monotile,
 /area/space)
-"WV" = (
-/obj/structure/filingcabinet/chestdrawer{
-	dir = 1
-	},
-/obj/item/folder/blue,
-/obj/item/folder/red,
-/obj/item/folder,
-/obj/item/folder/nt,
-/obj/item/folder/yellow,
-/obj/item/folder/white,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/paper/monitorkey,
-/turf/simulated/floor/wood/yew,
-/area/space)
 "Xl" = (
 /turf/simulated/floor/tiled/monotile,
 /area/space)
@@ -1123,12 +966,6 @@
 "XN" = (
 /obj/machinery/door/airlock/glass/engineering{
 	name = "Engine Control Room"
-	},
-/turf/simulated/floor,
-/area/space)
-"YF" = (
-/obj/machinery/door/airlock/engineering{
-	name = "SMES Maintenance"
 	},
 /turf/simulated/floor,
 /area/space)
@@ -14110,10 +13947,10 @@ vo
 vo
 vo
 vo
-tz
-vu
-vu
-lJ
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -14600,10 +14437,10 @@ vo
 vo
 vo
 vo
-fg
-nz
-Lf
-vx
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -14852,10 +14689,10 @@ vo
 vo
 vo
 vo
-fI
-vY
-vY
-fI
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -15104,10 +14941,10 @@ vo
 vo
 vo
 vo
-jY
-Hg
-iq
-Mz
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -15356,10 +15193,10 @@ vo
 vo
 vo
 vo
-kF
-fI
-on
-fI
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -21420,11 +21257,11 @@ Wp
 kr
 kr
 kr
-YF
+fg
 fR
 kr
 fR
-gi
+GZ
 fR
 fR
 Bh
@@ -21674,10 +21511,10 @@ Wp
 Wp
 Wp
 fR
-aG
+vY
 vu
 vu
-Qp
+Of
 fR
 kr
 KQ
@@ -21921,7 +21758,7 @@ Wp
 Wp
 Wp
 Wp
-YF
+fg
 Wp
 Wp
 Wp
@@ -22427,9 +22264,9 @@ Wp
 Wp
 Wp
 fR
-yc
-up
-aV
+fI
+ib
+jY
 NY
 ct
 ct
@@ -22934,9 +22771,9 @@ fR
 iw
 gm
 FH
-Qm
-Tt
-iH
+Hg
+Lf
+wz
 vR
 fR
 du
@@ -23438,10 +23275,10 @@ Wp
 Wp
 Wp
 fR
-ue
-Lc
-SS
-OZ
+HX
+xR
+pi
+uX
 fR
 kJ
 kJ
@@ -23452,7 +23289,7 @@ kr
 Wy
 XM
 Wy
-Wy
+LN
 fR
 fv
 fv
@@ -23689,9 +23526,9 @@ Wp
 Wp
 Wp
 Wp
-PU
+kF
 Lq
-Lq
+tL
 Lq
 Lq
 au
@@ -23944,7 +23781,7 @@ fR
 qy
 qi
 Vw
-tS
+qi
 Lq
 XN
 Xl
@@ -24193,7 +24030,7 @@ Wp
 Wp
 Wp
 fR
-WV
+nz
 GQ
 tH
 JA
@@ -24445,11 +24282,11 @@ Wp
 Wp
 Wp
 fR
-yp
+sy
 xB
-MJ
+Hj
 Ue
-fU
+aI
 fR
 vc
 cT
@@ -26438,16 +26275,16 @@ vo
 vo
 vo
 vo
-kr
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-sy
-Wp
-kr
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -26690,16 +26527,16 @@ vo
 vo
 vo
 vo
-kr
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-kr
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -26942,16 +26779,16 @@ vo
 vo
 vo
 vo
-HX
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-kr
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -27194,16 +27031,16 @@ vo
 vo
 vo
 vo
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-ib
-kr
-kr
-kr
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -27446,16 +27283,16 @@ vo
 vo
 vo
 vo
-kr
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-kr
-Wp
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -27698,16 +27535,16 @@ vo
 vo
 vo
 vo
-kr
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-kr
-Wp
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -27950,16 +27787,16 @@ vo
 vo
 vo
 vo
-kr
-kr
-kr
-kr
-kr
-kr
-kr
-kr
-kr
-Wp
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
