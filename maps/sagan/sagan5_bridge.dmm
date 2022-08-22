@@ -3,20 +3,20 @@
 /obj/structure/table/steel_reinforced,
 /obj/item/reagent_containers/food/drinks/glass2/coffeecup/SCG,
 /obj/item/reagent_containers/food/drinks/glass2/coffeecup/SCG{
-	pixel_y = -6;
-	pixel_x = 8
+	pixel_x = 8;
+	pixel_y = -6
 	},
 /obj/item/reagent_containers/food/drinks/glass2/coffeecup/SCG{
-	pixel_y = -7;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = -7
 	},
 /obj/item/reagent_containers/food/drinks/glass2/coffeecup/SCG{
-	pixel_y = 8;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 8
 	},
 /obj/item/reagent_containers/food/drinks/glass2/coffeecup/SCG{
-	pixel_y = 6;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = 6
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
@@ -113,8 +113,8 @@
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id_tag = "AICore";
-	name = "AI Core Security Shutters";
-	maxhealth = 5000
+	maxhealth = 5000;
+	name = "AI Core Security Shutters"
 	},
 /obj/structure/cable/green{
 	d1 = 4;
@@ -492,13 +492,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
-"nT" = (
-/obj/machinery/door/airlock/maintenance{
-	locked = 1;
-	name = "Emergency Cyborg Closet"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/space)
 "oa" = (
 /obj/effect/landmark/start{
 	name = "AI"
@@ -570,8 +563,8 @@
 	req_access = list("ACCESS_AI_UPLOAD")
 	},
 /obj/effect/floor_decal/industrial/warning{
-	icon_state = "warning";
-	dir = 4
+	dir = 4;
+	icon_state = "warning"
 	},
 /obj/machinery/tele_beacon,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -619,8 +612,8 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning{
-	icon_state = "warning";
-	dir = 8
+	dir = 8;
+	icon_state = "warning"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
@@ -631,8 +624,8 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/turretid/stun{
-	pixel_y = -32;
-	pixel_x = 32
+	pixel_x = 32;
+	pixel_y = -32
 	},
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -662,17 +655,6 @@
 	pixel_y = -32
 	},
 /turf/simulated/floor/tiled,
-/area/space)
-"rF" = (
-/obj/machinery/power/emitter/anchored{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/hatch/red,
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
 /area/space)
 "rG" = (
 /obj/machinery/door/window/brigdoor/eastright{
@@ -775,8 +757,8 @@
 	pixel_x = -22
 	},
 /obj/machinery/light{
-	icon_state = "tube1";
-	dir = 8
+	dir = 8;
+	icon_state = "tube1"
 	},
 /obj/machinery/flasher{
 	pixel_x = -32;
@@ -1084,12 +1066,12 @@
 	},
 /obj/machinery/alarm{
 	dir = 4;
-	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"));
-	pixel_x = -28
+	pixel_x = -28;
+	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))
 	},
 /obj/item/device/radio/intercom/locked/ai_private{
-	pixel_x = 22;
-	dir = 8
+	dir = 8;
+	pixel_x = 22
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -1114,8 +1096,8 @@
 	},
 /obj/machinery/door/blast/regular{
 	id_tag = "AICore";
-	name = "AI Core Security Shutters";
-	maxhealth = 5000
+	maxhealth = 5000;
+	name = "AI Core Security Shutters"
 	},
 /obj/structure/cable/green{
 	d1 = 1;
@@ -1188,8 +1170,8 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
-	icon_state = "warningcorner";
-	dir = 8
+	dir = 8;
+	icon_state = "warningcorner"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/space)
@@ -1325,8 +1307,8 @@
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/effect/floor_decal/industrial/warning/corner{
-	icon_state = "warningcorner";
-	dir = 1
+	dir = 1;
+	icon_state = "warningcorner"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/space)
@@ -1419,8 +1401,8 @@
 	},
 /obj/machinery/door/blast/regular{
 	id_tag = "AICore";
-	name = "AI Core Security Shutters";
-	maxhealth = 5000
+	maxhealth = 5000;
+	name = "AI Core Security Shutters"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/cyan{
@@ -1456,8 +1438,8 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning{
-	icon_state = "warning";
-	dir = 8
+	dir = 8;
+	icon_state = "warning"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
@@ -1561,8 +1543,8 @@
 "Ij" = (
 /obj/machinery/door/blast/regular{
 	id_tag = "AICore";
-	name = "AI Core Security Shutters";
-	maxhealth = 5000
+	maxhealth = 5000;
+	name = "AI Core Security Shutters"
 	},
 /obj/structure/girder,
 /obj/structure/grille,
@@ -1710,8 +1692,8 @@
 	pixel_x = -22
 	},
 /obj/machinery/light{
-	icon_state = "tube1";
-	dir = 8
+	dir = 8;
+	icon_state = "tube1"
 	},
 /obj/machinery/flasher{
 	pixel_x = -32;
@@ -1777,9 +1759,9 @@
 	dir = 4;
 	icon_state = "pdoor0";
 	id_tag = "AICoreLastResort";
+	maxhealth = 5500;
 	name = "Last Resort";
-	opacity = 0;
-	maxhealth = 5500
+	opacity = 0
 	},
 /turf/simulated/floor/bluegrid/airless,
 /area/space)
@@ -1955,8 +1937,8 @@
 	req_access = list("ACCESS_AI_UPLOAD")
 	},
 /obj/machinery/light{
-	icon_state = "tube1";
-	dir = 8
+	dir = 8;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/bluegrid,
 /area/space)
@@ -2130,11 +2112,6 @@
 	icon_state = "2-8"
 	},
 /obj/machinery/hologram/holopad,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /turf/simulated/floor/reinforced,
 /area/space)
 "SN" = (
@@ -2229,8 +2206,8 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/turretid/stun{
-	pixel_y = -32;
-	pixel_x = -32
+	pixel_x = -32;
+	pixel_y = -32
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/space)
@@ -2362,10 +2339,10 @@
 /area/space)
 "YS" = (
 /obj/machinery/button/blast_door{
-	pixel_x = 5;
-	pixel_y = -8;
 	id_tag = "AICoreLastResort";
-	name = "AI Core Last Resort"
+	name = "AI Core Last Resort";
+	pixel_x = 5;
+	pixel_y = -8
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/space)
@@ -2389,12 +2366,12 @@
 	id_tag = "ai_core_pump"
 	},
 /obj/machinery/light{
-	icon_state = "tube1";
-	dir = 4
+	dir = 4;
+	icon_state = "tube1"
 	},
 /obj/effect/floor_decal/industrial/warning{
-	icon_state = "warning";
-	dir = 1
+	dir = 1;
+	icon_state = "warning"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/space)
@@ -2484,8 +2461,8 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning{
-	icon_state = "warning";
-	dir = 8
+	dir = 8;
+	icon_state = "warning"
 	},
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/dark,
@@ -24839,7 +24816,7 @@ CR
 CR
 CR
 CR
-DE
+CR
 CR
 CR
 CR
@@ -25091,7 +25068,7 @@ CR
 CR
 CR
 CR
-rF
+CR
 CR
 CR
 CR
@@ -25343,7 +25320,7 @@ jv
 FA
 CR
 CR
-nT
+CR
 CR
 Oo
 SZ

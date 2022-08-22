@@ -10,9 +10,20 @@
 /obj/structure/closet/secure_closet/engineering_electrical,
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
-"aI" = (
-/obj/structure/flora/pottedplant/crystal,
-/turf/simulated/floor/wood/yew,
+"bq" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4;
+	icon_state = "techfloor_edges"
+	},
+/obj/structure/table/rack{
+	dir = 8
+	},
+/obj/item/device/paint_sprayer,
+/obj/item/device/paint_sprayer,
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/device/lightreplacer,
+/obj/item/device/lightreplacer,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "bW" = (
 /obj/machinery/door/airlock/glass/engineering{
@@ -131,6 +142,26 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
+"hu" = (
+/obj/structure/table/rack,
+/obj/structure/window/reinforced,
+/obj/machinery/door/window/brigdoor/westright{
+	autoset_access = 0;
+	dir = 4;
+	name = "CE's suit storage";
+	req_access = list("ACCESS_CHIEF_ENGINEER")
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/rig/ce/equipped,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/wood/yew,
+/area/space)
 "hI" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
@@ -177,6 +208,24 @@
 	icon_state = "warning"
 	},
 /turf/simulated/floor/tiled/monotile,
+/area/space)
+"jd" = (
+/obj/item/rcd,
+/obj/structure/table/rack,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window/brigdoor/eastleft{
+	name = "CE's Equipment Storage"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/wood/yew,
 /area/space)
 "jm" = (
 /obj/machinery/door/airlock/glass/engineering{
@@ -242,6 +291,10 @@
 /obj/machinery/suit_storage_unit/atmos/alt/sol,
 /turf/simulated/floor,
 /area/space)
+"nl" = (
+/obj/structure/flora/pottedplant/crystal,
+/turf/simulated/floor/wood/yew,
+/area/space)
 "nz" = (
 /obj/structure/filingcabinet/chestdrawer{
 	dir = 1
@@ -269,24 +322,6 @@
 /area/space)
 "oF" = (
 /turf/simulated/floor/tiled/steel_grid,
-/area/space)
-"pi" = (
-/obj/item/rcd,
-/obj/structure/table/rack,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 2
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/door/window/brigdoor/eastleft{
-	name = "CE's Equipment Storage"
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/wood/yew,
 /area/space)
 "pM" = (
 /obj/machinery/suit_cycler/engineering/alt,
@@ -412,10 +447,6 @@
 	},
 /turf/simulated/floor,
 /area/space)
-"uX" = (
-/obj/machinery/disposal,
-/turf/simulated/floor/wood/yew,
-/area/space)
 "vc" = (
 /obj/machinery/light{
 	dir = 1
@@ -482,21 +513,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
-"wz" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 4;
-	icon_state = "techfloor_edges"
-	},
-/obj/structure/table/rack{
-	dir = 8
-	},
-/obj/item/device/paint_sprayer,
-/obj/item/device/paint_sprayer,
-/obj/item/reagent_containers/spray/cleaner,
-/obj/item/device/lightreplacer,
-/obj/item/device/lightreplacer,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
 "wT" = (
 /obj/effect/wallframe_spawn/reinforced_phoron,
 /obj/machinery/door/blast/regular{
@@ -525,26 +541,6 @@
 	},
 /obj/item/modular_computer/tablet/lease/preset/command,
 /turf/simulated/floor/carpet/green,
-/area/space)
-"xR" = (
-/obj/structure/table/rack,
-/obj/structure/window/reinforced,
-/obj/machinery/door/window/brigdoor/westright{
-	autoset_access = 0;
-	dir = 4;
-	name = "CE's suit storage";
-	req_access = list("ACCESS_CHIEF_ENGINEER")
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/rig/ce/equipped,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/wood/yew,
 /area/space)
 "yb" = (
 /obj/machinery/door/airlock/external{
@@ -653,6 +649,10 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/space)
+"Cs" = (
+/obj/machinery/disposal,
+/turf/simulated/floor/wood/yew,
+/area/space)
 "CU" = (
 /turf/simulated/floor/blackgrid,
 /area/space)
@@ -673,6 +673,12 @@
 /obj/structure/table/steel,
 /obj/item/book/manual/atmospipes,
 /turf/simulated/floor/tiled/steel_grid,
+/area/space)
+"Ey" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Engine Control Room"
+	},
+/turf/simulated/floor,
 /area/space)
 "Fk" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
@@ -708,12 +714,6 @@
 /obj/structure/bed/chair/comfy/yellow,
 /turf/simulated/floor/carpet/green,
 /area/space)
-"GZ" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Engine Control Room"
-	},
-/turf/simulated/floor,
-/area/space)
 "Hg" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 4;
@@ -731,15 +731,6 @@
 /obj/item/device/suit_cooling_unit,
 /obj/structure/table/rack,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
-"Hj" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
-/obj/machinery/photocopier/faxmachine{
-	department = "Sagan - Chief Engineer"
-	},
-/turf/simulated/floor/carpet/green,
 /area/space)
 "HX" = (
 /obj/structure/closet/secure_closet/engineering_chief_torch,
@@ -806,13 +797,22 @@
 "Lq" = (
 /turf/simulated/floor/wood/yew,
 /area/space)
-"LN" = (
-/obj/structure/flora/pottedplant/aquatic,
-/turf/simulated/floor/tiled/monotile,
-/area/space)
 "Mb" = (
 /obj/machinery/light,
 /turf/simulated/floor/tiled/steel_grid,
+/area/space)
+"MN" = (
+/obj/structure/flora/pottedplant/aquatic,
+/turf/simulated/floor/tiled/monotile,
+/area/space)
+"Nf" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/machinery/photocopier/faxmachine{
+	department = "Sagan - Chief Engineer"
+	},
+/turf/simulated/floor/carpet/green,
 /area/space)
 "Nv" = (
 /turf/simulated/floor/tiled/techfloor,
@@ -840,25 +840,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
-"Of" = (
-/obj/structure/table/rack,
-/obj/item/stack/material/plasteel{
-	amount = 10
-	},
-/obj/item/stack/material/plasteel{
-	amount = 10
-	},
-/obj/item/stack/material/plasteel{
-	amount = 10
-	},
-/obj/item/stack/material/plasteel{
-	amount = 10
-	},
-/obj/item/stack/material/ocp/fifty,
-/obj/item/stack/material/titanium/fifty,
-/obj/effect/floor_decal/techfloor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
 "Ol" = (
 /obj/machinery/suit_storage_unit/engineering/alt/sol,
 /turf/simulated/floor,
@@ -876,6 +857,25 @@
 "QC" = (
 /obj/structure/closet/secure_closet/engineering_welding,
 /turf/simulated/floor/tiled/steel_grid,
+/area/space)
+"Rh" = (
+/obj/structure/table/rack,
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/item/stack/material/ocp/fifty,
+/obj/item/stack/material/titanium/fifty,
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "Sq" = (
 /obj/machinery/power/supermatter,
@@ -21261,7 +21261,7 @@ fg
 fR
 kr
 fR
-GZ
+Ey
 fR
 fR
 Bh
@@ -21514,7 +21514,7 @@ fR
 vY
 vu
 vu
-Of
+Rh
 fR
 kr
 KQ
@@ -22773,7 +22773,7 @@ gm
 FH
 Hg
 Lf
-wz
+bq
 vR
 fR
 du
@@ -23276,9 +23276,9 @@ Wp
 Wp
 fR
 HX
-xR
-pi
-uX
+hu
+jd
+Cs
 fR
 kJ
 kJ
@@ -23289,7 +23289,7 @@ kr
 Wy
 XM
 Wy
-LN
+MN
 fR
 fv
 fv
@@ -24017,8 +24017,8 @@ Am
 vo
 vo
 Am
-Wp
-Wp
+fR
+fR
 Wp
 Wp
 Wp
@@ -24058,7 +24058,7 @@ Wp
 Wp
 Wp
 Wp
-Wp
+fR
 Am
 vo
 vo
@@ -24270,8 +24270,8 @@ vo
 vo
 Am
 Am
-Wp
-Wp
+fR
+fR
 Wp
 Wp
 Wp
@@ -24284,9 +24284,9 @@ Wp
 fR
 sy
 xB
-Hj
+Nf
 Ue
-aI
+nl
 fR
 vc
 cT
@@ -24304,12 +24304,12 @@ Wp
 Wp
 Wp
 Wp
+fR
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
+fR
+fR
 Am
 Am
 vo
@@ -24523,8 +24523,8 @@ vo
 vo
 Am
 Am
-Wp
-Wp
+fR
+fR
 Wp
 Wp
 Wp
@@ -24553,14 +24553,14 @@ kr
 kr
 kr
 kr
+fR
+Wp
+fR
+fR
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
+fR
+fR
 Am
 Am
 vo
@@ -24776,8 +24776,8 @@ vo
 vo
 Am
 Am
-Wp
-Wp
+fR
+fR
 Wp
 Wp
 Wp
@@ -24799,12 +24799,6 @@ kr
 kr
 kr
 kr
-vo
-vo
-vo
-vo
-vo
-vo
 Wp
 Wp
 Wp
@@ -24812,6 +24806,12 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
+fR
+fR
 Am
 Am
 vo
@@ -25029,8 +25029,8 @@ vo
 vo
 Am
 Am
-Wp
-Wp
+fR
+fR
 Wp
 Wp
 Wp
@@ -25051,18 +25051,18 @@ Wp
 Wp
 Wp
 kr
-vo
-vo
-vo
-vo
-vo
-vo
 Wp
 Wp
 Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
+fR
+fR
 Am
 Am
 vo
@@ -25282,7 +25282,7 @@ vo
 vo
 Am
 Am
-Wp
+fR
 Wp
 Wp
 Wp
@@ -25303,17 +25303,17 @@ Wp
 Wp
 Wp
 kr
-vo
-vo
-vo
-vo
-vo
-vo
 Wp
 Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
+fR
+fR
 Am
 Am
 vo
@@ -25555,16 +25555,16 @@ Wp
 Wp
 Wp
 kr
-vo
-vo
-vo
-vo
-vo
-vo
 Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+fR
 Am
 Am
 vo
@@ -25807,12 +25807,12 @@ kr
 kr
 kr
 kr
-vo
-vo
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -26055,16 +26055,16 @@ kr
 cT
 cT
 cT
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -26297,26 +26297,26 @@ Wp
 Wp
 Wp
 Wp
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Kz
 Kz
 Kz
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -26549,20 +26549,20 @@ Wp
 Wp
 Wp
 Wp
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Kz
 Kz
 Kz
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -26801,20 +26801,20 @@ Wp
 Wp
 Wp
 Wp
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Kz
 Kz
 Kz
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -27053,20 +27053,20 @@ Wp
 Wp
 Wp
 Wp
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Kz
 Kz
 Kz
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -27305,20 +27305,20 @@ Wp
 Wp
 Wp
 Wp
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Kz
 Kz
 Kz
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -27557,13 +27557,13 @@ Wp
 Wp
 Wp
 Wp
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Kz
 Kz
 Kz
