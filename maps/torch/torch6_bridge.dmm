@@ -2942,13 +2942,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/hallway/port)
-"fp" = (
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 8;
-	icon_state = "warningcorner"
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/space)
 "fu" = (
 /obj/structure/sign/warning/high_voltage{
 	dir = 8
@@ -3369,8 +3362,8 @@
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/effect/floor_decal/industrial/warning/corner{
-	icon_state = "warningcorner";
-	dir = 1
+	dir = 1;
+	icon_state = "warningcorner"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_foyer)
@@ -4686,8 +4679,8 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
-	icon_state = "warningcorner";
-	dir = 8
+	dir = 8;
+	icon_state = "warningcorner"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_foyer)
@@ -6085,13 +6078,6 @@
 	},
 /turf/simulated/floor/carpet/green,
 /area/crew_quarters/heads/office/cl/backroom)
-"nE" = (
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 1;
-	icon_state = "warningcorner"
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/space)
 "nG" = (
 /obj/structure/filingcabinet/chestdrawer{
 	dir = 1
@@ -6192,8 +6178,8 @@
 	req_access = list("ACCESS_AI_UPLOAD")
 	},
 /obj/machinery/light{
-	icon_state = "tube1";
-	dir = 8
+	dir = 8;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai_foyer)
@@ -6522,8 +6508,8 @@
 	pixel_x = -22
 	},
 /obj/machinery/light{
-	icon_state = "tube1";
-	dir = 8
+	dir = 8;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
@@ -7226,12 +7212,12 @@
 	icon_state = "intact"
 	},
 /obj/effect/floor_decal/techfloor{
-	icon_state = "techfloor_edges";
-	dir = 8
+	dir = 8;
+	icon_state = "techfloor_edges"
 	},
 /obj/effect/floor_decal/industrial/warning{
-	icon_state = "warning";
-	dir = 8
+	dir = 8;
+	icon_state = "warning"
 	},
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/dark,
@@ -10420,8 +10406,8 @@
 "zs" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/computer/modular/preset/civilian{
-	icon_state = "console";
-	dir = 1
+	dir = 1;
+	icon_state = "console"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai)
@@ -11558,10 +11544,10 @@
 /area/crew_quarters/heads/office/co)
 "DA" = (
 /obj/machinery/button/blast_door{
-	pixel_x = 5;
-	pixel_y = -8;
 	id_tag = "AICoreLastResort";
-	name = "AI Core Last Resort"
+	name = "AI Core Last Resort";
+	pixel_x = 5;
+	pixel_y = -8
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/turret_protected/ai)
@@ -11859,12 +11845,12 @@
 	},
 /obj/machinery/light,
 /obj/effect/floor_decal/techfloor{
-	icon_state = "techfloor_edges";
-	dir = 8
+	dir = 8;
+	icon_state = "techfloor_edges"
 	},
 /obj/effect/floor_decal/industrial/warning{
-	icon_state = "warning";
-	dir = 8
+	dir = 8;
+	icon_state = "warning"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai_foyer)
@@ -11957,8 +11943,8 @@
 /area/bridge/storage)
 "Fv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/blue{
-	icon_state = "intact";
-	dir = 4
+	dir = 4;
+	icon_state = "intact"
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -12745,8 +12731,8 @@
 /area/aquila/cockpit)
 "Ic" = (
 /obj/effect/floor_decal/industrial/warning/corner{
-	icon_state = "warningcorner";
-	dir = 8
+	dir = 8;
+	icon_state = "warningcorner"
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/space)
@@ -12821,12 +12807,12 @@
 	pixel_y = 24
 	},
 /obj/effect/floor_decal/techfloor{
-	icon_state = "techfloor_edges";
-	dir = 8
+	dir = 8;
+	icon_state = "techfloor_edges"
 	},
 /obj/effect/floor_decal/industrial/warning{
-	icon_state = "warning";
-	dir = 8
+	dir = 8;
+	icon_state = "warning"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai_foyer)
@@ -13084,9 +13070,9 @@
 	dir = 4;
 	icon_state = "pdoor0";
 	id_tag = "AICoreLastResort";
+	maxhealth = 5500;
 	name = "Last Resort";
-	opacity = 0;
-	maxhealth = 5500
+	opacity = 0
 	},
 /turf/simulated/floor/bluegrid/airless,
 /area/turret_protected/ai)
@@ -13350,8 +13336,8 @@
 /area/bridge)
 "Ku" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/blue{
-	icon_state = "intact";
-	dir = 4
+	dir = 4;
+	icon_state = "intact"
 	},
 /obj/machinery/door/airlock/external{
 	frequency = 1379;
@@ -13675,8 +13661,8 @@
 /area/bridge)
 "LF" = (
 /obj/effect/floor_decal/industrial/warning/corner{
-	icon_state = "warningcorner";
-	dir = 1
+	dir = 1;
+	icon_state = "warningcorner"
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/space)
@@ -13794,8 +13780,8 @@
 	},
 /obj/machinery/light,
 /obj/effect/floor_decal/industrial/warning{
-	icon_state = "warning";
-	dir = 4
+	dir = 4;
+	icon_state = "warning"
 	},
 /obj/machinery/turretid/stun{
 	pixel_y = -32
@@ -15781,8 +15767,8 @@
 	req_access = list("ACCESS_AI_UPLOAD")
 	},
 /obj/effect/floor_decal/industrial/warning{
-	icon_state = "warning";
-	dir = 4
+	dir = 4;
+	icon_state = "warning"
 	},
 /obj/machinery/tele_beacon,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -16357,12 +16343,12 @@
 	id_tag = "ai_core_pump"
 	},
 /obj/machinery/light{
-	icon_state = "tube1";
-	dir = 4
+	dir = 4;
+	icon_state = "tube1"
 	},
 /obj/effect/floor_decal/industrial/warning{
-	icon_state = "warning";
-	dir = 1
+	dir = 1;
+	icon_state = "warning"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_foyer)
@@ -16538,8 +16524,8 @@
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id_tag = "AICore";
-	name = "AI Core Security Shutters";
-	maxhealth = 5000
+	maxhealth = 5000;
+	name = "AI Core Security Shutters"
 	},
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -16833,8 +16819,8 @@
 "Yk" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/computer/modular/preset/aislot/research{
-	icon_state = "console";
-	dir = 1
+	dir = 1;
+	icon_state = "console"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai)
@@ -35524,7 +35510,7 @@ rx
 rr
 uv
 uZ
-nE
+LF
 cP
 ah
 av
@@ -36917,7 +36903,7 @@ cP
 hR
 ad
 ad
-fp
+Ic
 eg
 nr
 hc
@@ -37121,7 +37107,7 @@ ad
 ad
 ad
 ad
-fp
+Ic
 nr
 OX
 iz
@@ -37728,7 +37714,7 @@ ad
 ad
 ad
 ad
-fp
+Ic
 eg
 eg
 eg
@@ -37936,7 +37922,7 @@ ad
 ad
 ad
 ad
-fp
+Ic
 eg
 eg
 eg
@@ -37948,7 +37934,7 @@ eg
 eg
 eg
 eg
-nE
+LF
 cP
 ah
 av
