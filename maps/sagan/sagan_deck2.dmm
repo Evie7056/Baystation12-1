@@ -10,14 +10,40 @@
 /obj/structure/closet/secure_closet/engineering_electrical,
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
-"by" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
+"aG" = (
+/obj/structure/table/rack,
+/obj/item/stack/material/steel{
+	amount = 50
 	},
-/obj/machinery/photocopier/faxmachine{
-	department = "Sagan - Chief Engineer"
+/obj/item/stack/material/steel{
+	amount = 50
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 9;
+	icon_state = "techfloor_edges"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"aV" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 8;
+	icon_state = "techfloor_edges"
+	},
+/obj/structure/window/phoronreinforced,
+/obj/machinery/portable_atmospherics/canister/phoron,
+/turf/simulated/floor/tiled/techfloor,
 /area/space)
 "bW" = (
 /obj/machinery/door/airlock/glass/engineering{
@@ -39,12 +65,8 @@
 /area/space)
 "cA" = (
 /obj/effect/floor_decal/techfloor{
-	dir = 9;
+	dir = 1;
 	icon_state = "techfloor_edges"
-	},
-/obj/machinery/power/port_gen/pacman{
-	anchored = 0;
-	sheets = 25
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
@@ -61,69 +83,42 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"eC" = (
-/obj/structure/flora/pottedplant/smallcactus{
-	desc = "This is a small cactus. Its needles are sharp. It seems neglected, as if no one loves it."
-	},
-/turf/simulated/floor/wood/walnut,
-/area/space)
 "fb" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 10;
-	icon_state = "techfloor_edges"
-	},
+/obj/effect/floor_decal/techfloor,
 /obj/structure/table/rack,
-/obj/item/stack/material/plasteel{
-	amount = 10
+/obj/item/stack/material/wood/fifty,
+/obj/item/stack/material/rods{
+	amount = 50
 	},
-/obj/item/stack/material/plasteel{
-	amount = 10
+/obj/item/stack/material/rods{
+	amount = 50
 	},
-/obj/item/stack/material/plasteel{
-	amount = 10
+/obj/item/stack/material/rods{
+	amount = 50
 	},
-/obj/item/stack/material/plasteel{
-	amount = 10
+/obj/item/stack/material/rods{
+	amount = 50
 	},
-/obj/item/stack/material/ocp/fifty,
-/obj/item/stack/material/titanium/fifty,
+/obj/item/stack/material/rods{
+	amount = 50
+	},
+/obj/item/stack/material/rods{
+	amount = 50
+	},
+/obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "fg" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 4;
-	icon_state = "techfloor_edges"
-	},
-/obj/structure/table/rack{
-	dir = 8
-	},
-/obj/item/device/paint_sprayer,
-/obj/item/device/paint_sprayer,
-/obj/item/reagent_containers/spray/cleaner,
-/obj/item/device/lightreplacer,
-/obj/item/device/lightreplacer,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/structure/closet/secure_closet/engineering_chief_torch,
+/obj/item/storage/box/encryptionkey/engineering,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "fv" = (
 /turf/simulated/floor/reinforced,
 /area/space)
 "fI" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 4;
-	icon_state = "techfloor_edges"
-	},
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/tank/oxygen_emergency_double,
-/obj/item/device/suit_cooling_unit,
-/obj/item/device/suit_cooling_unit,
-/obj/structure/table/rack,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "fM" = (
 /obj/machinery/computer/modular/preset/engineering{
@@ -134,7 +129,28 @@
 "fR" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/space)
+"fU" = (
+/obj/structure/flora/pottedplant/crystal,
+/turf/simulated/floor/wood/yew,
+/area/space)
+"gi" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Engine Control Room"
+	},
+/turf/simulated/floor,
+/area/space)
 "gm" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4;
+	icon_state = "techfloor_edges"
+	},
+/obj/structure/closet/crate/internals/fuel,
+/obj/item/stack/material/phoron{
+	amount = 50
+	},
+/obj/item/stack/material/phoron{
+	amount = 50
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
 "gR" = (
@@ -154,27 +170,12 @@
 	icon_state = "techfloor_edges"
 	},
 /obj/structure/table/rack,
-/obj/item/stack/material/glass/phoronrglass{
-	amount = 40
-	},
-/obj/item/stack/material/glass{
-	amount = 50
-	},
-/obj/item/stack/material/glass{
-	amount = 50
-	},
-/obj/item/stack/material/glass{
-	amount = 50
-	},
-/obj/item/stack/material/glass/reinforced{
-	amount = 50
-	},
-/obj/item/stack/material/glass/reinforced{
-	amount = 50
-	},
-/obj/item/stack/material/glass/reinforced{
-	amount = 50
-	},
+/obj/item/stack/material/aluminium/fifty,
+/obj/item/stack/material/aluminium/fifty,
+/obj/item/stack/material/aluminium/fifty,
+/obj/item/stack/material/plastic/fifty,
+/obj/item/stack/material/plastic/fifty,
+/obj/item/stack/material/plastic/fifty,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "ib" = (
@@ -185,12 +186,50 @@
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/space)
+"iq" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/item/stamp/ce,
+/obj/item/pen,
+/obj/item/paper_bin{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/turf/simulated/floor/wood/walnut,
+/area/space)
 "iw" = (
+/obj/structure/closet/crate,
+/obj/item/stock_parts/circuitboard/batteryrack,
+/obj/item/stock_parts/circuitboard/batteryrack,
+/obj/item/stock_parts/circuitboard/smes,
+/obj/item/stock_parts/circuitboard/smes,
+/obj/item/stock_parts/smes_coil/super_io,
+/obj/item/stock_parts/smes_coil/super_io,
+/obj/item/stock_parts/smes_coil/super_capacity,
+/obj/item/stock_parts/smes_coil/super_capacity,
+/obj/item/stock_parts/smes_coil,
+/obj/item/stock_parts/smes_coil,
 /obj/effect/floor_decal/techfloor{
-	dir = 1;
+	dir = 5;
 	icon_state = "techfloor_edges"
 	},
 /turf/simulated/floor/tiled/techfloor,
+/area/space)
+"iH" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4;
+	icon_state = "techfloor_edges"
+	},
+/obj/structure/table/rack{
+	dir = 8
+	},
+/obj/item/device/paint_sprayer,
+/obj/item/device/paint_sprayer,
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/device/lightreplacer,
+/obj/item/device/lightreplacer,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "iK" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -217,36 +256,21 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/space)
 "jY" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 4;
-	icon_state = "techfloor_edges"
-	},
-/obj/structure/table/rack,
-/obj/item/device/radio/off,
-/obj/item/device/radio/off,
-/obj/item/device/radio/off,
-/obj/item/device/radio/off,
-/obj/item/device/radio/off,
-/obj/item/device/radio/off,
-/obj/item/tape_roll,
-/obj/item/tape_roll,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/machinery/hologram/holopad,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "kr" = (
 /turf/simulated/wall/prepainted,
 /area/space)
-"kB" = (
-/obj/structure/filingcabinet/chestdrawer{
-	dir = 1
+"kF" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_x = 0;
+	pixel_y = 24
 	},
 /turf/simulated/floor/wood/walnut,
-/area/space)
-"kF" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 8;
-	icon_state = "techfloor_edges"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "kJ" = (
 /obj/structure/table/woodentable/walnut,
@@ -275,18 +299,33 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
+"lJ" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 10;
+	icon_state = "techfloor_edges"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
 "mB" = (
 /obj/machinery/suit_storage_unit/atmos/alt/sol,
 /turf/simulated/floor,
 /area/space)
 "nz" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 4;
-	icon_state = "techfloor_edges"
+/obj/item/rcd,
+/obj/structure/table/rack,
+/obj/structure/window/reinforced{
+	dir = 1
 	},
-/obj/structure/window/phoronreinforced,
-/obj/structure/closet/crate/solar,
-/turf/simulated/floor/tiled/techfloor,
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window/brigdoor/eastleft{
+	name = "CE's Equipment Storage"
+	},
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "nO" = (
 /obj/effect/floor_decal/corner/yellow/half{
@@ -294,6 +333,12 @@
 	icon_state = "bordercolorhalf"
 	},
 /turf/simulated/floor/tiled/monotile,
+/area/space)
+"on" = (
+/obj/structure/bed/chair/comfy/yellow{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "ox" = (
 /obj/machinery/door/airlock/hatch,
@@ -307,13 +352,22 @@
 /turf/simulated/floor,
 /area/space)
 "qi" = (
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/carpet/purple{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet/purple{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/purple{
+	dir = 9
+	},
+/turf/simulated/floor/carpet/green,
 /area/space)
 "qy" = (
-/obj/machinery/door/airlock/engineering{
-	name = "SMES Maintenance"
+/obj/item/storage/secure/safe{
+	pixel_x = 5
 	},
-/turf/simulated/floor,
+/turf/simulated/wall/r_wall/prepainted,
 /area/space)
 "qC" = (
 /obj/machinery/computer/ship/engines{
@@ -398,35 +452,51 @@
 /obj/machinery/papershredder,
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
+"tz" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 9;
+	icon_state = "techfloor_edges"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
 "tH" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
-/obj/item/toy/desk/newtoncradle,
-/turf/simulated/floor/wood/walnut,
+/obj/item/storage/box/encryptionkey/engineering{
+	pixel_y = 6
+	},
+/turf/simulated/floor/carpet/green,
 /area/space)
-"tL" = (
-/obj/item/rcd,
-/obj/structure/table/rack,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 2
-	},
-/obj/structure/window/reinforced{
+"tS" = (
+/obj/effect/floor_decal/carpet/purple,
+/obj/effect/floor_decal/carpet/purple{
 	dir = 8
 	},
-/obj/machinery/door/window/brigdoor/eastleft{
-	name = "CE's Equipment Storage"
+/obj/effect/floor_decal/carpet/purple{
+	dir = 10
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/carpet/green,
 /area/space)
 "tT" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/monotile,
+/area/space)
+"ue" = (
+/obj/structure/closet/secure_closet/engineering_chief_torch,
+/obj/item/storage/box/encryptionkey/engineering,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/wood/yew,
+/area/space)
+"up" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 8;
+	icon_state = "techfloor_edges"
+	},
+/obj/machinery/power/emitter,
+/turf/simulated/floor/tiled/techfloor,
 /area/space)
 "uQ" = (
 /obj/machinery/door/airlock/highsecurity{
@@ -450,10 +520,17 @@
 /turf/space,
 /area/space)
 "vu" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Engine Control Room"
+/obj/effect/floor_decal/techfloor{
+	dir = 8;
+	icon_state = "techfloor_edges"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"vx" = (
+/obj/structure/flora/pottedplant/smallcactus{
+	desc = "This is a small cactus. Its needles are sharp. It seems neglected, as if no one loves it."
+	},
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "vI" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -468,33 +545,18 @@
 /turf/simulated/floor/bluegrid,
 /area/space)
 "vR" = (
-/obj/effect/floor_decal/techfloor,
+/obj/effect/floor_decal/techfloor{
+	dir = 6;
+	icon_state = "techfloor_edges"
+	},
 /obj/structure/table/rack,
-/obj/item/airlock_electronics,
-/obj/item/airlock_electronics,
-/obj/item/airlock_electronics,
-/obj/item/airlock_electronics,
-/obj/item/airlock_electronics,
-/obj/item/airlock_electronics,
-/obj/item/module/power_control,
-/obj/item/module/power_control,
-/obj/item/airalarm_electronics,
-/obj/item/airalarm_electronics,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "vY" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 4;
-	icon_state = "techfloor_edges"
+/obj/structure/bed/chair/office/comfy/yellow{
+	dir = 4
 	},
-/obj/structure/closet/crate/internals/fuel,
-/obj/item/stack/material/phoron{
-	amount = 50
-	},
-/obj/item/stack/material/phoron{
-	amount = 50
-	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "wT" = (
 /obj/effect/wallframe_spawn/reinforced_phoron,
@@ -519,13 +581,20 @@
 /turf/simulated/floor/bluegrid,
 /area/space)
 "xB" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
+/obj/effect/floor_decal/carpet/purple{
+	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/carpet/purple{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/purple{
+	dir = 5
+	},
+/obj/machinery/computer/modular/preset/engineering{
+	dir = 8
+	},
+/obj/item/modular_computer/tablet/lease/preset/command,
+/turf/simulated/floor/carpet/green,
 /area/space)
 "yb" = (
 /obj/machinery/door/airlock/external{
@@ -536,6 +605,17 @@
 	name = "Engineering External Access"
 	},
 /turf/simulated/floor,
+/area/space)
+"yc" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 9;
+	icon_state = "techfloor_edges"
+	},
+/obj/machinery/power/port_gen/pacman{
+	anchored = 0;
+	sheets = 25
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/space)
 "ye" = (
 /obj/structure/table/rack{
@@ -564,6 +644,11 @@
 /obj/item/grenade/chem_grenade/metalfoam,
 /obj/item/grenade/chem_grenade/metalfoam,
 /turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"yp" = (
+/obj/machinery/papershredder,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/wood/yew,
 /area/space)
 "yA" = (
 /obj/structure/dispenser/oxygen,
@@ -616,25 +701,16 @@
 "AB" = (
 /obj/effect/floor_decal/techfloor,
 /obj/structure/table/rack,
-/obj/item/stack/material/wood/fifty,
-/obj/item/stack/material/rods{
-	amount = 50
-	},
-/obj/item/stack/material/rods{
-	amount = 50
-	},
-/obj/item/stack/material/rods{
-	amount = 50
-	},
-/obj/item/stack/material/rods{
-	amount = 50
-	},
-/obj/item/stack/material/rods{
-	amount = 50
-	},
-/obj/item/stack/material/rods{
-	amount = 50
-	},
+/obj/item/airlock_electronics,
+/obj/item/airlock_electronics,
+/obj/item/airlock_electronics,
+/obj/item/airlock_electronics,
+/obj/item/airlock_electronics,
+/obj/item/airlock_electronics,
+/obj/item/module/power_control,
+/obj/item/module/power_control,
+/obj/item/airalarm_electronics,
+/obj/item/airalarm_electronics,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "Bh" = (
@@ -676,9 +752,12 @@
 /turf/simulated/floor/greengrid/airless,
 /area/space)
 "FH" = (
-/obj/machinery/door/window/brigdoor{
-	color = "PURPLE"
+/obj/effect/floor_decal/techfloor{
+	dir = 4;
+	icon_state = "techfloor_edges"
 	},
+/obj/structure/window/phoronreinforced,
+/obj/structure/closet/crate/solar,
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
 "Ge" = (
@@ -686,36 +765,24 @@
 /turf/simulated/floor/tiled/monotile,
 /area/space)
 "GL" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 8;
-	icon_state = "techfloor_edges"
+/obj/machinery/door/window/brigdoor{
+	color = "PURPLE"
 	},
-/obj/structure/window/phoronreinforced,
-/obj/machinery/portable_atmospherics/canister/phoron,
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
 "GQ" = (
-/obj/machinery/hologram/holopad,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/carpet/purple{
+	dir = 1
+	},
+/obj/structure/bed/chair/comfy/yellow,
+/turf/simulated/floor/carpet/green,
 /area/space)
 "Hg" = (
-/obj/structure/closet/crate,
-/obj/item/stock_parts/circuitboard/batteryrack,
-/obj/item/stock_parts/circuitboard/batteryrack,
-/obj/item/stock_parts/circuitboard/smes,
-/obj/item/stock_parts/circuitboard/smes,
-/obj/item/stock_parts/smes_coil/super_io,
-/obj/item/stock_parts/smes_coil/super_io,
-/obj/item/stock_parts/smes_coil/super_capacity,
-/obj/item/stock_parts/smes_coil/super_capacity,
-/obj/item/stock_parts/smes_coil,
-/obj/item/stock_parts/smes_coil,
-/obj/effect/floor_decal/techfloor{
-	dir = 5;
-	icon_state = "techfloor_edges"
+/obj/structure/table/standard{
+	name = "plastic table frame"
 	},
-/turf/simulated/floor/tiled/techfloor,
+/obj/item/toy/desk/newtoncradle,
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "HX" = (
 /obj/machinery/door/airlock/multi_tile/engineering{
@@ -743,16 +810,11 @@
 /turf/simulated/floor,
 /area/space)
 "JA" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
+/obj/effect/floor_decal/carpet/purple,
+/obj/structure/bed/chair/office/comfy/yellow{
+	dir = 1
 	},
-/obj/item/stamp/ce,
-/obj/item/pen,
-/obj/item/paper_bin{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/carpet/green,
 /area/space)
 "JH" = (
 /obj/machinery/door/airlock/multi_tile/engineering{
@@ -769,30 +831,61 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/space)
-"Lf" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 6;
-	icon_state = "techfloor_edges"
-	},
+"Lc" = (
 /obj/structure/table/rack,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/structure/window/reinforced,
+/obj/machinery/door/window/brigdoor/westright{
+	autoset_access = 0;
+	dir = 4;
+	name = "CE's suit storage";
+	req_access = list("ACCESS_CHIEF_ENGINEER")
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/rig/ce/equipped,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/wood/yew,
+/area/space)
+"Lf" = (
+/obj/structure/filingcabinet/chestdrawer{
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "Lq" = (
-/obj/structure/closet/secure_closet/engineering_chief_torch,
-/obj/item/storage/box/encryptionkey/engineering,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/yew,
 /area/space)
 "Mb" = (
 /obj/machinery/light,
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
-"Nv" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 8;
-	icon_state = "techfloor_edges"
+"Mz" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
 	},
-/obj/machinery/power/emitter,
+/obj/machinery/photocopier/faxmachine{
+	department = "Sagan - Chief Engineer"
+	},
+/turf/simulated/floor/wood/walnut,
+/area/space)
+"MJ" = (
+/obj/effect/floor_decal/carpet/purple{
+	dir = 4
+	},
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/machinery/photocopier/faxmachine{
+	department = "Sagan - Chief Engineer"
+	},
+/turf/simulated/floor/carpet/green,
+/area/space)
+"Nv" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
 "NJ" = (
@@ -816,18 +909,21 @@
 	dir = 1;
 	icon_state = "techfloor_edges"
 	},
-/obj/structure/table/rack,
-/obj/item/stack/material/aluminium/fifty,
-/obj/item/stack/material/aluminium/fifty,
-/obj/item/stack/material/aluminium/fifty,
-/obj/item/stack/material/plastic/fifty,
-/obj/item/stack/material/plastic/fifty,
-/obj/item/stack/material/plastic/fifty,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "Ol" = (
 /obj/machinery/suit_storage_unit/engineering/alt/sol,
 /turf/simulated/floor,
+/area/space)
+"OZ" = (
+/obj/machinery/disposal,
+/turf/simulated/floor/wood/yew,
+/area/space)
+"PU" = (
+/obj/machinery/door/airlock/engineering{
+	name = "SMES Maintenance"
+	},
+/turf/space,
 /area/space)
 "PV" = (
 /obj/structure/window/reinforced{
@@ -839,6 +935,43 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"Qm" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4;
+	icon_state = "techfloor_edges"
+	},
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/tank/oxygen_emergency_double,
+/obj/item/device/suit_cooling_unit,
+/obj/item/device/suit_cooling_unit,
+/obj/structure/table/rack,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"Qp" = (
+/obj/structure/table/rack,
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/item/stack/material/ocp/fifty,
+/obj/item/stack/material/titanium/fifty,
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
 "QC" = (
 /obj/structure/closet/secure_closet/engineering_welding,
 /turf/simulated/floor/tiled/steel_grid,
@@ -849,26 +982,29 @@
 /area/space)
 "Sw" = (
 /obj/effect/floor_decal/techfloor{
-	dir = 9;
+	dir = 1;
 	icon_state = "techfloor_edges"
 	},
 /obj/structure/table/rack,
-/obj/item/stack/material/steel{
+/obj/item/stack/material/glass/phoronrglass{
+	amount = 40
+	},
+/obj/item/stack/material/glass{
 	amount = 50
 	},
-/obj/item/stack/material/steel{
+/obj/item/stack/material/glass{
 	amount = 50
 	},
-/obj/item/stack/material/steel{
+/obj/item/stack/material/glass{
 	amount = 50
 	},
-/obj/item/stack/material/steel{
+/obj/item/stack/material/glass/reinforced{
 	amount = 50
 	},
-/obj/item/stack/material/steel{
+/obj/item/stack/material/glass/reinforced{
 	amount = 50
 	},
-/obj/item/stack/material/steel{
+/obj/item/stack/material/glass/reinforced{
 	amount = 50
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -876,15 +1012,54 @@
 "SB" = (
 /turf/unsimulated/mask,
 /area/space)
+"SS" = (
+/obj/item/rcd,
+/obj/structure/table/rack,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window/brigdoor/eastleft{
+	name = "CE's Equipment Storage"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/wood/yew,
+/area/space)
+"Tt" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4;
+	icon_state = "techfloor_edges"
+	},
+/obj/structure/table/rack,
+/obj/item/device/radio/off,
+/obj/item/device/radio/off,
+/obj/item/device/radio/off,
+/obj/item/device/radio/off,
+/obj/item/device/radio/off,
+/obj/item/device/radio/off,
+/obj/item/tape_roll,
+/obj/item/tape_roll,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
 "TO" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
 "Ue" = (
-/obj/structure/bed/chair/comfy/yellow{
-	dir = 8
+/obj/effect/floor_decal/carpet/purple{
+	dir = 4
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/carpet/purple,
+/obj/effect/floor_decal/carpet/purple{
+	dir = 6
+	},
+/obj/machinery/photocopier,
+/turf/simulated/floor/carpet/green,
 /area/space)
 "Ur" = (
 /obj/machinery/vending/tool,
@@ -895,10 +1070,23 @@
 /turf/simulated/floor/tiled/monotile,
 /area/space)
 "Vw" = (
-/obj/structure/bed/chair/office/comfy/yellow{
-	dir = 4
+/obj/effect/floor_decal/carpet/purple{
+	dir = 8
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/item/paper_bin{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/pen,
+/obj/item/stamp/ce,
+/obj/item/sticky_pad/random{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/turf/simulated/floor/carpet/green,
 /area/space)
 "Wp" = (
 /turf/simulated/floor,
@@ -906,6 +1094,20 @@
 "Wy" = (
 /obj/structure/closet/secure_closet/engineering_torch,
 /turf/simulated/floor/tiled/monotile,
+/area/space)
+"WV" = (
+/obj/structure/filingcabinet/chestdrawer{
+	dir = 1
+	},
+/obj/item/folder/blue,
+/obj/item/folder/red,
+/obj/item/folder,
+/obj/item/folder/nt,
+/obj/item/folder/yellow,
+/obj/item/folder/white,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/paper/monitorkey,
+/turf/simulated/floor/wood/yew,
 /area/space)
 "Xl" = (
 /turf/simulated/floor/tiled/monotile,
@@ -921,6 +1123,12 @@
 "XN" = (
 /obj/machinery/door/airlock/glass/engineering{
 	name = "Engine Control Room"
+	},
+/turf/simulated/floor,
+/area/space)
+"YF" = (
+/obj/machinery/door/airlock/engineering{
+	name = "SMES Maintenance"
 	},
 /turf/simulated/floor,
 /area/space)
@@ -13902,10 +14110,10 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
+tz
+vu
+vu
+lJ
 vo
 vo
 vo
@@ -14392,10 +14600,10 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
+fg
+nz
+Lf
+vx
 vo
 vo
 vo
@@ -14644,10 +14852,10 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
+fI
+vY
+vY
+fI
 vo
 vo
 vo
@@ -14896,10 +15104,10 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
+jY
+Hg
+iq
+Mz
 vo
 vo
 vo
@@ -15148,10 +15356,10 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
+kF
+fI
+on
+fI
 vo
 vo
 vo
@@ -19481,13 +19689,13 @@ fR
 Am
 vo
 vo
-Am
-Am
-Am
-Am
-Am
-Am
 vo
+Am
+Am
+Am
+Am
+Am
+Am
 vo
 vo
 vo
@@ -19732,15 +19940,15 @@ Wp
 fR
 Am
 vo
-Am
-Am
-Wp
-Wp
-Wp
-Wp
-Am
-Am
 vo
+Am
+Am
+Wp
+Wp
+Wp
+Wp
+Am
+Am
 vo
 vo
 vo
@@ -19984,15 +20192,15 @@ Wp
 fR
 Am
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -20236,15 +20444,15 @@ Wp
 fR
 Am
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -20488,15 +20696,15 @@ Wp
 fR
 Am
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -20740,15 +20948,15 @@ Wp
 fR
 Am
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -20992,15 +21200,15 @@ Wp
 fR
 Am
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -21209,16 +21417,16 @@ Wp
 Wp
 Wp
 Wp
-Wp
 kr
-Wp
-Wp
-Wp
 kr
-Wp
-Wp
-Wp
-Wp
+kr
+YF
+fR
+kr
+fR
+gi
+fR
+fR
 Bh
 Kz
 Bh
@@ -21244,15 +21452,15 @@ Wp
 fR
 Am
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -21462,14 +21670,14 @@ Wp
 Wp
 Wp
 kr
-kr
-kr
-qy
+Wp
+Wp
+Wp
 fR
-fR
-fR
+aG
 vu
-fR
+vu
+Qp
 fR
 kr
 KQ
@@ -21497,6 +21705,7 @@ fR
 Am
 Am
 Am
+Am
 Wp
 Wp
 Wp
@@ -21504,7 +21713,6 @@ Wp
 Wp
 Wp
 Am
-vo
 vo
 vo
 vo
@@ -21713,14 +21921,14 @@ Wp
 Wp
 Wp
 Wp
-kr
+YF
 Wp
 Wp
 Wp
 fR
 Sw
-kF
-kF
+ct
+ct
 fb
 fR
 Xl
@@ -21755,8 +21963,8 @@ Wp
 Wp
 Wp
 Wp
+Wp
 Am
-vo
 vo
 vo
 vo
@@ -21965,10 +22173,10 @@ Wp
 Wp
 Wp
 Wp
-qy
-Wp
-Wp
-Wp
+kr
+fR
+fR
+fR
 fR
 hI
 ct
@@ -22001,6 +22209,7 @@ fR
 Am
 Am
 Am
+Am
 Wp
 Wp
 Wp
@@ -22008,7 +22217,6 @@ Wp
 Wp
 Wp
 Am
-vo
 vo
 vo
 vo
@@ -22217,11 +22425,11 @@ Wp
 Wp
 Wp
 Wp
-kr
+Wp
 fR
-fR
-fR
-fR
+yc
+up
+aV
 NY
 ct
 ct
@@ -22252,15 +22460,15 @@ Wp
 fR
 Am
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -22504,15 +22712,15 @@ Wp
 fR
 Am
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -22726,9 +22934,9 @@ fR
 iw
 gm
 FH
-ct
-ct
-ct
+Qm
+Tt
+iH
 vR
 fR
 du
@@ -22756,15 +22964,15 @@ Wp
 fR
 Am
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -22975,13 +23183,13 @@ Wp
 Wp
 Wp
 fR
-Hg
-vY
-nz
-fI
-jY
-fg
-Lf
+fR
+fR
+fR
+fR
+fR
+fR
+fR
 fR
 Dq
 kJ
@@ -23008,15 +23216,15 @@ Wp
 fR
 Am
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -23226,14 +23434,14 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
 fR
-fR
-fR
-fR
-fR
-fR
-fR
-fR
+ue
+Lc
+SS
+OZ
 fR
 kJ
 kJ
@@ -23260,15 +23468,15 @@ Wp
 fR
 Am
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -23481,11 +23689,11 @@ Wp
 Wp
 Wp
 Wp
-fR
+PU
 Lq
-tL
-kB
-eC
+Lq
+Lq
+Lq
 au
 PV
 PV
@@ -23512,15 +23720,15 @@ Wp
 fR
 Am
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -23732,12 +23940,12 @@ Wp
 Wp
 Wp
 Wp
-Wp
+fR
 qy
 qi
 Vw
-Vw
-qi
+tS
+Lq
 XN
 Xl
 Xl
@@ -23764,15 +23972,15 @@ Wp
 fR
 Am
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -23984,12 +24192,12 @@ Wp
 Wp
 Wp
 Wp
-Wp
 fR
+WV
 GQ
 tH
 JA
-by
+Lq
 au
 cT
 cT
@@ -24016,15 +24224,15 @@ Wp
 Wp
 Am
 vo
-Am
-Am
-Wp
-Wp
-Wp
-Wp
-Am
-Am
 vo
+Am
+Am
+Wp
+Wp
+Wp
+Wp
+Am
+Am
 vo
 vo
 vo
@@ -24236,12 +24444,12 @@ Wp
 Wp
 Wp
 Wp
-Wp
 fR
+yp
 xB
-qi
+MJ
 Ue
-qi
+fU
 fR
 vc
 cT
@@ -24269,13 +24477,13 @@ Am
 Am
 vo
 vo
-Am
-Am
-Am
-Am
-Am
-Am
 vo
+Am
+Am
+Am
+Am
+Am
+Am
 vo
 vo
 vo
@@ -33806,7 +34014,7 @@ vo
 vo
 vo
 Am
-Am
+Wp
 Wp
 Wp
 Wp
@@ -33834,7 +34042,7 @@ Wp
 Wp
 Wp
 Wp
-Am
+Wp
 Am
 vo
 vo
@@ -34043,16 +34251,12 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Am
+Am
+Am
+Am
+Am
 vo
 vo
 vo
@@ -34060,6 +34264,10 @@ vo
 vo
 Am
 Am
+Am
+Am
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -34085,6 +34293,10 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Am
+Am
 Am
 Am
 vo
@@ -34092,16 +34304,12 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Am
+Am
+Am
+Am
+Am
 vo
 vo
 vo
@@ -34294,19 +34502,14 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Am
+Wp
+Wp
+Wp
+Wp
+Am
+Am
 vo
 vo
 vo
@@ -34323,9 +34526,19 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Kz
 Kz
 Kz
+Wp
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -34342,19 +34555,14 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Am
+Wp
+Wp
+Wp
+Wp
+Am
+Am
 vo
 vo
 vo
@@ -34546,24 +34754,24 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
 vo
 Am
-Am
+Wp
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -34589,24 +34797,24 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Am
+vo
+vo
+vo
+vo
 Am
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -34798,23 +35006,23 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
 vo
 Am
-Am
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -34842,23 +35050,23 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
 Am
+vo
+vo
+vo
+vo
 Am
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -35050,17 +35258,14 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -35079,9 +35284,15 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
 Kz
 Kz
 Kz
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -35100,17 +35311,14 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -35302,17 +35510,14 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -35331,9 +35536,15 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
 Kz
 Kz
 Kz
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -35352,17 +35563,14 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -35554,21 +35762,18 @@ vo
 vo
 vo
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
 Am
 Wp
 Wp
@@ -35583,9 +35788,15 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
 Kz
 Kz
 Kz
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -35600,21 +35811,18 @@ Wp
 Wp
 Wp
 Am
+Am
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -35806,18 +36014,14 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -35835,9 +36039,17 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
 Kz
 Kz
 Kz
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -35855,18 +36067,14 @@ Am
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -36058,21 +36266,17 @@ vo
 vo
 vo
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
 Am
 Wp
 Wp
@@ -36087,9 +36291,17 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
 Kz
 Kz
 Kz
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -36104,21 +36316,17 @@ Wp
 Wp
 Wp
 Am
+Am
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -36310,23 +36518,23 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Am
 Am
+Am
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -36354,23 +36562,23 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Am
 Am
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -36562,24 +36770,24 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
 Am
-Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -36605,24 +36813,24 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Am
-Am
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
 vo
 vo
 vo
@@ -36814,23 +37022,16 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
+Am
+Am
 Am
 Wp
 Wp
@@ -36843,9 +37044,23 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Kz
 Kz
 Kz
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -36858,23 +37073,16 @@ Wp
 Wp
 Wp
 Am
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Am
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -37066,24 +37274,24 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 Am
 Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -37109,24 +37317,24 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Am
 Am
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -37318,23 +37526,23 @@ vo
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
 Am
-Am
+Wp
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -37362,23 +37570,23 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Am
+vo
+vo
+vo
 Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Am
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
 vo
 vo
 vo
@@ -37570,22 +37778,22 @@ vo
 vo
 vo
 vo
+Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
+vo
+vo
 vo
 Am
 Am
-Am
-Am
-Am
-Am
-vo
-vo
-vo
-vo
-vo
-Am
-Am
-Am
-Am
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -37616,21 +37824,21 @@ Wp
 Wp
 Wp
 Wp
+Wp
+Wp
 Am
 Am
+vo
+vo
+vo
 Am
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Am
 vo
 vo
 vo
@@ -37823,12 +38031,12 @@ vo
 vo
 vo
 Am
-Am
 Wp
 Wp
 Wp
 Wp
-Am
+Wp
+Wp
 Am
 vo
 vo
@@ -37875,14 +38083,14 @@ vo
 vo
 vo
 vo
-vo
 Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 Am
-Am
-Am
-Am
-Am
-vo
 vo
 vo
 vo
@@ -38128,12 +38336,12 @@ vo
 vo
 vo
 Am
-Am
 Wp
 Wp
 Wp
 Wp
-Am
+Wp
+Wp
 Am
 vo
 vo
@@ -38339,7 +38547,7 @@ vo
 vo
 vo
 Am
-Wp
+Am
 Wp
 Wp
 Wp
@@ -38373,7 +38581,7 @@ Wp
 Wp
 Wp
 Wp
-Wp
+Am
 Am
 vo
 vo
@@ -38579,21 +38787,21 @@ vo
 vo
 vo
 Am
-Wp
-Wp
+Am
 Wp
 Wp
 Wp
 Wp
 Am
+Am
+vo
 vo
 vo
 vo
 vo
 Am
-Wp
-Wp
-Wp
+Am
+Am
 Wp
 Wp
 Wp
@@ -38623,21 +38831,21 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
+Am
+Am
 Am
 vo
 vo
 vo
 vo
+vo
+Am
 Am
 Wp
 Wp
 Wp
 Wp
-Wp
-Wp
+Am
 Am
 vo
 vo
@@ -38830,23 +39038,23 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
-vo
-vo
-vo
 vo
 Am
-Wp
-Wp
-Wp
-Wp
+Am
+Am
+Am
+Am
+Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+Am
+Am
 Wp
 Wp
 Wp
@@ -38874,23 +39082,23 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
+Am
 Am
 vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
 Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Am
+Am
+Am
+Am
+Am
+vo
 vo
 vo
 vo
@@ -39082,23 +39290,23 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
-Am
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -39126,23 +39334,23 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Am
 Am
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -39334,24 +39542,24 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
+Am
 Wp
 Wp
 Wp
@@ -39377,24 +39585,24 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
+Am
 Am
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -39586,25 +39794,25 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
 Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -39628,25 +39836,25 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Am
 Am
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -39838,25 +40046,25 @@ vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
-Am
-Am
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -39880,25 +40088,25 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Am
-Am
-Am
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -40090,6 +40298,25 @@ vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+Am
 Am
 Wp
 Wp
@@ -40100,47 +40327,9 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Kz
 Kz
 Kz
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -40151,6 +40340,25 @@ Wp
 Wp
 Wp
 Am
+Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -40342,27 +40550,27 @@ vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Am
-Am
-Am
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -40382,27 +40590,27 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Am
 Am
-Am
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -40594,28 +40802,28 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 Am
 Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -40633,28 +40841,28 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Am
 Am
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -40846,29 +41054,29 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
 Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
+Am
 Wp
 Wp
 Wp
@@ -40884,29 +41092,29 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
+Am
 Am
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -41098,29 +41306,29 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -41136,29 +41344,29 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 Am
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -41350,29 +41558,29 @@ vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
-vo
-vo
-vo
-vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -41388,29 +41596,29 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Am
 vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -41602,29 +41810,29 @@ vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
-vo
-vo
-vo
-vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -41640,29 +41848,29 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Am
 vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -41854,30 +42062,30 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
 Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -41891,30 +42099,30 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Am
 Am
 vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -42106,30 +42314,30 @@ vo
 vo
 vo
 vo
-Am
-Am
-Wp
-Wp
-Wp
-Wp
-Am
-Am
 vo
 vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
-Am
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -42143,30 +42351,30 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
-Am
 Am
 vo
 vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -42359,12 +42567,6 @@ vo
 vo
 vo
 vo
-Am
-Am
-Am
-Am
-Am
-Am
 vo
 vo
 vo
@@ -42373,15 +42575,21 @@ vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -42395,14 +42603,6 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
 Am
 vo
 vo
@@ -42411,14 +42611,22 @@ vo
 vo
 vo
 vo
-Am
-Am
-Wp
-Wp
-Wp
-Wp
-Am
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -42626,16 +42834,16 @@ vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
+Am
+Am
 Wp
 Wp
 Wp
@@ -42645,31 +42853,31 @@ Kz
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
 Am
 Am
 Am
-Am
-Am
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -42878,16 +43086,16 @@ vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -42897,16 +43105,16 @@ Kz
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Am
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -43131,15 +43339,15 @@ vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -43149,15 +43357,15 @@ Kz
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Am
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -43384,31 +43592,31 @@ vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Kz
 Kz
 Kz
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
 Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -43636,14 +43844,14 @@ vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Wp
 Wp
 Wp
@@ -43653,14 +43861,14 @@ Kz
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Am
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -43889,29 +44097,29 @@ vo
 vo
 vo
 vo
+vo
+vo
+vo
+vo
+vo
+vo
 Am
 Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
 Am
 Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -44142,27 +44350,27 @@ vo
 vo
 vo
 vo
-Am
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -44395,25 +44603,25 @@ vo
 vo
 vo
 vo
-Am
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -44648,23 +44856,23 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -44900,23 +45108,23 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -45152,23 +45360,23 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -45404,23 +45612,23 @@ vo
 vo
 vo
 vo
-Am
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -45657,21 +45865,21 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -45909,21 +46117,21 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -46161,21 +46369,21 @@ vo
 vo
 vo
 vo
-Am
-Am
-Am
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Am
-Am
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -46415,17 +46623,17 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -46667,17 +46875,17 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -46919,17 +47127,17 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -47171,17 +47379,17 @@ vo
 vo
 vo
 vo
-Am
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
@@ -47423,17 +47631,17 @@ vo
 vo
 vo
 vo
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
+vo
 vo
 vo
 vo
