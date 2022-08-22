@@ -2,47 +2,38 @@
 "a" = (
 /turf/space,
 /area/space)
-"b" = (
-/obj/structure/curtain/open/bed,
-/obj/item/stool/padded,
-/obj/machinery/light/small,
-/obj/random_multi/single_item/runtime,
-/obj/random_multi/single_item/skelestand,
-/turf/simulated/floor/tiled/white,
-/area/space)
 "c" = (
 /turf/simulated/floor/reinforced/airless,
 /area/space)
-"d" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet/medical,
-/turf/simulated/floor/tiled/white,
-/area/space)
 "e" = (
-/obj/effect/wallframe_spawn/no_grille,
-/turf/simulated/floor,
+/obj/effect/wallframe_spawn/reinforced/polarized/no_grille/regular{
+	id = "or1"
+	},
+/obj/effect/floor_decal/corner/paleblue/mono,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "f" = (
 /turf/simulated/floor/tiled/white/monotile,
 /area/space)
-"g" = (
-/obj/structure/flora/pottedplant/aquatic,
-/turf/simulated/floor/tiled/white,
-/area/space)
-"h" = (
-/obj/effect/wallframe_spawn/no_grille,
-/turf/simulated/floor/tiled/white/monotile,
-/area/space)
 "i" = (
-/obj/effect/wallframe_spawn/no_grille,
-/obj/effect/floor_decal/corner/paleblue/mono,
-/turf/simulated/floor/tiled/white,
-/area/space)
-"l" = (
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille/regular{
 	id = "exam_windows"
 	},
 /turf/simulated/floor/tiled/white/monotile,
+/area/space)
+"j" = (
+/obj/effect/wallframe_spawn/no_grille,
+/turf/simulated/floor/tiled/white,
+/area/space)
+"k" = (
+/obj/structure/table/standard,
+/obj/item/device/flashlight/pen,
+/obj/item/clothing/accessory/stethoscope,
+/turf/simulated/floor/tiled/white,
+/area/space)
+"l" = (
+/obj/structure/flora/pottedplant/aquatic,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "m" = (
 /turf/simulated/wall/prepainted,
@@ -52,19 +43,29 @@
 /turf/simulated/floor,
 /area/space)
 "o" = (
-/turf/simulated/wall/prepainted{
-	can_open = 1
+/obj/structure/bed/chair/padded/blue{
+	dir = 1
 	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"p" = (
+/obj/effect/wallframe_spawn/no_grille,
+/obj/effect/floor_decal/corner/paleblue/mono,
+/turf/simulated/floor/tiled/white,
+/area/space)
+"q" = (
+/obj/structure/flora/pottedplant/flower,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "s" = (
-/obj/structure/table/standard,
-/obj/item/device/flashlight/pen,
-/obj/item/clothing/accessory/stethoscope,
+/obj/structure/flora/pottedplant/drooping,
 /turf/simulated/floor/tiled/white,
 /area/space)
 "t" = (
-/obj/structure/bed/chair/padded/blue{
-	dir = 1
+/obj/machinery/door/airlock/medical{
+	id_tag = "cmodoor";
+	name = "Chief Medical Officer";
+	secured_wires = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/space)
@@ -74,38 +75,36 @@
 "v" = (
 /turf/simulated/floor/bluegrid,
 /area/space)
-"x" = (
+"A" = (
+/obj/effect/wallframe_spawn/no_grille,
+/turf/simulated/floor/tiled/white/monotile,
+/area/space)
+"B" = (
 /obj/structure/table/standard,
 /obj/item/paper_bin,
 /turf/simulated/floor/tiled/white,
 /area/space)
-"z" = (
-/obj/effect/wallframe_spawn/reinforced/polarized/no_grille/regular{
-	id = "or1"
-	},
-/obj/effect/floor_decal/corner/paleblue/mono,
-/turf/simulated/floor/tiled/white,
-/area/space)
-"C" = (
+"D" = (
 /obj/effect/wallframe_spawn/no_grille,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /turf/space,
 /area/space)
 "F" = (
-/obj/structure/closet/secure_closet/personal/patient,
+/obj/machinery/door/airlock/medical{
+	id_tag = "examdoor";
+	name = "Examination Room"
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/space)
+"G" = (
+/obj/structure/bed/chair/comfy/blue,
 /turf/simulated/floor/tiled/white,
 /area/space)
 "H" = (
-/obj/machinery/door/airlock/medical{
-	id_tag = "cmodoor";
-	name = "Chief Medical Officer";
-	secured_wires = 1
+/obj/effect/wallframe_spawn/reinforced/polarized/no_grille/regular{
+	id = "or1"
 	},
-/turf/simulated/floor/tiled/white,
-/area/space)
-"I" = (
-/obj/structure/bed/chair/comfy/blue,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/space)
 "J" = (
 /turf/simulated/floor/blackgrid,
@@ -114,42 +113,47 @@
 /obj/effect/floor_decal/corner/paleblue/mono,
 /turf/simulated/floor/tiled/white/monotile,
 /area/space)
+"L" = (
+/obj/item/stool/padded,
+/turf/simulated/floor/tiled/white,
+/area/space)
 "N" = (
 /turf/simulated/wall/r_wall/hull,
 /area/space)
 "O" = (
-/obj/machinery/computer/modular/preset/medical{
-	dir = 8
-	},
+/obj/structure/closet/secure_closet/personal/patient,
 /turf/simulated/floor/tiled/white,
 /area/space)
 "P" = (
 /turf/simulated/floor/tiled/white,
 /area/space)
-"R" = (
-/obj/structure/flora/pottedplant/flower,
+"Q" = (
+/obj/structure/curtain/open/bed,
+/obj/item/stool/padded,
+/obj/machinery/light/small,
+/obj/random_multi/single_item/runtime,
+/obj/random_multi/single_item/skelestand,
 /turf/simulated/floor/tiled/white,
 /area/space)
-"S" = (
-/obj/machinery/door/airlock/medical{
-	id_tag = "examdoor";
-	name = "Examination Room"
+"R" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/medical,
+/turf/simulated/floor/tiled/white,
+/area/space)
+"U" = (
+/obj/machinery/computer/modular/preset/medical{
+	dir = 8
 	},
-/turf/simulated/floor/tiled/white/monotile,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "V" = (
-/obj/effect/wallframe_spawn/reinforced/polarized/no_grille/regular{
-	id = "or1"
-	},
-/turf/simulated/floor/tiled/white/monotile,
+/obj/effect/wallframe_spawn/no_grille,
+/turf/simulated/floor,
 /area/space)
 "X" = (
-/obj/item/stool/padded,
-/turf/simulated/floor/tiled/white,
-/area/space)
-"Y" = (
-/obj/structure/flora/pottedplant/drooping,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/wall/prepainted{
+	can_open = 1
+	},
 /area/space)
 
 (1,1,1) = {"
@@ -15915,10 +15919,10 @@ N
 N
 N
 N
-a
-a
-a
-a
+c
+c
+c
+c
 a
 a
 a
@@ -17418,7 +17422,7 @@ P
 P
 P
 P
-V
+H
 P
 P
 P
@@ -17922,7 +17926,7 @@ P
 P
 P
 P
-V
+H
 P
 P
 P
@@ -18432,9 +18436,9 @@ P
 P
 P
 m
-R
-Y
-g
+q
+s
+l
 m
 m
 m
@@ -18661,9 +18665,9 @@ u
 u
 u
 u
-f
-P
-P
+m
+m
+m
 m
 P
 P
@@ -18678,7 +18682,7 @@ P
 P
 P
 P
-z
+e
 P
 P
 P
@@ -18688,8 +18692,8 @@ P
 P
 P
 P
-d
-F
+R
+O
 m
 u
 u
@@ -18913,7 +18917,7 @@ u
 u
 u
 u
-m
+f
 P
 P
 m
@@ -18936,12 +18940,12 @@ P
 P
 P
 m
-I
-s
-t
+G
+k
+o
 P
 P
-X
+L
 m
 m
 u
@@ -19163,38 +19167,38 @@ m
 u
 u
 u
+u
+u
 m
-m
-m
-m
-f
-m
-m
-h
-f
-h
-m
+P
+P
 m
 P
 P
 P
 P
 P
+m
 P
 P
-z
+P
+P
+P
+P
+P
+e
 P
 P
 P
 P
 m
-O
-x
+U
+B
 P
 P
 P
 P
-b
+Q
 m
 u
 u
@@ -19416,36 +19420,36 @@ u
 u
 u
 m
+m
+m
+m
+f
+m
+m
+j
+f
+j
+m
+m
+P
+P
 P
 P
 P
 P
 P
 m
-P
-P
-P
-P
-P
-P
-P
-P
-P
-P
-P
-P
 m
 m
 m
 m
 m
+i
+i
+F
 m
-l
-l
-S
-m
-l
-l
+i
+i
 m
 m
 u
@@ -19673,7 +19677,7 @@ P
 P
 P
 P
-f
+m
 P
 P
 P
@@ -19691,7 +19695,7 @@ P
 P
 P
 P
-h
+A
 P
 P
 P
@@ -19925,7 +19929,7 @@ P
 P
 P
 P
-m
+f
 P
 P
 P
@@ -19951,7 +19955,7 @@ P
 P
 P
 P
-u
+f
 u
 u
 m
@@ -20178,13 +20182,6 @@ P
 P
 P
 m
-m
-f
-m
-m
-f
-m
-m
 P
 P
 P
@@ -20195,7 +20192,14 @@ P
 P
 P
 P
-h
+P
+P
+P
+P
+P
+P
+P
+A
 P
 P
 P
@@ -20430,31 +20434,31 @@ P
 P
 P
 m
-P
-P
-P
-P
-P
-P
 m
-e
-f
-e
-m
-f
 f
 m
 m
 f
 m
 m
-e
+V
 f
-e
+V
 m
-e
 f
-e
+f
+m
+m
+f
+m
+m
+V
+f
+V
+m
+V
+f
+V
 m
 u
 u
@@ -20692,11 +20696,11 @@ m
 P
 P
 P
-i
+p
 P
 P
 P
-i
+p
 P
 P
 m
@@ -20944,18 +20948,18 @@ m
 P
 P
 P
-i
+p
 P
 P
 P
-i
+p
 P
 P
 m
 P
 P
 P
-o
+X
 P
 P
 P
@@ -21196,11 +21200,11 @@ m
 P
 P
 P
-i
+p
 P
 P
 P
-i
+p
 P
 P
 m
@@ -21704,7 +21708,7 @@ P
 P
 P
 P
-C
+D
 P
 P
 P
@@ -21947,7 +21951,7 @@ P
 P
 P
 P
-z
+e
 P
 P
 P
@@ -22199,7 +22203,7 @@ P
 P
 P
 P
-H
+t
 P
 P
 P
@@ -22208,7 +22212,7 @@ P
 P
 P
 P
-C
+D
 P
 P
 P
@@ -22451,7 +22455,7 @@ P
 P
 P
 P
-z
+e
 P
 P
 P
