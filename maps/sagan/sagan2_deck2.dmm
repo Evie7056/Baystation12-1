@@ -12,6 +12,18 @@
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor,
 /area/space)
+"az" = (
+/obj/machinery/atmospherics/pipe/simple/visible/green,
+/obj/machinery/atmospherics/omni/mixer{
+	active_power_usage = 7500;
+	tag_north = 1;
+	tag_north_con = 0.79;
+	tag_south = 1;
+	tag_south_con = 0.21;
+	tag_west = 2
+	},
+/turf/simulated/floor,
+/area/space)
 "aF" = (
 /obj/structure/closet/secure_closet/engineering_electrical,
 /turf/simulated/floor/tiled/steel_grid,
@@ -34,6 +46,10 @@
 /obj/item/device/lightreplacer,
 /obj/item/device/lightreplacer,
 /turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"bs" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow,
+/turf/simulated/floor,
 /area/space)
 "bB" = (
 /obj/structure/table/standard,
@@ -75,6 +91,21 @@
 /obj/structure/closet/wardrobe/xenos,
 /turf/simulated/floor,
 /area/space)
+"df" = (
+/obj/machinery/computer/air_control{
+	dir = 4;
+	input_tag = "co2_in";
+	name = "Carbon Dioxide Supply Control";
+	output_tag = "co2_out";
+	sensor_name = "Carbon Dioxide Supply";
+	sensor_tag = "co2_sensor"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/floor,
+/area/space)
 "du" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -99,6 +130,13 @@
 "eG" = (
 /obj/structure/table/marble,
 /obj/machinery/reagent_temperature,
+/turf/simulated/floor,
+/area/space)
+"eK" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/green,
 /turf/simulated/floor,
 /area/space)
 "fb" = (
@@ -163,6 +201,12 @@
 "fR" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/space)
+"fX" = (
+/obj/machinery/atmospherics/binary/pump{
+	dir = 8
+	},
+/turf/simulated/floor,
+/area/space)
 "gm" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 4;
@@ -211,6 +255,13 @@
 /obj/item/rig/ce/equipped,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/wood/yew,
+/area/space)
+"hB" = (
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/floor,
 /area/space)
 "hI" = (
 /obj/effect/floor_decal/techfloor{
@@ -268,6 +319,15 @@
 	icon_state = "warning"
 	},
 /turf/simulated/floor/tiled/monotile,
+/area/space)
+"iX" = (
+/obj/machinery/atmospherics/binary/passive_gate/on{
+	dir = 4;
+	name = "CO2 to Hangar";
+	target_pressure = 2500;
+	use_power = 1
+	},
+/turf/simulated/floor,
 /area/space)
 "iY" = (
 /obj/machinery/gibber,
@@ -370,6 +430,13 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
+"lR" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/green,
+/turf/simulated/floor,
+/area/space)
 "mu" = (
 /obj/machinery/door/airlock/glass/civilian{
 	name = "Hydroponics Storage"
@@ -428,6 +495,16 @@
 /obj/machinery/reagentgrinder/juicer,
 /turf/simulated/floor,
 /area/space)
+"oa" = (
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 4;
+	frequency = 1441;
+	icon_state = "map_injector";
+	id = "co2_in";
+	use_power = 1
+	},
+/turf/simulated/floor/reinforced,
+/area/space)
 "ox" = (
 /obj/machinery/door/airlock/hatch,
 /turf/space,
@@ -446,6 +523,23 @@
 "pM" = (
 /obj/machinery/suit_cycler/engineering/alt,
 /turf/simulated/floor,
+/area/space)
+"pO" = (
+/obj/machinery/atmospherics/unary/vent_pump/tank{
+	dir = 8;
+	external_pressure_bound = 0;
+	external_pressure_bound_default = 0;
+	icon_state = "map_vent_in";
+	id_tag = "n2_out";
+	initialize_directions = 1;
+	internal_pressure_bound = 4000;
+	internal_pressure_bound_default = 4000;
+	pressure_checks = 2;
+	pressure_checks_default = 2;
+	pump_direction = 0;
+	use_power = 1
+	},
+/turf/simulated/floor/reinforced,
 /area/space)
 "qi" = (
 /turf/simulated/floor/carpet/green,
@@ -478,6 +572,13 @@
 	pixel_x = -24
 	},
 /turf/simulated/floor/tiled/monotile,
+/area/space)
+"rx" = (
+/obj/machinery/power/generator{
+	anchored = 1;
+	dir = 2
+	},
+/turf/simulated/floor,
 /area/space)
 "rB" = (
 /obj/machinery/door/airlock/glass/civilian{
@@ -532,6 +633,12 @@
 	pixel_x = -24
 	},
 /turf/simulated/floor/tiled/monotile,
+/area/space)
+"se" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 4
+	},
+/turf/simulated/floor,
 /area/space)
 "sh" = (
 /obj/machinery/door/airlock/engineering{
@@ -844,8 +951,20 @@
 /obj/item/airalarm_electronics,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
+"AC" = (
+/obj/machinery/atmospherics/binary/pump{
+	dir = 4
+	},
+/turf/simulated/floor,
+/area/space)
 "AD" = (
 /obj/machinery/honey_extractor,
+/turf/simulated/floor,
+/area/space)
+"AH" = (
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 5
+	},
 /turf/simulated/floor,
 /area/space)
 "AU" = (
@@ -859,10 +978,34 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/space)
+"BL" = (
+/obj/machinery/atmospherics/binary/circulator{
+	anchored = 1;
+	dir = 8
+	},
+/turf/simulated/floor,
+/area/space)
 "BP" = (
 /obj/structure/table/standard,
 /obj/machinery/chemical_dispenser/bar_soft/full,
 /turf/simulated/floor,
+/area/space)
+"Cp" = (
+/obj/machinery/atmospherics/unary/vent_pump/tank{
+	dir = 4;
+	external_pressure_bound = 0;
+	external_pressure_bound_default = 0;
+	icon_state = "map_vent_in";
+	id_tag = "co2_out";
+	initialize_directions = 1;
+	internal_pressure_bound = 4000;
+	internal_pressure_bound_default = 4000;
+	pressure_checks = 2;
+	pressure_checks_default = 2;
+	pump_direction = 0;
+	use_power = 1
+	},
+/turf/simulated/floor/reinforced,
 /area/space)
 "Cs" = (
 /obj/machinery/disposal,
@@ -883,6 +1026,12 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/space)
+"Dg" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 6
+	},
+/turf/simulated/floor,
+/area/space)
 "Dl" = (
 /obj/effect/wallframe_spawn/reinforced/hull,
 /turf/simulated/floor,
@@ -891,6 +1040,15 @@
 /obj/structure/table/woodentable/walnut,
 /obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/wood/walnut,
+/area/space)
+"Dt" = (
+/obj/machinery/atmospherics/omni/filter{
+	tag_east = 1;
+	tag_north = 2;
+	tag_south = 7;
+	tag_west = 8
+	},
+/turf/simulated/floor,
 /area/space)
 "DU" = (
 /obj/machinery/cryopod{
@@ -944,6 +1102,12 @@
 /obj/machinery/vending/engivend,
 /turf/simulated/floor/tiled/monotile,
 /area/space)
+"GC" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 5
+	},
+/turf/simulated/wall/r_wall/prepainted,
+/area/space)
 "GL" = (
 /obj/machinery/door/window/brigdoor{
 	color = "PURPLE"
@@ -981,6 +1145,14 @@
 /obj/structure/table/rack,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
+"Hi" = (
+/obj/machinery/atmospherics/omni/filter{
+	tag_north = 2;
+	tag_south = 1;
+	tag_west = 5
+	},
+/turf/simulated/floor,
+/area/space)
 "Hj" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Bluespace Drive"
@@ -991,6 +1163,21 @@
 	name = "Drive Containment"
 	},
 /turf/simulated/floor,
+/area/space)
+"Hk" = (
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 10;
+	icon_state = "intact"
+	},
+/turf/simulated/floor,
+/area/space)
+"Hp" = (
+/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/machinery/atmospherics/pipe/manifold/visible/yellow{
+	dir = 1;
+	icon_state = "map"
+	},
+/turf/simulated/floor/reinforced,
 /area/space)
 "HX" = (
 /obj/structure/closet/secure_closet/engineering_chief_torch,
@@ -1015,6 +1202,10 @@
 /obj/item/material/kitchen/rollingpin,
 /turf/simulated/floor,
 /area/space)
+"Iv" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/yellow,
+/turf/simulated/floor,
+/area/space)
 "IH" = (
 /obj/structure/grille,
 /turf/simulated/floor/airless,
@@ -1022,6 +1213,16 @@
 "IO" = (
 /obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"Jh" = (
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 8;
+	frequency = 1441;
+	icon_state = "map_injector";
+	id = "n2_in";
+	use_power = 1
+	},
+/turf/simulated/floor/reinforced,
 /area/space)
 "Jo" = (
 /obj/machinery/door/blast/regular{
@@ -1092,6 +1293,20 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
+"Mo" = (
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 8;
+	frequency = 1441;
+	icon_state = "map_injector";
+	id = "o2_in";
+	use_power = 1
+	},
+/turf/simulated/floor/reinforced,
+/area/space)
+"Mp" = (
+/obj/machinery/atmospherics/pipe/simple/visible/green,
+/turf/simulated/floor,
+/area/space)
 "MN" = (
 /obj/structure/flora/pottedplant/aquatic,
 /turf/simulated/floor/tiled/monotile,
@@ -1132,6 +1347,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
+"NO" = (
+/obj/machinery/atmospherics/binary/circulator{
+	anchored = 1;
+	dir = 4
+	},
+/turf/simulated/floor,
+/area/space)
 "NY" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
@@ -1143,8 +1365,22 @@
 /obj/machinery/suit_storage_unit/engineering/alt/sol,
 /turf/simulated/floor,
 /area/space)
+"Om" = (
+/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/space)
 "Pa" = (
 /obj/effect/wallframe_spawn/no_grille,
+/turf/simulated/floor,
+/area/space)
+"Px" = (
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
+	dir = 4;
+	icon_state = "intact"
+	},
 /turf/simulated/floor,
 /area/space)
 "PV" = (
@@ -1164,6 +1400,12 @@
 /area/space)
 "Qg" = (
 /obj/machinery/vending/dinnerware,
+/turf/simulated/floor,
+/area/space)
+"Ql" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 9
+	},
 /turf/simulated/floor,
 /area/space)
 "QC" = (
@@ -1355,6 +1597,17 @@
 /obj/structure/closet/crate/freezer,
 /turf/simulated/floor,
 /area/space)
+"Xu" = (
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 10;
+	icon_state = "intact"
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/yellow{
+	dir = 1;
+	icon_state = "map"
+	},
+/turf/simulated/floor,
+/area/space)
 "XM" = (
 /obj/structure/closet/secure_closet/engineering_torch,
 /obj/machinery/light/small{
@@ -1366,6 +1619,12 @@
 "XN" = (
 /obj/machinery/door/airlock/glass/engineering{
 	name = "Engine Control Room"
+	},
+/turf/simulated/floor,
+/area/space)
+"Yp" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
 	},
 /turf/simulated/floor,
 /area/space)
@@ -1382,10 +1641,30 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/space)
+"Zn" = (
+/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/reinforced,
+/area/space)
 "ZO" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/item/reagent_containers/food/condiment/barbecue,
 /turf/simulated/floor,
+/area/space)
+"ZY" = (
+/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/reinforced,
 /area/space)
 
 (1,1,1) = {"
@@ -18392,9 +18671,9 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
+NO
+rx
+BL
 Wp
 wT
 at
@@ -19148,9 +19427,9 @@ fR
 Wp
 Wp
 Wp
-Wp
-Wp
-Wp
+NO
+rx
+BL
 Wp
 Wp
 Kz
@@ -19662,8 +19941,8 @@ Kz
 Kz
 Wp
 fR
-fv
-fv
+oa
+Cp
 fR
 fv
 fv
@@ -19914,9 +20193,9 @@ Kz
 Kz
 Wp
 fR
-Ie
-Ie
-fR
+Zn
+Hp
+GC
 Ie
 Ie
 fR
@@ -20166,9 +20445,9 @@ Kz
 Kz
 Wp
 fR
-Wp
-Wp
-Wp
+df
+AC
+se
 Wp
 Wp
 Wp
@@ -20418,10 +20697,10 @@ Kz
 Kz
 Wp
 fR
-Wp
-Wp
-Wp
-Wp
+Hi
+lR
+eK
+Dt
 Wp
 Wp
 Wp
@@ -20670,12 +20949,12 @@ xx
 xx
 au
 fR
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
+Dg
+bs
+Ql
+Hk
+Mp
+Mp
 Wp
 Wp
 Wp
@@ -20922,7 +21201,7 @@ Kz
 Kz
 Wp
 fR
-Wp
+iX
 Wp
 Wp
 Wp
@@ -22441,10 +22720,10 @@ cT
 Ge
 fR
 Wp
+Yp
+Px
 Wp
-Wp
-Wp
-Wp
+Yp
 fR
 Wp
 Wp
@@ -22693,10 +22972,10 @@ cT
 Ur
 fR
 Wp
+fX
+Px
 Wp
-Wp
-Wp
-Wp
+fX
 fR
 Wp
 Wp
@@ -22944,11 +23223,11 @@ cT
 cT
 gR
 fR
-Wp
-Wp
-Wp
-Wp
-Wp
+hB
+Xu
+az
+AH
+Iv
 sh
 Wp
 Wp
@@ -23196,11 +23475,11 @@ cT
 cT
 Wy
 fR
-Ie
-Ie
+ZY
+Om
 fR
-Ie
-Ie
+Zn
+Om
 fR
 fR
 Wp
@@ -23448,11 +23727,11 @@ cT
 cT
 Wy
 fR
-fv
-fv
+Jh
+pO
 fR
-fv
-fv
+Mo
+pO
 fR
 Wp
 Wp
