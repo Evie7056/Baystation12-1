@@ -86,13 +86,15 @@
 	cost = 15
 
 /decl/hierarchy/supply_pack/galley/pizza
-	num_contained = 5
 	name = "Emergency - Surprise pack of five pizzas"
-	contains = list(/obj/item/pizzabox/margherita,
-					/obj/item/pizzabox/mushroom,
-					/obj/item/pizzabox/meat,
-					/obj/item/pizzabox/vegetable)
-	cost = 15
+	contains = list(
+		/obj/item/pizzabox/margherita,
+		/obj/item/pizzabox/mushroom,
+		/obj/item/pizzabox/meat,
+		/obj/item/pizzabox/vegetable,
+		/obj/item/pizzabox/fruit
+	)
+	cost = 20
 	containertype = /obj/structure/closet/crate/freezer
 	containername = "pizza crate"
 	supply_method = /decl/supply_method/randomized
@@ -110,7 +112,7 @@
 					/obj/item/storage/mre/menu8,
 					/obj/item/storage/mre/menu9,
 					/obj/item/storage/mre/menu10)
-	cost = 30
+	cost = 35
 	containertype = /obj/structure/closet/crate/freezer
 	containername = "emergency rations"
 	supply_method = /decl/supply_method/randomized
@@ -140,7 +142,7 @@
 	name = "Bar - Premium drinks"
 	contains = list(/obj/item/reagent_containers/food/drinks/bottle/premiumwine = 1,
 					/obj/item/reagent_containers/food/drinks/bottle/premiumvodka = 1)
-	cost = 60
+	cost = 55
 	containertype = /obj/structure/closet/crate/freezer
 	containername = "premium drinks crate"
 
