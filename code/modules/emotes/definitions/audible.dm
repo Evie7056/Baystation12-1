@@ -2,6 +2,14 @@
 	key = "burp"
 	emote_message_3p = "USER отрыгается."
 	message_type = AUDIBLE_MESSAGE
+	var/list/emote_sound
+
+/decl/emote/audible/do_extra(atom/user)
+	if(emote_sound)
+		var/playable = emote_sound
+		if (islist(emote_sound))
+			playable = pick(emote_sound)
+		playsound(user.loc, playable, 50, 0)
 
 /decl/emote/audible/deathgasp_alien
 	key = "deathgasp"
@@ -11,6 +19,10 @@
 	key ="gasp"
 	emote_message_3p = "USER задыхается!"
 	conscious = 0
+
+/decl/emote/audible/scretch
+	key ="scretch"
+	emote_message_3p = "USER scretches."
 
 /decl/emote/audible/choke
 	key ="choke"
