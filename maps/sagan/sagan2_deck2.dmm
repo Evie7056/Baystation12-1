@@ -1,12 +1,13 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ab" = (
-/obj/machinery/vending/hydronutrients/generic{
-	dir = 1
-	},
-/turf/simulated/floor,
+/obj/structure/lattice,
+/turf/space,
 /area/space)
 "at" = (
-/turf/simulated/floor/reinforced/airless,
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "au" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -29,8 +30,8 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
 "aK" = (
-/obj/structure/table/standard,
-/turf/simulated/floor,
+/obj/effect/wallframe_spawn/reinforced/hull,
+/turf/space,
 /area/space)
 "bq" = (
 /obj/effect/floor_decal/techfloor{
@@ -52,10 +53,9 @@
 /turf/simulated/floor,
 /area/space)
 "bB" = (
-/obj/structure/table/standard,
-/obj/machinery/reagentgrinder/juicer,
-/obj/item/reagent_containers/glass/beaker{
-	pixel_x = 5
+/obj/machinery/atmospherics/binary/circulator{
+	anchored = 1;
+	dir = 4
 	},
 /turf/simulated/floor,
 /area/space)
@@ -117,20 +117,20 @@
 /turf/simulated/floor/wood/walnut,
 /area/space)
 "eb" = (
-/obj/structure/table/standard,
-/obj/machinery/chemical_dispenser/bar_coffee/full{
-	pixel_y = 3
-	},
+/obj/structure/table/marble,
 /turf/simulated/floor,
 /area/space)
 "eC" = (
-/obj/structure/kitchenspike,
+/obj/machinery/power/generator{
+	anchored = 1;
+	dir = 2
+	},
 /turf/simulated/floor,
 /area/space)
 "eG" = (
-/obj/structure/table/marble,
-/obj/machinery/reagent_temperature,
-/turf/simulated/floor,
+/obj/structure/lattice,
+/obj/structure/lattice,
+/turf/space,
 /area/space)
 "eK" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
@@ -171,7 +171,10 @@
 /turf/simulated/floor,
 /area/space)
 "fn" = (
-/obj/item/stool/padded,
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 6;
+	icon_state = "intact"
+	},
 /turf/simulated/floor,
 /area/space)
 "fv" = (
@@ -226,7 +229,10 @@
 /turf/simulated/floor/tiled/monotile,
 /area/space)
 "gS" = (
-/obj/machinery/seed_extractor,
+/obj/machinery/atmospherics/binary/circulator{
+	anchored = 1;
+	dir = 8
+	},
 /turf/simulated/floor,
 /area/space)
 "gZ" = (
@@ -287,8 +293,7 @@
 /area/space)
 "iu" = (
 /obj/structure/table/marble,
-/obj/item/book/manual/chef_recipes,
-/obj/item/sticky_pad/random,
+/obj/structure/table/marble,
 /turf/simulated/floor,
 /area/space)
 "iw" = (
@@ -310,8 +315,9 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
 "iH" = (
-/obj/machinery/smartfridge,
-/turf/simulated/floor,
+/obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced/hull,
+/turf/space,
 /area/space)
 "iK" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -330,12 +336,15 @@
 /turf/simulated/floor,
 /area/space)
 "iY" = (
-/obj/machinery/gibber,
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /turf/simulated/floor,
 /area/space)
 "jc" = (
-/obj/structure/table/standard,
-/obj/item/reagent_containers/dropper,
+/obj/machinery/atmospherics/pipe/manifold/visible/green,
 /turf/simulated/floor,
 /area/space)
 "jd" = (
@@ -363,20 +372,16 @@
 /turf/simulated/floor,
 /area/space)
 "jB" = (
-/obj/machinery/door/blast/regular{
+/obj/machinery/atmospherics/pipe/simple/visible/yellow,
+/obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 4;
-	id_tag = "EngineVent";
-	name = "Reactor Vent"
-	},
-/turf/simulated/floor/bluegrid,
-/area/space)
-"jJ" = (
-/obj/structure/table/marble,
-/obj/machinery/microwave{
-	pixel_x = -3;
-	pixel_y = 6
+	icon_state = "intact"
 	},
 /turf/simulated/floor,
+/area/space)
+"jJ" = (
+/obj/effect/wallframe_spawn/reinforced_phoron,
+/turf/simulated/floor/reinforced/airless,
 /area/space)
 "jK" = (
 /turf/simulated/floor/tiled/steel_ridged,
@@ -394,8 +399,8 @@
 /turf/simulated/wall/prepainted,
 /area/space)
 "kw" = (
-/obj/machinery/seed_storage/garden{
-	dir = 1
+/obj/machinery/atmospherics/pipe/manifold/visible/yellow{
+	dir = 8
 	},
 /turf/simulated/floor,
 /area/space)
@@ -431,10 +436,10 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
 "lR" = (
+/obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/visible/green,
 /turf/simulated/floor,
 /area/space)
 "mu" = (
@@ -448,17 +453,20 @@
 /turf/simulated/floor,
 /area/space)
 "mS" = (
-/obj/machinery/microwave{
-	pixel_x = -3;
-	pixel_y = 6
-	},
-/obj/structure/table/marble,
-/turf/simulated/floor,
+/turf/simulated/floor/reinforced/airless,
 /area/space)
 "mW" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
-/obj/item/reagent_containers/food/condiment/enzyme,
-/turf/simulated/floor,
+/obj/machinery/atmospherics/unary/vent_pump/engine{
+	dir = 4;
+	external_pressure_bound = 100;
+	external_pressure_bound_default = 0;
+	icon_state = "map_vent_in";
+	id_tag = "cooling_out";
+	initialize_directions = 1;
+	pump_direction = 0;
+	use_power = 1
+	},
+/turf/simulated/floor/reinforced/airless,
 /area/space)
 "nl" = (
 /obj/structure/flora/pottedplant/crystal,
@@ -479,8 +487,17 @@
 /turf/simulated/floor/wood/yew,
 /area/space)
 "nF" = (
-/obj/machinery/portable_atmospherics/hydroponics,
-/turf/simulated/floor,
+/obj/machinery/door/airlock/external{
+	frequency = 1379;
+	icon_state = "closed";
+	id_tag = "solar_port_inner";
+	locked = 1;
+	name = "Engineering External Access"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/airless,
 /area/space)
 "nO" = (
 /obj/effect/floor_decal/corner/yellow/half{
@@ -490,9 +507,10 @@
 /turf/simulated/floor/tiled/monotile,
 /area/space)
 "nQ" = (
-/obj/structure/table/marble,
-/obj/item/reagent_containers/glass/beaker/large,
-/obj/machinery/reagentgrinder/juicer,
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 4
+	},
 /turf/simulated/floor,
 /area/space)
 "oa" = (
@@ -557,13 +575,18 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
 "qI" = (
-/obj/structure/table/marble,
-/obj/machinery/door/blast/shutters{
-	dir = 4;
-	id_tag = "bar";
-	name = "Bar Shutters"
+/obj/structure/lattice,
+/obj/machinery/door/airlock/external{
+	frequency = 1379;
+	icon_state = "closed";
+	id_tag = "solar_port_inner";
+	locked = 1;
+	name = "Engineering External Access"
 	},
-/turf/simulated/floor,
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 4
+	},
+/turf/space,
 /area/space)
 "qY" = (
 /obj/machinery/power/apc{
@@ -574,11 +597,10 @@
 /turf/simulated/floor/tiled/monotile,
 /area/space)
 "rx" = (
-/obj/machinery/power/generator{
-	anchored = 1;
-	dir = 2
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 4
 	},
-/turf/simulated/floor,
+/turf/space,
 /area/space)
 "rB" = (
 /obj/machinery/door/airlock/glass/civilian{
@@ -620,9 +642,15 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/space)
 "sa" = (
-/obj/machinery/chem_master/condimaster{
-	name = "CondiMaster Neo";
-	pixel_x = 0
+/obj/machinery/door/airlock/external{
+	frequency = 1379;
+	icon_state = "closed";
+	id_tag = "solar_port_inner";
+	locked = 1;
+	name = "Engineering External Access"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 4
 	},
 /turf/simulated/floor,
 /area/space)
@@ -647,8 +675,10 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/space)
 "sn" = (
-/obj/structure/table/marble,
-/turf/simulated/floor,
+/obj/machinery/atmospherics/pipe/manifold/visible/yellow{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "sp" = (
 /obj/machinery/light{
@@ -693,8 +723,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/space)
 "uB" = (
-/obj/machinery/cooker/grill,
-/turf/simulated/floor,
+/turf/simulated/floor/greengrid/airless,
 /area/space)
 "uQ" = (
 /obj/machinery/door/airlock/highsecurity{
@@ -725,17 +754,15 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "vy" = (
-/obj/structure/bed/chair{
-	dir = 1
-	},
-/turf/simulated/floor,
+/obj/machinery/power/supermatter,
+/turf/simulated/floor/greengrid/airless,
 /area/space)
 "vA" = (
-/obj/machinery/chem_master/condimaster{
-	name = "CondiMaster Neo";
-	pixel_x = -1
+/obj/machinery/atmospherics/valve/digital{
+	name = "TEG bypass valve"
 	},
-/turf/simulated/floor,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "vI" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -784,25 +811,27 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "wS" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
-/turf/simulated/floor,
-/area/space)
-"wT" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
-/obj/machinery/door/blast/regular{
-	id_tag = "SupermatterPort";
-	name = "Reactor Blast Door"
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 4;
+	frequency = 1438;
+	icon_state = "map_injector";
+	id = "cooling_in";
+	name = "Coolant Injector";
+	power_rating = 30000;
+	use_power = 1;
+	volume_rate = 700
 	},
 /turf/simulated/floor/reinforced/airless,
+/area/space)
+"wT" = (
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 4
+	},
+/turf/simulated/floor,
 /area/space)
 "xn" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/hull,
-/obj/machinery/door/blast/regular/open{
-	dir = 4;
-	id_tag = "EngineRadiatorViewport";
-	name = "Engine Radiator Shutters"
-	},
 /turf/simulated/floor,
 /area/space)
 "xx" = (
@@ -817,12 +846,21 @@
 /turf/simulated/floor/carpet/green,
 /area/space)
 "xK" = (
-/obj/machinery/vending/hydronutrients/generic,
-/turf/simulated/floor,
+/obj/machinery/door/airlock/external{
+	frequency = 1379;
+	icon_state = "closed";
+	id_tag = "solar_port_inner";
+	locked = 1;
+	name = "Engineering External Access"
+	},
+/turf/simulated/floor/reinforced/airless,
 /area/space)
 "xW" = (
-/obj/structure/table/standard,
-/obj/item/sticky_pad/random,
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4;
+	icon_state = "intact"
+	},
 /turf/simulated/floor,
 /area/space)
 "yb" = (
@@ -883,14 +921,26 @@
 /turf/simulated/floor,
 /area/space)
 "zi" = (
-/obj/machinery/smartfridge/drinks{
-	dir = 4
+/obj/structure/lattice,
+/obj/machinery/door/airlock/external{
+	frequency = 1379;
+	icon_state = "closed";
+	id_tag = "solar_port_inner";
+	locked = 1;
+	name = "Engineering External Access"
 	},
-/turf/simulated/floor,
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/space,
 /area/space)
 "zj" = (
-/obj/machinery/smartfridge/drying_rack,
-/turf/simulated/floor,
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/space,
 /area/space)
 "zn" = (
 /obj/machinery/button/blast_door{
@@ -909,8 +959,17 @@
 /turf/simulated/floor,
 /area/space)
 "zL" = (
-/obj/structure/table/marble,
-/obj/machinery/cooker/cereal,
+/obj/machinery/door/airlock/external{
+	frequency = 1379;
+	icon_state = "closed";
+	id_tag = "solar_port_inner";
+	locked = 1;
+	name = "Engineering External Access"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4;
+	icon_state = "intact"
+	},
 /turf/simulated/floor,
 /area/space)
 "Am" = (
@@ -958,8 +1017,11 @@
 /turf/simulated/floor,
 /area/space)
 "AD" = (
-/obj/machinery/honey_extractor,
-/turf/simulated/floor,
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "AH" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
@@ -968,9 +1030,8 @@
 /turf/simulated/floor,
 /area/space)
 "AU" = (
-/obj/structure/reagent_dispensers/watertank,
-/obj/item/reagent_containers/glass/bucket,
-/turf/simulated/floor,
+/obj/machinery/atmospherics/pipe/manifold4w/visible/green,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "Bh" = (
 /obj/machinery/rotating_alarm/supermatter{
@@ -979,15 +1040,16 @@
 /turf/simulated/floor/bluegrid,
 /area/space)
 "BL" = (
-/obj/machinery/atmospherics/binary/circulator{
-	anchored = 1;
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 10
 	},
 /turf/simulated/floor,
 /area/space)
 "BP" = (
-/obj/structure/table/standard,
-/obj/machinery/chemical_dispenser/bar_soft/full,
+/obj/machinery/atmospherics/pipe/manifold/visible/green{
+	dir = 8;
+	icon_state = "map"
+	},
 /turf/simulated/floor,
 /area/space)
 "Cp" = (
@@ -1012,19 +1074,18 @@
 /turf/simulated/floor/wood/yew,
 /area/space)
 "Cz" = (
-/obj/machinery/disposal,
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 9;
+	icon_state = "intact"
+	},
 /turf/simulated/floor,
 /area/space)
 "CU" = (
 /turf/simulated/floor/blackgrid,
 /area/space)
 "CY" = (
-/obj/machinery/door/airlock/hatch{
-	icon_state = "closed";
-	id_tag = "engine_access_hatch";
-	locked = 1
-	},
-/turf/simulated/floor/reinforced/airless,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "Dg" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
@@ -1056,11 +1117,6 @@
 	},
 /turf/simulated/floor,
 /area/space)
-"Ei" = (
-/obj/structure/table/standard,
-/obj/machinery/fabricator/micro/bartender,
-/turf/simulated/floor,
-/area/space)
 "Et" = (
 /obj/structure/table/steel,
 /obj/item/book/manual/atmospipes,
@@ -1080,9 +1136,6 @@
 	},
 /turf/simulated/floor,
 /area/space)
-"FF" = (
-/turf/simulated/floor/greengrid/airless,
-/area/space)
 "FH" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 4;
@@ -1091,12 +1144,6 @@
 /obj/structure/window/phoronreinforced,
 /obj/structure/closet/crate/solar,
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
-"Gb" = (
-/obj/machinery/door/airlock/glass/civilian{
-	name = "Galley"
-	},
-/turf/simulated/floor,
 /area/space)
 "Ge" = (
 /obj/machinery/vending/engivend,
@@ -1117,15 +1164,6 @@
 "GQ" = (
 /obj/structure/bed/chair/comfy/yellow,
 /turf/simulated/floor/carpet/green,
-/area/space)
-"Hd" = (
-/obj/machinery/icecream_vat,
-/turf/simulated/floor,
-/area/space)
-"Hf" = (
-/obj/structure/table/marble,
-/obj/machinery/reagent_temperature/cooler,
-/turf/simulated/floor,
 /area/space)
 "Hg" = (
 /obj/effect/floor_decal/techfloor{
@@ -1189,19 +1227,6 @@
 /obj/effect/wallframe_spawn/reinforced_phoron,
 /turf/simulated/floor/reinforced,
 /area/space)
-"Im" = (
-/obj/structure/table/marble,
-/obj/item/reagent_containers/food/condiment/small/peppermill{
-	pixel_x = 3
-	},
-/obj/item/reagent_containers/food/condiment/small/saltshaker{
-	pixel_x = -3;
-	pixel_y = 0
-	},
-/obj/item/reagent_containers/food/condiment/enzyme,
-/obj/item/material/kitchen/rollingpin,
-/turf/simulated/floor,
-/area/space)
 "Iv" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/yellow,
 /turf/simulated/floor,
@@ -1231,14 +1256,6 @@
 	},
 /turf/simulated/floor,
 /area/space)
-"Js" = (
-/obj/machinery/seed_storage/garden,
-/turf/simulated/floor,
-/area/space)
-"Jz" = (
-/obj/machinery/vending/boozeomat,
-/turf/space,
-/area/space)
 "JA" = (
 /obj/structure/bed/chair/office/comfy/yellow{
 	dir = 1
@@ -1264,10 +1281,6 @@
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering Locker Room"
 	},
-/turf/simulated/floor,
-/area/space)
-"Le" = (
-/obj/machinery/biogenerator,
 /turf/simulated/floor,
 /area/space)
 "Lf" = (
@@ -1320,14 +1333,6 @@
 	},
 /turf/simulated/floor/carpet/green,
 /area/space)
-"Nh" = (
-/obj/structure/closet/chefcloset_torch,
-/turf/simulated/floor,
-/area/space)
-"Ni" = (
-/obj/structure/closet/secure_closet/bar_torch,
-/turf/simulated/floor,
-/area/space)
 "Nv" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
@@ -1346,13 +1351,6 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
-"NO" = (
-/obj/machinery/atmospherics/binary/circulator{
-	anchored = 1;
-	dir = 4
-	},
-/turf/simulated/floor,
 /area/space)
 "NY" = (
 /obj/effect/floor_decal/techfloor{
@@ -1393,15 +1391,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"PW" = (
-/obj/structure/table/marble,
-/obj/machinery/cooker/candy,
-/turf/simulated/floor,
-/area/space)
-"Qg" = (
-/obj/machinery/vending/dinnerware,
-/turf/simulated/floor,
-/area/space)
 "Ql" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 9
@@ -1434,27 +1423,15 @@
 /obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
-"Rj" = (
-/obj/structure/closet/secure_closet/freezer/kitchen{
-	req_access = newlist()
-	},
-/obj/item/reagent_containers/food/snacks/mint,
-/turf/simulated/floor,
-/area/space)
 "Rt" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Hydroponics Storage Maintenance"
 	},
 /turf/simulated/floor,
 /area/space)
-"Sb" = (
-/obj/structure/table/standard,
-/obj/machinery/chemical_dispenser/bar_alc/full,
-/turf/simulated/floor,
-/area/space)
 "Sq" = (
-/obj/machinery/power/supermatter,
-/turf/simulated/floor/greengrid/airless,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "Sw" = (
 /obj/effect/floor_decal/techfloor{
@@ -1498,17 +1475,6 @@
 /obj/machinery/door/airlock/maintenance,
 /turf/simulated/floor,
 /area/space)
-"Tt" = (
-/obj/structure/table/standard,
-/obj/item/toy/figure/poraz{
-	pixel_y = 8
-	},
-/turf/simulated/floor,
-/area/space)
-"TG" = (
-/obj/structure/closet/secure_closet/hydroponics_torch,
-/turf/simulated/floor,
-/area/space)
 "TO" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor/tiled/steel_grid,
@@ -1516,10 +1482,6 @@
 "Ue" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor/carpet/green,
-/area/space)
-"Uh" = (
-/obj/item/stool/bar/padded,
-/turf/simulated/floor,
 /area/space)
 "Ur" = (
 /obj/machinery/vending/tool,
@@ -1530,14 +1492,6 @@
 	name = "Engineering Locker Room"
 	},
 /turf/simulated/wall/r_wall/prepainted,
-/area/space)
-"UV" = (
-/obj/structure/table/standard,
-/obj/machinery/reagentgrinder/juicer{
-	pixel_y = 8
-	},
-/obj/item/reagent_containers/glass/beaker/large,
-/turf/simulated/floor,
 /area/space)
 "Vl" = (
 /obj/machinery/vending/engineering,
@@ -1578,24 +1532,8 @@
 /obj/structure/closet/secure_closet/engineering_torch,
 /turf/simulated/floor/tiled/monotile,
 /area/space)
-"WJ" = (
-/obj/structure/reagent_dispensers/beerkeg,
-/turf/simulated/floor,
-/area/space)
-"WT" = (
-/obj/machinery/cooker/fryer,
-/turf/simulated/floor,
-/area/space)
-"Xi" = (
-/obj/machinery/cooker/oven,
-/turf/simulated/floor,
-/area/space)
 "Xl" = (
 /turf/simulated/floor/tiled/monotile,
-/area/space)
-"Xn" = (
-/obj/structure/closet/crate/freezer,
-/turf/simulated/floor,
 /area/space)
 "Xu" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
@@ -1633,13 +1571,14 @@
 /turf/simulated/floor,
 /area/space)
 "YL" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
-/obj/effect/wallframe_spawn/reinforced_phoron,
-/obj/machinery/door/blast/regular{
-	id_tag = "SupermatterPort";
-	name = "Reactor Blast Door"
+/obj/machinery/power/emitter{
+	anchored = 1;
+	dir = 8;
+	id_tag = "EngineEmitter";
+	state = 2
 	},
-/turf/simulated/floor/reinforced/airless,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "Zn" = (
 /obj/effect/wallframe_spawn/reinforced_phoron,
@@ -1648,11 +1587,6 @@
 	icon_state = "intact"
 	},
 /turf/simulated/floor/reinforced,
-/area/space)
-"ZO" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
-/obj/item/reagent_containers/food/condiment/barbecue,
-/turf/simulated/floor,
 /area/space)
 "ZY" = (
 /obj/effect/wallframe_spawn/reinforced_phoron,
@@ -15392,25 +15326,25 @@ vo
 Am
 Wp
 Am
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+ab
+ab
+ab
+ab
+ab
+eG
+ab
+Am
+Am
+uB
+Am
+Am
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 Am
 Wp
 Am
@@ -15645,23 +15579,23 @@ IH
 Wp
 ox
 vo
+ab
 vo
 vo
 vo
+ab
+vo
+jJ
+mS
+uB
+mS
+jJ
+vo
+ab
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+ab
 vo
 ox
 Wp
@@ -15897,23 +15831,23 @@ Am
 Wp
 Am
 vo
+ab
 vo
 vo
 vo
+ab
+vo
+jJ
+mS
+vy
+mS
+jJ
+vo
+ab
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+ab
 vo
 Am
 Wp
@@ -16149,23 +16083,23 @@ IH
 Wp
 Am
 vo
+ab
 vo
 vo
 vo
+ab
+vo
+jJ
+mW
+mS
+wS
+jJ
+vo
+ab
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+ab
 vo
 Am
 Wp
@@ -16401,23 +16335,23 @@ Am
 Wp
 Am
 vo
+ab
 vo
 vo
 vo
+ab
+vo
+Am
+nF
+jJ
+xK
+Am
+vo
+ab
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+ab
 vo
 Am
 Wp
@@ -16653,23 +16587,23 @@ Am
 Wp
 Am
 vo
+ab
 vo
 vo
 vo
+ab
+vo
+Am
+nQ
+Dl
+xW
+Am
+vo
+ab
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+ab
 vo
 Am
 Wp
@@ -16905,23 +16839,23 @@ Am
 Wp
 Am
 vo
+ab
 vo
 vo
 vo
+ab
+vo
+Am
+qI
+aK
+zi
+Am
+vo
+ab
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+ab
 vo
 Am
 Wp
@@ -17157,23 +17091,23 @@ Wp
 Wp
 Am
 vo
+ab
 vo
 vo
 vo
+ab
+vo
+ab
+rx
+ab
+zj
+ab
+vo
+ab
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+ab
 vo
 Am
 Wp
@@ -17409,23 +17343,23 @@ Wp
 Wp
 ox
 vo
+ab
 vo
 vo
 vo
+ab
+vo
+Am
+qI
+aK
+zi
+Am
+vo
+ab
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+ab
 vo
 ox
 Wp
@@ -17661,23 +17595,23 @@ Am
 Am
 Am
 vo
+ab
 vo
 vo
 vo
+ab
+vo
+Am
+nQ
+Dl
+xW
+Am
+vo
+ab
 vo
 vo
 vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
+ab
 vo
 Am
 Am
@@ -17918,11 +17852,11 @@ xn
 xn
 Am
 Am
-xn
+iH
 Am
-Am
-jB
-Am
+sa
+Dl
+zL
 Am
 xn
 Am
@@ -18169,17 +18103,17 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
+fn
+AH
 wT
 at
-FF
-at
+Sq
+AD
 wT
 Wp
 Wp
-Wp
-Wp
+fn
+AH
 Wp
 Wp
 Wp
@@ -18419,19 +18353,19 @@ Wp
 Wp
 Wp
 Wp
+bB
+eC
+gS
+hB
 Wp
-Wp
-Wp
-Wp
-wT
 at
 Sq
-at
-wT
+AD
 Wp
-Wp
-Wp
-Wp
+bB
+eC
+gS
+hB
 Wp
 Wp
 Wp
@@ -18671,19 +18605,19 @@ Wp
 Wp
 Wp
 Wp
-NO
-rx
+Wp
+Wp
 BL
-Wp
-wT
-at
-at
-at
-wT
-Wp
-Wp
-Wp
-Wp
+iY
+kw
+sn
+vA
+AU
+Mp
+Mp
+Mp
+BP
+Cz
 Wp
 Wp
 Wp
@@ -18925,16 +18859,16 @@ Wp
 Wp
 Wp
 Wp
-Wp
-Wp
-fR
+fn
+jc
+se
 CY
 YL
-CY
-fR
+ct
 Wp
 Wp
 Wp
+hB
 Wp
 Wp
 Wp
@@ -19175,18 +19109,18 @@ fR
 Wp
 Wp
 Wp
+bB
+eC
+gS
+hB
+se
 Wp
 Wp
 Wp
 Wp
-Wp
-Kz
-Kz
-Kz
-Wp
-Wp
-Wp
-Wp
+bB
+eC
+gS
 Wp
 Wp
 Wp
@@ -19427,14 +19361,14 @@ fR
 Wp
 Wp
 Wp
-NO
-rx
+Wp
+Wp
 BL
+jB
+Iv
 Wp
 Wp
-Kz
-Kz
-Kz
+Wp
 Wp
 Wp
 Wp
@@ -19682,11 +19616,11 @@ Wp
 Wp
 Wp
 Wp
+Hk
 Wp
 Wp
-Kz
-Kz
-Kz
+Wp
+Wp
 Wp
 fR
 fR
@@ -19936,9 +19870,9 @@ Wp
 Wp
 Wp
 Wp
-Kz
-Kz
-Kz
+Wp
+Wp
+Wp
 Wp
 fR
 oa
@@ -20188,9 +20122,9 @@ Wp
 Wp
 Wp
 Wp
-Kz
-Kz
-Kz
+Wp
+Wp
+Wp
 Wp
 fR
 Zn
@@ -30776,12 +30710,12 @@ Kz
 Kz
 Kz
 kr
-Ni
-xW
-Tt
-Ei
-UV
-Jz
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 kr
 kr
 Wp
@@ -31034,7 +30968,7 @@ Wp
 Wp
 Wp
 Wp
-eb
+Wp
 kr
 Wp
 Wp
@@ -31280,13 +31214,13 @@ Kz
 Kz
 Kz
 kr
-WJ
 Wp
 Wp
 Wp
 Wp
 Wp
-Sb
+Wp
+Wp
 kr
 Wp
 Wp
@@ -31523,9 +31457,9 @@ zo
 zo
 Wp
 kr
-zo
-zo
 Wp
+zo
+zo
 zo
 kr
 Kz
@@ -31535,10 +31469,10 @@ kr
 Wp
 Wp
 Wp
-fn
 Wp
 Wp
-BP
+Wp
+Wp
 kr
 kr
 kr
@@ -31775,26 +31709,26 @@ kr
 kr
 Wp
 kr
-kr
-kr
 Wp
 kr
 kr
+kr
+kr
 Kz
 Kz
 Kz
 kr
-zi
-qI
-qI
-qI
-qI
-Gb
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 kr
 kr
 kr
-YK
-YK
+Wp
+Wp
 Am
 Am
 Am
@@ -32037,17 +31971,17 @@ Kz
 Kz
 kr
 Wp
-Uh
-Uh
-Uh
-Uh
-Uh
+Wp
+Wp
+Wp
+Wp
+Wp
 Wp
 kr
-xK
 Wp
 Wp
-Js
+Wp
+Wp
 Am
 Am
 vo
@@ -32295,11 +32229,11 @@ Wp
 Wp
 Wp
 Wp
-Pa
-nF
 Wp
 Wp
-nF
+Wp
+Wp
+Wp
 Dl
 vo
 vo
@@ -32547,11 +32481,11 @@ Wp
 Wp
 Wp
 Wp
-Pa
-nF
 Wp
 Wp
-nF
+Wp
+Wp
+Wp
 Dl
 vo
 vo
@@ -32799,11 +32733,11 @@ Wp
 Wp
 Wp
 Wp
-Pa
-nF
 Wp
 Wp
-nF
+Wp
+Wp
+Wp
 Dl
 vo
 vo
@@ -33052,10 +32986,10 @@ Wp
 Wp
 Wp
 kr
-nF
 Wp
 Wp
-nF
+Wp
+Wp
 Dl
 vo
 vo
@@ -33307,7 +33241,7 @@ rB
 Wp
 Wp
 Wp
-AU
+Wp
 Am
 vo
 vo
@@ -33556,10 +33490,10 @@ Wp
 Wp
 Wp
 kr
-nF
 Wp
 Wp
-nF
+Wp
+Wp
 Dl
 vo
 vo
@@ -33807,11 +33741,11 @@ Wp
 Wp
 Wp
 Wp
-Pa
-bB
 Wp
 Wp
-nF
+Wp
+Wp
+Wp
 Dl
 vo
 vo
@@ -34059,11 +33993,11 @@ Wp
 Wp
 Wp
 Wp
-Pa
-aK
-vy
 Wp
-nF
+Wp
+Wp
+Wp
+Wp
 Dl
 vo
 vo
@@ -34311,11 +34245,11 @@ Wp
 Wp
 Wp
 Wp
-Pa
-jc
 Wp
 Wp
-nF
+Wp
+Wp
+Wp
 Dl
 vo
 vo
@@ -34564,7 +34498,7 @@ Wp
 Wp
 Wp
 kr
-vA
+Wp
 Wp
 Wp
 Wp
@@ -34808,13 +34742,13 @@ Kz
 Kz
 Kz
 kr
-qI
-qI
-qI
+Wp
+Wp
+Wp
 kr
 VW
-Pa
-Pa
+kr
+kr
 kr
 kr
 mu
@@ -35068,10 +35002,10 @@ Wp
 Wp
 Wp
 Wp
-iH
 Wp
 Wp
-TG
+Wp
+Wp
 kr
 fR
 fR
@@ -35312,7 +35246,6 @@ Kz
 Kz
 Kz
 Pa
-Qg
 Wp
 Wp
 Wp
@@ -35320,10 +35253,11 @@ Wp
 Wp
 Wp
 Wp
-Gb
 Wp
 Wp
-TG
+Wp
+Wp
+Wp
 kr
 Wp
 fR
@@ -35564,18 +35498,18 @@ Kz
 Kz
 Kz
 Pa
-mS
 Wp
 Wp
 Wp
-iu
-sn
 Wp
-Im
+Wp
+Wp
+Wp
+Wp
 kr
-gS
 Wp
-zj
+Wp
+Wp
 kr
 Wp
 fR
@@ -35816,18 +35750,18 @@ Kz
 Kz
 Kz
 Pa
-jJ
 Wp
 Wp
 Wp
-PW
-sn
 Wp
-eG
-Pa
-Le
 Wp
-ab
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 kr
 Wp
 fR
@@ -36068,18 +36002,18 @@ Kz
 Kz
 Kz
 Pa
-Xi
 Wp
 Wp
 Wp
-zL
-sn
 Wp
-Hf
-Pa
-AD
 Wp
-kw
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 kr
 Wp
 fR
@@ -36320,14 +36254,14 @@ Kz
 Kz
 Kz
 kr
-uB
 Wp
 Wp
 Wp
 Wp
 Wp
 Wp
-nQ
+Wp
+Wp
 kr
 kr
 Rt
@@ -36572,11 +36506,11 @@ Kz
 Kz
 Kz
 kr
-WT
 Wp
-Nh
-Xn
-Cz
+Wp
+Wp
+Wp
+Wp
 kr
 SD
 kr
@@ -36831,7 +36765,7 @@ kr
 kr
 kr
 Wp
-sa
+Wp
 kr
 kr
 kr
@@ -37081,11 +37015,11 @@ cT
 cT
 cT
 kr
-mW
 Wp
-Hd
 Wp
-Rj
+Wp
+Wp
+Wp
 kr
 Wp
 Wp
@@ -37333,11 +37267,11 @@ cT
 cT
 cT
 kr
-ZO
 Wp
 Wp
 Wp
-iY
+Wp
+Wp
 kr
 Wp
 Wp
@@ -37573,23 +37507,23 @@ fR
 kr
 kr
 cT
-cT
-cT
-fR
-fR
-Kz
-fR
-fR
-cT
-cT
+kr
+kr
+kr
+kr
+kr
+kr
+kr
+kr
+kr
 cT
 kr
 kr
-wS
 Wp
 Wp
 Wp
-eC
+Wp
+Wp
 kr
 Wp
 Wp
@@ -37825,14 +37759,14 @@ Wp
 au
 cT
 cT
-cT
-cT
+kr
 Wp
-fR
-Kz
-fR
-cT
-cT
+Wp
+Wp
+Wp
+Wp
+Wp
+kr
 cT
 cT
 cT
@@ -38077,14 +38011,14 @@ Wp
 zh
 cT
 cT
-cT
-cT
+kr
 Wp
-fR
-Kz
-fR
-cT
-cT
+Wp
+Wp
+Wp
+Wp
+Wp
+kr
 cT
 cT
 cT
@@ -38329,14 +38263,14 @@ Wp
 au
 cT
 cT
-cT
-cT
-fR
-fR
-Kz
-fR
-fR
-cT
+kr
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+kr
 cT
 cT
 cT
@@ -38581,14 +38515,14 @@ fR
 kr
 cT
 cT
-cT
-cT
-fR
-Kz
-Kz
-Kz
-fR
-cT
+kr
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+kr
 cT
 cT
 cT
@@ -38833,14 +38767,14 @@ fR
 kr
 cT
 cT
-cT
-cT
-fR
-Kz
-Kz
-Kz
-fR
-cT
+kr
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+kr
 cT
 cT
 cT
@@ -39085,14 +39019,14 @@ Wp
 oK
 cT
 cT
-cT
-fR
-fR
-fR
-Kz
-fR
-fR
-fR
+kr
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+kr
 cT
 cT
 cT
@@ -39337,14 +39271,14 @@ Wp
 oK
 cT
 cT
-cT
-fR
+kr
 Wp
-Kz
-Kz
-Kz
 Wp
-fR
+Wp
+Wp
+Wp
+Wp
+kr
 cT
 cT
 cT
@@ -39589,14 +39523,14 @@ Wp
 oK
 cT
 cT
-cT
-fR
+kr
 Wp
-Kz
-Kz
-Kz
 Wp
-fR
+Wp
+Wp
+Wp
+Wp
+kr
 cT
 cT
 cT
@@ -39841,14 +39775,14 @@ fR
 fR
 cT
 cT
-cT
-fR
+kr
 Wp
-Kz
-Kz
-Kz
 Wp
-fR
+Wp
+Wp
+Wp
+Wp
+kr
 cT
 cT
 cT
@@ -40093,14 +40027,14 @@ fR
 fR
 cT
 cT
-cT
-fR
+kr
 Wp
-Kz
-Kz
-Kz
 Wp
-fR
+Wp
+Wp
+Wp
+Wp
+kr
 cT
 cT
 cT
@@ -40345,14 +40279,14 @@ Wp
 KR
 cT
 cT
-cT
-fR
+kr
 Wp
-Kz
-Kz
-Kz
 Wp
-fR
+Wp
+Wp
+Wp
+Wp
+kr
 cT
 cT
 cT
@@ -40596,15 +40530,15 @@ Wp
 Wp
 kr
 kr
-cT
 kr
-fR
-fR
-fR
-fR
-fR
-fR
-fR
+kr
+kr
+kr
+kr
+Wp
+kr
+kr
+kr
 kr
 cT
 kr
@@ -40852,11 +40786,11 @@ Wp
 Wp
 Wp
 Wp
-Kz
-Kz
-Kz
 Wp
 Wp
+Wp
+Wp
+eb
 Wp
 Wp
 Wp
@@ -41104,11 +41038,11 @@ Wp
 Wp
 Wp
 Wp
-Kz
-Kz
-Kz
 Wp
 Wp
+Wp
+Wp
+eb
 Wp
 Wp
 Wp
@@ -41356,11 +41290,11 @@ Wp
 Wp
 Wp
 Wp
-Kz
-Kz
-Kz
 Wp
 Wp
+Wp
+Wp
+eb
 Wp
 Wp
 Wp
@@ -41608,11 +41542,11 @@ Wp
 Wp
 Wp
 Wp
-Kz
-Kz
-Kz
 Wp
 Wp
+Wp
+Wp
+eb
 Wp
 Wp
 Wp
@@ -41860,11 +41794,11 @@ Wp
 Wp
 Wp
 Wp
-Kz
-Kz
-Kz
 Wp
 Wp
+Wp
+Wp
+eb
 Wp
 Wp
 Wp
@@ -42112,11 +42046,11 @@ Wp
 Wp
 Wp
 Wp
-Kz
-Kz
-Kz
 Wp
 Wp
+Wp
+Wp
+eb
 Wp
 Wp
 Wp
@@ -42359,19 +42293,19 @@ vo
 Am
 Am
 fR
-fR
 Wp
 Wp
 Wp
 Wp
-Kz
-Kz
-Kz
 Wp
 Wp
 Wp
 Wp
-fR
+Wp
+eb
+Wp
+Wp
+Wp
 fR
 Am
 Am
@@ -42610,23 +42544,23 @@ vo
 vo
 Am
 Am
-Am
 fR
-Wp
-Wp
-Wp
-Wp
-Kz
-Kz
-Kz
-Wp
+eb
+eb
+iu
+eb
+eb
+eb
+eb
+eb
+eb
+eb
 Wp
 Wp
 Wp
 fR
 Am
 Am
-vo
 vo
 vo
 vo
@@ -42862,15 +42796,16 @@ vo
 vo
 Am
 Am
-Am
 fR
 Wp
 Wp
 Wp
 Wp
-Kz
-Kz
-Kz
+Wp
+Wp
+Wp
+Wp
+Wp
 Wp
 Wp
 Wp
@@ -42878,7 +42813,6 @@ Wp
 fR
 Am
 Am
-vo
 vo
 vo
 vo
@@ -43114,21 +43048,21 @@ vo
 vo
 vo
 Am
-Am
-fR
-fR
 fR
 Wp
 Wp
-Kz
-Kz
-Kz
 Wp
 Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 fR
-fR
-fR
-Am
 Am
 vo
 vo
@@ -43366,21 +43300,21 @@ vo
 vo
 vo
 vo
-Am
-Am
-Am
-fR
+aK
 Wp
 Wp
-Kz
-Kz
-Kz
 Wp
 Wp
-fR
-Am
-Am
-Am
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Dl
 vo
 vo
 vo
@@ -43618,21 +43552,21 @@ vo
 vo
 vo
 vo
-vo
-Am
-Am
-fR
+Dl
 Wp
 Wp
-Kz
-Kz
-Kz
 Wp
 Wp
-fR
-Am
-Am
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Dl
 vo
 vo
 vo
@@ -43870,21 +43804,21 @@ vo
 vo
 vo
 vo
-vo
-Am
-Am
-fR
+Dl
 Wp
 Wp
-Kz
-Kz
-Kz
 Wp
 Wp
-fR
-Am
-Am
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Dl
 vo
 vo
 vo
@@ -44122,21 +44056,21 @@ vo
 vo
 vo
 vo
-vo
-Am
-Am
-fR
+Dl
+Dl
 Wp
 Wp
-Kz
-Kz
-Kz
 Wp
 Wp
-fR
-Am
-Am
-vo
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Dl
+Dl
 vo
 vo
 vo
@@ -44375,19 +44309,19 @@ vo
 vo
 vo
 vo
-Am
-Am
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-Am
-Am
+Dl
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Dl
 vo
 vo
 vo
@@ -44627,19 +44561,19 @@ vo
 vo
 vo
 vo
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+Dl
+Dl
+Dl
+Dl
+Dl
+Dl
+Dl
+Dl
+Dl
+Dl
+Dl
+Dl
+Dl
 vo
 vo
 vo
