@@ -730,7 +730,7 @@
 	name_short = "Civ"
 
 /datum/mil_rank/civ/contractor
-	name = "Contractor"
+	name = "Corporative Contractor"
 	name_short = "Cont"
 
 /datum/mil_rank/civ/synthetic
