@@ -12,7 +12,6 @@
 	hub = "Exadv1.spacestation13"
 	icon_size = WORLD_ICON_SIZE
 	fps = 60
-	movement_mode = PIXEL_MOVEMENT_MODE
 #ifdef GC_FAILURE_HARD_LOOKUP
 	loop_checks = FALSE
 #endif

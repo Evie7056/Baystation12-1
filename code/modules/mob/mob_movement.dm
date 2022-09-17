@@ -187,9 +187,6 @@
 	if(H && H.MayMove() != MOVEMENT_PROCEED)
 		return
 
-	if(!n || !direction)
-		return FALSE
-
 	return mob.SelfMove(direction)
 
 
