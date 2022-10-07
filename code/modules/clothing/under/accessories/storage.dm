@@ -26,16 +26,26 @@
 
 
 /obj/item/clothing/accessory/storage/attack_hand(mob/user)
+	/*
 	if (container)
 		if (parent)
 			container.open(user)
 		else if (container.handle_attack_hand(user))
 			..(user)
+	*/
+	if (container)
+		container.open(user)
+	else if (container.handle_attack_hand(user))
+		..(user)
 
 
 /obj/item/clothing/accessory/storage/MouseDrop(obj/over_object)
-	if (!parent && container?.handle_mousedrop(usr, over_object))
-		..(over_object)
+	if(container.handle_mousedrop(usr, over_object))
+		return TRUE
+	return ..()
+
+	// if (!parent && container?.handle_mousedrop(usr, over_object))
+	// 	..(over_object)
 
 
 /obj/item/clothing/accessory/storage/attackby(obj/item/I, mob/user)

@@ -54,7 +54,8 @@
 		/obj/item/storage/firstaid,
 		/obj/item/reagent_containers/hypospray,
 		/obj/item/roller,
-		/obj/item/device/suit_cooling_unit
+		/obj/item/device/suit_cooling_unit,
+		/obj/item/storage/backpack
 	)
 
 /obj/item/clothing/shoes/magboots/rig/combat
@@ -139,7 +140,8 @@
 		/obj/item/storage/firstaid,
 		/obj/item/reagent_containers/hypospray,
 		/obj/item/roller,
-		/obj/item/device/suit_cooling_unit
+		/obj/item/device/suit_cooling_unit,
+		/obj/item/storage/backpack
 	)
 
 /obj/item/clothing/shoes/magboots/rig/military

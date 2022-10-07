@@ -1,6 +1,7 @@
 /obj/item/clothing/suit/storage
 	var/obj/item/storage/internal/pockets/pockets
 	var/slots = 2
+	item_flags = ITEM_FLAG_DRAG_AND_DROP_UNEQUIP
 
 /obj/item/clothing/suit/storage/Initialize()
 	. = ..()

@@ -13,7 +13,8 @@
 		/obj/item/ammo_magazine,
 		/obj/item/device/flashlight,
 		/obj/item/tank,
-		/obj/item/device/suit_cooling_unit
+		/obj/item/device/suit_cooling_unit,
+		/obj/item/storage/backpack
 	)
 
 /obj/item/clothing/head/helmet/space/rig/ert/skrell

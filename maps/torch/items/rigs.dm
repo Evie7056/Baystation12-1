@@ -170,7 +170,8 @@
 		/obj/item/storage/firstaid,
 		/obj/item/device/scanner/health,
 		/obj/item/stack/medical,
-		/obj/item/roller
+		/obj/item/roller,
+		/obj/item/storage/backpack
 	)
 /obj/item/clothing/shoes/magboots/rig/command/medical
 /obj/item/clothing/gloves/rig/command/medical
@@ -221,7 +222,8 @@
 		/obj/item/device/flashlight,
 		/obj/item/tank,
 		/obj/item/device/suit_cooling_unit,
-		/obj/item/melee/baton
+		/obj/item/melee/baton,
+		/obj/item/storage/backpack
 	)
 /obj/item/clothing/shoes/magboots/rig/command/security
 /obj/item/clothing/gloves/rig/command/security
@@ -281,7 +283,8 @@
 		/obj/item/pinpointer/radio,
 		/obj/item/pickaxe/xeno,
 		/obj/item/storage/bag/fossils,
-		/obj/item/rig_module/grenade_launcher/light
+		/obj/item/rig_module/grenade_launcher/light,
+		/obj/item/storage/backpack
 	)
 
 /obj/item/clothing/shoes/magboots/rig/command/science
@@ -349,7 +352,8 @@
 		/obj/item/device/depth_scanner,
 		/obj/item/device/gps,
 		/obj/item/pinpointer/radio,
-		/obj/item/storage/plants
+		/obj/item/storage/plants,
+		/obj/item/storage/backpack
 	)
 
 /obj/item/rig/exploration/equipped

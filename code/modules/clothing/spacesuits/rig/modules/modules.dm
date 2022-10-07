@@ -140,9 +140,25 @@
 	deactivate()
 	. = ..()
 
+//Called before the module is installed in a suit
+//Return FALSE to deny the installation
+/obj/item/rig_module/proc/can_install(var/obj/item/rig/rig, var/mob/user, var/feedback = FALSE)
+	return TRUE
+
+//Called before the module is removed from a suit
+//Return FALSE to deny the removal
+/obj/item/rig_module/proc/can_uninstall(var/obj/item/rig/rig, var/mob/user, var/feedback = FALSE)
+	return TRUE
+
 // Called when the module is installed into a suit.
 /obj/item/rig_module/proc/installed(var/obj/item/rig/new_holder)
 	holder = new_holder
+	return
+
+// Called after the module is removed from a suit.
+//The holder var is already set null
+//Former contains the suit we came from
+/obj/item/rig_module/proc/uninstalled(var/obj/item/rig/former, var/mob/living/user)
 	return
 
 /obj/item/rig_module/proc/check(var/charge = 50)

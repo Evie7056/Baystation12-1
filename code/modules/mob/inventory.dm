@@ -307,3 +307,33 @@
 		var/obj/item/I = entry
 		if(I.body_parts_covered & body_parts)
 			. += I
+
+/obj/item/MouseDrop(obj/over_object)
+	if(item_flags & ITEM_FLAG_DRAG_AND_DROP_UNEQUIP && isliving(usr))
+		if(try_uneqip(over_object, usr))
+			return
+	return ..()
+
+
+/obj/item/proc/try_uneqip(target, mob/living/user)
+	if(loc == user && ishuman(user))
+		var/mob/living/carbon/human/H = user
+		if (!istype(target, /obj/screen/inventory))
+			return
+
+		//makes sure that the storage is equipped, so that we can't drag it into our hand from miles away.
+		//there's got to be a better way of doing this.
+		if(src.loc != H || H.incapacitated())
+			return
+
+		if (!H.unEquip(src))
+			return
+
+		var/obj/screen/inventory/Hand = target
+		switch(Hand.slot_id)
+			if(slot_r_hand)
+				H.put_in_r_hand(src)
+			if(slot_l_hand)
+				H.put_in_l_hand(src)
+		src.add_fingerprint(usr)
+		return TRUE

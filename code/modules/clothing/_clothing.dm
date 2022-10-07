@@ -1,6 +1,7 @@
 /obj/item/clothing
 	name = "clothing"
 	siemens_coefficient = 0.9
+	item_flags = ITEM_FLAG_DRAG_AND_DROP_UNEQUIP
 	var/flash_protection = FLASH_PROTECTION_NONE	// Sets the item's level of flash protection.
 	var/tint = TINT_NONE							// Sets the item's level of visual impairment tint.
 	var/list/species_restricted = list(
@@ -748,7 +749,7 @@ BLIND     // can't see anything
 		/obj/item/tank/nitrogen_emergency
 	)
 	slot_flags = SLOT_OCLOTHING
-	item_flags = ITEM_FLAG_WASHER_ALLOWED
+	item_flags = ITEM_FLAG_WASHER_ALLOWED|ITEM_FLAG_DRAG_AND_DROP_UNEQUIP
 	blood_overlay_type = "suit"
 	siemens_coefficient = 0.9
 	w_class = ITEM_SIZE_NORMAL
