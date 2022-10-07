@@ -1,9 +1,9 @@
 #include "icgnv_hound_shuttle.dm"
 
 /datum/map_template/ruin/icgnv_hound
-	name = "ICGNV Hound"
+	name = "СFV Cerberus"
 	id = "icgnv_hound"
-	description = "A standard ALFA-pattern, armed ICCGN transport shuttle. The transponder reads on open channels as ICCG and is broadcasting the designation 'ICGNV Hound' in Zurich Accord Common."
+	description = "A standard ALFA-pattern, armed The Cuchulain Foundation transport shuttle. The transponder reads on open channels as The Cuchulain Foundation and is broadcasting the designation 'CFV Cerberus' in Zurich Accord Common."
 	suffixes = list("maps/event/iccgn_ship/icgnv_hound.dmm")
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/icgnv_hound)
 
@@ -15,8 +15,8 @@
 	hide_from_reports = TRUE
 
 /obj/effect/overmap/visitable/ship/landable/icgnv_hound
-	name = "ICGNV Hound"
-	desc = "A standard ALFA-pattern, armed ICCGN transport shuttle. The transponder reads on open channels as ICCG and is broadcasting the designation 'ICGNV Hound' in Zurich Accord Common."
+	name = "CFV Hound"
+	desc = "A standard ALFA-pattern, armed The Cuchulain Foundation transport shuttle. The transponder reads on open channels as The Cuchulain Foundation and is broadcasting the designation 'CFV Cerberus' in Zurich Accord Common."
 	shuttle = "ICGNV Hound"
 	icon_state = "ship"
 	moving_state = "ship_moving"
@@ -33,13 +33,13 @@
 	)
 
 /obj/effect/shuttle_landmark/icgnv_hound/dock
-	name = "4th Deck, Port Airlock (ICGNV Hound)"
+	name = "4th Deck, Port Airlock (CFV Cerberus)"
 	landmark_tag = "nav_hound_dock"
 
 //Areas
 
 /area/map_template/icgnv_hound
-	name = "\improper ICGNV Hound"
+	name = "\improper CFV Cerberus"
 	icon_state = "yellow"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 	req_access = list(access_syndicate)
