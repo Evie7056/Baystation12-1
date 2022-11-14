@@ -1,4 +1,4 @@
-/datum/map/torch
+/datum/map/sagan
 	name = "\improper Sagan"
 	full_name = "\improper SEV Sagan"
 	path = "sagan"

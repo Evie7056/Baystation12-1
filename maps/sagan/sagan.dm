@@ -139,12 +139,11 @@
 	#include "loadout/loadout_xeno.dm"
 	#include "loadout/~defines.dm"
 
-	#include "torch1_deck5.dmm"
-	#include "torch2_deck4.dmm"
-	#include "torch3_deck3.dmm"
-	#include "torch4_deck2.dmm"
-	#include "torch5_deck1.dmm"
-	#include "torch6_bridge.dmm"
+	#include "sagan1_deck3.dmm"
+	#include "sagan2_deck2.dmm"
+	#include "sagan3_deck1.dmm"
+	#include "sagan4_upper.dmm"
+	//#include "sagan5_bridge.dmm"
 	#include "z1_admin.dmm"
 	#include "z2_transit.dmm"
 
@@ -173,10 +172,6 @@
 	#include "../event/iccgn_ship/icgnv_hound.dm"
 
 
-	#define using_map_DATUM /datum/map/torch
-
-#elif !defined(MAP_OVERRIDE)
-
-	#warn A map has already been included, ignoring Torch
+	#define using_map_DATUM /datum/map/sagan
 
 #endif

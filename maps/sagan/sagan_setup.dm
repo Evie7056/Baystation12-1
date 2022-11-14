@@ -11,7 +11,7 @@
 	return jointext(., "<br>")
 
 /datum/map/torch/send_welcome()
-	var/obj/effect/overmap/visitable/ship/torch = SSshuttle.ship_by_type(/obj/effect/overmap/visitable/ship/torch)
+	var/obj/effect/overmap/visitable/ship/torch = SSshuttle.ship_by_type(/obj/effect/overmap/visitable/ship/sagan)
 
 	var/welcome_text = "<center><img src = sollogo.png /><br /><font size = 3><b>ГЭК \"Факел\"</b> Показания сенсоров:</font><br>"
 	welcome_text += "Отчёт сгенирирован [stationdate2text()] в [stationtime2text()]</center><br /><br />"

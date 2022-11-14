@@ -86,7 +86,7 @@
 "dO" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/polarized{
-	id =  bridge_master
+	id = bridge_master
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -148,7 +148,7 @@
 "fS" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/polarized{
-	id =  bridge_master
+	id = bridge_master
 	},
 /obj/structure/cable/green{
 	d2 = 2;
@@ -188,7 +188,7 @@
 	icon_state = "2-8"
 	},
 /obj/effect/wallframe_spawn/reinforced/polarized{
-	id =  bridge_master
+	id = bridge_master
 	},
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
@@ -831,7 +831,7 @@
 "vL" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/polarized{
-	id =  bridge_master
+	id = bridge_master
 	},
 /obj/structure/cable/green,
 /obj/machinery/door/blast/regular/open{
@@ -1781,7 +1781,7 @@
 /obj/structure/cable/green,
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/polarized{
-	id =  bridge_master
+	id = bridge_master
 	},
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
@@ -2052,7 +2052,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/polarized{
-	id =  bridge_master
+	id = bridge_master
 	},
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
@@ -2485,7 +2485,7 @@
 "ZZ" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/polarized{
-	id =  bridge_master
+	id = bridge_master
 	},
 /obj/structure/cable/green{
 	d1 = 2;
