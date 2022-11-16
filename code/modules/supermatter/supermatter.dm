@@ -392,9 +392,13 @@
 			//If chain reacting at oxygen == 1, we want the power at 800 K to stabilize at a power level of 250
 			equilibrium_power = 250
 			icon_state = base_icon_state
+		var/boron = removed.gas[GAS_BORON]
+		var/boron_hinderance = 0
+		if(boron)
+			boron_hinderance = boron * 15
 
 		temp_factor = ( (equilibrium_power/decay_factor)**3 )/800
-		power = max( (removed.temperature * temp_factor) * oxygen + power, 0)
+		power = max( (removed.temperature * temp_factor) * oxygen + power - boron_hinderance, 0)
 
 		var/device_energy = power * reaction_power_modifier
 
