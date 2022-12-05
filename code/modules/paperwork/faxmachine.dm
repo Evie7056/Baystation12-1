@@ -95,6 +95,13 @@ GLOBAL_LIST_EMPTY(admin_departments)
 /obj/machinery/photocopier/faxmachine/get_mechanics_info()
 	. = "<p>The fax machine can be used to transmit paper faxes to other fax machines on the map, or to off-ship organizations handled by server administration. To use the fax machine, you'll need to insert both a paper and your ID card, authenticate, select a destination, the transmit the fax.</p>"
 	. += "<p>You can also fax paper bundles, including photos, using this machine.</p>"
+	. += "<p>You can check the machine's department origin tag using a multitool.</p>"
+	. += "<p>You can link a PDA to it to receive notifications of inbound faxes by clicking on it with the PDA in hand.</p>"
+	. += ..()
+
+/obj/machinery/photocopier/faxmachine/get_antag_info()
+	. = "<p>If emagged with a cryptographic sequencer, the fax machine can then have it's origin department tag changed using a multitool. This allows you to send faxes pretending to be from somewhere else on the ship, or even an off-ship origin like EXCOMM.</p>"
+	. += "<p><strong>NOTE</strong>: Any new department tags created in this way that do not already exist in the list of targets cannot receive faxes, as this does not add new departments to the list of valid fax targets.</p>"
 	. += ..()
 
 /obj/machinery/photocopier/faxmachine/get_interactions_info()
@@ -209,8 +216,8 @@ GLOBAL_LIST_EMPTY(admin_departments)
 		authenticated = 0
 		return TOPIC_REFRESH
 
-/obj/machinery/photocopier/faxmachine/proc/sendfax(var/destination)
-	if(stat & (BROKEN|NOPOWER))
+/obj/machinery/photocopier/faxmachine/proc/sendfax(destination)
+	if(inoperable())
 		return
 
 	use_power_oneoff(200)
@@ -295,14 +302,27 @@ GLOBAL_LIST_EMPTY(admin_departments)
 
 
 /obj/machinery/photocopier/faxmachine/proc/message_admins(mob/sender, faxname, obj/item/sent, reply_type)
-	var/msg = "<span class='notice'><b><font color='#006100'>[faxname]: </font>[get_options_bar(sender, 2,1,1)]"
+	var/msg = "<b>[SPAN_COLOR("#006100", "[faxname]: ")][get_options_bar(sender, 2,1,1)]"
 	msg += "(<A HREF='?_src_=holder;take_ic=\ref[sender]'>TAKE</a>) (<a href='?_src_=holder;FaxReply=\ref[sender];originfax=\ref[src];replyorigin=[reply_type]'>REPLY</a>)</b>: "
-	msg += "Receiving '[sent.name]' via secure connection ... <a href='?_src_=holder;AdminFaxView=\ref[sent]'>view message</a></span>"
+	msg += "Receiving '[sent.name]' via secure connection ... <a href='?_src_=holder;AdminFaxView=\ref[sent]'>view message</a>"
+	msg = SPAN_NOTICE(msg)
 
 	for(var/client/C as anything in GLOB.admins)
 		if(check_rights((R_ADMIN|R_MOD),0,C))
 			to_chat(C, msg)
 			sound_to(C, 'sound/machines/dotprinter.ogg')
+
+
+/obj/machinery/photocopier/faxmachine/proc/link_pda(obj/item/modular_computer/pda/pda)
+	if (!istype(pda))
+		return
+	LAZYADD(linked_pdas, pda)
+	GLOB.destroyed_event.register(pda, src, .proc/unlink_pda)
+
+
+/obj/machinery/photocopier/faxmachine/proc/unlink_pda(obj/item/modular_computer/pda/pda)
+	LAZYREMOVE(linked_pdas, pda)
+	GLOB.destroyed_event.unregister(pda, src, .proc/unlink_pda)
 
 
 /// Retrieves a list of all fax machines matching the given department tag.
