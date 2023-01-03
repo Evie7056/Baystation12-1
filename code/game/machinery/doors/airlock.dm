@@ -1400,16 +1400,6 @@ About the new airlock wires panel:
 	electronics = ..()
 	return electronics
 
-/obj/machinery/door/airlock/emp_act(var/severity)
-	if(prob(20/severity))
-		spawn(0)
-			open()
-	if(prob(40/severity))
-		var/duration = SecondsToTicks(30 / severity)
-		if(electrified_until > -1 && (duration + world.time) > electrified_until)
-			electrify(duration)
-	..()
-
 /obj/machinery/door/airlock/power_change() //putting this is obj/machinery/door itself makes non-airlock doors turn invisible for some reason
 	. = ..()
 	if(stat & NOPOWER)
