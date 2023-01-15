@@ -71,7 +71,7 @@
 			if (LIGHT_STAGE_EMPTY)
 				playsound(loc, 'sound/items/Ratchet.ogg', 50, TRUE)
 				to_chat(user, SPAN_NOTICE("You begin deconstructing \the [src]."))
-				if (!user.do_skilled(3 SECONDS, SKILL_CONSTRUCTION, src))
+				if (!user.do_skilled(3 SECONDS, SKILL_CONSTRUCTION, src, do_flags = DO_REPAIR_CONSTRUCT))
 					return
 				new /obj/item/stack/material/steel( get_turf(loc), sheets_refunded )
 				user.visible_message(
@@ -339,7 +339,6 @@
 	)
 	attack_animation(user)
 	broken()
-	return TRUE
 
 /// Set's the lights `current_mode`. `new_mode` should be one of `LIGHTMODE_*`.
 /obj/machinery/light/proc/set_mode(new_mode)
@@ -908,7 +907,7 @@
 			log_and_message_admins("Rigged light explosion, last touched by [fingerprintslast]")
 			var/turf/T = get_turf(loc)
 			set_status(LIGHT_BROKEN)
-			addtimer(CALLBACK(src, .proc/explosion, T, 0, 0, 3, 5), 2)
+			addtimer(new Callback(GLOBAL_PROC, /proc/explosion, T, 3, EX_ACT_LIGHT), 0.5 SECONDS)
 		else
 			visible_message(SPAN_WARNING("\The [src] short-circuits as something burns out its filament!"))
 			set_status(LIGHT_BURNED)

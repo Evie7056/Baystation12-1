@@ -101,11 +101,11 @@
 
 /mob/living/simple_animal/passive/opossum/poppy/hear_broadcast(datum/language/language, mob/speaker, speaker_name, message)
 	. = ..()
-	addtimer(CALLBACK(src, .proc/check_keywords, message), rand(1 SECOND, 3 SECONDS))
+	addtimer(new Callback(src, .proc/check_keywords, message), rand(1 SECOND, 3 SECONDS))
 
 /mob/living/simple_animal/passive/opossum/poppy/hear_say(var/message, var/verb = "says", var/datum/language/language = null, var/alt_name = "",var/italics = 0, var/mob/speaker = null, var/sound/speech_sound, var/sound_vol)
 	. = ..()
-	addtimer(CALLBACK(src, .proc/check_keywords, message), rand(1 SECOND, 3 SECONDS))
+	addtimer(new Callback(src, .proc/check_keywords, message), rand(1 SECOND, 3 SECONDS))
 
 /mob/living/simple_animal/passive/opossum/poppy/proc/check_keywords(var/message)
 	if(!client && stat == CONSCIOUS)
