@@ -312,6 +312,9 @@
 			user.l_hand.update_twohanding()
 		if(user.r_hand)
 			user.r_hand.update_twohanding()
+	if(user && (z_flags & ZMM_MANGLE_PLANES))
+		addtimer(CALLBACK(user, /mob/proc/check_emissive_equipment), 0, TIMER_UNIQUE)
+
 
 // called just as an item is picked up (loc is not yet changed)
 /obj/item/proc/pickup(mob/user)
@@ -362,7 +365,15 @@
 	if(M.r_hand)
 		M.r_hand.update_twohanding()
 
+<<<<<<< HEAD
 /obj/item/proc/equipped_robot(var/mob/user)
+=======
+	if(user && (z_flags & ZMM_MANGLE_PLANES))
+		addtimer(CALLBACK(user, /mob/proc/check_emissive_equipment), 0, TIMER_UNIQUE)
+
+
+/obj/item/proc/equipped_robot(mob/user)
+>>>>>>> b781a10ac8 (Brings z mimic to parity with latest. Fixes issues with emissives)
 	return
 
 //Defines which slots correspond to which slot flags
