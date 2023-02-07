@@ -254,7 +254,7 @@
 
 /decl/hierarchy/mil_uniform/ec/sup/officer/com
 	name = "EC Supply command"
-	departments = SUP|COM|SRV
+	departments = SUP|COM
 	min_rank = 11
 
 	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/officer/supply

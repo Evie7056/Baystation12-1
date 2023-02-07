@@ -307,7 +307,7 @@
 	spawn_positions = 1
 	head_position = 1
 	req_admin_notify = 1
-	department_flag = SUP|COM|SRV
+	department_flag = SUP|COM
 	supervisors = "Командующему и Исполнительному офицеру"
 	economic_power = 12
 	minimal_player_age = 0

@@ -312,7 +312,7 @@
 
 /decl/hierarchy/mil_uniform/fleet/sup/officer/com
 	name = "Fleet supply CO"
-	departments = SUP|COM|SRV
+	departments = SUP|COM
 	min_rank = 11
 
 	utility_extra = list(

@@ -189,7 +189,7 @@
 
 /decl/hierarchy/mil_uniform/army/sup/officer/com
 	name = "Marine supply CO"
-	departments = SUP|COM|SRV
+	departments = SUP|COM
 	min_rank = 11
 
 	utility_extra = list(/obj/item/clothing/head/ushanka/solgov/army/green,
