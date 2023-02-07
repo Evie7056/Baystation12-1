@@ -8513,7 +8513,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/sol{
-	name = "Judge Advocate;
+	name = "Judge Advocate";
 	secured_wires = 1
 	},
 /turf/simulated/floor/wood/walnut,
