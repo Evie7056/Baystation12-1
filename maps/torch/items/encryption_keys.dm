@@ -44,7 +44,7 @@
 	channels = list("Command" = 1, "Engineering" = 1, "Exploration" = 1, "Supply" = 1, "Service" = 1, "Science" = 1, "Hailing" = 1)
 
 /obj/item/device/encryptionkey/jua
-	name = "bridge officer's encryption key"
+	name = "judge advocate's encryption key"
 	icon_state = "com_cypherkey"
 	channels = list("Command" = 1, "Security" = 1, "Hailing" = 1)
 

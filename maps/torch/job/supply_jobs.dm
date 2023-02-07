@@ -1,6 +1,7 @@
 /datum/job/cargo_tech
 	title = "Deck Technician"
 	department = "Supply"
+	selection_color = "#964B00"
 	department_flag = SUP
 	total_positions = 3
 	spawn_positions = 3
@@ -54,6 +55,7 @@
 /datum/job/mining
 	title = "Prospector"
 	department = "Supply"
+	selection_color = "#964B00"
 	department_flag = SUP
 	total_positions = 2
 	spawn_positions = 2

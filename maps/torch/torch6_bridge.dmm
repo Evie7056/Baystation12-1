@@ -3415,7 +3415,7 @@
 /obj/structure/cable/green,
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/machinery/photocopier/faxmachine{
-	department = "Torch - Chief Logistics Officer"
+	department = "Torch - Supply Corps Officer"
 	},
 /obj/effect/floor_decal/corner/brown/mono,
 /obj/item/device/radio{
@@ -3782,13 +3782,6 @@
 	},
 /turf/simulated/floor/airless,
 /area/aquila/cockpit)
-"hd" = (
-/obj/machinery/light_switch{
-	pixel_x = -24;
-	pixel_y = 8
-	},
-/turf/simulated/floor/wood/walnut,
-/area/crew_quarters/heads/office/sgr)
 "hi" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/table/rack{
@@ -6472,6 +6465,20 @@
 	},
 /turf/simulated/floor/plating,
 /area/security/bridgecheck)
+"oN" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/airlock/sol{
+	name = "Judge Advocate";
+	secured_wires = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/heads/office/sgr)
 "oO" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/cable/green{
@@ -8036,7 +8043,7 @@
 "sS" = (
 /obj/machinery/door/airlock/sol{
 	id_tag = "clo_door";
-	name = "Chief Logistics Officer"
+	name = "Supply Corps Officer"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -13735,6 +13742,9 @@
 /obj/item/storage/box/large/union_cards,
 /turf/simulated/floor/carpet/green,
 /area/crew_quarters/heads/office/cl/backroom)
+"LS" = (
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/heads/office/sgr)
 "LY" = (
 /obj/structure/sign/double/solgovflag/right{
 	dir = 4;
@@ -14352,19 +14362,6 @@
 	},
 /turf/simulated/floor/carpet/green,
 /area/crew_quarters/heads/office/cl)
-"OC" = (
-/obj/machinery/door/airlock/sol{
-	name = "Deliberation Room"
-	},
-/obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/crew_quarters/heads/office/sgr)
 "OD" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 9
@@ -14559,9 +14556,6 @@
 "Pt" = (
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/co)
-"Pv" = (
-/turf/simulated/floor/wood/walnut,
-/area/crew_quarters/heads/office/sgr)
 "Pw" = (
 /obj/machinery/status_display,
 /turf/simulated/wall/prepainted,
@@ -14604,6 +14598,15 @@
 /obj/machinery/meter,
 /turf/simulated/floor/plating,
 /area/aquila/air)
+"PE" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/carpet/blue2,
+/area/crew_quarters/heads/office/sgr)
 "PH" = (
 /obj/structure/cable/cyan{
 	d1 = 2;
@@ -14635,15 +14638,6 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai_foyer)
-"PO" = (
-/obj/structure/sign/warning/smoking{
-	pixel_x = 26
-	},
-/obj/structure/bed/chair/padded/beige{
-	dir = 8
-	},
-/turf/simulated/floor/wood/walnut,
-/area/crew_quarters/heads/office/sgr)
 "PP" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -15272,6 +15266,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/co)
+"RY" = (
+/obj/structure/sign/warning/smoking{
+	pixel_x = 26
+	},
+/obj/structure/bed/chair/padded/beige{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/heads/office/sgr)
 "Sb" = (
 /obj/machinery/power/apc/hyper/shuttle/aquila{
 	dir = 4;
@@ -15891,6 +15894,13 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/bridge/hallway/starboard)
+"Um" = (
+/obj/machinery/light_switch{
+	pixel_x = -24;
+	pixel_y = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/heads/office/sgr)
 "Uo" = (
 /obj/structure/bed/chair/padded/green,
 /turf/simulated/floor/wood/walnut,
@@ -16388,15 +16398,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/xo)
-"WP" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/turf/simulated/floor/carpet/blue2,
-/area/crew_quarters/heads/office/sgr)
 "WW" = (
 /obj/structure/table/glass,
 /obj/effect/floor_decal/corner/blue/mono,
@@ -16791,7 +16792,7 @@
 /obj/effect/floor_decal/corner/brown,
 /obj/machinery/requests_console{
 	announcementConsole = 1;
-	department = "Chief Logistics Officer Office";
+	department = "Supply Corps Officer Office";
 	departmentType = 5;
 	pixel_x = -32
 	},
@@ -29272,7 +29273,7 @@ tv
 uj
 uO
 vu
-WP
+PE
 HJ
 sL
 JG
@@ -29676,7 +29677,7 @@ sL
 uk
 sL
 sL
-OC
+oN
 sL
 sL
 xh
@@ -29876,7 +29877,7 @@ yb
 sL
 tx
 ul
-hd
+Um
 Tf
 wb
 wH
@@ -30078,7 +30079,7 @@ Aq
 sL
 ty
 um
-Pv
+LS
 Uf
 wc
 wI
@@ -30280,7 +30281,7 @@ se
 sL
 tz
 un
-PO
+RY
 vy
 wd
 wJ
