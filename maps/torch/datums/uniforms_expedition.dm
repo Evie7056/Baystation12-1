@@ -252,6 +252,30 @@
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/expedition/chief
 
+/decl/hierarchy/mil_uniform/ec/sup/officer/com
+	name = "EC Supply command"
+	departments = SUP|COM
+	min_rank = 11
+
+	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/officer/supply
+	utility_extra = list(/obj/item/clothing/under/solgov/utility/expeditionary/officer/renew/supply,
+						 /obj/item/clothing/head/beret/solgov/expedition/command,
+						 /obj/item/clothing/head/beret/solgov/expedition/supply,
+						 /obj/item/clothing/head/ushanka/solgov,
+						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
+						 /obj/item/clothing/shoes/jackboots/unathi,
+						 /obj/item/clothing/gloves/thick/duty/solgov/sup)
+
+	service_under = /obj/item/clothing/under/solgov/service/expeditionary/command/supply
+	service_skirt = /obj/item/clothing/under/solgov/service/expeditionary/command/skirt/supply
+	service_over = /obj/item/clothing/suit/storage/solgov/service/expeditionary/command/supply
+	service_hat = /obj/item/clothing/head/solgov/service/expedition/command
+
+	dress_under = /obj/item/clothing/under/solgov/dress/expeditionary/command/supply
+	dress_skirt = /obj/item/clothing/under/solgov/dress/expeditionary/command/skirt/supply
+	dress_over = /obj/item/clothing/suit/storage/solgov/dress/expedition/command
+	dress_hat = /obj/item/clothing/head/solgov/service/expedition/command
+
 /decl/hierarchy/mil_uniform/ec/sup/officer
 	name = "EC supply CO"
 	min_rank = 11
