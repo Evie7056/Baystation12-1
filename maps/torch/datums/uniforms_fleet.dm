@@ -310,8 +310,9 @@
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet
 	dress_extra = list(/obj/item/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
-/decl/hierarchy/mil_uniform/fleet/sup/officer
+/decl/hierarchy/mil_uniform/fleet/sup/officer/com
 	name = "Fleet supply CO"
+	departments = SUP|COM|SRV
 	min_rank = 11
 
 	utility_extra = list(
