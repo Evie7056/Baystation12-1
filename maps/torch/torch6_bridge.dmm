@@ -9132,6 +9132,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/bridge)
+"vV" = (
+/obj/structure/sign/warning/smoking{
+	pixel_x = 26
+	},
+/obj/structure/filingcabinet/filingcabinet,
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/heads/office/sgr)
 "vX" = (
 /obj/structure/filingcabinet/chestdrawer{
 	dir = 1
@@ -13112,6 +13119,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/office/rd)
+"Jl" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/carpet/blue2,
+/area/crew_quarters/heads/office/sgr)
 "Jn" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -13133,6 +13149,20 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
 /area/maintenance/bridge/forestarboard)
+"Js" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/airlock/sol{
+	name = "Judge Advocate";
+	secured_wires = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/heads/office/sgr)
 "Jt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -13876,6 +13906,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/crew)
+"Mx" = (
+/obj/structure/bed/chair/padded/blue,
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/heads/office/sgr)
 "Mz" = (
 /obj/machinery/status_display,
 /turf/simulated/wall/r_wall/hull,
