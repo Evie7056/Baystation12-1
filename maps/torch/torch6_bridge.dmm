@@ -6465,20 +6465,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/security/bridgecheck)
-"oN" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/door/airlock/sol{
-	name = "Judge Advocate";
-	secured_wires = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/crew_quarters/heads/office/sgr)
 "oO" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/cable/green{
@@ -7254,11 +7240,8 @@
 /turf/space,
 /area/space)
 "qB" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/sgr)
@@ -8265,9 +8248,6 @@
 /obj/item/book/manual/solgov_law,
 /obj/item/book/manual/sol_sop,
 /obj/item/book/manual/military_law,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
 /obj/item/device/radio/intercom{
 	pixel_y = 23
 	},
@@ -8275,9 +8255,6 @@
 /area/crew_quarters/heads/office/sgr)
 "ty" = (
 /obj/structure/closet/secure_closet/representative,
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
 /obj/random/drinkbottle,
 /obj/structure/sign/warning/nosmoking_1{
 	desc = "A warning sign which reads 'NO SMOKING'. Someone has scratched a variety of crude words in gutter across the entire sign.";
@@ -8508,44 +8485,24 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/sgr)
 "uk" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/door/airlock/sol{
-	name = "Judge Advocate";
-	secured_wires = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/crew_quarters/heads/office/sgr)
-"ul" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+/obj/machinery/light_switch{
+	pixel_x = -24;
+	pixel_y = 8
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/sgr)
 "um" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8
-	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/sgr)
 "un" = (
 /obj/item/storage/secure/safe{
 	pixel_x = 36
-	},
-/obj/structure/bed/chair/padded/beige{
-	dir = 8
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/sgr)
@@ -9159,6 +9116,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/bridge)
+"vV" = (
+/obj/structure/sign/warning/smoking{
+	pixel_x = 26
+	},
+/obj/structure/filingcabinet/filingcabinet,
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/heads/office/sgr)
 "vX" = (
 /obj/structure/filingcabinet/chestdrawer{
 	dir = 1
@@ -13121,6 +13085,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/office/rd)
+"Jl" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/carpet/blue2,
+/area/crew_quarters/heads/office/sgr)
 "Jn" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -13142,6 +13115,20 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
 /area/maintenance/bridge/forestarboard)
+"Js" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/airlock/sol{
+	name = "Judge Advocate";
+	secured_wires = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/heads/office/sgr)
 "Jt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -13742,9 +13729,6 @@
 /obj/item/storage/box/large/union_cards,
 /turf/simulated/floor/carpet/green,
 /area/crew_quarters/heads/office/cl/backroom)
-"LS" = (
-/turf/simulated/floor/wood/walnut,
-/area/crew_quarters/heads/office/sgr)
 "LY" = (
 /obj/structure/sign/double/solgovflag/right{
 	dir = 4;
@@ -13888,6 +13872,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/crew)
+"Mx" = (
+/obj/structure/bed/chair/padded/blue,
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/heads/office/sgr)
 "Mz" = (
 /obj/machinery/status_display,
 /turf/simulated/wall/r_wall/hull,
@@ -14598,15 +14586,6 @@
 /obj/machinery/meter,
 /turf/simulated/floor/plating,
 /area/aquila/air)
-"PE" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/turf/simulated/floor/carpet/blue2,
-/area/crew_quarters/heads/office/sgr)
 "PH" = (
 /obj/structure/cable/cyan{
 	d1 = 2;
@@ -15266,15 +15245,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/co)
-"RY" = (
-/obj/structure/sign/warning/smoking{
-	pixel_x = 26
-	},
-/obj/structure/bed/chair/padded/beige{
-	dir = 8
-	},
-/turf/simulated/floor/wood/walnut,
-/area/crew_quarters/heads/office/sgr)
 "Sb" = (
 /obj/machinery/power/apc/hyper/shuttle/aquila{
 	dir = 4;
@@ -15894,13 +15864,6 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/bridge/hallway/starboard)
-"Um" = (
-/obj/machinery/light_switch{
-	pixel_x = -24;
-	pixel_y = 8
-	},
-/turf/simulated/floor/wood/walnut,
-/area/crew_quarters/heads/office/sgr)
 "Uo" = (
 /obj/structure/bed/chair/padded/green,
 /turf/simulated/floor/wood/walnut,
@@ -29273,7 +29236,7 @@ tv
 uj
 uO
 vu
-PE
+Jl
 HJ
 sL
 JG
@@ -29674,10 +29637,10 @@ uK
 ga
 sL
 sL
-uk
 sL
 sL
-oN
+sL
+Js
 sL
 sL
 xh
@@ -29876,8 +29839,8 @@ FS
 yb
 sL
 tx
-ul
-Um
+um
+uk
 Tf
 wb
 wH
@@ -30079,7 +30042,7 @@ Aq
 sL
 ty
 um
-LS
+Mx
 Uf
 wc
 wI
@@ -30281,7 +30244,7 @@ se
 sL
 tz
 un
-RY
+vV
 vy
 wd
 wJ

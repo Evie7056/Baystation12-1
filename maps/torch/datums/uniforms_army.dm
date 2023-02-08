@@ -188,8 +188,7 @@
 	dress_extra = list(/obj/item/material/sword/replica/officersword/army)
 
 /decl/hierarchy/mil_uniform/army/sup/officer/com
-	name = "Marine supply CO"
-	departments = SUP|COM
+	name = "Marine Supply command"
 	min_rank = 11
 
 	utility_extra = list(/obj/item/clothing/head/ushanka/solgov/army/green,
