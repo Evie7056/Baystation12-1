@@ -196,8 +196,8 @@
 						/obj/item/clothing/suit/storage/hooded/wintercoat/solgov/army,
 						/obj/item/clothing/under/solgov/utility/army/supply,
 						/obj/item/clothing/head/solgov/utility/army/urban,
-						/obj/item/clothing/suit/storage/solgov/utility/army/command,
-						/obj/item/clothing/suit/storage/solgov/utility/army/navy/command,
+						/obj/item/clothing/suit/storage/solgov/utility/army/service/command,
+						/obj/item/clothing/suit/storage/solgov/utility/army/navy/service/command,
 						/obj/item/clothing/gloves/thick)
 
 	service_under = /obj/item/clothing/under/solgov/service/army/command
@@ -222,8 +222,8 @@
 						/obj/item/clothing/suit/storage/hooded/wintercoat/solgov/army,
 						/obj/item/clothing/under/solgov/utility/army/supply,
 						/obj/item/clothing/head/solgov/utility/army/urban,
-						/obj/item/clothing/suit/storage/solgov/utility/army/command,
-						/obj/item/clothing/suit/storage/solgov/utility/army/navy/command,
+						/obj/item/clothing/suit/storage/solgov/utility/army/service/command,
+						/obj/item/clothing/suit/storage/solgov/utility/army/navy/service/command,
 						/obj/item/clothing/gloves/thick)
 
 	service_under = /obj/item/clothing/under/solgov/service/army/command
