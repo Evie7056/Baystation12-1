@@ -207,7 +207,7 @@
 	battery_type = /obj/item/cell/guncell/pistol/small
 	recoil_buildup = 0
 	init_firemodes = list(
-		list(mode_name="stun charge", projectile_type=/obj/item/projectile/plasma/stun, charge_cost=25, fire_delay=4, projectile_color=COLOR_LIGHT_BLUE),
+		list(mode_name="stun charge", projectile_type=/obj/item/projectile/plasma/stun, charge_cost=25, fire_delay=4, projectile_color=COLOR_BLUE_LIGHT),
 		list(mode_name="plasma charge", projectile_type=/obj/item/projectile/plasma/weak, charge_cost=25, fire_delay=4, projectile_color=COLOR_GREEN),
 	)
 
