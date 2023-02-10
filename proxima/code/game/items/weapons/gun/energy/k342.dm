@@ -207,7 +207,7 @@
 	battery_type = /obj/item/cell/guncell/pistol/small
 	recoil_buildup = 0
 	init_firemodes = list(
-		list(mode_name="stun charge", projectile_type=/obj/item/projectile/plasma/stun, charge_cost=25, fire_delay=4, projectile_color=COLOR_YELLOW),
+		list(mode_name="stun charge", projectile_type=/obj/item/projectile/plasma/stun, charge_cost=25, fire_delay=4, projectile_color=COLOR_LIGHT_BLUE),
 		list(mode_name="plasma charge", projectile_type=/obj/item/projectile/plasma/weak, charge_cost=25, fire_delay=4, projectile_color=COLOR_GREEN),
 	)
 
@@ -250,13 +250,14 @@
 	build_path = /obj/item/gun/energy/k342/pistol
 	req_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 3, TECH_POWER = 5)
 	materials = list(MATERIAL_SILVER = 2000, MATERIAL_PLASTIC = 6000 MATERIAL_GLASS = 1000, MATERIAL_STEEL = 2000, MATERIAL_URANIUM = 1000)
+	sort_string = "TAEAB"
 
 /datum/design/item/weapon/k342/sniper
 	id = "k342_sniper"
 	req_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 3, TECH_POWER = 7)
 	materials = list(MATERIAL_SILVER = 7000, MATERIAL_GLASS = 4000, MATERIAL_STEEL = 20000, MATERIAL_URANIUM = 4000, MATERIAL_DIAMOND = 1000)
 	build_path = /obj/item/gun/energy/k342/sniper
-	sort_string = "TAEAB"
+	sort_string = "TAEAC"
 
 /datum/design/item/weapon/ammunition/smallgunbattery
 	id = "smallgun_battery"
