@@ -8224,6 +8224,10 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/computer/modular/preset/security{
+	dir = 1;
+	icon_state = "console"
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/armoury/access)
 "azV" = (
@@ -29221,6 +29225,8 @@
 /obj/item/gun/energy/gun/secure,
 /obj/item/gun/energy/gun/secure,
 /obj/item/gun/energy/gun/secure,
+/obj/item/gun/energy/k342/pistol/explo,
+/obj/item/gun/energy/k342/pistol/explo,
 /obj/item/gun/energy/gun/secure,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)

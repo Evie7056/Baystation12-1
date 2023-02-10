@@ -12,15 +12,19 @@
 
 /obj/effect/projectile/plasma
 	light_color = COLOR_BLUE
+	color = COLOR_BLUE_LIGHT
 
 /obj/effect/projectile/plasma/heavy
 	light_color = COLOR_RED
+	color = COLOR_RED
 
 /obj/effect/projectile/plasma/stun
 	light_color = COLOR_YELLOW
+	color = COLOR_YELLOW
 
 /obj/effect/projectile/plasma/net
 	light_color = COLOR_GREEN
+	color = COLOR_GREEN
 
 /obj/effect/projectile/plasma/muzzle
 	icon_state = "muzzle_plasma"
@@ -106,6 +110,8 @@
 	armor_penetration = 0
 	damage = 25
 	agony = 10
+	color = COLOR_GREEN
+	light_color = COLOR_GREEN
 
 /obj/item/gun/energy/k342
 	name = "plasma rifle"

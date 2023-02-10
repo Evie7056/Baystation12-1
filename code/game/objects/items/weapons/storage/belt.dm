@@ -269,6 +269,7 @@
 		/obj/item/taperoll,
 		//rubay code,
 		/obj/item/storage/firstaid/individual/military,
+		/obj/item/cell/guncell,
 		//rubay code end,
 		/obj/item/device/holowarrant,
 		/obj/item/magnetic_ammo,
@@ -319,7 +320,8 @@
 		/obj/item/toy/bosunwhistle,
 		/obj/item/clothing/head/beret,
 		/obj/item/material/knife/folding,
-		/obj/item/device/tape
+		/obj/item/device/tape,
+		/obj/item/cell/guncell
 		)
 
 /obj/item/storage/belt/janitor
@@ -446,6 +448,7 @@
 		/obj/item/device/scanner,
 		/obj/item/clothing/head/beret,
 		/obj/item/material/knife/folding
+		/obj/item/cell/guncell,
 		)
 
 /obj/item/storage/belt/holster/machete
