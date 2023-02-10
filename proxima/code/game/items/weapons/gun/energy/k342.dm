@@ -249,7 +249,7 @@
 	id = "k342_pistol"
 	build_path = /obj/item/gun/energy/k342/pistol
 	req_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 3, TECH_POWER = 5)
-	materials = list(MATERIAL_SILVER = 2000, MATERIAL_PLASTIC = 6000 MATERIAL_GLASS = 1000, MATERIAL_STEEL = 2000, MATERIAL_URANIUM = 1000)
+	materials = list(MATERIAL_SILVER = 2000, MATERIAL_PLASTIC = 6000, MATERIAL_GLASS = 1000, MATERIAL_STEEL = 2000, MATERIAL_URANIUM = 1000)
 	sort_string = "TAEAB"
 
 /datum/design/item/weapon/k342/sniper
