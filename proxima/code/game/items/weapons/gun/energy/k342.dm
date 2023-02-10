@@ -197,7 +197,7 @@
 	slot_flags = SLOT_BACK|SLOT_BELT
 	icon_state = "koi_off"
 	item_state = "koi"
-	origin_tech = list(TECH_COMBAT=4, TECH_MATERIAL=3, TECH_POWER=5)
+	origin_tech = list(TECH_COMBAT=3, TECH_MATERIAL=3, TECH_POWER=5)
 	wielded_item_state = null
 	battery_changable = TRUE
 	req_access = list(list(access_brig, access_bridge))
@@ -244,6 +244,12 @@
 	materials = list(MATERIAL_SILVER = 7000, MATERIAL_GLASS = 2000, MATERIAL_STEEL = 10000, MATERIAL_URANIUM = 2000)
 	build_path = /obj/item/gun/energy/k342
 	sort_string = "TAEAA"
+
+/datum/design/item/weapon/k342/pistol
+	id = "k342_pistol"
+	build_path = /obj/item/gun/energy/k342/pistol
+	req_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 3, TECH_POWER = 5)
+	materials = list(MATERIAL_SILVER = 2000, MATERIAL_PLASTIC = 6000 MATERIAL_GLASS = 1000, MATERIAL_STEEL = 2000, MATERIAL_URANIUM = 1000)
 
 /datum/design/item/weapon/k342/sniper
 	id = "k342_sniper"
