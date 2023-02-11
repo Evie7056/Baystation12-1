@@ -194,7 +194,7 @@
 		slot_r_hand_str = 'proxima/icons/mob/onmob/items/righthand-guns.dmi',
 		slot_back_str = null
 		)
-	slot_flags = SLOT_BACK|SLOT_BELT
+	slot_flags = SLOT_BACK|SLOT_BELT|SLOT_HOLSTER
 	icon_state = "koi_off"
 	item_state = "koi"
 	origin_tech = list(TECH_COMBAT=3, TECH_MATERIAL=3, TECH_POWER=5)
