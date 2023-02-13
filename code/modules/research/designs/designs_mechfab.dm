@@ -697,7 +697,7 @@
 	build_path = /obj/item/rig/combat
 	req_tech = list(TECH_MATERIAL = 6, TECH_COMBAT = 9, TECH_ENGINEERING = 5)
 	materials = list(MATERIAL_STEEL = 40000, MATERIAL_GLASS = 6000, MATERIAL_SILVER = 2000, MATERIAL_TITANIUM = 10000, MATERIAL_DIAMOND = 2000)
-	id = "combat_rig"
+	id = "combat_suit"
 	time = 120
 
 /datum/design/mechfab/rig/fleet
@@ -706,7 +706,7 @@
 	build_path = /obj/item/rig/ert/fleet
 	req_tech = list(TECH_MATERIAL = 6, TECH_COMBAT = 6, TECH_ENGINEERING = 5)
 	materials = list(MATERIAL_STEEL = 40000, MATERIAL_GLASS = 6000, MATERIAL_SILVER = 2000, MATERIAL_DIAMOND = 2000)
-	id = "fleet_rig"
+	id = "fleet_suit"
 	time = 120
 
 /datum/design/mechfab/rig/light
@@ -715,7 +715,7 @@
 	build_path = /obj/item/rig/ert/fleet
 	req_tech = list(TECH_MATERIAL = 4, TECH_COMBAT = 3, TECH_ENGINEERING = 3)
 	materials = list(MATERIAL_STEEL = 10000, MATERIAL_PLASTIC = 6000, MATERIAL_ALUMINIUM = 6000, MATERIAL_SILVER = 1000)
-	id = "light_rig"
+	id = "light_suit"
 	time = 120
 
 /datum/design/mechfab/rig/merc
@@ -724,7 +724,7 @@
 	build_path = /obj/item/rig/merc
 	req_tech = list(TECH_MATERIAL = 6, TECH_COMBAT = 7, TECH_ENGINEERING = 5, TECH_ESOTERIC = 3)
 	materials = list(MATERIAL_STEEL = 40000, MATERIAL_GLASS = 6000, MATERIAL_SILVER = 2000, MATERIAL_DIAMOND = 2000)
-	id = "merc_rig"
+	id = "merc_suit"
 	time = 120
 
 /datum/design/mechfab/rig/eod
@@ -733,7 +733,7 @@
 	build_path = /obj/item/rig/merc/heavy
 	req_tech = list(TECH_MATERIAL = 6, TECH_COMBAT = 8, TECH_ENGINEERING = 5, TECH_ESOTERIC = 3)
 	materials = list(MATERIAL_STEEL = 40000, MATERIAL_GLASS = 6000, MATERIAL_SILVER = 2000, MATERIAL_TITANIUM = 5000, MATERIAL_DIAMOND = 2000)
-	id = "eod_rig"
+	id = "eod_suit"
 	time = 120
 
 /datum/design/item/mechfab/rig/indistrial
