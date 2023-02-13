@@ -145,6 +145,13 @@
 	build_path = /obj/item/gun/projectile/automatic/bullpup_rifle
 	sort_string = "TAPAC"
 
+/datum/design/item/weapon/aegun
+	id = "aegun"
+	req_tech = list(TECH_COMBAT = 7, TECH_MATERIAL = 4, TECH_POWER = 7)
+	materials = list(MATERIAL_STEEL = 10000, MATERIAL_SILVER = 4000, MATERIAL_DIAMOND = 2000, MATERIAL_URANIUM = 6000, MATERIAL_GOLD = 1000)
+	build_path = /obj/item/gun/energy/gun/nuclear
+	sort_string = "TAPAD"
+
 /datum/design/item/weapon/ammunition/AssembleDesignName()
 	..()
 	name = "Ammunition prototype ([item_name])"
