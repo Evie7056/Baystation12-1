@@ -687,8 +687,111 @@
 	category = "Hardsuits"
 	name = "Null suit control module"
 	build_path = /obj/item/rig/zero
-	materials = list(MATERIAL_STEEL = 30000, MATERIAL_GLASS = 5000, MATERIAL_SILVER = 1000)
+	materials = list(MATERIAL_STEEL = 20000, MATERIAL_GLASS = 5000, MATERIAL_PLASTIC = 10000, MATERIAL_SILVER = 1000)
 	id = "null _suit"
+	time = 120
+
+/datum/design/mechfab/rig/combat
+	category = "Hardsuits"
+	name = "Combat rig control module"
+	build_path = /obj/item/rig/combat
+	req_tech = list(TECH_MATERIAL = 6, TECH_COMBAT = 9, TECH_ENGINEERING = 5)
+	materials = list(MATERIAL_STEEL = 40000, MATERIAL_GLASS = 6000, MATERIAL_SILVER = 2000, MATERIAL_TITANIUM = 10000, MATERIAL_DIAMOND = 2000)
+	id = "combat_rig"
+	time = 120
+
+/datum/design/mechfab/rig/combat
+	category = "Hardsuits"
+	name = "Fleet rig control module"
+	build_path = /obj/item/rig/ert/fleet
+	req_tech = list(TECH_MATERIAL = 6, TECH_COMBAT = 6, TECH_ENGINEERING = 5)
+	materials = list(MATERIAL_STEEL = 40000, MATERIAL_GLASS = 6000, MATERIAL_SILVER = 2000, MATERIAL_DIAMOND = 2000)
+	id = "fleet_rig"
+	time = 120
+
+/obj/item/rig/light
+
+/datum/design/mechfab/rig/light
+	category = "Hardsuits"
+	name = "Light rig control module"
+	build_path = /obj/item/rig/ert/fleet
+	req_tech = list(TECH_MATERIAL = 4, TECH_COMBAT = 3, TECH_ENGINEERING = 3)
+	materials = list(MATERIAL_STEEL = 10000, MATERIAL_PLASTIC = 6000, MATERIAL_ALUMINIUM = 6000, MATERIAL_SILVER = 1000)
+	id = "light_rig"
+	time = 120
+
+/datum/design/mechfab/rig/combat
+	category = "Hardsuits"
+	name = "Crimson rig control module"
+	build_path = /obj/item/rig/merc
+	req_tech = list(TECH_MATERIAL = 6, TECH_COMBAT = 7, TECH_ENGINEERING = 5, TECH_ESOTERIC = 3)
+	materials = list(MATERIAL_STEEL = 40000, MATERIAL_GLASS = 6000, MATERIAL_SILVER = 2000, MATERIAL_DIAMOND = 2000)
+	id = "merc_rig"
+	time = 120
+
+/datum/design/mechfab/rig/combat
+	category = "Hardsuits"
+	name = "Heavy Crimson rig control module"
+	build_path = /obj/item/rig/merc/heavy
+	req_tech = list(TECH_MATERIAL = 6, TECH_COMBAT = 8, TECH_ENGINEERING = 5, TECH_ESOTERIC = 3)
+	materials = list(MATERIAL_STEEL = 40000, MATERIAL_GLASS = 6000, MATERIAL_SILVER = 2000, MATERIAL_TITANIUM = 5000, MATERIAL_DIAMOND = 2000)
+	id = "eod_rig"
+	time = 120
+
+/datum/design/item/mechfab/rig/indistrial
+	category = "Hardsuits"
+	name = "Indistrial suit control module"
+	build_path = /obj/item/rig/industrial
+	req_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 5)
+	materials = list(MATERIAL_STEEL = 40000, MATERIAL_GLASS = 5000)
+	id = "industrial_suit"
+	time = 120
+
+/datum/design/item/mechfab/rig/eva
+	category = "Hardsuits"
+	name = "EVA suit control module"
+	build_path = /obj/item/rig/eva
+	req_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 5)
+	materials = list(MATERIAL_STEEL = 20000, MATERIAL_GLASS = 5000, MATERIAL_PLASTIC = 5000, MATERIAL_ALUMINIUM = 5000)
+	id = "eva_suit"
+	time = 120
+
+/datum/design/item/mechfab/rig/ce
+	category = "Hardsuits"
+	name = "Advanced engineering suit control module"
+	build_path = /obj/item/rig/ce
+	req_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 8)
+	materials = list(MATERIAL_STEEL = 30000, MATERIAL_GLASS = 5000, MATERIAL_ALUMINIUM = 10000, MATERIAL_SILVER = 1000, MATERIAL_GOLD = 1000)
+	id = "ce_suit"
+	time = 120
+
+/datum/design/item/mechfab/rig/hazmat
+	category = "Hardsuits"
+	name = "Hazmat suit control module"
+	build_path = /obj/item/rig/hazmat
+	req_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 5)
+	materials = list(MATERIAL_STEEL = 20000, MATERIAL_GLASS = 5000, MATERIAL_PLASTIC = 5000, MATERIAL_ALUMINIUM = 5000, MATERIAL_SILVER = 1000, MATERIAL_GOLD = 1000)
+	id = "hazmat_suit"
+	time = 120
+
+/datum/design/item/mechfab/rig/medical
+	category = "Hardsuits"
+	name = "Rescue suit control module"
+	build_path = /obj/item/rig/medical
+	req_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 5, TECH_BIO = 4)
+	materials = list(MATERIAL_STEEL = 20000, MATERIAL_GLASS = 5000, MATERIAL_PLASTIC = 5000, MATERIAL_ALUMINIUM = 5000)
+	id = "medical_suit"
+	time = 120
+
+/obj/item/rig/hazard
+
+/datum/design/item/mechfab/rig/hazard
+	category = "Hardsuits"
+	name = "Hazard suit control module"
+	build_path = /obj/item/rig/hazard
+	req_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 5)
+	materials = list(MATERIAL_STEEL = 20000, MATERIAL_GLASS = 5000, MATERIAL_PLASTIC = 5000, MATERIAL_ALUMINIUM = 5000, MATERIAL_SILVER = 1000, MATERIAL_GOLD = 1000)
+	id = "hazard_suit"
 	time = 120
 
 /datum/design/item/mechfab/rig/meson
