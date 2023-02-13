@@ -712,7 +712,7 @@
 /datum/design/mechfab/rig/light
 	category = "Hardsuit Control Modules"
 	name = "Light rig control module"
-	build_path = /obj/item/rig/ert/fleet
+	build_path = /obj/item/rig/light
 	req_tech = list(TECH_MATERIAL = 4, TECH_COMBAT = 3, TECH_ENGINEERING = 3)
 	materials = list(MATERIAL_STEEL = 10000, MATERIAL_PLASTIC = 6000, MATERIAL_ALUMINIUM = 6000, MATERIAL_SILVER = 1000)
 	id = "light_suit"
