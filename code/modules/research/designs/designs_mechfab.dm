@@ -700,7 +700,7 @@
 	id = "combat_rig"
 	time = 120
 
-/datum/design/mechfab/rig/combat
+/datum/design/mechfab/rig/fleet
 	category = "Hardsuits"
 	name = "Fleet rig control module"
 	build_path = /obj/item/rig/ert/fleet
@@ -720,7 +720,7 @@
 	id = "light_rig"
 	time = 120
 
-/datum/design/mechfab/rig/combat
+/datum/design/mechfab/rig/merc
 	category = "Hardsuits"
 	name = "Crimson rig control module"
 	build_path = /obj/item/rig/merc
@@ -729,7 +729,7 @@
 	id = "merc_rig"
 	time = 120
 
-/datum/design/mechfab/rig/combat
+/datum/design/mechfab/rig/eod
 	category = "Hardsuits"
 	name = "Heavy Crimson rig control module"
 	build_path = /obj/item/rig/merc/heavy
@@ -782,8 +782,6 @@
 	materials = list(MATERIAL_STEEL = 20000, MATERIAL_GLASS = 5000, MATERIAL_PLASTIC = 5000, MATERIAL_ALUMINIUM = 5000)
 	id = "medical_suit"
 	time = 120
-
-/obj/item/rig/hazard
 
 /datum/design/item/mechfab/rig/hazard
 	category = "Hardsuits"
