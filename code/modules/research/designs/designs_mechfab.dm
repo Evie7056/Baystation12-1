@@ -684,7 +684,7 @@
 
 //BigRigs
 /datum/design/item/mechfab/rig/zero
-	category = "Hardsuits"
+	category = "Hardsuit Control Modules"
 	name = "Null suit control module"
 	build_path = /obj/item/rig/zero
 	materials = list(MATERIAL_STEEL = 20000, MATERIAL_GLASS = 5000, MATERIAL_PLASTIC = 10000, MATERIAL_SILVER = 1000)
@@ -692,7 +692,7 @@
 	time = 120
 
 /datum/design/mechfab/rig/combat
-	category = "Hardsuits"
+	category = "Hardsuit Control Modules"
 	name = "Combat rig control module"
 	build_path = /obj/item/rig/combat
 	req_tech = list(TECH_MATERIAL = 6, TECH_COMBAT = 9, TECH_ENGINEERING = 5)
@@ -701,7 +701,7 @@
 	time = 120
 
 /datum/design/mechfab/rig/fleet
-	category = "Hardsuits"
+	category = "Hardsuit Control Modules"
 	name = "Fleet rig control module"
 	build_path = /obj/item/rig/ert/fleet
 	req_tech = list(TECH_MATERIAL = 6, TECH_COMBAT = 6, TECH_ENGINEERING = 5)
@@ -709,10 +709,8 @@
 	id = "fleet_rig"
 	time = 120
 
-/obj/item/rig/light
-
 /datum/design/mechfab/rig/light
-	category = "Hardsuits"
+	category = "Hardsuit Control Modules"
 	name = "Light rig control module"
 	build_path = /obj/item/rig/ert/fleet
 	req_tech = list(TECH_MATERIAL = 4, TECH_COMBAT = 3, TECH_ENGINEERING = 3)
@@ -721,7 +719,7 @@
 	time = 120
 
 /datum/design/mechfab/rig/merc
-	category = "Hardsuits"
+	category = "Hardsuit Control Modules"
 	name = "Crimson rig control module"
 	build_path = /obj/item/rig/merc
 	req_tech = list(TECH_MATERIAL = 6, TECH_COMBAT = 7, TECH_ENGINEERING = 5, TECH_ESOTERIC = 3)
@@ -730,7 +728,7 @@
 	time = 120
 
 /datum/design/mechfab/rig/eod
-	category = "Hardsuits"
+	category = "Hardsuit Control Modules"
 	name = "Heavy Crimson rig control module"
 	build_path = /obj/item/rig/merc/heavy
 	req_tech = list(TECH_MATERIAL = 6, TECH_COMBAT = 8, TECH_ENGINEERING = 5, TECH_ESOTERIC = 3)
@@ -739,7 +737,7 @@
 	time = 120
 
 /datum/design/item/mechfab/rig/indistrial
-	category = "Hardsuits"
+	category = "Hardsuit Control Modules"
 	name = "Indistrial suit control module"
 	build_path = /obj/item/rig/industrial
 	req_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 5)
@@ -748,7 +746,7 @@
 	time = 120
 
 /datum/design/item/mechfab/rig/eva
-	category = "Hardsuits"
+	category = "Hardsuit Control Modules"
 	name = "EVA suit control module"
 	build_path = /obj/item/rig/eva
 	req_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 5)
@@ -757,7 +755,7 @@
 	time = 120
 
 /datum/design/item/mechfab/rig/ce
-	category = "Hardsuits"
+	category = "Hardsuit Control Modules"
 	name = "Advanced engineering suit control module"
 	build_path = /obj/item/rig/ce
 	req_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 8)
@@ -766,7 +764,7 @@
 	time = 120
 
 /datum/design/item/mechfab/rig/hazmat
-	category = "Hardsuits"
+	category = "Hardsuit Control Modules"
 	name = "Hazmat suit control module"
 	build_path = /obj/item/rig/hazmat
 	req_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 5)
@@ -775,7 +773,7 @@
 	time = 120
 
 /datum/design/item/mechfab/rig/medical
-	category = "Hardsuits"
+	category = "Hardsuit Control Modules"
 	name = "Rescue suit control module"
 	build_path = /obj/item/rig/medical
 	req_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 5, TECH_BIO = 4)
@@ -784,7 +782,7 @@
 	time = 120
 
 /datum/design/item/mechfab/rig/hazard
-	category = "Hardsuits"
+	category = "Hardsuit Control Modules"
 	name = "Hazard suit control module"
 	build_path = /obj/item/rig/hazard
 	req_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 5)
