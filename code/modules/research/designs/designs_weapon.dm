@@ -206,14 +206,14 @@
 	build_path = /obj/item/ammo_casing/shotgun/emp
 	sort_string = "TBAAG"
 
-/datum/design/item/weapon/high_freqency_katana
-	name = "high frequency katana"
-	id = "hfqkatana"
-	desc = "light like wind minuano."
-	materials = list(MATERIAL_STEEL = 9000,MATERIAL_GLASS = 3000, MATERIAL_GOLD = 3000, MATERIAL_URANIUM = 1000)
-	req_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 6, TECH_ENERGY = 6)
-	build_path = /obj/item/melee/energy/minuano
-	sort_string = "TBZAB"
+/datum/design/item/weapon/high_freqency_sword
+	name = "high frequency sword"
+	id = "hfqsword"
+	desc = "standart high frequency sword feels like tool of justice."
+	materials = list(MATERIAL_STEEL = 4000, MATERIAL_GLASS = 3000, MATERIAL_URANIUM = 750)
+	req_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 6)
+	build_path = /obj/item/melee/sword/raiden
+	sort_string = "TBZAA"
 
 /datum/design/item/weapon/high_freqency_machete
 	name = "high frequency machete"
@@ -224,11 +224,11 @@
 	build_path = /obj/item/melee/energy/machete/sundowner
 	sort_string = "TBZAC"
 
-/datum/design/item/weapon/high_freqency_sword
-	name = "high frequency sword"
-	id = "hfqsword"
-	desc = "standart high frequency sword feels like tool of justice."
-	materials = list(MATERIAL_STEEL = 4000, MATERIAL_GLASS = 3000, MATERIAL_URANIUM = 750)
-	req_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 6)
-	build_path = /obj/item/melee/sword/raiden
-	sort_string = "TBZAA"
+/datum/design/item/weapon/high_freqency_katana
+	name = "high frequency katana"
+	id = "hfqkatana"
+	desc = "light like wind minuano."
+	materials = list(MATERIAL_STEEL = 9000,MATERIAL_GLASS = 3000, MATERIAL_GOLD = 3000, MATERIAL_URANIUM = 1000)
+	req_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 6, TECH_ENERGY = 6)
+	build_path = /obj/item/melee/energy/minuano
+	sort_string = "TBZAB"

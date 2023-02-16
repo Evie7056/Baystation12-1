@@ -1058,3 +1058,93 @@
 	req_tech = list(TECH_MATERIAL = 2, TECH_MAGNET = 2)
 	id = "rig_llaucher"
 	sort_string = "WCLAG"
+
+/datum/design/item/mechfab/voidsuit/eng
+	category = "Voidsuits"
+	name = "Engineering voidsuit"
+	build_path = /obj/item/clothing/suit/space/void/engineering/alt/sol/prepared
+	materials = list(MATERIAL_STEEL = 10000, MATERIAL_PLASTIC = 4000, MATERIAL_ALUMINIUM = 4000)
+	req_tech = list(TECH_MATERIAL = 2, TECH_ENGINEERING = 2)
+	id = "void_eng"
+
+/*
+/datum/design/item/mechfab/voidsuit/eng/helmet
+	name = "Engineering voidsuit helmet"
+	build_path = /obj/item/clothing/head/helmet/space/void/engineering/alt/sol
+	id = "void_eng_helmet"	*/
+
+/datum/design/item/mechfab/voidsuit/med
+	category = "Voidsuits"
+	name = "Medical voidsuit"
+	build_path = /obj/item/clothing/suit/space/void/medical/alt/sol/prepared
+	materials = list(MATERIAL_STEEL = 5000, MATERIAL_PLASTIC = 10000, MATERIAL_ALUMINIUM = 4000)
+	req_tech = list(TECH_MATERIAL = 2, TECH_ENGINEERING = 2, TECH_BIO = 2)
+	id = "void_med"
+
+/*
+/datum/design/item/mechfab/voidsuit/med/helmet
+	name = "Medical voidsuit helmet"
+	build_path = /obj/item/clothing/head/helmet/space/void/medical/alt/sol
+	id = "void_med_helmet"	*/
+
+/datum/design/item/mechfab/voidsuit/atmos
+	category = "Voidsuits"
+	name = "Atmos voidsuit"
+	build_path = /obj/item/clothing/suit/space/void/atmos/alt/sol/prepared
+	materials = list(MATERIAL_STEEL = 80000, MATERIAL_PLASTIC = 2000, MATERIAL_ALUMINIUM = 10000)
+	req_tech = list(TECH_MATERIAL = 2, TECH_ENGINEERING = 2)
+	id = "void_atmos"
+
+/*
+/datum/design/item/mechfab/voidsuit/atmos/helmet
+	name = "Atmos voidsuit helmet"
+	build_path = /obj/item/clothing/head/helmet/space/void/atmos/alt/sol
+	id = "void_atmos_helmet"	*/
+
+/datum/design/item/mechfab/voidsuit/sec
+	category = "Voidsuits"
+	name = "Riot voidsuit"
+	build_path = /obj/item/clothing/suit/space/void/security/alt/prepared
+	materials = list(MATERIAL_STEEL = 15000, MATERIAL_PLASTIC = 2000, MATERIAL_ALUMINIUM = 4000)
+	req_tech = list(TECH_MATERIAL = 2, TECH_ENGINEERING = 2, TECH_COMBAT = 3)
+	id = "void_sec"
+
+/datum/design/item/mechfab/voidsuit/merc
+	category = "Voidsuits"
+	name = "Crimson voidsuit"
+	build_path = /obj/item/clothing/suit/space/void/merc/prepared
+	materials = list(MATERIAL_STEEL = 15000, MATERIAL_PLASTIC = 2000, MATERIAL_ALUMINIUM = 4000)
+	req_tech = list(TECH_MATERIAL = 2, TECH_ENGINEERING = 2, TECH_COMBAT = 3, TECH_ESOTERIC = 2)
+	id = "void_merc"
+
+/datum/design/item/mechfab/voidsuit/mining
+	category = "Voidsuits"
+	name = "Mining voidsuit"
+	build_path = /obj/item/clothing/suit/space/void/mining/prepared
+	materials = list(MATERIAL_STEEL = 10000, MATERIAL_PLASTIC = 4000, MATERIAL_ALUMINIUM = 4000)
+	req_tech = list(TECH_MATERIAL = 2, TECH_ENGINEERING = 2)
+	id = "void_mining"
+
+/datum/design/item/mechfab/voidsuit/excavation
+	category = "Voidsuits"
+	name = "Excavation voidsuit"
+	build_path = /obj/item/clothing/suit/space/void/excavation/prepared
+	materials = list(MATERIAL_STEEL = 10000, MATERIAL_PLASTIC = 4000, MATERIAL_ALUMINIUM = 4000)
+	req_tech = list(TECH_MATERIAL = 2, TECH_ENGINEERING = 2)
+	id = "void_excavation"
+
+/datum/design/item/mechfab/voidsuit/exploration
+	category = "Voidsuits"
+	name = "Exploration voidsuit"
+	build_path = /obj/item/clothing/suit/space/void/exploration/prepared
+	materials = list(MATERIAL_STEEL = 10000, MATERIAL_PLASTIC = 4000, MATERIAL_ALUMINIUM = 4000)
+	req_tech = list(TECH_MATERIAL = 2, TECH_ENGINEERING = 2)
+	id = "void_exploration"
+
+/datum/design/item/mechfab/voidsuit/com
+	category = "Voidsuits"
+	name = "Officer voidsuit"
+	build_path = /obj/item/clothing/suit/space/void/command/prepared
+	materials = list(MATERIAL_STEEL = 12000, MATERIAL_PLASTIC = 2000, MATERIAL_ALUMINIUM = 4000)
+	req_tech = list(TECH_MATERIAL = 2, TECH_ENGINEERING = 2, TECH_COMBAT = 2)
+	id = "void_com"
