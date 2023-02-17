@@ -13,6 +13,7 @@
 	var/list/nutriment_desc = list("food" = 1)
 	var/list/eat_sound = 'sound/items/eatfood.ogg'
 	var/obj/item/trash
+	var/sushi_overlay
 
 
 /obj/item/reagent_containers/food/snacks/Destroy()
@@ -221,7 +222,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 /// FOOD END
 ////////////////////////////////////////////////////////////////////////////////
-/obj/item/reagent_containers/food/snacks/attack_animal(var/mob/living/user)
+/obj/item/reagent_containers/food/snacks/attack_animal(mob/living/user)
 	if(!isanimal(user) && !isalien(user))
 		return
 	user.visible_message("<b>[user]</b> nibbles away at \the [src].","You nibble away at \the [src].")
@@ -367,6 +368,7 @@
 	filling_color = "#ffdf78"
 	center_of_mass = "x=16;y=14"
 	bitesize = 1
+	sushi_overlay = "egg"
 /obj/item/reagent_containers/food/snacks/friedegg/Initialize()
 	.=..()
 	reagents.add_reagent(/datum/reagent/nutriment/protein, 3)
@@ -403,6 +405,7 @@
 	desc = "We all love tofu."
 	filling_color = "#fffee0"
 	center_of_mass = "x=17;y=10"
+	sushi_overlay = "tofu"
 //	nutriment_amt = 3
 	nutriment_desc = list("tofu" = 3, "goeyness" = 3)
 	bitesize = 3
@@ -1703,6 +1706,12 @@
 	nutriment_amt = 6
 	bitesize = 2
 
+/obj/item/reagent_containers/food/snacks/boiledrice/use_tool(obj/item/reagent_containers/food/snacks/W as obj, mob/user as mob)
+	if(W.sushi_overlay)
+		new /obj/item/reagent_containers/food/snacks/sushi(get_turf(src), src, W)
+		return TRUE
+	return ..()
+
 /obj/item/reagent_containers/food/snacks/boiledrice/chazuke
 	name = "chazuke"
 	desc = "An ancient way of using up day-old rice, this dish is composed of plain green tea poured over plain white rice. Hopefully you have something else to put in."
@@ -2704,8 +2713,8 @@
 	else
 		// Stupid code because byondcode sucks
 		var/doimgtag = 0
-		if( boxes.len > 0 )
-			var/obj/item/pizzabox/topbox = boxes[boxes.len]
+		if( length(boxes) > 0 )
+			var/obj/item/pizzabox/topbox = boxes[length(boxes)]
 			if( topbox.boxtag != "" )
 				doimgtag = 1
 		else
@@ -2714,27 +2723,27 @@
 
 		if( doimgtag )
 			var/image/tagimg = image("food.dmi", icon_state = "pizzabox_tag")
-			tagimg.pixel_y = boxes.len * 3
+			tagimg.pixel_y = length(boxes) * 3
 			overlays += tagimg
 
-	icon_state = "pizzabox[boxes.len+1]"
+	icon_state = "pizzabox[length(boxes)+1]"
 
 /obj/item/pizzabox/attack_hand( mob/user as mob )
 
 	if( open && pizza )
 		user.put_in_hands( pizza )
 
-		to_chat(user, "<span class='warning'>You take \the [src.pizza] out of \the [src].</span>")
+		to_chat(user, SPAN_WARNING("You take \the [src.pizza] out of \the [src]."))
 		src.pizza = null
 		update_icon()
 		return
 
-	if( boxes.len > 0 )
+	if( length(boxes) > 0 )
 		if( user.get_inactive_hand() != src )
 			..()
 			return
 
-		var/obj/item/pizzabox/box = boxes[boxes.len]
+		var/obj/item/pizzabox/box = boxes[length(boxes)]
 		boxes -= box
 
 		user.put_in_hands( box )
@@ -2767,7 +2776,7 @@
 			for(var/obj/item/pizzabox/i in box.boxes)
 				boxestoadd += i
 
-			if( (boxes.len+1) + boxestoadd.len <= 5 )
+			if( (length(boxes)+1) + length(boxestoadd) <= 5 )
 				if(!user.unEquip(box, src))
 					return
 				box.boxes = list()// clear the box boxes so we don't have boxes inside boxes. - Xzibit
@@ -2806,10 +2815,10 @@
 		var/t = sanitize(input("Enter what you want to add to the tag:", "Write", null, null) as text, 30)
 
 		var/obj/item/pizzabox/boxtotagto = src
-		if( boxes.len > 0 )
-			boxtotagto = boxes[boxes.len]
+		if( length(boxes) > 0 )
+			boxtotagto = boxes[length(boxes)]
 
-		boxtotagto.boxtag = copytext_char("[boxtotagto.boxtag][t]", 1, 30)
+		boxtotagto.boxtag = copytext("[boxtotagto.boxtag][t]", 1, 30)
 
 		update_icon()
 		return
@@ -3048,6 +3057,7 @@
 	slices_num = 2
 	bitesize = 1
 	center_of_mass = "x=17;y=20"
+	sushi_overlay = "meat"
 
 /obj/item/reagent_containers/food/snacks/rawcutlet/Initialize()
 	.=..()
@@ -3061,6 +3071,7 @@
 	filling_color = "#d75608"
 	bitesize = 2
 	center_of_mass = "x=17;y=20"
+	sushi_overlay = "meat"
 
 /obj/item/reagent_containers/food/snacks/cutlet/Initialize()
 	.=..()
@@ -3074,9 +3085,6 @@
 	bitesize = 1
 	center_of_mass = "x=16;y=15"
 
-/obj/item/reagent_containers/food/snacks/rawbacon/Initialize()
-	.=..()
-	reagents.add_reagent(/datum/reagent/nutriment/protein, 1)
 
 /obj/item/reagent_containers/food/snacks/bacon
 	name = "bacon"
@@ -3086,9 +3094,6 @@
 	bitesize = 2
 	center_of_mass = "x=16;y=15"
 
-/obj/item/reagent_containers/food/snacks/bacon/Initialize()
-	.=..()
-	reagents.add_reagent(/datum/reagent/nutriment/protein, 1)
 
 /obj/item/reagent_containers/food/snacks/rawmeatball
 	name = "raw meatball"
@@ -3180,7 +3185,7 @@
 	sealed = FALSE
 	update_icon()
 
-/obj/item/reagent_containers/food/snacks/canned/attack_self(var/mob/user)
+/obj/item/reagent_containers/food/snacks/canned/attack_self(mob/user)
 	if(sealed)
 		playsound(loc,'sound/effects/canopen.ogg', rand(10,50), 1)
 		to_chat(user, "<span class='notice'>You unseal \the [src] with a crack of metal.</span>")
@@ -3679,6 +3684,237 @@
 		src.overlay_state = "box-donut2"
 		src.SetName("frosted jelly donut")
 	reagents.add_reagent(/datum/reagent/nutriment/sprinkles, 2)
+
+
+/obj/item/reagent_containers/food/snacks/clam_chowder
+	name = "clam chowder"
+	desc = "A delicious creamy chowder made with clam and potatoes."
+	icon_state = "clam-chowder"
+	trash = /obj/item/trash/snack_bowl
+	nutriment_desc = list("clams" = 5)
+	nutriment_amt = 5
+	bitesize = 5
+	eat_sound = 'sound/items/drink.ogg'
+/obj/item/reagent_containers/food/snacks/clam_chowder/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/drink/milk/cream, 5)
+
+
+/obj/item/reagent_containers/food/snacks/bisque
+	name = "bisque"
+	desc = "A creamy soup garnished with lumps of crab meat. Bon appétit!"
+	icon_state = "bisque"
+	trash = /obj/item/trash/snack_bowl
+	nutriment_desc = list("crab" = 5)
+	nutriment_amt = 5
+	bitesize = 5
+	eat_sound = 'sound/items/drink.ogg'
+/obj/item/reagent_containers/food/snacks/bisque/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/drink/milk/cream, 5)
+
+
+/obj/item/reagent_containers/food/snacks/stuffed_clam
+	name = "stuffed clam"
+	desc = "A clam minced with breadcrumbs and baked in the shell."
+	icon_state = "stuffed-clam"
+	trash = /obj/item/shell/clam
+	bitesize = 2
+/obj/item/reagent_containers/food/snacks/stuffed_clam/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/sodiumchloride, 1)
+	reagents.add_reagent(/datum/reagent/blackpepper, 1)
+
+
+/obj/item/reagent_containers/food/snacks/steamed_mussels
+	name = "steamed mussels"
+	desc = "A bowl of mussels steamed in a white wine broth. How opulent."
+	icon_state = "steamed-mussels"
+	trash = /obj/item/trash/snack_bowl
+	nutriment_desc = list("delicate broth" = 3, "mussels" = 3)
+	nutriment_amt = 6
+	bitesize = 4
+/obj/item/reagent_containers/food/snacks/steamed_mussels/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/sodiumchloride, 1)
+	reagents.add_reagent(/datum/reagent/blackpepper, 1)
+
+
+/obj/item/reagent_containers/food/snacks/oysters_rockefeller
+	name = "oysters rockefeller"
+	desc = "A plate of oysters baked with a decadent sauce of rich herbs, bread crumbs, and a garnish of bacon bits."
+	icon_state = "oysters-rockefeller"
+	trash = /obj/item/trash/plate
+	nutriment_desc = list("baked oyster" = 2, "parsley" = 2)
+	nutriment_amt = 4
+	bitesize = 3
+
+
+/obj/item/reagent_containers/food/snacks/crab_cakes
+	name = "crab cakes"
+	desc = "Fried crab cakes, topped with a dollop of tartar sauce."
+	icon_state = "crab-cakes"
+	trash = /obj/item/trash/usedplatter
+	nutriment_desc = list("fried crab" = 5)
+	nutriment_amt = 5
+	bitesize = 3
+
+/obj/item/reagent_containers/food/snacks/crab_rangoon
+	name = "crab rangoon"
+	desc = "A creamy deep-fried wonton filled with crab meat and cream cheese."
+	icon_state = "crab-rangoon"
+	nutriment_desc = list("creamy crab meat" = 3)
+	nutriment_amt = 3
+	bitesize = 5
+
+
+/obj/item/reagent_containers/food/snacks/crab_dinner
+	name = "crab dinner"
+	desc = "A large crab, boiled and served with a lemon wedge. Mind the pincers."
+	icon_state = "crab-dinner"
+	trash = /obj/item/trash/usedplatter
+	nutriment_desc = list("tender crab meat" = 4)
+	nutriment_amt = 4
+	bitesize = 4
+/obj/item/reagent_containers/food/snacks/crab_dinner/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/drink/juice/lemon, 3)
+
+
+/obj/item/reagent_containers/food/snacks/shrimp_cocktail
+	name = "shrimp cocktail"
+	desc = "Shrimp served in a glass with cocktail sauce."
+	icon_state = "shrimp-cocktail"
+	trash = /obj/item/reagent_containers/food/drinks/glass2/cocktail
+	nutriment_desc = list("shrimp" = 2, "horseradish" = 2)
+	nutriment_amt = 4
+	bitesize = 4
+/obj/item/reagent_containers/food/snacks/shrimp_cocktail/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/nutriment/ketchup, 5)
+
+
+/obj/item/reagent_containers/food/snacks/shrimp_tempura
+	name = "shrimp tempura"
+	desc = "A large shrimp deep-fried in a coat of light, fluffy batter."
+	icon_state = "shrimp-tempura"
+	nutriment_desc = list("fried shrimp" = 2)
+	nutriment_amt = 2
+	bitesize = 3
+	sushi_overlay = "tempura"
+
+
+/obj/item/reagent_containers/food/snacks/seafood_paella
+	name = "seafood paella"
+	desc = "A dish of rice and mixed seafood, sauted in a shallow pan with various herbs and spices. "
+	icon_state = "seafood-paella"
+	trash = /obj/item/trash/snack_bowl
+	nutriment_desc = list("seafood" = 3, "saffron" = 3)
+	nutriment_amt = 6
+	bitesize = 6
+/obj/item/reagent_containers/food/snacks/seafood_paella/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/ethanol/wine/premium, 5)
+
+
+//unathi food
+
+/obj/item/reagent_containers/food/snacks/chilied_eggs
+	name = "chilied eggs"
+	desc = "Three deviled eggs floating in a bowl of spiced meat. A popular lunchtime meal on Moghes."
+	icon_state = "chilied-eggs"
+	trash = /obj/item/trash/snack_bowl
+	bitesize = 6
+
+/obj/item/reagent_containers/food/snacks/chilied_eggs/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/nutriment/protein, 2)
+	reagents.add_reagent(/datum/reagent/capsaicin, 2)
+	reagents.add_reagent(/datum/reagent/nutriment/protein/egg, 3)
+
+
+/obj/item/reagent_containers/food/snacks/hatchling_surprise
+	name = "hatchling surprise"
+	desc = "A poached egg on top of several fried strips of meat, favoured by Unathi young and old alike. The real surprise is if you can feed it to your hatchling without losing a finger or two."
+	icon_state = "hatchling-surprise"
+	trash = /obj/item/trash/snack_bowl
+	bitesize = 5
+
+/obj/item/reagent_containers/food/snacks/hatchling_surprise/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/nutriment/protein, 2)
+	reagents.add_reagent(/datum/reagent/nutriment/protein/egg, 3)
+
+
+/obj/item/reagent_containers/food/snacks/red_sun_special
+	name = "red sun special"
+	desc = "A single piece of sausage sitting on melted cheese curds. A cheap dish for Unathi working in human space."
+	icon_state = "red-sun-special"
+	trash = /obj/item/trash/snack_bowl
+	bitesize = 4
+
+/obj/item/reagent_containers/food/snacks/red_sun_special/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/nutriment/protein, 2)
+
+
+/obj/item/reagent_containers/food/snacks/sea_delight
+	name = "\improper Rah'Zakeh delight"
+	desc = "Three raw eggs floating in a sea of eye-watering gukhe broth. A mostly-authentic replication of a Yeosa delicacy."
+	icon_state = "sea-delight"
+	trash = /obj/item/trash/snack_bowl
+	bitesize = 5
+
+/obj/item/reagent_containers/food/snacks/sea_delight/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/nutriment/protein/egg, 5)
+	reagents.add_reagent(/datum/reagent/capsaicin, 2)
+
+
+/obj/item/reagent_containers/food/snacks/stok_skewers
+	name = "stok skewers"
+	desc = "Two hearty skewers of seared meat, glazed in a tangy spice. A popular Mumbak street food - despite the name, it can be made with just about any meat."
+	icon_state = "stok-skewers"
+	bitesize = 5
+
+/obj/item/reagent_containers/food/snacks/stok_skewers/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/nutriment/protein, 2)
+	reagents.add_reagent(/datum/reagent/capsaicin, 2)
+	reagents.add_reagent(/datum/reagent/nutriment/vinegar, 3)
+
+
+/obj/item/reagent_containers/food/snacks/gukhe_fish
+	name = "cured gukhe platter"
+	desc = "A fish cutlet cured in a bitter gukhe rub, served with a tangy dipping sauce and a garnish of seaweed. A staple of Yeosa'Unathi cooking."
+	icon_state = "gukhe-fish"
+	nutriment_amt = 5
+	nutriment_desc = list("tangy fish", "bitter gukhe")
+	bitesize = 5
+	trash = /obj/item/trash/usedplatter
+
+/obj/item/reagent_containers/food/snacks/gukhe_fish/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/nutriment/protein, 6)
+	reagents.add_reagent(/datum/reagent/capsaicin, 2)
+	reagents.add_reagent(/datum/reagent/nutriment/vinegar, 3)
+	reagents.add_reagent(/datum/reagent/sodiumchloride, 3)
+
+
+/obj/item/reagent_containers/food/snacks/aghrassh_cake
+	name = "aghrassh cake"
+	desc = "A dense, calorie-packed puck of aghrassh paste, spices, and ground meat, usually eaten by desert-going Unathi. This one has an egg cracked over it to make it a bit more palatable."
+	icon_state = "aghrassh-cake"
+	nutriment_amt = 8
+	nutriment_desc = list("aghrassh nuts", "mealy paste")
+	bitesize = 5
+
+/obj/item/reagent_containers/food/snacks/aghrassh_cake/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/nutriment/protein, 8)
+	reagents.add_reagent(/datum/reagent/nutriment/coco, 3)
+	reagents.add_reagent(/datum/reagent/blackpepper, 3)
+
 
 //Sol Vendor
 

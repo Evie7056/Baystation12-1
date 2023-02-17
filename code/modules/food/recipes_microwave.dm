@@ -1498,4 +1498,224 @@
 	items = list(
 		/obj/item/reagent_containers/food/snacks/spider
 	)
-	result = /obj/item/reagent_containers/food/snacks/spider/cooked
+	result_path = /obj/item/reagent_containers/food/snacks/spider/cooked
+
+
+/datum/recipe/chilied_eggs
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/boiledegg,
+		/obj/item/reagent_containers/food/snacks/boiledegg,
+		/obj/item/reagent_containers/food/snacks/boiledegg,
+		/obj/item/reagent_containers/food/snacks/hotchili
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/chilied_eggs
+
+
+/datum/recipe/hatchling_surprise
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/bacon,
+		/obj/item/reagent_containers/food/snacks/bacon,
+		/obj/item/reagent_containers/food/snacks/bacon,
+		/obj/item/reagent_containers/food/snacks/friedegg
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/hatchling_surprise
+
+
+/datum/recipe/red_sun_special
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/sausage,
+		/obj/item/reagent_containers/food/snacks/cheesewedge
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/red_sun_special
+
+
+/datum/recipe/sea_delight
+	required_reagents = list(
+		/datum/reagent/water = 10
+	)
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/egg,
+		/obj/item/reagent_containers/food/snacks/egg,
+		/obj/item/reagent_containers/food/snacks/egg
+	)
+	required_produce = list(
+		"gukhe" = 2
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/sea_delight
+
+/datum/recipe/stok_skewers
+	required_reagents = list(
+		/datum/reagent/nutriment/vinegar = 5
+	)
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/cutlet,
+		/obj/item/reagent_containers/food/snacks/cutlet
+	)
+	required_produce = list(
+		"gukhe" = 1
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/stok_skewers
+
+
+/datum/recipe/gukhe_fish
+	required_reagents = list(
+		/datum/reagent/sodiumchloride = 3,
+		/datum/reagent/nutriment/vinegar = 3
+	)
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/fish
+	)
+	required_produce = list(
+		"gukhe" = 1
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/gukhe_fish
+
+
+/datum/recipe/aghrassh_cake
+	required_reagents = list(
+		/datum/reagent/nutriment/protein = 8,
+		/datum/reagent/nutriment/coco = 3,
+		/datum/reagent/blackpepper = 3
+	)
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/egg
+	)
+	required_produce = list(
+		"aghrassh" = 1
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/aghrassh_cake
+
+
+/datum/recipe/clam_chowder
+	required_reagents = list(
+		/datum/reagent/drink/milk/cream = 10
+	)
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/shellfish/clam
+	)
+	required_produce = list(
+		"potato" = 1
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/clam_chowder
+
+
+/datum/recipe/bisque
+	required_reagents = list(
+		/datum/reagent/drink/milk/cream = 10
+	)
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/shellfish/crab,
+		/obj/item/reagent_containers/food/snacks/shellfish/crab
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/bisque
+
+
+/datum/recipe/stuffed_clam
+	required_reagents = list(
+		/datum/reagent/sodiumchloride = 1,
+		/datum/reagent/blackpepper = 1
+	)
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/shellfish/clam,
+		/obj/item/reagent_containers/food/snacks/slice/bread
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/stuffed_clam
+
+
+/datum/recipe/steamed_mussels
+	required_reagents = list(
+		/datum/reagent/ethanol/wine/premium = 10,
+		/datum/reagent/sodiumchloride = 1,
+		/datum/reagent/blackpepper = 1
+	)
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/shellfish/mussel,
+		/obj/item/reagent_containers/food/snacks/shellfish/mussel,
+		/obj/item/reagent_containers/food/snacks/shellfish/mussel
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/steamed_mussels
+
+
+/datum/recipe/oysters_rockefeller
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/shellfish/oyster,
+		/obj/item/reagent_containers/food/snacks/shellfish/oyster,
+		/obj/item/reagent_containers/food/snacks/bacon,
+		/obj/item/reagent_containers/food/snacks/slice/bread
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/oysters_rockefeller
+
+
+/datum/recipe/crab_cakes
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/shellfish/crab,
+		/obj/item/reagent_containers/food/snacks/slice/bread,
+		/obj/item/reagent_containers/food/snacks/egg
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/crab_cakes
+
+
+/datum/recipe/crab_rangoon
+	required_reagents = list(
+		/datum/reagent/drink/milk/cream = 5
+	)
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/doughslice,
+		/obj/item/reagent_containers/food/snacks/shellfish/crab,
+		/obj/item/reagent_containers/food/snacks/cheesewedge,
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/crab_rangoon
+
+
+/datum/recipe/crab_dinner
+	required_reagents = list(
+		/datum/reagent/water = 10
+	)
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/shellfish/crab,
+		/obj/item/reagent_containers/food/snacks/shellfish/crab,
+		/obj/item/reagent_containers/food/snacks/shellfish/crab,
+		/obj/item/reagent_containers/food/snacks/fruit_slice
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/crab_dinner
+
+
+/datum/recipe/shrimp_cocktail
+	required_reagents = list(
+		/datum/reagent/nutriment/ketchup = 5
+	)
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/shellfish/shrimp,
+		/obj/item/reagent_containers/food/snacks/shellfish/shrimp,
+		/obj/item/reagent_containers/food/snacks/shellfish/shrimp,
+		/obj/item/reagent_containers/food/drinks/glass2/cocktail
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/shrimp_cocktail
+
+
+/datum/recipe/shrimp_tempura
+	required_reagents = list(
+		/datum/reagent/nutriment/batter = 5
+	)
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/shellfish/shrimp
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/shrimp_tempura
+
+
+/datum/recipe/seafood_paella
+	required_reagents = list(
+		/datum/reagent/ethanol/wine/premium = 5
+	)
+	required_items = list(
+		/obj/item/reagent_containers/food/snacks/shellfish/shrimp,
+		/obj/item/reagent_containers/food/snacks/shellfish/shrimp,
+		/obj/item/reagent_containers/food/snacks/shellfish/mussel,
+		/obj/item/reagent_containers/food/snacks/shellfish/mussel,
+		/obj/item/reagent_containers/food/snacks/boiledrice
+	)
+	required_produce = list(
+		"tomato" = 1
+	)
+	result_path = /obj/item/reagent_containers/food/snacks/seafood_paella
+
