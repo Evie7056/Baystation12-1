@@ -86,7 +86,8 @@
 		/obj/item/rig_module/device/orescanner,
 		/obj/item/rig_module/device/rcd,
 		/obj/item/rig_module/vision/meson,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/kinetic_module
 	)
 
 /obj/item/rig/eva
@@ -202,7 +203,8 @@
 		/obj/item/rig_module/device/flash,
 		/obj/item/rig_module/vision/meson,
 		/obj/item/rig_module/grenade_launcher/mfoam,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/kinetic_module
 	)
 
 /obj/item/clothing/head/helmet/space/rig/ce
