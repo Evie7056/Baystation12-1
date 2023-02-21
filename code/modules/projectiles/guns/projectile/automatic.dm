@@ -242,7 +242,7 @@
 
 /obj/item/gun/projectile/automatic/bullpup_rifle
 	name = "bullpup assault rifle"
-	desc = "The Hephaestus Industries Z8 Bulldog is an older model bullpup carbine. Makes you feel like a space marine when you hold it."
+	desc = "The Hephaestus Industries Z8 is one of the oldest weapons currently in service with the SCGDF. Despite its age, it still remains the de-facto main rifle of the SCG Army, due to its ease of handling, cheap production costs, reliability, and plentiful surplus stock."
 	icon = 'icons/obj/guns/bullpup_rifle.dmi'
 	icon_state = "carbine"
 	item_state = "z8carbine"
