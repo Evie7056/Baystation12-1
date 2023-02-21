@@ -115,7 +115,7 @@
 	req_access = list(access_engine_equip)
 
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_rig_back_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_rig_back_unathi.dmi'
 	)
 
 /obj/item/clothing/head/helmet/space/rig/eva
@@ -124,13 +124,13 @@
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_IPC, SPECIES_SHELL)
 	sprite_sheets = list(
 		SPECIES_SKRELL = 'icons/mob/species/skrell/onmob_head_skrell.dmi',
-		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_head_helmet_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_head_unathi.dmi'
 	)
 
 /obj/item/clothing/suit/space/rig/eva
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_IPC, SPECIES_SHELL)
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_suit_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_suit_unathi.dmi'
 		)
 	allowed = list(
 		/obj/item/device/flashlight,
@@ -147,14 +147,14 @@
 /obj/item/clothing/shoes/magboots/rig/eva
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_IPC, SPECIES_SHELL)
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_feet_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_feet_unathi.dmi'
 	)
 
 /obj/item/clothing/gloves/rig/eva
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_IPC, SPECIES_SHELL)
 	siemens_coefficient = 0
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_hands_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_hands_unathi.dmi'
 	)
 
 /obj/item/rig/eva/equipped
@@ -212,7 +212,7 @@
 	camera = /obj/machinery/camera/network/engineering
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_IPC)
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_head_helmet_unathi.dmi',
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_head_unathi.dmi',
 		SPECIES_SKRELL = 'icons/mob/species/skrell/onmob_head_skrell.dmi'
 	)
 /obj/item/clothing/suit/space/rig/ce
@@ -237,7 +237,7 @@
 /obj/item/clothing/shoes/magboots/rig/ce
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_IPC)
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_feet_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_feet_unathi.dmi'
 	)
 /obj/item/clothing/gloves/rig/ce
 	siemens_coefficient = 0
@@ -317,7 +317,7 @@
 	camera = /obj/machinery/camera/network/medbay
 	species_restricted = list(SPECIES_HUMAN, SPECIES_UNATHI, SPECIES_SKRELL, SPECIES_IPC, SPECIES_SHELL)
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_head_helmet_unathi.dmi',
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_head_unathi.dmi',
 		SPECIES_SKRELL = 'icons/mob/species/skrell/onmob_head_skrell.dmi',
 	)
 
@@ -330,13 +330,13 @@
 /obj/item/clothing/shoes/magboots/rig/medical
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL, SPECIES_UNATHI, SPECIES_IPC, SPECIES_SHELL)
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_feet_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_feet_unathi.dmi'
 	)
 
 /obj/item/clothing/gloves/rig/medical
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL, SPECIES_UNATHI, SPECIES_IPC, SPECIES_SHELL)
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_hands_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_hands_unathi.dmi'
 	)
 
 /obj/item/rig/medical/equipped
@@ -434,7 +434,7 @@
 /obj/item/clothing/suit/space/rig/zero
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL, SPECIES_UNATHI, SPECIES_IPC, SPECIES_SHELL)
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_suit_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_suit_unathi.dmi'
 	)
 	breach_threshold = 18
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
