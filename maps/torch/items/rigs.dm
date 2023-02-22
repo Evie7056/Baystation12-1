@@ -57,7 +57,8 @@
 	initial_modules = list(
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/device/flash,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage
 		)
 
 /*
@@ -98,7 +99,8 @@
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/device/flash/advanced,
 		/obj/item/rig_module/grenade_launcher/smoke,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage
 	)
 
 /*
@@ -140,7 +142,8 @@
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/device/flash/advanced,
 		/obj/item/rig_module/grenade_launcher/smoke,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage
 	)
 
 /*
@@ -185,7 +188,8 @@
 		/obj/item/rig_module/device/defib,
 		/obj/item/rig_module/chem_dispenser/injector,
 		/obj/item/rig_module/vision/medhud,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage
 	)
 
 /*
@@ -234,8 +238,10 @@
 	initial_modules = list(
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/device/flash,
+		/obj/item/rig_module/mounted/egun,
 		/obj/item/rig_module/vision/sechud,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage
 	)
 
 /*
@@ -297,7 +303,8 @@
 		/obj/item/rig_module/device/flash,
 		/obj/item/rig_module/device/anomaly_scanner,
 		/obj/item/rig_module/grenade_launcher/light,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage
 	)
 
 /*
@@ -362,7 +369,8 @@
 		/obj/item/rig_module/device/flash,
 		/obj/item/rig_module/device/anomaly_scanner,
 		/obj/item/rig_module/grenade_launcher/light,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage
 	)
 
 /obj/item/rig/hazard/research_guard
@@ -405,7 +413,7 @@
 	camera = /obj/machinery/camera/network/supply
 
 /obj/item/rig/zero/synth
-	name = "Synthetic's hardsuit control module"
+	name = "synthetic's hardsuit control module"
 	req_access = list(access_ai_upload)
 
 /obj/item/rig/zero/synth/equipped
@@ -419,4 +427,6 @@
 		/obj/item/rig_module/vision/medhud,
 		/obj/item/rig_module/vision/meson,
 		/obj/item/rig_module/maneuvering_jets,
-		/obj/item/rig_module/cooling_unit)
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage
+		)

@@ -87,7 +87,8 @@
 		/obj/item/rig_module/device/orescanner,
 		/obj/item/rig_module/device/rcd,
 		/obj/item/rig_module/vision/meson,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage
 	)
 
 /obj/item/rig/eva
@@ -165,7 +166,8 @@
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/device/rcd,
 		/obj/item/rig_module/vision/meson,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage
 	)
 
 /obj/item/rig/ce
@@ -204,7 +206,8 @@
 		/obj/item/rig_module/device/flash,
 		/obj/item/rig_module/vision/meson,
 		/obj/item/rig_module/grenade_launcher/mfoam,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage
 	)
 
 /obj/item/clothing/head/helmet/space/rig/ce
@@ -348,7 +351,7 @@
 		/obj/item/rig_module/device/healthscanner,
 		/obj/item/rig_module/vision/medhud,
 		/obj/item/rig_module/device/defib,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
 	)
 
 /obj/item/rig/hazard
