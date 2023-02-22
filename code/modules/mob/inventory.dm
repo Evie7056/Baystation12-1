@@ -262,6 +262,15 @@
 		I.dropped(src)
 	return 1
 
+//Eris code --evie
+/obj/item/proc/can_be_equipped(mob/user, slot, disable_warning = 0)
+	var/obj/item/equipped = user.get_equipped_item(slot)
+	if(equipped)
+		if (!disable_warning)
+			to_chat(user, "You are unable to wear \the [src] as [equipped] in the way.")
+		return FALSE
+	return TRUE
+
 
 //Returns the item equipped to the specified slot, if any.
 /mob/proc/get_equipped_item(var/slot)

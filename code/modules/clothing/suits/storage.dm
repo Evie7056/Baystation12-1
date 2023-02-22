@@ -1,11 +1,11 @@
 /obj/item/clothing/suit/storage
-	var/obj/item/storage/internal/pockets/pockets
+	var/obj/item/storage/internal/pockets
 	var/slots = 2
 	item_flags = ITEM_FLAG_DRAG_AND_DROP_UNEQUIP
 
 /obj/item/clothing/suit/storage/Initialize()
 	. = ..()
-	pockets = new/obj/item/storage/internal/pockets(src, slots, ITEM_SIZE_SMALL) //fit only pocket sized items
+	pockets = new /obj/item/storage/internal/pockets(src, slots, ITEM_SIZE_SMALL) //fit only pocket sized items
 
 /obj/item/clothing/suit/storage/Destroy()
 	QDEL_NULL(pockets)
