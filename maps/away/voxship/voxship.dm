@@ -160,7 +160,7 @@
 	_fully_charged = TRUE
 
 
-/singleton/closet_appearance/crate/vox_uranium
+/decl/closet_appearance/crate/vox_uranium
 	color = COLOR_OLIVE
 	extra_decals = list(
 		"crate_radiation_left" = COLOR_YELLOW,
