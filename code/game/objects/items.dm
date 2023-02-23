@@ -229,9 +229,6 @@
 			to_chat(user, "<span class='notice'>You try to use your hand, but realize it is no longer attached!</span>")
 			return
 
-	var/old_loc = loc
-
-	pickup(user)
 	if (istype(loc, /obj/item/storage))
 		var/obj/item/storage/S = loc
 		S.remove_from_storage(src)
@@ -249,17 +246,20 @@
 	if(QDELETED(src))
 		return // Unequipping changes our state, so must check here.
 
-	if(user.put_in_active_hand(src))
-		if (isturf(old_loc))
-			var/obj/effect/temporary/item_pickup_ghost/ghost = new(old_loc, src)
-			ghost.animate_towards(user)
-		if(randpixel)
-			pixel_x = rand(-randpixel, randpixel)
-			pixel_y = rand(-randpixel/2, randpixel/2)
-			pixel_z = 0
-		else if(randpixel == 0)
-			pixel_x = 0
-			pixel_y = 0
+	pickup(user)
+
+
+	// if(user.put_in_active_hand(src))
+	// 	if (isturf(old_loc))
+	// 		var/obj/effect/temporary/item_pickup_ghost/ghost = new(old_loc, src)
+	// 		ghost.animate_towards(user)
+	// 	if(randpixel)
+	// 		pixel_x = rand(-randpixel, randpixel)
+	// 		pixel_y = rand(-randpixel/2, randpixel/2)
+	// 		pixel_z = 0
+	// 	else if(randpixel == 0)
+	// 		pixel_x = 0
+	// 		pixel_y = 0
 
 /obj/item/attack_ai(mob/user as mob)
 	if (istype(src.loc, /obj/item/robot_module))
@@ -294,8 +294,13 @@
 /obj/item/proc/moved(mob/user as mob, old_loc as turf)
 	return
 
+/obj/item/proc/swapped_from(mob/user)
+	return
 
-/// Called whenever an item is removed from a slot, container, or anything else.
+/obj/item/proc/swapped_to(mob/user)
+	return
+
+// apparently called whenever an item is removed from a slot, container, or anything else.
 /obj/item/proc/dropped(mob/user as mob)
 	if(randpixel)
 		pixel_z = randpixel //an idea borrowed from some of the older pixel_y randomizations. Intended to make items appear to drop at a character
@@ -303,14 +308,10 @@
 	update_twohanding()
 	equip_slot = slot_none
 	if(user)
-		for (var/obj/item/item as anything in user.GetAllHeld())
-			item.update_twohanding()
-	GLOB.mob_unequipped_event.raise_event(user, src)
-	GLOB.item_unequipped_event.raise_event(src, user)
-
-	if(user && (z_flags & ZMM_MANGLE_PLANES))
-		addtimer(new Callback(user, /mob/proc/check_emissive_equipment), 0, TIMER_UNIQUE)
-
+		if(user.l_hand)
+			user.l_hand.update_twohanding()
+		if(user.r_hand)
+			user.r_hand.update_twohanding()
 
 // called just as an item is picked up (loc is not yet changed)
 /obj/item/proc/pickup(mob/user)
@@ -341,32 +342,27 @@
 /obj/item/proc/on_found(mob/finder as mob)
 	return
 
-
-/*
-called after an item is placed in an equipment slot
-user is mob that equipped it
-slot uses the slot_X defines found in setup.dm
-for items that can be placed in multiple slots
-note this isn't called during the initial dressing of a player
-*/
-/obj/item/proc/equipped(mob/user, slot)
+// called after an item is placed in an equipment slot
+// user is mob that equipped it
+// slot uses the slot_X defines found in setup.dm
+// for items that can be placed in multiple slots
+// note this isn't called during the initial dressing of a player
+/obj/item/proc/equipped(var/mob/user, var/slot)
 	hud_layerise()
 	if(user.client)	user.client.screen |= src
-	if(user.pulling == src)
-		user.stop_pulling()
+	if(user.pulling == src) user.stop_pulling()
+
+	equip_slot = slot
+	//Update two-handing status
 	var/mob/M = loc
 	if(!istype(M))
 		return
-	for (var/obj/item/item as anything in M.GetAllHeld())
-		item.update_twohanding()
-	GLOB.mob_equipped_event.raise_event(user, src, slot)
-	GLOB.item_equipped_event.raise_event(src, user, slot)
+	if(M.l_hand)
+		M.l_hand.update_twohanding()
+	if(M.r_hand)
+		M.r_hand.update_twohanding()
 
-	if(user && (z_flags & ZMM_MANGLE_PLANES))
-		addtimer(new Callback(user, /mob/proc/check_emissive_equipment), 0, TIMER_UNIQUE)
-
-
-/obj/item/proc/equipped_robot(mob/user)
+/obj/item/proc/equipped_robot(var/mob/user)
 	return
 
 //Defines which slots correspond to which slot flags
@@ -391,7 +387,7 @@ var/global/list/slot_flags_enumeration = list(
 //Set disable_warning to 1 if you wish it to not give you outputs.
 //Should probably move the bulk of this into mob code some time, as most of it is related to the definition of slots and not item-specific
 //set force to ignore blocking overwear and occupied slots
-/obj/item/proc/mob_can_equip(M as mob, slot, disable_warning = FALSE, force = FALSE)
+/obj/item/proc/mob_can_equip(M as mob, slot, disable_warning = 0, force = 0)
 	if(!slot) return 0
 	if(!M) return 0
 
@@ -553,7 +549,7 @@ var/global/list/slot_flags_enumeration = list(
 //If a negative value is returned, it should be treated as a special return value for bullet_act() and handled appropriately.
 //For non-projectile attacks this usually means the attack is blocked.
 //Otherwise should return 0 to indicate that the attack is not affected in any way.
-/obj/item/proc/handle_shield(mob/user, damage, atom/damage_source = null, mob/attacker = null, def_zone = null, attack_text = "the attack")
+/obj/item/proc/handle_shield(mob/user, var/damage, atom/damage_source = null, mob/attacker = null, var/def_zone = null, var/attack_text = "the attack")
 	var/parry_chance = get_parry_chance(user)
 	if(parry_chance)
 		if(default_parry_check(user, attacker, damage_source) && prob(parry_chance))
