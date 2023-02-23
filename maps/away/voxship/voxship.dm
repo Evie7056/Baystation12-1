@@ -171,7 +171,7 @@
 
 /obj/structure/closet/crate/vox_uranium
 	name = "fissibles crate"
-	closet_appearance = /singleton/closet_appearance/crate/
+	closet_appearance = /decl/closet_appearance/crate/vox_uranium
 
 
 /obj/structure/closet/crate/uranium/WillContain()
