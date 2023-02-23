@@ -75,21 +75,7 @@
 				if(emagged < 2)
 					emagged = !emagged
 
-
-/mob/living/bot/floorbot/get_construction_info()
-	return list(
-		"Add <b>10 Floor Tiles</b> to a <b>Toolbox</b>.",
-		"Add a <b>Proximity Sensor</b>.",
-		"Add a robotic <b>Left Arm</b> or <b>Right Arm</b> to finish the floorbot."
-	)
-
-
-/mob/living/bot/floorbot/get_antag_interactions_info()
-	. = ..()
-	.[CODEX_INTERACTION_EMAG] += "<p>Causes \the [initial(name)] to tear up and remove floors instead of build them.</p>"
-
-
-/mob/living/bot/floorbot/emag_act(remaining_charges, mob/user)
+/mob/living/bot/floorbot/emag_act(var/remaining_charges, var/mob/user)
 	. = ..()
 	if(!emagged)
 		emagged = TRUE

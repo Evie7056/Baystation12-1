@@ -107,37 +107,13 @@
 				if(emagged < 2)
 					emagged = !emagged
 
-
-/mob/living/bot/secbot/get_mechanics_info()
+/mob/living/bot/secbot/attackby(var/obj/item/O, var/mob/user)
+	var/curhealth = health
 	. = ..()
-	. += {"
-		<p>If attacked and damaged, it will attempt to arrest or subdue the attacker.</p>
-	"}
-
-
-/mob/living/bot/secbot/get_construction_info()
-	return list(
-		"Attach a <b>Remote Signalling Device</b> to a <b>Helmet</b>.",
-		"Use a <b>Welding Tool</b>.",
-		"Add a <b>Proximity Sensor</b>.",
-		"Add a robotic <b>Left Arm</b> or <b>Right Arm</b>.",
-		"Add a <b>Stunbaton</b> to complete the securitron."
-	)
-
-
-/mob/living/bot/secbot/get_antag_interactions_info()
-	. = ..()
-	.[CODEX_INTERACTION_EMAG] += "<p>Causes \the [initial(name)] to attack and arrest anyone around it, except the person who emagged it.</p>"
-
-
-/mob/living/bot/secbot/use_weapon(obj/item/weapon, mob/user, list/click_params)
-	var/previous_health = health
-	. = ..()
-	if (. && health < previous_health)
+	if(health < curhealth)
 		react_to_attack(user)
 
-
-/mob/living/bot/secbot/emag_act(remaining_charges, mob/user)
+/mob/living/bot/secbot/emag_act(var/remaining_charges, var/mob/user)
 	. = ..()
 	if(!emagged)
 		if(user)
