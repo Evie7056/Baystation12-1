@@ -2,7 +2,6 @@
 	key = "burp"
 	emote_message_3p = "USER отрыгается."
 	message_type = AUDIBLE_MESSAGE
-	var/list/emote_sound
 
 /decl/emote/audible/do_extra(atom/user)
 	if(emote_sound)
