@@ -660,12 +660,11 @@
 	update_icon()
 	update_firemode(FALSE)
 
-/obj/item/gun/swapped_from()
-	.=..()
+/obj/item/gun/proc/swapped_from()
 	update_firemode(FALSE)
 
-/obj/item/gun/swapped_to()
-	.=..()
+/obj/item/gun/proc/swapped_to()
+
 	update_firemode()
 
 

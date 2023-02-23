@@ -168,6 +168,31 @@
 		return drop_from_inventory(r_hand, Target)
 	return unEquip(r_hand, Target)
 
+/mob/proc/GetAllHeld(item_path)
+	. = list()
+
+	if (HandsEmpty())
+		return null
+
+	if (!item_path)
+		if (l_hand)
+			. += l_hand
+		if (r_hand)
+			. += r_hand
+		return
+
+	if (ispath(item_path, /obj/item))
+		if (istype(l_hand, item_path))
+			. += l_hand
+		if (istype(r_hand, item_path))
+			. += r_hand
+		return
+
+	crash_with("Invalid path supplied: Not a valid subtype of `/obj/item`.")
+
+/mob/proc/HandsEmpty()
+	return l_hand == null && r_hand == null
+
 /**
  * Drops the item in our active hand. TODO: rename this to drop_active_hand or something
  * Make sure you are ABSOLUTELY CERTAIN you need to drop this and ignore unequip checks (For example, grabs can be "dropped" but only willingly)

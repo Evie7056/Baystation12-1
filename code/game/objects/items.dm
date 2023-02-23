@@ -299,9 +299,7 @@
 /obj/item/proc/dropped(mob/user as mob)
 	if(randpixel)
 		pixel_z = randpixel //an idea borrowed from some of the older pixel_y randomizations. Intended to make items appear to drop at a character
-
 	update_twohanding()
-	equip_slot = slot_none
 	if(user)
 		for (var/obj/item/item as anything in user.GetAllHeld())
 			item.update_twohanding()
