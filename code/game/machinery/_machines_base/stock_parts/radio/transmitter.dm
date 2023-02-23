@@ -11,7 +11,7 @@
 		return
 	if(!buffer)
 		buffer = data
-		addtimer(new Callback(src, .proc/transmit), latency)
+		addtimer(CALLBACK(src, .proc/transmit), latency)
 	else
 		buffer |= data
 

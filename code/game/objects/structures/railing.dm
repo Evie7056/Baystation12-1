@@ -297,7 +297,7 @@
 			kill_health() // Fatboy
 
 		user.jump_layer_shift()
-		addtimer(new Callback(user, /mob/living/proc/jump_layer_shift_end), 2)
+		addtimer(CALLBACK(user, /mob/living/proc/jump_layer_shift_end), 2)
 
 /obj/structure/railing/slam_into(mob/living/L)
 	var/turf/target_turf = get_turf(src)

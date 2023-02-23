@@ -45,38 +45,28 @@
 	var/turf/destination = (direction == UP) ? GetAbove(pulling) : GetBelow(pulling)
 
 	if(!start.CanZPass(pulling, direction))
-		to_chat(src, SPAN_WARNING("\The [start] blocked your pulled object!"))
+		to_chat(src, "<span class='warning'>\The [start] blocked your pulled object!</span>")
 		stop_pulling()
 		return 0
 
 	if(!destination.CanZPass(pulling, direction))
-		to_chat(src, SPAN_WARNING("The [pulling] you were pulling bumps up against \the [destination]."))
+		to_chat(src, "<span class='warning'>The [pulling] you were pulling bumps up against \the [destination].</span>")
 		stop_pulling()
 		return 0
 
 	for(var/atom/A in destination)
 		if(!A.CanMoveOnto(pulling, start, 1.5, direction))
-			to_chat(src, SPAN_WARNING("\The [A] blocks the [pulling] you were pulling."))
+			to_chat(src, "<span class='warning'>\The [A] blocks the [pulling] you were pulling.</span>")
 			stop_pulling()
 			return 0
 
 	pulling.forceMove(destination)
 	return 1
 
-/**
- * Whether or not an atom can move through or onto the same tile as this atom. Primarily used for z-level transitioning in multi-z areas.
- *
- * By default, passes directly to `CanPass()` and also checks upward movement with climbable atoms.
- *
- * **Parameters**:
- * - `mover` - The atom attempting to move onto `target`.
- * - `target` - The originally targeted turf that `src `may be blocking.
- * - `height` (float) -
- * - `direction` (bitflag/direction) - The direction of movement. This should only ever be `DOWN` or `UP`.
- *
- * Returns boolean.
- */
 /atom/proc/CanMoveOnto(atom/movable/mover, turf/target, height=1.5, direction = 0)
+	//Purpose: Determines if the object can move through this
+	//Uses regular limitations plus whatever we think is an exception for the purpose of
+	//moving up and down z levles
 	return CanPass(mover, target, height, 0) || (direction == DOWN && (atom_flags & ATOM_FLAG_CLIMBABLE))
 
 /mob/proc/can_overcome_gravity()
@@ -128,7 +118,7 @@
 //FALLING STUFF
 
 //Holds fall checks that should not be overriden by children
-/atom/movable/proc/fall(lastloc)
+/atom/movable/proc/fall(var/lastloc)
 	if(!isturf(loc))
 		return
 
@@ -154,12 +144,10 @@
 // We timer(0) here to let the current move operation complete before we start falling. fall() is normally called from
 // Entered() which is part of Move(), by spawn()ing we let that complete.  But we want to preserve if we were in client movement
 // or normal movement so other move behavior can continue.
-/atom/movable/proc/begin_falling(lastloc, below)
-	if (QDELETED(src))
-		return
-	addtimer(new Callback(src, /atom/movable/proc/fall_callback, below), 0)
+/atom/movable/proc/begin_falling(var/lastloc, var/below)
+	addtimer(CALLBACK(src, /atom/movable/proc/fall_callback, below), 0)
 
-/atom/movable/proc/fall_callback(turf/below)
+/atom/movable/proc/fall_callback(var/turf/below)
 	var/mob/M = src
 	var/is_client_moving = (ismob(M) && M.moving)
 	if(is_client_moving) M.moving = 1
@@ -167,7 +155,7 @@
 	if(is_client_moving) M.moving = 0
 
 //For children to override
-/atom/movable/proc/can_fall(anchor_bypass = FALSE, turf/location_override = loc)
+/atom/movable/proc/can_fall(var/anchor_bypass = FALSE, var/turf/location_override = loc)
 	if(!simulated)
 		return FALSE
 
@@ -193,16 +181,16 @@
 
 	return TRUE
 
-/obj/can_fall(anchor_bypass = FALSE, turf/location_override = loc)
+/obj/can_fall(var/anchor_bypass = FALSE, var/turf/location_override = loc)
 	return ..(anchor_fall)
 
-/obj/effect/can_fall(anchor_bypass = FALSE, turf/location_override = loc)
+/obj/effect/can_fall(var/anchor_bypass = FALSE, var/turf/location_override = loc)
 	return FALSE
 
-/obj/effect/decal/cleanable/can_fall(anchor_bypass = FALSE, turf/location_override = loc)
+/obj/effect/decal/cleanable/can_fall(var/anchor_bypass = FALSE, var/turf/location_override = loc)
 	return TRUE
 
-/obj/item/pipe/can_fall(anchor_bypass = FALSE, turf/location_override = loc)
+/obj/item/pipe/can_fall(var/anchor_bypass = FALSE, var/turf/location_override = loc)
 	var/turf/simulated/open/below = loc
 	below = below.below
 
@@ -214,11 +202,11 @@
 	if((locate(/obj/structure/disposalpipe/up) in below) || locate(/obj/machinery/atmospherics/pipe/zpipe/up) in below)
 		return FALSE
 
-/mob/living/carbon/human/can_fall(anchor_bypass = FALSE, turf/location_override = loc)
+/mob/living/carbon/human/can_fall(var/anchor_bypass = FALSE, var/turf/location_override = loc)
 	if(..())
 		return species.can_fall(src)
 
-/atom/movable/proc/handle_fall(turf/landing)
+/atom/movable/proc/handle_fall(var/turf/landing)
 	forceMove(landing)
 	if(locate(/obj/structure/stairs) in landing)
 		return 1
@@ -229,7 +217,7 @@
 	else
 		handle_fall_effect(landing)
 
-/atom/movable/proc/handle_fall_effect(turf/landing)
+/atom/movable/proc/handle_fall_effect(var/turf/landing)
 	if(istype(landing, /turf/simulated/open))
 		visible_message("\The [src] falls through \the [landing]!", "You hear a whoosh of displaced air.")
 	else
@@ -251,7 +239,7 @@
 		return 150
 	return BASE_STORAGE_COST(w_class)
 
-/mob/living/carbon/human/handle_fall_effect(turf/landing)
+/mob/living/carbon/human/handle_fall_effect(var/turf/landing)
 	if(species && species.handle_fall_special(src, landing))
 		return
 
@@ -277,7 +265,7 @@
 		if(victims.len)
 			var/obj/item/organ/external/victim = pick(victims)
 			victim.dislocate()
-			to_chat(src, SPAN_WARNING("You feel a sickening pop as your [victim.joint] is wrenched out of the socket."))
+			to_chat(src, "<span class='warning'>You feel a sickening pop as your [victim.joint] is wrenched out of the socket.</span>")
 	updatehealth()
 
 
@@ -292,12 +280,12 @@
 		if(location.has_gravity && !can_overcome_gravity())
 			return FALSE
 
-		visible_message(SPAN_NOTICE("[src] starts climbing onto \the [A]!"), SPAN_NOTICE("You start climbing onto \the [A]!"))
+		visible_message("<span class='notice'>[src] starts climbing onto \the [A]!</span>", "<span class='notice'>You start climbing onto \the [A]!</span>")
 		if(do_after(src, 5 SECONDS, A, DO_PUBLIC_UNIQUE))
-			visible_message(SPAN_NOTICE("[src] climbs onto \the [A]!"), SPAN_NOTICE("You climb onto \the [A]!"))
+			visible_message("<span class='notice'>[src] climbs onto \the [A]!</span>", "<span class='notice'>You climb onto \the [A]!</span>")
 			src.Move(T)
 		else
-			visible_message(SPAN_WARNING("[src] gives up on trying to climb onto \the [A]!"), SPAN_WARNING("You give up on trying to climb onto \the [A]!"))
+			visible_message("<span class='warning'>[src] gives up on trying to climb onto \the [A]!</span>", "<span class='warning'>You give up on trying to climb onto \the [A]!</span>")
 		return TRUE
 
 /atom/movable/proc/can_float()
@@ -325,7 +313,7 @@
 	mouse_opacity = FALSE
 	var/mob/living/owner
 
-/atom/movable/z_observer/Initialize(mapload, mob/living/user)
+/atom/movable/z_observer/Initialize(mapload, var/mob/living/user)
 	. = ..()
 	owner = user
 	follow()

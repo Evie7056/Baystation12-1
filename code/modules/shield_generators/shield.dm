@@ -328,7 +328,7 @@
 	affected_shields |= src
 	i--
 	if(i)
-		addtimer(new Callback(src, .proc/spread_impact_effect, i, affected_shields), 2)
+		addtimer(CALLBACK(src, .proc/spread_impact_effect, i, affected_shields), 2)
 
 /obj/effect/shield/proc/spread_impact_effect(var/i, var/list/affected_shields = list())
 	for(var/direction in GLOB.cardinal)

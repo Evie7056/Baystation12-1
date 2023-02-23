@@ -53,7 +53,7 @@
 		else
 			to_chat(owner, "<span class='notice'>Your protective lenses retract out of the way.</span>")
 			innate_flash_protection = FLASH_PROTECTION_VULNERABLE
-			addtimer(new Callback(src, .proc/remove_shield), 1 SECONDS)
+			addtimer(CALLBACK(src, .proc/remove_shield), 1 SECONDS)
 			owner.update_icons()
 		refresh_action_button()
 

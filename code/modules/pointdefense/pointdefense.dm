@@ -145,7 +145,7 @@
 	if(!istype(M))
 		return
 	engaging = TRUE
-	addtimer(new Callback(src, .proc/finish_shot, target), rotation_speed)
+	addtimer(CALLBACK(src, .proc/finish_shot, target), rotation_speed)
 	var/Angle = round(Get_Angle(src, M))
 	animate(
 		src,
