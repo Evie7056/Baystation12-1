@@ -85,7 +85,7 @@
 /obj/item/clothing/gloves/rig/merc
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_IPC, SPECIES_VOX, SPECIES_SHELL)
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_hands_unathi.dmi',
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_hands_unathi.dmi',
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_hands_vox.dmi'
 		)
 
