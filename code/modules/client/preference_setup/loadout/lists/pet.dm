@@ -31,8 +31,23 @@
 
 /obj/item/holder/gear/kitten
 	pet = /mob/living/simple_animal/passive/cat/kitten
+	w_class = ITEM_SIZE_SMALL
+
+/obj/item/holder/gear/cat_three_color
+	pet = /mob/living/simple_animal/passive/cat
 	w_class = ITEM_SIZE_NORMAL
 
+/obj/item/holder/gear/cat_black
+	pet = /mob/living/simple_animal/passive/cat/fluff/bones
+	w_class = ITEM_SIZE_NORMAL
+
+/obj/item/holder/gear/puppy
+	pet = /mob/living/simple_animal/passive/corgi/puppy
+	w_class = ITEM_SIZE_SMALL
+
+/obj/item/holder/gear/corgi
+	pet = /mob/living/simple_animal/passive/corgi
+	w_class = ITEM_SIZE_NORMAL
 
 /obj/item/holder/gear/lizard
 	pet = /mob/living/simple_animal/passive/lizard
@@ -75,6 +90,10 @@
 	..()
 	var/list/options = list()
 	options["kitten"] = /obj/item/holder/gear/kitten
+	options["cat, three color"] = /obj/item/holder/gear/cat_three_color
+	options["cat, black"] = /obj/item/holder/gear/cat_black
+	options["corgi, puppy"] = /obj/item/holder/gear/puppy
+	options["corgi"] = /obj/item/holder/gear/corgi
 	options["lizard"] = /obj/item/holder/gear/lizard
 	options["mouse, brown"] = /obj/item/holder/gear/mouse_brown
 	options["mouse, grey"] = /obj/item/holder/gear/mouse_gray
