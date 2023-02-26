@@ -208,6 +208,6 @@
 	speak_chance = 1
 
 /datum/say_list/corgi
-	speak = list("YAP", "Woof!", "Bark!", "AUUUUUU")
-	emote_hear = list("barks", "woofs", "yaps","pants")
-	emote_see = list("shakes its head", "shivers")
+	speak = list("Йап!", "Вууф!!", "Гаф!", "АУУУУУУ!")
+	emote_hear = list("гавкает", "тяфкает","высовывет язык")
+	emote_see = list("трясет головой", "вздрагивает")
