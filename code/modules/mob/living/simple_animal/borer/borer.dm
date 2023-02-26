@@ -2,7 +2,7 @@
 	name = "cortical borer"
 	real_name = "cortical borer"
 	desc = "A small, quivering sluglike creature."
-	speak_emote = list("chirrups")
+	speak_emote = list("стрекочет")
 	// emote_hear = list("chirrups")
 	response_help  = "pokes"
 	response_disarm = "prods"
@@ -28,7 +28,11 @@
 	var/static/list/chemical_types = list(
 		"bicaridine" = /datum/reagent/bicaridine,
 		"hyperzine" =  /datum/reagent/hyperzine,
-		"tramadol" =   /datum/reagent/tramadol
+		"tramadol" =   /datum/reagent/tramadol,
+		"dermaline" =  /datum/reagent/dermaline,
+		"peridaxon" =  /datum/reagent/peridaxon,
+		"inaprovaline" =  /datum/reagent/inaprovaline,
+		"dylovene" =  /datum/reagent/dylovene
 	)
 
 	var/generation = 1

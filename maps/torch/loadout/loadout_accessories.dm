@@ -2,7 +2,7 @@
 	display_name = "SolGov military award selection"
 	description = "A selection of military awards awarded by the Sol Central Government."
 	path = /obj/item/clothing/accessory/medal/solgov/mil
-	cost = 8
+	cost = 6
 	allowed_branches = SOLGOV_BRANCHES
 	flags = GEAR_HAS_NO_CUSTOMIZATION
 
@@ -12,6 +12,7 @@
 	solmilitary["Bronze Heart"] = /obj/item/clothing/accessory/medal/solgov/mil/bronze_heart
 	solmilitary["Home Guard medal"] = /obj/item/clothing/accessory/medal/solgov/mil/home_guard
 	solmilitary["Iron Star"] = /obj/item/clothing/accessory/medal/solgov/mil/iron_star
+	solmilitary["Combat Medical Award"] = /obj/item/clothing/accessory/medal/solgov/mil/medical
 	solmilitary["Armed Forces medal"] = /obj/item/clothing/accessory/medal/solgov/mil/armed_forces
 	solmilitary["Silver Sword"] = /obj/item/clothing/accessory/medal/solgov/mil/silver_sword
 	solmilitary["Superior Service Cross"] = /obj/item/clothing/accessory/medal/solgov/mil/service_cross
@@ -37,7 +38,7 @@
 	display_name = "SolGov ribbon selection"
 	description = "A selection of decorations and medal ribbons awarded by the Sol Central Government."
 	path = /obj/item/clothing/accessory/ribbon/solgov
-	cost = 3
+	cost = 4
 	allowed_branches = SOLGOV_BRANCHES
 	flags = GEAR_HAS_NO_CUSTOMIZATION
 
@@ -66,7 +67,7 @@
 	gear_tweaks += new/datum/gear_tweak/path(solribbons)
 
 /datum/gear/accessory/tags
-	display_name = "dog tags"
+	display_name = "SCG dog tags"
 	path = /obj/item/clothing/accessory/badge/solgov/tags
 	custom_setup_proc = /obj/item/clothing/accessory/badge/solgov/tags/proc/loadout_setup
 
@@ -107,10 +108,9 @@
 	allowed_skills = list(
 		SKILL_PILOT = SKILL_ADEPT
 	)
-	allowed_branches = list(
-		/datum/mil_branch/fleet,
-		/datum/mil_branch/expeditionary_corps
-	)
+	//PRX-START
+	// allowed_branches = list(/datum/mil_branch/fleet, /datum/mil_branch/expeditionary_corps)
+	//PRX-END
 
 /datum/gear/accessory/fleetpatch
 	display_name = "fleet patch"
@@ -206,6 +206,7 @@
 	display_name = "blood patch selection"
 	path = /obj/item/clothing/accessory/armor_tag
 	allowed_roles = ARMORED_ROLES
+	cost = 0
 
 /datum/gear/tactical/bloodpatch/New()
 	..()

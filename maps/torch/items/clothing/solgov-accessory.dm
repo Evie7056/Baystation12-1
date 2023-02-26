@@ -3,6 +3,9 @@
 	icon = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
 	accessory_icons = list(slot_w_uniform_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi')
 	w_class = ITEM_SIZE_TINY
+	sprite_sheets = list(
+		SPECIES_UNATHI = 'maps/torch/icons/mob/unathi/onmob_accessories_solgov_unathi.dmi'
+		)
 
 /*****
 medals
@@ -14,12 +17,6 @@ medals
 	accessory_icons = list(slot_w_uniform_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi')
 
 //medals ranked from least to greatest
-
-//Universal medals
-/obj/item/clothing/accessory/medal/solgov/medical
-	name = "\improper Combat Medical Award"
-	desc = "An electrum heart medal with a Staff of Hermes and sanguine cross, awarded by the SCG to individuals who have served as medical personnel in an active combat zone."
-	icon_state = "medal_medical"
 
 //Military medals
 /obj/item/clothing/accessory/medal/solgov/mil/bronze_heart
@@ -36,6 +33,11 @@ medals
 	name = "\improper Iron Star medal"
 	desc = "An iron star awarded by the SCG to members of the SCG Defense Forces who have performed acts of 'meritorious achievements or service.'"
 	icon_state = "medal_iron_star"
+
+/obj/item/clothing/accessory/medal/solgov/mil/medical
+	name = "\improper Combat Medical Award"
+	desc = "An electrum heart medal with a Staff of Hermes and sanguine cross, awarded by the SCG to individuals who have served as medical personnel in an active combat zone."
+	icon_state = "medal_medical"
 
 /obj/item/clothing/accessory/medal/solgov/mil/armed_forces
 	name = "\improper Armed Forces Medal"
@@ -88,9 +90,6 @@ patches
 	icon_state = "torchpatch"
 	on_rolled = list("down" = "none")
 	slot = ACCESSORY_SLOT_INSIGNIA
-	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_accessories_sol_unathi.dmi'
-		)
 
 /obj/item/clothing/accessory/solgov/ec_patch
 	name = "\improper Observatory patch"
@@ -147,6 +146,9 @@ scarves
 	desc = "An SCG blue silk scarf, meant to be worn with Expeditionary Corps uniforms."
 	icon = 'icons/obj/clothing/obj_accessories.dmi'
 	accessory_icons = list(slot_w_uniform_str = 'icons/mob/onmob/onmob_accessories.dmi', slot_wear_suit_str = 'icons/mob/onmob/onmob_accessories.dmi')
+	sprite_sheets = list(
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_accessories_unathi.dmi'
+		)
 	icon_state = "whitescarf"
 	on_rolled = list("down" = "none")
 	color = "#68a0ce"
@@ -387,9 +389,36 @@ badges
 	desc = "A red leather-backed gold badge with silver 'SYNTH' letters written on it, displaying advanced EXO Corporative Shell IPC."
 	icon = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
 	icon_state = "solbadge"
+	badge_string = "EXO Corporative"
 	slot_flags = SLOT_BELT | SLOT_TIE | ACCESSORY_REMOVABLE | ACCESSORY_HIGH_VISIBILITY
 	slot = ACCESSORY_SLOT_RANK
 
+/obj/item/clothing/accessory/badge/solgov/tags/first
+	name = "contractor first class badge"
+	desc = "Plastic badge with gold inscription 'FIRST CLASS'. Owned by a corporate contractor. Shows the level of a top specialist."
+	icon = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
+	icon_state = "cont_c1"
+	badge_string = "Qualification System"
+	slot_flags = SLOT_BELT | SLOT_TIE | ACCESSORY_REMOVABLE | ACCESSORY_HIGH_VISIBILITY
+	slot = ACCESSORY_SLOT_RANK
+
+/obj/item/clothing/accessory/badge/solgov/tags/second
+	name = "contractor second class badge"
+	desc = "Plastic badge with gold inscription 'SECOND CLASS'. Owned by a corporate contractor. Shows the level of an average specialist."
+	icon = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
+	icon_state = "cont_c2"
+	badge_string = "Qualification System"
+	slot_flags = SLOT_BELT | SLOT_TIE | ACCESSORY_REMOVABLE | ACCESSORY_HIGH_VISIBILITY
+	slot = ACCESSORY_SLOT_RANK
+
+/obj/item/clothing/accessory/badge/solgov/tags/three
+	name = "contractor three class badge"
+	desc = "Plastic badge with gold inscription 'THREE CLASS'. Owned by a corporate contractor. Shows the level of a low specialist."
+	icon = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
+	icon_state = "cont_c3"
+	badge_string = "Qualification System"
+	slot_flags = SLOT_BELT | SLOT_TIE | ACCESSORY_REMOVABLE | ACCESSORY_HIGH_VISIBILITY
+	slot = ACCESSORY_SLOT_RANK
 
 /obj/item/clothing/accessory/badge/solgov/representative
 	name = "representative's badge"
@@ -405,9 +434,6 @@ armbands
 	name = "master solgov armband"
 	icon = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
 	accessory_icons = list(slot_w_uniform_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi')
-	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_accessories_sol_unathi.dmi'
-		)
 
 /obj/item/clothing/accessory/armband/solgov/mp
 	name = "military police brassard"
@@ -491,9 +517,6 @@ department tags
 	on_rolled = list("down" = "none", "rolled" = "dept_exped_sleeves")
 	slot = ACCESSORY_SLOT_DEPT
 	accessory_flags = EMPTY_BITFIELD
-	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_accessories_sol_unathi.dmi'
-		)
 
 /obj/item/clothing/accessory/solgov/department/command
 	name = "command insignia"
@@ -646,9 +669,6 @@ ranks - ec
 	slot = ACCESSORY_SLOT_RANK
 	gender = PLURAL
 	accessory_flags = ACCESSORY_REMOVABLE | ACCESSORY_HIGH_VISIBILITY
-	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_accessories_sol_unathi.dmi'
-		)
 
 /obj/item/clothing/accessory/solgov/rank/ec
 	name = "explorer ranks"

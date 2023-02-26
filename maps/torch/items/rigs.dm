@@ -370,7 +370,8 @@
 		/obj/item/rig_module/device/anomaly_scanner,
 		/obj/item/rig_module/grenade_launcher/light,
 		/obj/item/rig_module/cooling_unit,
-		/obj/item/rig_module/storage
+		/obj/item/rig_module/storage,
+		/obj/item/rig_module/chem_dispenser/lite
 	)
 
 /obj/item/rig/hazard/research_guard

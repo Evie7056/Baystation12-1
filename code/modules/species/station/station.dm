@@ -37,7 +37,14 @@
 			CULTURE_HUMAN_SPAFRO,
 			CULTURE_HUMAN_CONFED,
 			CULTURE_HUMAN_GAIAN,
-			CULTURE_HUMAN_OTHER
+			CULTURE_HUMAN_OTHER,
+			CULTURE_HUMAN_AVACOMMON, //start add by PRX
+			CULTURE_HUMAN_AVANOBLE,
+			CULTURE_HUMAN_LORRIMAN,
+			CULTURE_HUMAN_LORDUP,
+			CULTURE_HUMAN_LORDLOW,
+			CULTURE_HUMAN_MIRANIAN,
+			CULTURE_HUMAN_NYXIAN //end add by PRX
 		)
 	)
 
@@ -176,6 +183,13 @@
 		/datum/mob_descriptor/build = 0,
 		/datum/mob_descriptor/headtail_length = 0
 	)
+
+	speech_sounds = list(
+		'sound/skrell/warble1.ogg',
+		'sound/skrell/warble2.ogg',
+		'sound/skrell/warble3.ogg'
+	)
+	speech_chance = 10
 
 	available_cultural_info = list(
 		TAG_CULTURE = list(

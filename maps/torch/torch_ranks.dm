@@ -65,7 +65,8 @@
 				/datum/mil_rank/ec/e3,
 				/datum/mil_rank/ec/e5,
 				/datum/mil_rank/ec/e7,
-				/datum/mil_rank/ec/o1
+				/datum/mil_rank/ec/o1,
+				/datum/mil_rank/ec/o3
 			),
 			/datum/mil_branch/fleet = list(
 				/datum/mil_rank/fleet/e1,
@@ -75,7 +76,9 @@
 				/datum/mil_rank/fleet/e5,
 				/datum/mil_rank/fleet/e6,
 				/datum/mil_rank/fleet/e7,
-				/datum/mil_rank/fleet/o1
+				/datum/mil_rank/fleet/o1,
+				/datum/mil_rank/fleet/o2,
+				/datum/mil_rank/fleet/o3
 			),
 			/datum/mil_branch/army = list(
 				/datum/mil_rank/army/e1,
@@ -86,7 +89,9 @@
 				/datum/mil_rank/army/e5,
 				/datum/mil_rank/army/e6,
 				/datum/mil_rank/army/e7,
-				/datum/mil_rank/army/o1
+				/datum/mil_rank/army/o1,
+				/datum/mil_rank/army/o2,
+				/datum/mil_rank/army/o3
 			)
 		),
 		/datum/species/machine/shell = list(
@@ -94,7 +99,8 @@
 				/datum/mil_rank/ec/e3,
 				/datum/mil_rank/ec/e5,
 				/datum/mil_rank/ec/e7,
-				/datum/mil_rank/ec/o1
+				/datum/mil_rank/ec/o1,
+				/datum/mil_rank/ec/o3
 			),
 			/datum/mil_branch/fleet = list(
 				/datum/mil_rank/fleet/e1,
@@ -104,7 +110,9 @@
 				/datum/mil_rank/fleet/e5,
 				/datum/mil_rank/fleet/e6,
 				/datum/mil_rank/fleet/e7,
-				/datum/mil_rank/fleet/o1
+				/datum/mil_rank/fleet/o1,
+				/datum/mil_rank/fleet/o2,
+				/datum/mil_rank/fleet/o3
 			),
 			/datum/mil_branch/army = list(
 				/datum/mil_rank/army/e1,
@@ -115,7 +123,9 @@
 				/datum/mil_rank/army/e5,
 				/datum/mil_rank/army/e6,
 				/datum/mil_rank/army/e7,
-				/datum/mil_rank/army/o1
+				/datum/mil_rank/army/o1,
+				/datum/mil_rank/army/o2,
+				/datum/mil_rank/army/o3
 			)
 		),
 		/datum/species/skrell = list(
@@ -302,14 +312,18 @@
 
 	rank_types = list(
 		/datum/mil_rank/civ/civ,
-		/datum/mil_rank/civ/contractor,
+		/datum/mil_rank/civ/first,
+		/datum/mil_rank/civ/second,
+		/datum/mil_rank/civ/three,
 		/datum/mil_rank/civ/synthetic,
 		/datum/mil_rank/civ/exo_synth
 	)
 
 	spawn_rank_types = list(
 		/datum/mil_rank/civ/civ,
-		/datum/mil_rank/civ/contractor,
+		/datum/mil_rank/civ/first,
+		/datum/mil_rank/civ/second,
+		/datum/mil_rank/civ/three,
 		/datum/mil_rank/civ/synthetic,
 		/datum/mil_rank/civ/exo_synth
 	)
@@ -352,6 +366,24 @@
 	if(sort_order <= 10)
 		return "E[sort_order]"
 	return "O[sort_order - 10]"
+
+// Within the scope of the Torch, this is the only necessary differentiation.
+/datum/mil_rank/rank_category()
+	. = ..()
+	if(!sort_order)
+		return null
+	if(sort_order <= 10)
+		return GET_SINGLETON(/singleton/rank_category/enlisted)
+	else
+		return GET_SINGLETON(/singleton/rank_category/commissioned)
+
+/singleton/rank_category/enlisted
+	name = "Enlisted"
+
+/singleton/rank_category/commissioned
+	name = "Commissioned"
+	add_accesses = list(access_o_mess)
+
 /*
  *  Fleet
  *  =====
@@ -729,10 +761,6 @@
 	name = "Civilian"
 	name_short = "Civ"
 
-/datum/mil_rank/civ/contractor
-	name = "Corporative Contractor"
-	name_short = "Cont"
-
 /datum/mil_rank/civ/synthetic
 	name = "Synthetic"
 	name_short = "Synth"
@@ -741,6 +769,26 @@
 	name = "EXO Synthetic"
 	name_short = "Synth"
 	accessory = list(/obj/item/clothing/accessory/badge/solgov/synthetic)\
+
+/*
+ *  Contractors-PRX
+ *  =========
+ */
+
+/datum/mil_rank/civ/three
+	name = "Corporative Contractor Class 3"
+	name_short = "CCC3"
+	accessory = list(/obj/item/clothing/accessory/badge/solgov/tags/three)
+
+/datum/mil_rank/civ/second
+	name = "Corporative Contractor Class 2"
+	name_short = "CCC2"
+	accessory = list(/obj/item/clothing/accessory/badge/solgov/tags/second)
+
+/datum/mil_rank/civ/first
+	name = "Corporative Contractor Class 1"
+	name_short = "CCC1"
+	accessory = list(/obj/item/clothing/accessory/badge/solgov/tags/first)
 
 /*
  *  SolGov Employees

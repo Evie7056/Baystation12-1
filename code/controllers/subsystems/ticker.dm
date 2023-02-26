@@ -214,7 +214,7 @@ SUBSYSTEM_DEF(ticker)
 
 			else
 				if(!delay_end)
-					to_world("<span class='notice'><b>Restarting in [restart_timeout/10] seconds</b></span>")
+					to_world("<span class='notice'><b>A new story will start in [restart_timeout/10] seconds</b></span>") //PRX
 			handle_tickets()
 		if(END_GAME_ENDING)
 			restart_timeout -= (world.time - last_fire)
@@ -402,7 +402,7 @@ Helpers
 	var/captainless=1
 	for(var/mob/living/carbon/human/player in GLOB.player_list)
 		if(player && player.mind && player.mind.assigned_role)
-			if(player.mind.assigned_role == "Captain")
+			if(player.mind.assigned_role == "Commanding Officer") //PRX
 				captainless=0
 			if(!player_is_antag(player.mind, only_offstation_roles = 1))
 				SSjobs.equip_rank(player, player.mind.assigned_role, 0)
@@ -410,7 +410,7 @@ Helpers
 	if(captainless)
 		for(var/mob/M in GLOB.player_list)
 			if(!istype(M,/mob/new_player))
-				to_chat(M, "Captainship not forced on anyone.")
+				to_chat(M, "Капитан не пробудился вместе с вами.") //PRX
 
 /datum/controller/subsystem/ticker/proc/attempt_late_antag_spawn(var/list/antag_choices)
 	var/datum/antagonist/antag = antag_choices[1]
