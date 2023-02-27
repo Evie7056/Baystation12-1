@@ -52,19 +52,19 @@
 	build_path = /obj/item/device/flash/advanced
 	sort_string = "TADAA"
 
-/datum/design/item/weapon/stunrevolver
-	id = "stunrevolver"
-	req_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 3, TECH_POWER = 2)
-	materials = list(MATERIAL_STEEL = 4000)
-	build_path = /obj/item/gun/energy/stunrevolver
-	sort_string = "TADAB"
+// /datum/design/item/weapon/stunrevolver
+// 	id = "stunrevolver"
+// 	req_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 3, TECH_POWER = 2)
+// 	materials = list(MATERIAL_STEEL = 4000)
+// 	build_path = /obj/item/gun/energy/stunrevolver
+// 	sort_string = "TADAB"
 
-/datum/design/item/weapon/stunrifle
-	id = "stun_rifle"
-	req_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3, TECH_POWER = 3)
-	materials = list(MATERIAL_STEEL = 4000, MATERIAL_GLASS = 1000, MATERIAL_SILVER = 500)
-	build_path = /obj/item/gun/energy/stunrevolver/rifle
-	sort_string = "TADAC"
+// /datum/design/item/weapon/stunrifle
+// 	id = "stun_rifle"
+// 	req_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3, TECH_POWER = 3)
+// 	materials = list(MATERIAL_STEEL = 4000, MATERIAL_GLASS = 1000, MATERIAL_SILVER = 500)
+// 	build_path = /obj/item/gun/energy/stunrevolver/rifle
+// 	sort_string = "TADAC"
 
 /datum/design/item/weapon/confuseray
 	id = "confuseray"
@@ -73,27 +73,27 @@
 	build_path = /obj/item/gun/energy/confuseray
 	sort_string = "TADAD"
 
-/datum/design/item/weapon/lasercannon
-	desc = "The lasing medium of this prototype is enclosed in a tube lined with uranium-235 and subjected to high neutron flux in a nuclear reactor core."
-	id = "lasercannon"
-	req_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3, TECH_POWER = 3)
-	materials = list(MATERIAL_STEEL = 10000, MATERIAL_GLASS = 1000, MATERIAL_DIAMOND = 2000)
-	build_path = /obj/item/gun/energy/lasercannon
-	sort_string = "TAEAB"
+// /datum/design/item/weapon/lasercannon
+// 	desc = "The lasing medium of this prototype is enclosed in a tube lined with uranium-235 and subjected to high neutron flux in a nuclear reactor core."
+// 	id = "lasercannon"
+// 	req_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3, TECH_POWER = 3)
+// 	materials = list(MATERIAL_STEEL = 10000, MATERIAL_GLASS = 1000, MATERIAL_DIAMOND = 2000)
+// 	build_path = /obj/item/gun/energy/lasercannon
+// 	sort_string = "TAEAB"
 
-/datum/design/item/weapon/xraypistol
-	id = "xraypistol"
-	req_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3, TECH_MAGNET = 2, TECH_ESOTERIC = 2)
-	materials = list(MATERIAL_STEEL = 4000, MATERIAL_GLASS = 500, MATERIAL_URANIUM = 500)
-	build_path = /obj/item/gun/energy/xray/pistol
-	sort_string = "TAFAA"
+// /datum/design/item/weapon/xraypistol
+// 	id = "xraypistol"
+// 	req_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3, TECH_MAGNET = 2, TECH_ESOTERIC = 2)
+// 	materials = list(MATERIAL_STEEL = 4000, MATERIAL_GLASS = 500, MATERIAL_URANIUM = 500)
+// 	build_path = /obj/item/gun/energy/xray/pistol
+// 	sort_string = "TAFAA"
 
-/datum/design/item/weapon/xrayrifle
-	id = "xrayrifle"
-	req_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 3, TECH_MAGNET = 2, TECH_ESOTERIC = 2)
-	materials = list(MATERIAL_STEEL = 5000, MATERIAL_GLASS = 1000, MATERIAL_URANIUM = 1000)
-	build_path = /obj/item/gun/energy/xray
-	sort_string = "TAFAB"
+// /datum/design/item/weapon/xrayrifle
+// 	id = "xrayrifle"
+// 	req_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 3, TECH_MAGNET = 2, TECH_ESOTERIC = 2)
+// 	materials = list(MATERIAL_STEEL = 5000, MATERIAL_GLASS = 1000, MATERIAL_URANIUM = 1000)
+// 	build_path = /obj/item/gun/energy/xray
+// 	sort_string = "TAFAB"
 
 /datum/design/item/weapon/grenadelauncher
 	id = "grenadelauncher"
@@ -109,20 +109,20 @@
 	build_path = /obj/item/gun/magnetic/railgun/flechette
 	sort_string = "TAHAA"
 
-/datum/design/item/weapon/phoronpistol
-	id = "ppistol"
-	req_tech = list(TECH_COMBAT = 5, TECH_PHORON = 4)
-	materials = list(MATERIAL_STEEL = 5000, MATERIAL_GLASS = 1000, MATERIAL_PHORON = 3000)
-	build_path = /obj/item/gun/energy/toxgun
-	sort_string = "TAJAA"
+// /datum/design/item/weapon/phoronpistol
+// 	id = "ppistol"
+// 	req_tech = list(TECH_COMBAT = 5, TECH_PHORON = 4)
+// 	materials = list(MATERIAL_STEEL = 5000, MATERIAL_GLASS = 1000, MATERIAL_PHORON = 3000)
+// 	build_path = /obj/item/gun/energy/toxgun
+// 	sort_string = "TAJAA"
 
-/datum/design/item/weapon/decloner
-	id = "decloner"
-	req_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 7, TECH_BIO = 5, TECH_POWER = 6)
-	materials = list(MATERIAL_GOLD = 5000,MATERIAL_URANIUM = 10000)
-	chemicals = list(/datum/reagent/mutagen = 40)
-	build_path = /obj/item/gun/energy/decloner
-	sort_string = "TAJAB"
+// /datum/design/item/weapon/decloner
+// 	id = "decloner"
+// 	req_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 7, TECH_BIO = 5, TECH_POWER = 6)
+// 	materials = list(MATERIAL_GOLD = 5000,MATERIAL_URANIUM = 10000)
+// 	chemicals = list(/datum/reagent/mutagen = 40)
+// 	build_path = /obj/item/gun/energy/decloner
+// 	sort_string = "TAJAB"
 
 /datum/design/item/weapon/wt550
 	id = "wt550"
@@ -145,12 +145,12 @@
 	build_path = /obj/item/gun/projectile/automatic/bullpup_rifle/light
 	sort_string = "TAPAC"
 
-/datum/design/item/weapon/aegun
-	id = "aegun"
-	req_tech = list(TECH_COMBAT = 7, TECH_MATERIAL = 4, TECH_POWER = 7)
-	materials = list(MATERIAL_STEEL = 10000, MATERIAL_SILVER = 4000, MATERIAL_DIAMOND = 2000, MATERIAL_URANIUM = 6000, MATERIAL_GOLD = 1000)
-	build_path = /obj/item/gun/energy/gun/nuclear
-	sort_string = "TAPAD"
+// /datum/design/item/weapon/aegun
+// 	id = "aegun"
+// 	req_tech = list(TECH_COMBAT = 7, TECH_MATERIAL = 4, TECH_POWER = 7)
+// 	materials = list(MATERIAL_STEEL = 10000, MATERIAL_SILVER = 4000, MATERIAL_DIAMOND = 2000, MATERIAL_URANIUM = 6000, MATERIAL_GOLD = 1000)
+// 	build_path = /obj/item/gun/energy/gun/nuclear
+// 	sort_string = "TAPAD"
 
 /datum/design/item/weapon/ammunition/AssembleDesignName()
 	..()
