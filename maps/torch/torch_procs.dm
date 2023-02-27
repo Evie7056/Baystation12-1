@@ -41,6 +41,8 @@
 	else
 		return
 
+/datum/map/give_aa()
+
 /client/verb/awake_synth()
 	set category = "Admin"
 	set name = "Awake Synth"
