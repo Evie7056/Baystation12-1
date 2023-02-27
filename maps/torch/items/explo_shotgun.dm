@@ -133,8 +133,8 @@
 	return list(
 		/obj/item/storage/box/ammo/explo_shells = 3,
 		/obj/item/gun/projectile/shotgun/pump/exploration,
-		/obj/item/storage/box/ammo/explo_shells/cells = 2,
-		/obj/item/gun/energy/k342/explo = 2
+		/obj/item/ammo_magazine/speedloader/clip = 4,
+		/obj/item/gun/projectile/heavysniper/boltaction = 2
 	)
 
 /obj/structure/closet/secure_closet/explo_gun/kasatka
