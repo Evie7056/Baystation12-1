@@ -238,26 +238,26 @@
 		list(mode_name="heavy plasma charge", projectile_type=/obj/item/projectile/plasma/heavy/sniper, charge_cost=120, fire_delay=10, projectile_color=COLOR_RED)
 	)
 
-/datum/design/item/weapon/k342
-	id = "k342"
-	req_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3, TECH_POWER = 5)
-	materials = list(MATERIAL_SILVER = 7000, MATERIAL_GLASS = 2000, MATERIAL_STEEL = 10000, MATERIAL_URANIUM = 2000)
-	build_path = /obj/item/gun/energy/k342
-	sort_string = "TAEAA"
+// /datum/design/item/weapon/k342
+// 	id = "k342"
+// 	req_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3, TECH_POWER = 5)
+// 	materials = list(MATERIAL_SILVER = 7000, MATERIAL_GLASS = 2000, MATERIAL_STEEL = 10000, MATERIAL_URANIUM = 2000)
+// 	build_path = /obj/item/gun/energy/k342
+// 	sort_string = "TAEAA"
 
-/datum/design/item/weapon/k342/pistol
-	id = "k342_pistol"
-	build_path = /obj/item/gun/energy/k342/pistol
-	req_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 3, TECH_POWER = 5)
-	materials = list(MATERIAL_SILVER = 2000, MATERIAL_PLASTIC = 6000, MATERIAL_GLASS = 1000, MATERIAL_STEEL = 2000, MATERIAL_URANIUM = 1000)
-	sort_string = "TAEAB"
+// /datum/design/item/weapon/k342/pistol
+// 	id = "k342_pistol"
+// 	build_path = /obj/item/gun/energy/k342/pistol
+// 	req_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 3, TECH_POWER = 5)
+// 	materials = list(MATERIAL_SILVER = 2000, MATERIAL_PLASTIC = 6000, MATERIAL_GLASS = 1000, MATERIAL_STEEL = 2000, MATERIAL_URANIUM = 1000)
+// 	sort_string = "TAEAB"
 
-/datum/design/item/weapon/k342/sniper
-	id = "k342_sniper"
-	req_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 3, TECH_POWER = 7)
-	materials = list(MATERIAL_SILVER = 7000, MATERIAL_GLASS = 4000, MATERIAL_STEEL = 20000, MATERIAL_URANIUM = 4000, MATERIAL_DIAMOND = 1000)
-	build_path = /obj/item/gun/energy/k342/sniper
-	sort_string = "TAEAC"
+// /datum/design/item/weapon/k342/sniper
+// 	id = "k342_sniper"
+// 	req_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 3, TECH_POWER = 7)
+// 	materials = list(MATERIAL_SILVER = 7000, MATERIAL_GLASS = 4000, MATERIAL_STEEL = 20000, MATERIAL_URANIUM = 4000, MATERIAL_DIAMOND = 1000)
+// 	build_path = /obj/item/gun/energy/k342/sniper
+// 	sort_string = "TAEAC"
 
 /datum/design/item/weapon/ammunition/smallgunbattery
 	id = "smallgun_battery"
