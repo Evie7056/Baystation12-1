@@ -41,7 +41,7 @@
 	else
 		return
 
-/client/proc/awake_synth()
+/client/verb/awake_synth()
 	set category = "Admin"
 	set name = "Awake Synth"
 
