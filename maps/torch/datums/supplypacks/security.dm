@@ -58,91 +58,91 @@
 /decl/hierarchy/supply_pack/security/pistol
 	name = "Weapons - Ballistic sidearms"
 	contains = list(/obj/item/gun/projectile/pistol/military = 4)
-	cost = 40
+	cost = 80
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "ballistic sidearms crate"
 	access = access_armory
 	security_level = SUPPLY_SECURITY_ELEVATED
 
-/decl/hierarchy/supply_pack/security/laser
-	name = "Weapons - Laser carbines"
-	contains = list(/obj/item/gun/energy/laser/secure = 4)
-	cost = 60
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "laser carbines crate"
-	access = access_emergency_armory
-	security_level = SUPPLY_SECURITY_ELEVATED
+// /decl/hierarchy/supply_pack/security/laser
+// 	name = "Weapons - Laser carbines"
+// 	contains = list(/obj/item/gun/energy/laser/secure = 4)
+// 	cost = 60
+// 	containertype = /obj/structure/closet/crate/secure/weapon
+// 	containername = "laser carbines crate"
+// 	access = access_emergency_armory
+// 	security_level = SUPPLY_SECURITY_ELEVATED
 
-/decl/hierarchy/supply_pack/security/laser/shady
-	name = "Weapons - Laser carbines (For disposal)"
-	contains = list(/obj/item/gun/energy/laser = 4)
-	cost = 80
-	contraband = 1
-	security_level = null
+// /decl/hierarchy/supply_pack/security/laser/shady
+// 	name = "Weapons - Laser carbines (For disposal)"
+// 	contains = list(/obj/item/gun/energy/laser = 4)
+// 	cost = 80
+// 	contraband = 1
+// 	security_level = null
 
-/decl/hierarchy/supply_pack/security/advancedlaser
-	name = "Weapons - Advanced Laser Weapons"
-	contains = list(/obj/item/gun/energy/xray = 2,
-					/obj/item/gun/energy/xray/pistol = 2,
-					/obj/item/shield/energy = 2)
-	cost = 100
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "advanced Laser Weapons crate"
-	access = access_emergency_armory
-	security_level = SUPPLY_SECURITY_HIGH
+// /decl/hierarchy/supply_pack/security/advancedlaser
+// 	name = "Weapons - Advanced Laser Weapons"
+// 	contains = list(/obj/item/gun/energy/xray = 2,
+// 					/obj/item/gun/energy/xray/pistol = 2,
+// 					/obj/item/shield/energy = 2)
+// 	cost = 100
+// 	containertype = /obj/structure/closet/crate/secure/weapon
+// 	containername = "advanced Laser Weapons crate"
+// 	access = access_emergency_armory
+// 	security_level = SUPPLY_SECURITY_HIGH
 
 //proxima code start
-/decl/hierarchy/supply_pack/security/k342
-	name = "Weapons - K342 - Barrakuda"
-	contains = list(/obj/item/gun/energy/k342 = 2, /obj/item/cell/guncell/medium = 2)
-	cost = 100
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "k342 - barrakuda crate"
-	access = access_emergency_armory
-	security_level = SUPPLY_SECURITY_ELEVATED
+// /decl/hierarchy/supply_pack/security/k342
+// 	name = "Weapons - K342 - Barrakuda"
+// 	contains = list(/obj/item/gun/energy/k342 = 2, /obj/item/cell/guncell/medium = 2)
+// 	cost = 100
+// 	containertype = /obj/structure/closet/crate/secure/weapon
+// 	containername = "k342 - barrakuda crate"
+// 	access = access_emergency_armory
+// 	security_level = SUPPLY_SECURITY_ELEVATED
 
-/decl/hierarchy/supply_pack/security/k342
-	name = "Ammunition - Energy Small Guncells"
-	contains = list(/obj/item/cell/guncell/small = 4)
-	cost = 40
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "Ammunition - Energy Small Guncells"
-	access = access_emergency_armory
-	security_level = SUPPLY_SECURITY_ELEVATED
+// /decl/hierarchy/supply_pack/security/k342
+// 	name = "Ammunition - Energy Small Guncells"
+// 	contains = list(/obj/item/cell/guncell/small = 4)
+// 	cost = 40
+// 	containertype = /obj/structure/closet/crate/secure/weapon
+// 	containername = "Ammunition - Energy Small Guncells"
+// 	access = access_emergency_armory
+// 	security_level = SUPPLY_SECURITY_ELEVATED
 
-/decl/hierarchy/supply_pack/security/k342
-	name = "Ammunition - Energy Medium Guncells"
-	contains = list(/obj/item/cell/guncell/medium = 4)
-	cost = 60
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "Ammunition - Energy Medium Guncells"
-	access = access_emergency_armory
-	security_level = SUPPLY_SECURITY_ELEVATED
+// /decl/hierarchy/supply_pack/security/k342
+// 	name = "Ammunition - Energy Medium Guncells"
+// 	contains = list(/obj/item/cell/guncell/medium = 4)
+// 	cost = 60
+// 	containertype = /obj/structure/closet/crate/secure/weapon
+// 	containername = "Ammunition - Energy Medium Guncells"
+// 	access = access_emergency_armory
+// 	security_level = SUPPLY_SECURITY_ELEVATED
 
-/decl/hierarchy/supply_pack/security/k342
-	name = "Ammunition - Energy Large Guncells"
-	contains = list(/obj/item/cell/guncell/large = 4)
-	cost = 80
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "Ammunition - Energy Large Guncells"
-	access = access_emergency_armory
-	security_level = SUPPLY_SECURITY_ELEVATED
+// /decl/hierarchy/supply_pack/security/k342
+// 	name = "Ammunition - Energy Large Guncells"
+// 	contains = list(/obj/item/cell/guncell/large = 4)
+// 	cost = 80
+// 	containertype = /obj/structure/closet/crate/secure/weapon
+// 	containername = "Ammunition - Energy Large Guncells"
+// 	access = access_emergency_armory
+// 	security_level = SUPPLY_SECURITY_ELEVATED
 
 //proxima code end
 
-/decl/hierarchy/supply_pack/security/sniperlaser
-	name = "Weapons - Energy marksman"
-	contains = list(/obj/item/gun/energy/sniperrifle = 1)
-	cost = 70
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "energy marksman crate"
-	access = access_emergency_armory
-	security_level = SUPPLY_SECURITY_HIGH
+// /decl/hierarchy/supply_pack/security/sniperlaser
+// 	name = "Weapons - Energy marksman"
+// 	contains = list(/obj/item/gun/energy/sniperrifle = 1)
+// 	cost = 70
+// 	containertype = /obj/structure/closet/crate/secure/weapon
+// 	containername = "energy marksman crate"
+// 	access = access_emergency_armory
+// 	security_level = SUPPLY_SECURITY_HIGH
 
 /decl/hierarchy/supply_pack/security/pdw
 	name = "Weapons - Ballistic PDWs"
 	contains = list(/obj/item/gun/projectile/automatic/sec_smg = 2)
-	cost = 40
+	cost = 100
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "\improper Ballistic PDW crate"
 	access = access_emergency_armory
@@ -151,7 +151,7 @@
 /decl/hierarchy/supply_pack/security/bullpup
 	name = "Weapons - Ballistic rifles"
 	contains = list(/obj/item/gun/projectile/automatic/bullpup_rifle = 2)
-	cost = 80 //Because 5.56 is OP as fuck right now.
+	cost = 180 //Because 5.56 is OP as fuck right now.
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "bullpup automatic rifle crate"
 	access = access_emergency_armory

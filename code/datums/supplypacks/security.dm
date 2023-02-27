@@ -136,20 +136,20 @@
 	contains = list(/obj/item/device/flash = 4,
 					/obj/item/reagent_containers/spray/pepper = 4,
 					/obj/item/melee/baton/loaded = 4,
-					/obj/item/gun/energy/taser = 4)
+					/obj/item/gun/projectile/pistol/throwback= 4)
 	cost = 50
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "security weapons crate"
 	access = access_security
 
-/decl/hierarchy/supply_pack/security/egun
-	name = "Weapons - Energy sidearms"
-	contains = list(/obj/item/gun/energy/gun/secure = 3)
-	cost = 30
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "energy sidearms crate"
-	access = access_armory
-	security_level = SUPPLY_SECURITY_ELEVATED
+// /decl/hierarchy/supply_pack/security/egun
+// 	name = "Weapons - Sidearms"
+// 	contains = list(/obj/item/gun/projectile/pistol/military= 3)
+// 	cost = 70
+// 	containertype = /obj/structure/closet/crate/secure/weapon
+// 	containername = "energy sidearms crate"
+// 	access = access_armory
+// 	security_level = SUPPLY_SECURITY_ELEVATED
 
 /decl/hierarchy/supply_pack/security/egun/shady
 	name = "Weapons - Energy sidearms (For disposal)"
@@ -158,44 +158,44 @@
 	contraband = 1
 	security_level = null
 
-/decl/hierarchy/supply_pack/security/plasma
-	name = "Weapons - Plasma assault rifles"
-	contains = list(/obj/item/gun/energy/k342 = 2,
-					/obj/item/cell/guncell/medium = 2)
-	cost = 120
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "plasma longarms crate"
-	access = access_armory
-	security_level = SUPPLY_SECURITY_ELEVATED
+// /decl/hierarchy/supply_pack/security/plasma
+// 	name = "Weapons - Plasma assault rifles"
+// 	contains = list(/obj/item/gun/energy/k342 = 2,
+// 					/obj/item/cell/guncell/medium = 2)
+// 	cost = 120
+// 	containertype = /obj/structure/closet/crate/secure/weapon
+// 	containername = "plasma longarms crate"
+// 	access = access_armory
+// 	security_level = SUPPLY_SECURITY_ELEVATED
 
-/decl/hierarchy/supply_pack/security/plasma/expo
-	name = "Weapons - Plasma assault rifles (Expeditionary Corps)"
-	contains = list(/obj/item/gun/energy/k342/explo = 2,
-					/obj/item/cell/guncell/medium = 2)
-	cost = 100
+// /decl/hierarchy/supply_pack/security/plasma/expo
+// 	name = "Weapons - Plasma assault rifles (Expeditionary Corps)"
+// 	contains = list(/obj/item/gun/energy/k342/explo = 2,
+// 					/obj/item/cell/guncell/medium = 2)
+// 	cost = 100
 
-/decl/hierarchy/supply_pack/security/plasma/stingray
-	name = "Weapons - Plasma sniper rifles"
-	contains = list(/obj/item/gun/energy/k342/sniper = 2,
-					/obj/item/cell/guncell/medium = 4)
-	cost = 180
-	security_level = SUPPLY_SECURITY_HIGH
+// /decl/hierarchy/supply_pack/security/plasma/stingray
+// 	name = "Weapons - Plasma sniper rifles"
+// 	contains = list(/obj/item/gun/energy/k342/sniper = 2,
+// 					/obj/item/cell/guncell/medium = 4)
+// 	cost = 180
+// 	security_level = SUPPLY_SECURITY_HIGH
 
-/decl/hierarchy/supply_pack/security/ion
-	name = "Weapons - Electromagnetic"
-	contains = list(/obj/item/gun/energy/ionrifle = 2,
-					/obj/item/gun/energy/ionrifle/small,
-					/obj/item/storage/box/emps)
-	cost = 60
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "electromagnetic weapons crate"
-	access = access_armory
-	security_level = SUPPLY_SECURITY_ELEVATED
+// /decl/hierarchy/supply_pack/security/ion
+// 	name = "Weapons - Electromagnetic"
+// 	contains = list(/obj/item/gun/energy/ionrifle = 2,
+// 					/obj/item/gun/energy/ionrifle/small,
+// 					/obj/item/storage/box/emps)
+// 	cost = 60
+// 	containertype = /obj/structure/closet/crate/secure/weapon
+// 	containername = "electromagnetic weapons crate"
+// 	access = access_armory
+// 	security_level = SUPPLY_SECURITY_ELEVATED
 
 /decl/hierarchy/supply_pack/security/shotgun
 	name = "Weapons - Shotgun"
 	contains = list(/obj/item/gun/projectile/shotgun/pump/combat = 2)
-	cost = 50
+	cost = 90
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "shotgun crate"
 	access = access_armory
@@ -205,7 +205,7 @@
 	name = "Weapons - NT41"
 	contains = list(/obj/item/gun/projectile/automatic/corpo = 2,
 					/obj/item/ammo_magazine/corpo = 6)
-	cost = 60
+	cost = 120
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "NT41 crate"
 	access = access_armory
@@ -236,31 +236,31 @@
 	containername = "tear gas grenades crate"
 	access = access_security
 
-/decl/hierarchy/supply_pack/security/battaries
-	name = "Ammunition - Energy rifle small guncells"
-	cost = 40
-	contains = list(/obj/item/cell/guncell/small = 2,
-					/obj/item/cell/guncell/verysmall = 2)
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "energy rifle guncells crate"
-	access = access_security
+// /decl/hierarchy/supply_pack/security/battaries
+// 	name = "Ammunition - Energy rifle small guncells"
+// 	cost = 40
+// 	contains = list(/obj/item/cell/guncell/small = 2,
+// 					/obj/item/cell/guncell/verysmall = 2)
+// 	containertype = /obj/structure/closet/crate/secure/weapon
+// 	containername = "energy rifle guncells crate"
+// 	access = access_security
 
-/decl/hierarchy/supply_pack/security/battaries/medium
-	name = "Ammunition - Energy rifle mediun guncells"
-	cost = 60
-	contains = list(/obj/item/cell/guncell/medium = 4)
+// /decl/hierarchy/supply_pack/security/battaries/medium
+// 	name = "Ammunition - Energy rifle mediun guncells"
+// 	cost = 60
+// 	contains = list(/obj/item/cell/guncell/medium = 4)
 
-/decl/hierarchy/supply_pack/security/battaries/large
-	name = "Ammunition - Energy rifle large guncells"
-	cost = 80
-	contains = list(/obj/item/cell/guncell/large = 3)
-	security_level = SUPPLY_SECURITY_ELEVATED
+// /decl/hierarchy/supply_pack/security/battaries/large
+// 	name = "Ammunition - Energy rifle large guncells"
+// 	cost = 80
+// 	contains = list(/obj/item/cell/guncell/large = 3)
+// 	security_level = SUPPLY_SECURITY_ELEVATED
 
-/decl/hierarchy/supply_pack/security/battaries/megalarge
-	name = "Ammunition - Energy rifle unstable guncells"
-	cost = 100
-	contains = list(/obj/item/cell/guncell/megalarge = 3)
-	security_level = SUPPLY_SECURITY_ELEVATED
+// /decl/hierarchy/supply_pack/security/battaries/megalarge
+// 	name = "Ammunition - Energy rifle unstable guncells"
+// 	cost = 100
+// 	contains = list(/obj/item/cell/guncell/megalarge = 3)
+// 	security_level = SUPPLY_SECURITY_ELEVATED
 
 /decl/hierarchy/supply_pack/security/battaries/hypercharged
 	name = "Ammunition/Weapons - Energy rifle Hypercharged small cells"
@@ -277,30 +277,30 @@
 					/obj/item/cell/guncell/overcharged/large = 2,
 					/obj/item/cell/guncell/overcharged/megalarge = 2)
 
-/decl/hierarchy/supply_pack/security/battaries/pistol
-	name = "Ammunition - Energy pistol small guncells"
-	cost = 30
-	contains = list(/obj/item/cell/guncell/pistol/small = 2,
-					/obj/item/cell/guncell/pistol/verysmall = 2)
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "energy pistol guncells crate"
+// /decl/hierarchy/supply_pack/security/battaries/pistol
+// 	name = "Ammunition - Energy pistol small guncells"
+// 	cost = 30
+// 	contains = list(/obj/item/cell/guncell/pistol/small = 2,
+// 					/obj/item/cell/guncell/pistol/verysmall = 2)
+// 	containertype = /obj/structure/closet/crate/secure/weapon
+// 	containername = "energy pistol guncells crate"
 
-/decl/hierarchy/supply_pack/security/battaries/pistol/medium
-	name = "Ammunition - Energy pistol medium guncells"
-	cost = 60
-	contains = list(/obj/item/cell/guncell/pistol/medium = 4)
+// /decl/hierarchy/supply_pack/security/battaries/pistol/medium
+// 	name = "Ammunition - Energy pistol medium guncells"
+// 	cost = 60
+// 	contains = list(/obj/item/cell/guncell/pistol/medium = 4)
 
-/decl/hierarchy/supply_pack/security/battaries/pistol/large
-	name = "Ammunition - Energy pistol large guncells"
-	cost = 80
-	contains = list(/obj/item/cell/guncell/pistol/large = 3)
-	security_level = SUPPLY_SECURITY_ELEVATED
+// /decl/hierarchy/supply_pack/security/battaries/pistol/large
+// 	name = "Ammunition - Energy pistol large guncells"
+// 	cost = 80
+// 	contains = list(/obj/item/cell/guncell/pistol/large = 3)
+// 	security_level = SUPPLY_SECURITY_ELEVATED
 
-/decl/hierarchy/supply_pack/security/battaries/pistol/megalarge
-	name = "Ammunition - Energy pistol unstable guncells"
-	cost = 100
-	contains = list(/obj/item/cell/guncell/pistol/megalarge = 3)
-	security_level = SUPPLY_SECURITY_ELEVATED
+// /decl/hierarchy/supply_pack/security/battaries/pistol/megalarge
+// 	name = "Ammunition - Energy pistol unstable guncells"
+// 	cost = 100
+// 	contains = list(/obj/item/cell/guncell/pistol/megalarge = 3)
+// 	security_level = SUPPLY_SECURITY_ELEVATED
 
 /decl/hierarchy/supply_pack/security/battaries/pistol/hypercharged
 	name = "Ammunition/Weapons - Energy pistol Hypercharged small cells"
