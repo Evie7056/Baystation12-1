@@ -55,7 +55,7 @@
 		/obj/item/storage/belt/security,
 		/obj/item/material/knife/folding/swiss/sec,
 		/obj/item/storage/backpack/dufflebag/sec,
-		new /datum/atom_creator/weighted(list(/obj/item/gun/energy/gun/small/secure, /obj/item/gun/energy/gun/small/secure, /obj/item/gun/energy/k342/pistol)),
+		new /datum/atom_creator/weighted(list(/obj/item/gun/projectile/pistol/holdout, /obj/item/gun/projectile/pistol/broomstick, /obj/item/gun/projectile/revolver/holdout)),
 	)
 
 
@@ -79,7 +79,7 @@
 		/obj/item/storage/belt/holster/security/full,
 		/obj/item/storage/belt/security,
 		/obj/item/device/megaphone,
-		/obj/item/gun/energy/gun/secure/preauthorized,
+		/obj/item/gun/projectile/pistol/magnum_pistol/sol,
 		/obj/item/melee/telebaton,
 		/obj/item/clothing/accessory/storage/black_vest,
 		/obj/item/device/hailer,
@@ -114,7 +114,7 @@
 		//rubay code end,
 		/obj/item/storage/belt/holster/security,
 		/obj/item/storage/belt/security,
-		/obj/item/gun/energy/gun/secure/preauthorized,
+		/obj/item/gun/projectile/revolver/medium,
 		/obj/item/clothing/accessory/storage/black_vest,
 		/obj/item/handcuffs,
 		/obj/item/device/hailer,
@@ -138,7 +138,7 @@
 		/obj/item/device/radio/headset/headset_sec/alt,
 		/obj/item/clothing/head/helmet/solgov/security,
 		/obj/item/clothing/suit/armor/pcarrier/medium/security,
-		/obj/item/gun/energy/gun/small/secure,
+		/obj/item/gun/projectile/revolver/holdout,
 		/obj/item/device/flash,
 		/obj/item/reagent_containers/spray/pepper,
 		/obj/item/taperoll/police,

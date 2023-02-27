@@ -8747,8 +8747,6 @@
 /obj/effect/floor_decal/corner/red/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/security_torch,
-/obj/item/cell/guncell/pistol/small,
-/obj/item/cell/guncell/pistol/small,
 /turf/simulated/floor/tiled/monotile,
 /area/security/locker)
 "aCv" = (
@@ -11328,8 +11326,6 @@
 /area/thruster/d1port)
 "aOE" = (
 /obj/structure/table/rack,
-/obj/item/gun/energy/gun/secure,
-/obj/item/gun/energy/gun/secure,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
@@ -11340,6 +11336,10 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/item/gun/projectile/pistol/military,
+/obj/item/gun/projectile/pistol/military,
+/obj/item/gun/projectile/pistol/military,
+/obj/item/gun/projectile/pistol/military,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/armoury)
 "aOF" = (
@@ -14561,6 +14561,7 @@
 /obj/item/device/flash,
 /obj/item/device/flash,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/item/melee/energy/machete/sundowner,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
 "bDb" = (
@@ -16670,8 +16671,6 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/item/gun/energy/gun/small/secure,
-/obj/item/gun/energy/gun/small/secure,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/armoury)
 "evb" = (
@@ -18334,12 +18333,23 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/item/gun/energy/stunrevolver/rifle,
-/obj/item/gun/energy/taser/carbine,
-/obj/item/gun/energy/taser/carbine,
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/item/gun/projectile/heavysniper/boltaction,
+/obj/item/gun/projectile/heavysniper/boltaction,
+/obj/item/gun/projectile/heavysniper/boltaction,
+/obj/item/gun/projectile/heavysniper/boltaction,
+/obj/item/ammo_magazine/speedloader/clip,
+/obj/item/ammo_magazine/speedloader/clip,
+/obj/item/ammo_magazine/speedloader/clip,
+/obj/item/ammo_magazine/speedloader/clip,
+/obj/item/ammo_magazine/speedloader/clip,
+/obj/item/ammo_magazine/speedloader/clip,
+/obj/item/ammo_magazine/speedloader/clip,
+/obj/item/ammo_magazine/speedloader/clip,
+/obj/item/ammo_magazine/speedloader/clip,
+/obj/item/ammo_magazine/speedloader/clip,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
 "hub" = (
@@ -18614,10 +18624,12 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/item/gun/energy/laser/secure,
-/obj/item/gun/energy/laser/secure,
-/obj/item/gun/energy/laser/secure,
-/obj/item/gun/energy/laser/secure,
+/obj/item/gun/projectile/pistol/broomstick,
+/obj/item/gun/projectile/pistol/broomstick,
+/obj/item/gun/projectile/pistol/broomstick,
+/obj/item/gun/projectile/pistol/broomstick,
+/obj/item/ammo_magazine/speedloader/small,
+/obj/item/ammo_magazine/speedloader/small,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
 "hGb" = (
@@ -18722,8 +18734,12 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/item/gun/energy/ionrifle,
-/obj/item/gun/energy/ionrifle/small,
+/obj/item/gun/projectile/sniper/garand,
+/obj/item/gun/projectile/sniper/garand,
+/obj/item/ammo_magazine/iclipr,
+/obj/item/ammo_magazine/iclipr,
+/obj/item/ammo_magazine/iclipr,
+/obj/item/ammo_magazine/iclipr,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
 "hOZ" = (
@@ -19249,14 +19265,9 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/item/cell/guncell/medium,
-/obj/item/cell/guncell/medium,
-/obj/item/cell/guncell/medium,
-/obj/item/cell/guncell/medium,
-/obj/item/cell/guncell/medium,
-/obj/item/cell/guncell/medium,
-/obj/item/gun/energy/k342,
-/obj/item/gun/energy/k342,
+/obj/item/gun/projectile/shotgun/pump,
+/obj/item/storage/box/ammo/shotgunammo,
+/obj/item/storage/box/ammo/shotgunammo,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
 "iAZ" = (
@@ -21115,8 +21126,14 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/item/gun/energy/k342/pistol/explo,
-/obj/item/gun/energy/k342/pistol/explo,
+/obj/item/ammo_magazine/pistol/double,
+/obj/item/ammo_magazine/pistol/double,
+/obj/item/ammo_magazine/pistol/double,
+/obj/item/ammo_magazine/pistol/double,
+/obj/item/ammo_magazine/pistol/double,
+/obj/item/ammo_magazine/pistol/double,
+/obj/item/ammo_magazine/pistol/double,
+/obj/item/ammo_magazine/pistol/double,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/armoury)
 "kTb" = (
@@ -23693,8 +23710,6 @@
 	pixel_x = 22;
 	pixel_y = -10
 	},
-/obj/item/cell/guncell/pistol/small,
-/obj/item/cell/guncell/pistol/small,
 /turf/simulated/floor/tiled/monotile,
 /area/security/locker)
 "omb" = (
@@ -26592,8 +26607,10 @@
 	dir = 4
 	},
 /obj/structure/table/rack,
-/obj/item/gun/energy/stunrevolver/rifle,
-/obj/item/gun/energy/stunrevolver/rifle,
+/obj/item/storage/box/ammo/shotgunammo,
+/obj/item/storage/box/ammo/shotgunammo,
+/obj/item/storage/box/ammo/shotgunammo,
+/obj/item/storage/box/ammo/shotgunammo,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/armoury)
 "rFb" = (
@@ -28193,21 +28210,11 @@
 "tiQ" = (
 /obj/structure/window/reinforced,
 /obj/structure/table/rack,
-/obj/item/cell/guncell/medium,
-/obj/item/cell/guncell/medium,
-/obj/item/cell/guncell/medium,
-/obj/item/cell/guncell/medium,
-/obj/item/cell/guncell/medium,
-/obj/item/cell/guncell/medium,
-/obj/item/cell/guncell/pistol/medium,
-/obj/item/cell/guncell/pistol/medium,
-/obj/item/cell/guncell/pistol/medium,
-/obj/item/cell/guncell/pistol/medium,
-/obj/item/cell/guncell/pistol/medium,
-/obj/item/cell/guncell/pistol/medium,
-/obj/item/cell/guncell/pistol/medium,
-/obj/item/cell/guncell/pistol/medium,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/item/gun/projectile/pistol/broomstick,
+/obj/item/gun/projectile/pistol/broomstick,
+/obj/item/ammo_magazine/speedloader/small,
+/obj/item/ammo_magazine/speedloader/small,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/armoury)
 "tjb" = (
@@ -28788,14 +28795,14 @@
 /area/security/storage)
 "umz" = (
 /obj/structure/table/rack,
-/obj/item/gun/energy/ionrifle,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/light,
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/item/gun/energy/ionrifle,
+/obj/item/gun/projectile/shotgun/doublebarrel,
+/obj/item/gun/projectile/shotgun/doublebarrel,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/armoury)
 "umI" = (
@@ -29222,12 +29229,9 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/item/gun/energy/gun/secure,
-/obj/item/gun/energy/gun/secure,
-/obj/item/gun/energy/gun/secure,
-/obj/item/gun/energy/k342/pistol/explo,
-/obj/item/gun/energy/k342/pistol/explo,
-/obj/item/gun/energy/gun/secure,
+/obj/item/gun/projectile/sniper/semistrip,
+/obj/item/ammo_magazine/speedloader/pclip,
+/obj/item/ammo_magazine/speedloader/pclip,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
 "vkW" = (

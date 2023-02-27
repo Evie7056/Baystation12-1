@@ -109,27 +109,28 @@
 
 /obj/structure/closet/secure_closet/guncabinet/sidearm/WillContain()
 	return list(
-			/obj/item/clothing/accessory/storage/holster/thigh = 2,
-			/obj/item/gun/energy/gun/secure = 3,
-			/obj/item/cell/guncell/pistol/large = 3
+			/obj/item/clothing/accessory/storage/holster/thigh = 3,
+			/obj/item/gun/projectile/pistol/military = 3,
+			/obj/item/ammo_magazine/pistol/double = 3
 	)
 
 /obj/structure/closet/secure_closet/guncabinet/sidearm/small
 	name = "personal sidearm cabinet"
 
 /obj/structure/closet/secure_closet/guncabinet/sidearm/small/WillContain()
-	return list(/obj/item/gun/energy/gun/small/secure = 4,
-				/obj/item/cell/guncell/pistol/large = 4)
+	return list(/obj/item/gun/projectile/revolver/holdout = 4,
+				/obj/item/ammo_magazine/speedloader/small = 4)
 
 /obj/structure/closet/secure_closet/guncabinet/sidearm/combined
 	name = "combined sidearm cabinet"
 
 /obj/structure/closet/secure_closet/guncabinet/sidearm/combined/WillContain()
 	return list(
-		/obj/item/storage/belt/holster/general = 3,
-		/obj/item/gun/energy/gun/secure = 3,
-		/obj/item/gun/energy/gun/small/secure = 1,
-		/obj/item/cell/guncell/pistol/large = 4
+		/obj/item/storage/belt/holster/general = 4,
+		/obj/item/gun/projectile/revolver/medium = 3,
+		/obj/item/gun/projectile/revolver/holdout = 1,
+		/obj/item/ammo_magazine/speedloader/small = 1,
+		/obj/item/ammo_magazine/speedloader = 4
 	)
 
 /obj/structure/closet/secure_closet/guncabinet/PPE
@@ -138,7 +139,9 @@
 
 /obj/structure/closet/secure_closet/guncabinet/PPE/WillContain()
 	return list(
-		/obj/item/gun/energy/gun/small/secure = 3,
+		/obj/item/clothing/accessory/storage/holster/thigh = 3,
+		/obj/item/gun/projectile/revolver/holdout = 3,
+		/obj/item/ammo_magazine/speedloader/small = 3,
 		/obj/item/clothing/suit/armor/pcarrier/medium/command = 3,
 		/obj/item/clothing/head/helmet/solgov/command = 3
 	)
