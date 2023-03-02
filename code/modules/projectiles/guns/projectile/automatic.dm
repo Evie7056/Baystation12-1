@@ -330,10 +330,10 @@
 	one_hand_penalty = 6 //Slightly lighter than the Z8. Still don't try it.
 	wielded_item_state = "z9carbine-wielded"
 	init_firemodes = list( //Two round bursts. More accurate than the Z8 due to less maximum dispersion. More delay between shots, however, so slower.
-		list(mode_name="semiauto",	mode_desc = "Fire as fast as you can pull the trigger",use_launcher=0, burst=1, fire_delay=0, move_delay=null),
+		SEMI_AUTO_NODELAY,
 		BURST_3_ROUND,
-		list(mode_name = "full auto",  mode_desc = "600 rounds per minute", use_launcher=0, mode_type = /datum/firemode/automatic, fire_delay = 2, one_hand_penalty=8),
-		list(mode_name="fire grenades",  burst=null, fire_delay=null, move_delay=null, use_launcher=1,    one_hand_penalty=10, burst_accuracy=null, dispersion=null)
+		FULL_AUTO_600,
+		ist(mode_name = "fire grenades",  burst=null, fire_delay=null, move_delay=null, use_launcher=1,    one_hand_penalty=10)
 		)
 
 
