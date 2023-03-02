@@ -326,17 +326,15 @@
 	caliber = CALIBER_RIFLE
 	ammo_type = /obj/item/ammo_casing/rifle
 	magazine_type = /obj/item/ammo_magazine/rifle
-	allowed_magazines = /obj/item/ammo_magazine/rifle
+	allowed_magazines = list(/obj/item/ammo_magazine/rifle, /obj/item/ammo_magazine/mil_rifle)
 	one_hand_penalty = 6 //Slightly lighter than the Z8. Still don't try it.
 	wielded_item_state = "z9carbine-wielded"
 	init_firemodes = list( //Two round bursts. More accurate than the Z8 due to less maximum dispersion. More delay between shots, however, so slower.
 		SEMI_AUTO_NODELAY,
 		BURST_3_ROUND,
 		FULL_AUTO_600,
-		ist(mode_name = "fire grenades",  burst=null, fire_delay=null, move_delay=null, use_launcher=1,    one_hand_penalty=10)
+		list(mode_name = "fire grenades",  burst=null, fire_delay=null, move_delay=null, use_launcher=1,    one_hand_penalty=10)
 		)
-
-
 
 /obj/item/gun/projectile/automatic/l6_saw
 	name = "light machine gun"
