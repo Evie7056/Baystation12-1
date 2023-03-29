@@ -25,7 +25,8 @@
 		/obj/item/rig_module/ai_container,
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/datajack,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/heavy
 		)
 
 /obj/item/clothing/head/helmet/space/rig/ert
@@ -57,7 +58,8 @@
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/mounted/plasmacutter,
 		/obj/item/rig_module/device/rcd,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/heavy
 		)
 
 /obj/item/clothing/gloves/rig/ert/engineer
@@ -75,7 +77,8 @@
 		/obj/item/rig_module/fabricator/wf_sign,
 		/obj/item/rig_module/grenade_launcher/cleaner,
 		/obj/item/rig_module/device/decompiler,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/heavy
 		)
 
 /obj/item/rig/ert/medical
@@ -89,7 +92,8 @@
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/device/healthscanner,
 		/obj/item/rig_module/chem_dispenser/injector,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/heavy
 		)
 
 /obj/item/rig/ert/security
@@ -103,7 +107,8 @@
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/grenade_launcher,
 		/obj/item/rig_module/mounted/egun,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/heavy
 		)
 
 /obj/item/rig/ert/fleet
@@ -127,5 +132,6 @@
 		/obj/item/rig_module/grenade_launcher,
 		/obj/item/rig_module/mounted/egun,
 		/obj/item/rig_module/cooling_unit,
-		/obj/item/rig_module/datajack
+		/obj/item/rig_module/datajack,
+		/obj/item/rig_module/storage/heavy
 		)

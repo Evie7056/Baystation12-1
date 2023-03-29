@@ -38,7 +38,7 @@
 	species_restricted = list(SPECIES_HUMAN,SPECIES_IPC, SPECIES_SHELL) //no available icons for aliens
 
 /obj/item/clothing/suit/space/rig/command
-	allowed = list(/obj/item/device/flashlight,/obj/item/tank,/obj/item/device/suit_cooling_unit, /obj/item/gun/energy,/obj/item/device/radio,/obj/item/reagent_containers/spray/pepper,/obj/item/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/melee/baton,/obj/item/handcuffs,/obj/item/gun/magnetic)
+	allowed = list(/obj/item/device/flashlight,/obj/item/tank,/obj/item/device/suit_cooling_unit, /obj/item/gun/energy,/obj/item/device/radio,/obj/item/reagent_containers/spray/pepper,/obj/item/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/melee/baton,/obj/item/handcuffs,/obj/item/gun/magnetic, /obj/item/storage/backpack)
 	icon = 'maps/torch/icons/obj/obj_suit_solgov.dmi'
 	item_icons = list(slot_wear_suit_str = 'maps/torch/icons/mob/onmob_suit_solgov.dmi')
 	species_restricted = list(SPECIES_HUMAN,SPECIES_IPC, SPECIES_SHELL)
@@ -58,7 +58,8 @@
 	initial_modules = list(
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/device/flash,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/light
 		)
 
 /*
@@ -99,7 +100,8 @@
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/device/flash/advanced,
 		/obj/item/rig_module/grenade_launcher/smoke,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/light
 	)
 
 /*
@@ -141,7 +143,8 @@
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/device/flash/advanced,
 		/obj/item/rig_module/grenade_launcher/smoke,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/light
 	)
 
 /*
@@ -171,7 +174,8 @@
 		/obj/item/storage/firstaid,
 		/obj/item/device/scanner/health,
 		/obj/item/stack/medical,
-		/obj/item/roller
+		/obj/item/roller,
+		/obj/item/storage/backpack
 	)
 /obj/item/clothing/shoes/magboots/rig/command/medical
 /obj/item/clothing/gloves/rig/command/medical
@@ -185,7 +189,8 @@
 		/obj/item/rig_module/device/defib,
 		/obj/item/rig_module/chem_dispenser/injector,
 		/obj/item/rig_module/vision/medhud,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/light
 	)
 
 /*
@@ -222,7 +227,8 @@
 		/obj/item/device/flashlight,
 		/obj/item/tank,
 		/obj/item/device/suit_cooling_unit,
-		/obj/item/melee/baton
+		/obj/item/melee/baton,
+		/obj/item/storage/backpack
 	)
 /obj/item/clothing/shoes/magboots/rig/command/security
 /obj/item/clothing/gloves/rig/command/security
@@ -234,7 +240,10 @@
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/device/flash,
 		/obj/item/rig_module/vision/sechud,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage,
+		/obj/item/rig_module/mounted/egun,
+		/obj/item/rig_module/storage/light
 	)
 
 /*
@@ -282,7 +291,7 @@
 		/obj/item/pinpointer/radio,
 		/obj/item/pickaxe/xeno,
 		/obj/item/storage/bag/fossils,
-		/obj/item/rig_module/grenade_launcher/light
+		/obj/item/storage/backpack
 	)
 
 /obj/item/clothing/shoes/magboots/rig/command/science
@@ -295,7 +304,8 @@
 		/obj/item/rig_module/device/flash,
 		/obj/item/rig_module/device/anomaly_scanner,
 		/obj/item/rig_module/grenade_launcher/light,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/light
 	)
 
 /*
@@ -350,7 +360,8 @@
 		/obj/item/device/depth_scanner,
 		/obj/item/device/gps,
 		/obj/item/pinpointer/radio,
-		/obj/item/storage/plants
+		/obj/item/storage/plants,
+		/obj/item/storage/backpack
 	)
 
 /obj/item/rig/exploration/equipped
@@ -360,7 +371,8 @@
 		/obj/item/rig_module/device/anomaly_scanner,
 		/obj/item/rig_module/grenade_launcher/light,
 		/obj/item/rig_module/cooling_unit,
-		/obj/item/rig_module/chem_dispenser/lite
+		/obj/item/rig_module/chem_dispenser/lite,
+		/obj/item/rig_module/storage/light
 	)
 
 /obj/item/rig/hazard/research_guard
@@ -386,7 +398,7 @@
 	boot_type = /obj/item/clothing/shoes/magboots/rig/hazard
 	glove_type = /obj/item/clothing/gloves/rig/hazard
 
-	allowed = list(/obj/item/gun,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/handcuffs,/obj/item/device/flashlight,/obj/item/tank,/obj/item/device/suit_cooling_unit,/obj/item/melee/baton)
+	allowed = list(/obj/item/gun,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/handcuffs,/obj/item/device/flashlight,/obj/item/tank,/obj/item/device/suit_cooling_unit,/obj/item/melee/baton, /obj/item/storage/backpack)
 
 	req_access = list(access_research_security)
 
@@ -394,6 +406,7 @@
 	initial_modules = list(
 		/obj/item/rig_module/vision/sechud,
 		/obj/item/rig_module/mounted/taser,
+		/obj/item/rig_module/storage/light
 		/obj/item/rig_module/cooling_unit)
 /*
  Overrides for standard mapset rig items
@@ -412,6 +425,7 @@
 		/obj/item/rig_module/device/defib,
 		/obj/item/rig_module/device/healthscanner,
 		/obj/item/rig_module/device/rcd,
+		/obj/item/rig_module/storage/light
 		/obj/item/rig_module/chem_dispenser/injector,
 		/obj/item/rig_module/mounted/plasmacutter,
 		/obj/item/rig_module/vision/medhud,

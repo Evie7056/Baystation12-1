@@ -24,7 +24,8 @@
 		/obj/item/tank,
 		/obj/item/device/suit_cooling_unit,
 		/obj/item/storage/briefcase,
-		/obj/item/storage/secure/briefcase
+		/obj/item/storage/secure/briefcase,
+		/obj/item/storage/backpack
 	)
 
 /obj/item/rig/light/internalaffairs/equipped
@@ -34,7 +35,8 @@
 		/obj/item/rig_module/device/paperdispenser,
 		/obj/item/rig_module/device/pen,
 		/obj/item/rig_module/device/stamp,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/light
 	)
 
 /obj/item/rig/industrial
@@ -87,7 +89,8 @@
 		/obj/item/rig_module/device/rcd,
 		/obj/item/rig_module/vision/meson,
 		/obj/item/rig_module/cooling_unit,
-		/obj/item/rig_module/kinetic_module
+		/obj/item/rig_module/kinetic_module,
+		/obj/item/rig_module/storage/light
 	)
 
 /obj/item/rig/eva
@@ -141,7 +144,8 @@
 		/obj/item/inflatable_dispenser,
 		/obj/item/device/t_scanner,
 		/obj/item/rcd,
-		/obj/item/rpd
+		/obj/item/rpd,
+		/obj/item/storage/backpack
 	)
 
 /obj/item/clothing/shoes/magboots/rig/eva
@@ -164,7 +168,8 @@
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/device/rcd,
 		/obj/item/rig_module/vision/meson,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/light
 	)
 
 /obj/item/rig/ce
@@ -204,7 +209,8 @@
 		/obj/item/rig_module/vision/meson,
 		/obj/item/rig_module/grenade_launcher/mfoam,
 		/obj/item/rig_module/cooling_unit,
-		/obj/item/rig_module/kinetic_module
+		/obj/item/rig_module/kinetic_module,
+		/obj/item/rig_module/storage
 	)
 
 /obj/item/clothing/head/helmet/space/rig/ce
@@ -232,7 +238,8 @@
 		/obj/item/device/t_scanner,
 		/obj/item/pickaxe,
 		/obj/item/rcd,
-		/obj/item/rpd
+		/obj/item/rpd,
+		/obj/item/storage/backpack
 	)
 /obj/item/clothing/shoes/magboots/rig/ce
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_IPC)
@@ -286,6 +293,7 @@
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/device/anomaly_scanner,
 		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/light
 	)
 
 /obj/item/rig/medical
@@ -347,7 +355,8 @@
 		/obj/item/rig_module/device/healthscanner,
 		/obj/item/rig_module/vision/medhud,
 		/obj/item/rig_module/device/defib,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/light
 	)
 
 /obj/item/rig/hazard
@@ -392,7 +401,8 @@
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/grenade_launcher,
 		/obj/item/rig_module/mounted/taser,
-		/obj/item/rig_module/cooling_unit
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/storage/light
 	)
 
 /obj/item/rig/zero
@@ -441,7 +451,8 @@
 	allowed = list(
 		/obj/item/device/flashlight,
 		/obj/item/tank,
-		/obj/item/device/suit_cooling_unit
+		/obj/item/device/suit_cooling_unit,
+		/obj/item/storage/backpack
 	)
 
 /obj/item/rig/zero/on_update_icon(var/update_mob_icon)

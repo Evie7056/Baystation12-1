@@ -249,10 +249,14 @@
 
 // Called by the hardsuit each rig process tick.
 /obj/item/rig_module/Process()
+	holder = null
 	if(active)
 		return active_power_cost
 	else
 		return passive_power_cost
+
+/obj/item/rig_module/proc/can_install(var/obj/item/rig/rig, var/mob/user, var/feedback = FALSE)
+	return TRUE
 
 // Called by holder rigsuit attackby()
 // Checks if an item is usable with this module and handles it if it is
