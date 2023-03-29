@@ -406,7 +406,7 @@
 	initial_modules = list(
 		/obj/item/rig_module/vision/sechud,
 		/obj/item/rig_module/mounted/taser,
-		/obj/item/rig_module/storage/light
+		/obj/item/rig_module/storage/light,
 		/obj/item/rig_module/cooling_unit)
 /*
  Overrides for standard mapset rig items
@@ -425,7 +425,7 @@
 		/obj/item/rig_module/device/defib,
 		/obj/item/rig_module/device/healthscanner,
 		/obj/item/rig_module/device/rcd,
-		/obj/item/rig_module/storage/light
+		/obj/item/rig_module/storage/light,
 		/obj/item/rig_module/chem_dispenser/injector,
 		/obj/item/rig_module/mounted/plasmacutter,
 		/obj/item/rig_module/vision/medhud,
