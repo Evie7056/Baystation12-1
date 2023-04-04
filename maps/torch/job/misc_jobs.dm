@@ -99,3 +99,34 @@ Civilian
 	skill_points = 24
 	required_language = null
 	give_psionic_implant_on_join = FALSE
+
+/datum/job/clown
+	title = "Clown"
+	department_flag = CIV
+	department = "Гражданский"
+	total_positions = 24
+	spawn_positions = 24
+	supervisors = "Хонкоматерь"
+	announced = TRUE
+
+	outfit_type = /decl/hierarchy/outfit/clown
+
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+
+	allowed_ranks = list(
+		/datum/mil_rank/civ/civ
+	)
+	skill_points = 36
+	selection_color = "#964B00"
+	alt_titles = list(
+		"Jester",
+		"Captain"
+	)
+
+/datum/job/clown/get_description_blurb()
+	return "Шутите тупые шутки, развлекайте экипаж. Устройте Грейтайд. Не говорите, откуда и кто дал вам полный доступ."
+
+/datum/job/clown/get_access()
+	return get_all_station_access()
