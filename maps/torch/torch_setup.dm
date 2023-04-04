@@ -53,5 +53,5 @@
 
 		welcome_text += "<hr>"
 
-	post_comm_message("SEV Torch Sensor Readings", welcome_text)
-	minor_announcement.Announce(message = "Новое объявление от [GLOB.using_map.company_name_ru] доступно на всех консолях связи.")
+	post_comm_message("Expeditionaty Corps Announcement", welcome_text)
+	minor_announcement.Announce(message = "ВНИМАНИЕ! Сенсоры дальнего действия [GLOB.using_map.company_name_ru] обнаружили блюспейс аномалию в зоне работы ГЭК Факел. Ожидайте необъяснимое...")
