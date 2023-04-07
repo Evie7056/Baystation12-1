@@ -3273,6 +3273,7 @@
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
 #include "maps\_maps.dm"
+
 #include "proxima\code\_helpers\colors.dm"
 #include "proxima\code\_helpers\_onclick\hud\_defines_ai.dm"
 #include "proxima\code\_helpers\_onclick\hud\ai_hud.dm"
@@ -3326,6 +3327,7 @@
 #include "proxima\code\modules\paperwork\paper.dm"
 #include "proxima\code\modules\research\designs_spacesuit.dm"
 #include "proxima\code\modules\research\designs_weapons.dm"
+#include "proxima\code\modules\mob\slugcat.dm"
 #include "proxima\code\modules\silicon\ai\ai.dm"
 #include "proxima\code\modules\silicon\ai\procs.dm"
 #include "proxima\code\modules\sprite_accessories\accessory_hair.dm"
