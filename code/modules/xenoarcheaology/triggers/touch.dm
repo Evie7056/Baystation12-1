@@ -38,3 +38,4 @@
 		if(E && BP_IS_ROBOTIC(E))
 			return TRUE
 		return FALSE
+		

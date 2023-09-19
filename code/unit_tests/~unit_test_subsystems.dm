@@ -130,3 +130,4 @@ SUBSYSTEM_DEF(unit_tests)
 			unit_test_final_message()
 			log_unit_test("Caught [GLOB.total_runtimes] Runtime\s.")
 			del world
+

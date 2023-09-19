@@ -477,6 +477,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/hallway/primary/fourthdeck/aft)
 "bK" = (
+/obj/effect/shuttle_landmark/icgnv_hound/dock,
+/obj/effect/shuttle_landmark/sfv_arbiter/dock,
 /turf/space,
 /area/space)
 "bM" = (
@@ -8814,6 +8816,11 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/industrial/warning{
@@ -8985,6 +8992,11 @@
 	pixel_x = 30
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -9231,6 +9243,11 @@
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable/green{
@@ -10888,6 +10905,14 @@
 /area/maintenance/waterstore)
 "Lx" = (
 /obj/effect/floor_decal/corner/brown/half,
+/obj/machinery/power/apc{
+	name = "south bump";
+	pixel_y = -24
+	},
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/storage/upper)
 "LA" = (
@@ -12646,6 +12671,11 @@
 /area/hallway/primary/fourthdeck/center)
 "QD" = (
 /obj/effect/floor_decal/corner/brown/half,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /obj/structure/table/rack{
 	dir = 8
 	},
@@ -13027,7 +13057,7 @@
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
-/area/maintenance/fourthdeck/port)
+/area/quartermaster/storage/upper)
 "RI" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -13583,7 +13613,7 @@
 	},
 /obj/machinery/button/blast_door{
 	id_tag = "do_office";
-	name = "DO Shutter Control";
+	name = "Warehause Shutter Control";
 	pixel_x = 6;
 	pixel_y = 24
 	},
@@ -15074,6 +15104,11 @@
 /area/command/captainmess)
 "WW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
@@ -15497,6 +15532,11 @@
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/industrial/warning{
@@ -16271,6 +16311,11 @@
 "ZQ" = (
 /obj/effect/floor_decal/corner/brown/half,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/sortjunction{
 	dir = 2;
@@ -37877,7 +37922,7 @@ Np
 Xr
 HL
 Bf
-GW
+Yf
 BH
 Vt
 rs
@@ -38079,7 +38124,7 @@ Pg
 tA
 pc
 pc
-GW
+Yf
 Ie
 Ni
 JL
@@ -38281,7 +38326,7 @@ Uh
 yj
 yu
 ce
-GW
+Yf
 eQ
 Ni
 WA
@@ -38483,7 +38528,7 @@ Zm
 QK
 Sx
 Sx
-GW
+Yf
 zx
 Ni
 xL
@@ -38887,7 +38932,7 @@ Nl
 ZB
 Vo
 ju
-GW
+Yf
 zx
 Ni
 tg
@@ -39089,7 +39134,7 @@ Ds
 Ds
 Ds
 Ds
-Ss
+Ds
 Ss
 Ss
 tg

@@ -35,3 +35,4 @@
 	. = ..()
 	for(var/obj/thing in list(arms,legs,head,body))
 		thing.color = COLOR_WHITE
+

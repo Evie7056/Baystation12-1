@@ -161,7 +161,7 @@
 			/obj/item/storage/box/glass_extras/straws,
 			/obj/item/storage/box/glass_extras/sticks
 			)
-	cost = 8
+	cost = 5
 	containername = "bar supplies crate"
 
 /decl/hierarchy/supply_pack/galley/beer_dispenser

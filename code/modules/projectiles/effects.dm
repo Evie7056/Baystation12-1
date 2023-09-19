@@ -10,10 +10,6 @@
 
 	mouse_opacity = 0
 
-/obj/effect/projectile/proc/set_transform(var/matrix/M) //PRX
-	if(istype(M))
-		transform = M
-
 
 //----------------------------
 // Laser beam

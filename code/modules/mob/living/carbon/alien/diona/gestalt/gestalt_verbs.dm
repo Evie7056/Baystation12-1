@@ -12,3 +12,4 @@
 	vote_type = democracy_bucket[vote_type]
 	if(ispath(vote_type) && usr.loc == src && !QDELETED(usr) && !QDELETED(src) && !usr.incapacitated())
 		start_vote(usr, vote_type)
+

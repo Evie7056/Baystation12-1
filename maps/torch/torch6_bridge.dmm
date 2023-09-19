@@ -12251,11 +12251,7 @@
 /turf/simulated/floor/reinforced,
 /area/turret_protected/ai_outer_chamber)
 "GU" = (
-/obj/structure/displaycase{
-	desc = "A fortified display case for prized possessions. It taunts you to kick it.";
-	name = "heavy display case";
-	req_access = list("ACCESS_CAPTAIN")
-	},
+/obj/structure/displaycase,
 /obj/item/gun/projectile/revolver/captain{
 	pixel_y = -3
 	},

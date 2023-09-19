@@ -13,3 +13,4 @@
 			links+= "<l>[item]</l>"
 		entry.lore_text += jointext(links, "<br>")
 		SScodex.add_entry_by_string(lowertext(entry.display_name), entry)
+

@@ -32,3 +32,4 @@
 	_input_on = TRUE
 	_output_on = TRUE
 	_fully_charged = TRUE
+	

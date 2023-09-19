@@ -343,3 +343,4 @@
 	req_amount = 2
 	difficulty = 1
 	time = 5
+

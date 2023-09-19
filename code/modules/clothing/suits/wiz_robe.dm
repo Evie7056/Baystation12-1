@@ -126,3 +126,4 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
 	armor = null
 	siemens_coefficient = 1.0
+

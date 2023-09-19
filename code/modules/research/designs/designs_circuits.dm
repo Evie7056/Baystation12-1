@@ -213,7 +213,7 @@
 	sort_string = "HABAB"
 
 
-/datum/design/circuit/mechfab
+/datum/design/circuit/protolathe
 	name = "exosuit fabricator"
 	id = "mechfab"
 	req_tech = list(TECH_DATA = 4, TECH_ENGINEERING = 6)

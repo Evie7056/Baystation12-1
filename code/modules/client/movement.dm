@@ -12,3 +12,4 @@
 	set name = "Spin View CW"
 	set category = "OOC"
 	dir = turn(dir, -90)
+

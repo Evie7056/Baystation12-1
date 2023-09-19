@@ -21,7 +21,7 @@
 	num_contained = 3
 	contains = list(/obj/item/storage/box/mousetraps)
 	name = "Misc - Pest control"
-	cost = 9
+	cost = 5
 	containername = "pest control crate"
 
 /decl/hierarchy/supply_pack/custodial/lightbulbs

@@ -1,5 +1,5 @@
 /obj/item/gun/magnetic/railgun
-	name = "MI-76 railgun"
+	name = "railgun"
 	desc = "The HelTek Arms LM-76 Thunderclap. A portable linear motor cannon produced during the Gaia Conflict for anti-armour and anti-fortification operations. Today, it sees wide use among private militaries, and is a staple on the black market."
 	icon = 'icons/obj/guns/railgun.dmi'
 	icon_state = "railgun"
@@ -7,22 +7,20 @@
 	load_type = /obj/item/rcd_ammo
 	origin_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 4, TECH_MAGNET = 4)
 	projectile_type = /obj/item/projectile/bullet/magnetic/slug
+	one_hand_penalty = 6
 	power_cost = 300
 	fire_delay = 35
+	w_class = ITEM_SIZE_HUGE
 	slot_flags = SLOT_BACK
 	loaded = /obj/item/rcd_ammo/large // ~30 shots
 	combustion = 1
+	bulk = GUN_BULK_RIFLE + 3
 
 	cell = /obj/item/cell/hyper
 	capacitor = /obj/item/stock_parts/capacitor/adv
 	gun_unreliable = 0
 	var/slowdown_held = 1
 	var/slowdown_worn = 0.5
-	has_safety = TRUE //inf
-
-	bulk = GUN_BULK_SNIPER_RIFLE
-	w_class = ITEM_SIZE_HUGE
-	one_hand_penalty = 6
 
 /obj/item/gun/magnetic/railgun/Initialize()
 	slowdown_per_slot[slot_l_hand] =  slowdown_held
@@ -116,16 +114,14 @@
 	capacitor = /obj/item/stock_parts/capacitor/super
 
 	fire_delay =  8
-	slowdown_held = 4
-
-	slowdown_worn = 3
 
 	slot_flags = SLOT_BACK
+	w_class = ITEM_SIZE_NO_CONTAINER
 
-	firemodes = list(
-		list(mode_name="semiauto",    burst=1, fire_delay=0, one_hand_penalty=1, burst_accuracy=null, dispersion=null),
-		list(mode_name="short bursts", burst=3, fire_delay=null, one_hand_penalty=2, burst_accuracy=list(0,-1,-1),       dispersion=list(0.0, 0.6, 1.0)),
-		list(mode_name="long bursts",  burst=6, fire_delay=null,  one_hand_penalty=2, burst_accuracy=list(0,-1,-1,-1,-2), dispersion=list(0.6, 0.6, 1.0, 1.0, 1.2)),
+	init_firemodes = list(
+			SEMI_AUTO_NODELAY,
+			BURST_3_ROUND,
+			FULL_AUTO_400
 		)
 
 /obj/item/gun/magnetic/railgun/automatic/examine(mob/user, distance)
@@ -140,7 +136,7 @@
 	icon_state = "old_heavy_railgun"
 
 /obj/item/gun/magnetic/railgun/flechette
-	name = "MI-12 flechette gun"
+	name = "flechette gun"
 	desc = "The MI-12 Skadi is a burst fire capable railgun that fires flechette rounds at high velocity. Deadly against armour, but much less effective against soft targets."
 	icon = 'icons/obj/guns/flechette.dmi'
 	icon_state = "flechette_gun"
@@ -157,15 +153,13 @@
 	loaded = /obj/item/magnetic_ammo
 	wielded_item_state = "z8carbine-wielded"
 
-	firemodes = list(
-		list(mode_name="semiauto",    burst=1, fire_delay=0,  one_hand_penalty=1, burst_accuracy=null, dispersion=null),
-		list(mode_name="short bursts", burst=3, fire_delay=null,  one_hand_penalty=2, burst_accuracy=list(0,-1,-1),       dispersion=list(0.0, 0.6, 1.0)),
+	init_firemodes = list(
+			SEMI_AUTO_NODELAY,
+			BURST_3_ROUND
 		)
 
-	bulk = GUN_BULK_RIFLE //inf
 /obj/item/gun/magnetic/railgun/flechette/out_of_ammo()
 	visible_message("<span class='warning'>\The [src] beeps to indicate the magazine is empty.</span>")
-
 
 
 /obj/item/gun/magnetic/railgun/flechette/skrell
@@ -174,9 +168,9 @@
 	icon = 'icons/obj/guns/skrell_rifle.dmi'
 	icon_state = "skrell_rifle"
 	item_state = "skrell_rifle"
+	one_hand_penalty = 3
 	fire_delay = 10
 	slowdown_held = 1
-	slowdown_worn = 1
 	removable_components = FALSE
 	cell = /obj/item/cell/hyper
 	capacitor = /obj/item/stock_parts/capacitor/adv
@@ -186,6 +180,4 @@
 	slot_flags = SLOT_BACK
 	power_cost = 100
 	wielded_item_state = "skrell_rifle-wielded"
-	firemodes = list()
-
-	one_hand_penalty = 3
+	init_firemodes = list()

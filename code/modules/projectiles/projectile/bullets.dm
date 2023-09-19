@@ -5,10 +5,7 @@
 	damage = 50
 	damage_type = DAMAGE_BRUTE
 	damage_flags = DAMAGE_FLAG_BULLET | DAMAGE_FLAG_SHARP
-	nodamage = FALSE
 	embed = TRUE
-	sharp = TRUE //INF, WAS NOTHING (0)
-	step_delay = 0.4 //INF, WAS NOTHING (1)
 	penetration_modifier = 1.0
 	var/mob_passthrough_check = 0
 	var/is_pellet = FALSE
@@ -22,7 +19,7 @@
 /obj/item/projectile/bullet/on_hit(var/atom/target, var/blocked = 0)
 	if (..(target, blocked))
 		var/mob/living/L = target
-		shake_camera(L, 3, 2)
+		shake_camera(L, 1, 1, 0.5)
 
 /obj/item/projectile/bullet/attack_mob(var/mob/living/target_mob, var/distance, var/miss_modifier)
 	if(penetrating > 0 && damage > 20 && prob(damage))
@@ -54,6 +51,11 @@
 		chance = P.PenetrationProbability(chance, damage, damage_type)
 
 	if(prob(chance))
+		var/maintainedVelocity = min(max(20, chance), 90) / 100 //the chance to penetrate is used to calculate leftover velocity, capped at 90%
+		armor_penetration *= maintainedVelocity
+		damage *= maintainedVelocity
+		step_delay = min(step_delay / maintainedVelocity, step_delay / 2)
+
 		if(A.opacity)
 			//display a message so that people on the other side aren't so confused
 			A.visible_message("<span class='warning'>\The [src] pierces through \the [A]!</span>")
@@ -143,7 +145,7 @@
 /obj/item/projectile/bullet/pistol/holdout
 	damage = 40
 	penetration_modifier = 1.2
-	//INF distance_falloff = 4
+	distance_falloff = 4
 
 /obj/item/projectile/bullet/pistol/strong
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
@@ -152,11 +154,17 @@
 	distance_falloff = 2.5
 	armor_penetration = 15
 
+/obj/item/projectile/bullet/pistol/strong/rubber
+	damage_flags = 0
+	damage = 5
+	agony = 60
+	embed = FALSE
+
 /obj/item/projectile/bullet/pistol/rubber //"rubber" bullets
 	name = "rubber bullet"
 	damage_flags = 0
 	damage = 5
-	agony = 40
+	agony = 30
 	embed = FALSE
 
 /obj/item/projectile/bullet/pistol/rubber/holdout
@@ -166,10 +174,10 @@
 /obj/item/projectile/bullet/flechette
 	fire_sound = 'sound/weapons/gunshot/gunshot_4mm.ogg'
 	damage = 23
-	penetrating = 0 //INF, WAS 1. It already has nearly 100% AP
+	penetrating = 1
 	armor_penetration = 70
 	embed = FALSE
-	//INF distance_falloff = 2
+	distance_falloff = 2
 
 /* shotgun projectiles */
 
@@ -186,7 +194,7 @@
 	agony = 60
 	embed = FALSE
 	armor_penetration = 0
-	//INF distance_falloff = 3
+	distance_falloff = 3
 
 //Should do about 180 damage at 1 tile distance (adjacent), and 120 damage at 3 tiles distance.
 //Overall less damage than slugs in exchange for more damage at very close range and more embedding
@@ -216,11 +224,11 @@
 
 /obj/item/projectile/bullet/rifle
 	fire_sound = 'sound/weapons/gunshot/gunshot3.ogg'
-	damage = 35
+	damage = 45
 	armor_penetration = 25
-	penetration_modifier = 0.9
-	penetrating = 0 //INF, WAS 1
-	distance_falloff = 2
+	penetration_modifier = 1.5
+	penetrating = 1
+	distance_falloff = 1.5
 
 /obj/item/projectile/bullet/rifle/military
 	fire_sound = 'sound/weapons/gunshot/gunshot2.ogg'
@@ -233,10 +241,10 @@
 	damage = 80
 	stun = 3
 	weaken = 3
-	//INF distance_falloff = 0.5
 	penetrating = 3
 	armor_penetration = 70
 	penetration_modifier = 1.2
+	distance_falloff = 0.5
 
 /obj/item/projectile/bullet/rifle/shell/apds
 	damage = 70
@@ -267,6 +275,9 @@
 /obj/item/projectile/bullet/pistol/practice
 	damage = 5
 
+/obj/item/projectile/bullet/rifle/practice
+	damage = 5
+
 /obj/item/projectile/bullet/rifle/military/practice
 	damage = 5
 
@@ -283,7 +294,6 @@
 	damage = 0
 	nodamage = TRUE
 	embed = FALSE
-	sharp = FALSE //INF, WAS NOTHING (1)
 
 /obj/item/projectile/bullet/pistol/cap/Process()
 	qdel(src)
@@ -295,7 +305,7 @@
 	damage = 40
 	armor_penetration = 25
 	life_span = 255
-	//INF distance_falloff = 0
+	distance_falloff = 0
 
 /obj/item/projectile/bullet/rock/New()
 	icon_state = "rock[rand(1,3)]"

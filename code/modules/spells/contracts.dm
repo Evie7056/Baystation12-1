@@ -152,3 +152,4 @@
 /obj/item/contract/boon/wizard/charge
 	path = /spell/aoe_turf/charge
 	desc = "This contract is made of 100% post-consumer wizard."
+

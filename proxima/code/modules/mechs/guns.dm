@@ -20,8 +20,9 @@
 	projectile_type = /obj/item/projectile/bullet/rifle
 	max_shots = 30
 	multi_aim = 1
+	move_delay = 0
 	fire_delay=0
-	autofire_enabled=1
+	can_autofire=1
 	burst=5
 	accuracy = -1
 	bulk = GUN_BULK_RIFLE

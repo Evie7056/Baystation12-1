@@ -118,3 +118,4 @@
 	. = ..()
 	reagents.add_reagent(/datum/reagent/peridaxon, 5)
 	update_icon()
+
