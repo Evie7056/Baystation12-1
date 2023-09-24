@@ -747,7 +747,7 @@
 /datum/mil_rank/civ/exo_synth
 	name = "EXO Synthetic"
 	name_short = "Synth"
-	accessory = list(/obj/item/clothing/accessory/badge/solgov/synthetic)\
+	accessory = list(/obj/item/clothing/accessory/badge/solgov/synthetic)
 
 /*
 	*  EXO-PRX

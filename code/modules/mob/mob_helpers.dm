@@ -383,7 +383,7 @@ It's fairly easy to fix if dealing with single letters but not so much with comp
 	return FALSE
 
 //converts intent-strings into numbers and back
-var/list/intents = list(I_HELP,I_DISARM,I_GRAB,I_HURT)
+var/global/list/intents = list(I_HELP,I_DISARM,I_GRAB,I_HURT)
 /proc/intent_numeric(argument)
 	if(istext(argument))
 		switch(argument)
@@ -399,7 +399,7 @@ var/list/intents = list(I_HELP,I_DISARM,I_GRAB,I_HURT)
 			else			return I_HURT
 
 //change a mob's act-intent. Input the intent as a string such as "help" or use "right"/"left
-/mob/proc/a_intent_change(input)
+/mob/verb/a_intent_change(input as text)
 	set name = "a-intent"
 	set hidden = 1
 
