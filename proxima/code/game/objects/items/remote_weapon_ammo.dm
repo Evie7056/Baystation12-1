@@ -19,9 +19,9 @@
 	name = "bluespace HE rocket"
 	desc = "A rocket used by remote bluespace rocket launchers. This one produces a potent explosion upon landing."
 	icon_state = "mortar_ammo_he"
-	var/explosion_high = 2
-	var/explosion_medium = 4
-	var/explosion_light = 6
+	var/explosion_high = 1
+	var/explosion_medium = 2
+	var/explosion_light = 4
 	var/explosion_flash = 8
 
 /obj/item/remote_weapon_ammo/explosive/FireSelf(turf/target)
@@ -37,7 +37,7 @@
 	icon_state = "mortar_ammo_he"
 	explosion_high = -1
 	explosion_medium = 2
-	explosion_light = 5
+	explosion_light = 3
 	explosion_flash = 6
 
 
@@ -51,7 +51,7 @@
 	explosion_flash = 0
 
 
-/obj/item/remote_weapon_ammo/explosive/illimination/FireSelf(turf/target)
+/obj/item/remote_weapon_ammo/explosive/illumination/FireSelf(turf/target)
 	..()
 	var/lifetime = rand(8 MINUTES, 16 MINUTES)
 	var/light_colour = pick("#ffffff", "#fc0f29")
