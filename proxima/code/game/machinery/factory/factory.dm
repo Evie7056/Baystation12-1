@@ -110,7 +110,7 @@
 			return FALSE
 	return TRUE
 
-/obj/machinery/factory/interact(var/mob/user)
+/obj/machinery/factory/verb/setdir()
 
 	var/choice = input("Do you wish to change the input direction, or the output direction?") as null|anything in list("Input", "Output")
 
@@ -119,10 +119,10 @@
 
 	if(choice == "Input")
 		set_input(dchoice ? _dirs[dchoice] : null)
-		to_chat(user, "<span class='notice'>You [input_dir ? "configure" : "disable"] \the [src]'s input system.</span>")
+		to_chat(usr, "<span class='notice'>You [input_dir ? "configure" : "disable"] \the [src]'s input system.</span>")
 	else
 		set_output(dchoice ? _dirs[dchoice] : null)
-		to_chat(user, "<span class='notice'>You [output_dir ? "configure" : "disable"] \the [src]'s output system.</span>")
+		to_chat(usr, "<span class='notice'>You [output_dir ? "configure" : "disable"] \the [src]'s output system.</span>")
 
 /obj/machinery/factory/proc/InsertMaterial(obj/item/I, mob/living/user)
 	if(!(I.type in stored_materials))
