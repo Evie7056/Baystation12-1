@@ -6,6 +6,7 @@
 	damage = 33
 	damage_type = DAMAGE_BURN
 	step_delay = 0.5
+	hitscan = TRUE //fight me
 
 	muzzle_type = /obj/effect/projectile/plasma/muzzle
 	impact_type = /obj/effect/projectile/plasma/impact
@@ -130,7 +131,7 @@
 	wielded_item_state = "barrakuda-wielded"
 	battery_changable = TRUE
 	req_access = list(list(access_brig, access_bridge))
-	authorized_modes = list(ALWAYS_AUTHORIZED)
+	authorized_modes = list(ALWAYS_AUTHORIZED, UNAUTHORIZED, UNAUTHORIZED)
 	screen_shake = 0
 	battery_chamber_size = BATTERY_RIFLE
 	battery_type = /obj/item/cell/guncell/medium

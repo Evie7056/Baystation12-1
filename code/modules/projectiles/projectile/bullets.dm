@@ -12,6 +12,7 @@
 	penetration_modifier = 1.0
 	var/mob_passthrough_check = 0
 	var/is_pellet = FALSE
+	hitscan = TRUE //fight me
 
 	muzzle_type = /obj/effect/projectile/bullet/muzzle
 	miss_sounds = list('sound/weapons/guns/miss1.ogg','sound/weapons/guns/miss2.ogg','sound/weapons/guns/miss3.ogg','sound/weapons/guns/miss4.ogg')

@@ -50,7 +50,7 @@
 	var/penetration_modifier = 0.2 //How much internal damage this projectile can deal, as a multiplier.
 
 	var/hitscan = FALSE		// whether the projectile should be hitscan
-	var/step_delay = 1	// the delay between iterations if not a hitscan projectile
+	var/step_delay = 0.6	// the delay between iterations if not a hitscan projectile
 
 	// effect types to be used
 	var/muzzle_type
