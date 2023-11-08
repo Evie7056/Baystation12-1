@@ -87,7 +87,7 @@
 	if(H.psi)
 		H.psi.update()
 		if(give_psionic_implant_on_join)
-			var/obj/item/implant/psi_control/imp = new
+			var/obj/item/implant/psi_control/lightcontrol/imp = new
 			imp.implanted(H)
 			imp.forceMove(H)
 			imp.imp_in = H
@@ -96,7 +96,7 @@
 			if(affected)
 				affected.implants += imp
 				imp.part = affected
-			to_chat(H, SPAN_DANGER("As a registered psionic, you are fitted with a psi-dampening control implant. Using psi-power while the implant is active will result in neural shocks and your violation being reported."))
+			to_chat(H, SPAN_DANGER("Как зарегистрированный псионик, вы оснащены специальным контролирующим имплантом для отслеживания всех ваших действий с использованием псионических сил. Имплант имеет разные режимы и они могут изменяться авторизованным персоналом через управляющее оборудование - помните об этом."))
 
 	var/decl/hierarchy/outfit/outfit = get_outfit(H, alt_title, branch, grade)
 	if(outfit) . = outfit.equip(H, title, alt_title)
@@ -280,12 +280,12 @@
 					LAZYADD(.[branch.name], initial(rank.name))
 
 /**
- *  Check if members of the given branch are allowed in the job
- *
- *  This proc should only be used after the global branch list has been initialized.
- *
- *  branch_name - String key for the branch to check
- */
+	*  Check if members of the given branch are allowed in the job
+	*
+	*  This proc should only be used after the global branch list has been initialized.
+	*
+	*  branch_name - String key for the branch to check
+	*/
 /datum/job/proc/is_branch_allowed(var/branch_name)
 	if(!allowed_branches || !GLOB.using_map || !(GLOB.using_map.flags & MAP_HAS_BRANCH))
 		return 1
@@ -304,13 +304,13 @@
 		return 0
 
 /**
- *  Check if people with given rank are allowed in this job
- *
- *  This proc should only be used after the global branch list has been initialized.
- *
- *  branch_name - String key for the branch to which the rank belongs
- *  rank_name - String key for the rank itself
- */
+	*  Check if people with given rank are allowed in this job
+	*
+	*  This proc should only be used after the global branch list has been initialized.
+	*
+	*  branch_name - String key for the branch to which the rank belongs
+	*  rank_name - String key for the rank itself
+	*/
 /datum/job/proc/is_rank_allowed(var/branch_name, var/rank_name)
 	if(!allowed_ranks || !GLOB.using_map || !(GLOB.using_map.flags & MAP_HAS_RANK))
 		return 1
@@ -418,12 +418,12 @@
 		return locate("start*[title]") // use old stype
 
 /**
- *  Return appropriate /datum/spawnpoint for given client
- *
- *  Spawnpoint will be the one set in preferences for the client, unless the
- *  preference is not set, or the preference is not appropriate for the rank, in
- *  which case a fallback will be selected.
- */
+	*  Return appropriate /datum/spawnpoint for given client
+	*
+	*  Spawnpoint will be the one set in preferences for the client, unless the
+	*  preference is not set, or the preference is not appropriate for the rank, in
+	*  which case a fallback will be selected.
+	*/
 /datum/job/proc/get_spawnpoint(var/client/C)
 
 	if(!C)

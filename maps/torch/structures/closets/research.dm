@@ -1,6 +1,6 @@
 /*
- * Torch Science
- */
+	* Torch Science
+	*/
 /decl/closet_appearance/secure_closet/torch/science
 	extra_decals = list(
 		"stripe_vertical_left_full" =  COLOR_PURPLE_GRAY,
@@ -142,6 +142,7 @@
 		/obj/item/device/hailer,
 		/obj/item/clothing/accessory/storage/black_vest,
 		/obj/item/clothing/accessory/badge/holo/NT,
+		/obj/item/storage/firstaid/individual/military,
 		/obj/item/device/megaphone,
 		/obj/item/gun/energy/stunrevolver/secure,
 		/obj/item/clothing/shoes/jackboots,

@@ -7,7 +7,7 @@ GLOBAL_DATUM_INIT(changelings, /datum/antagonist/changeling, new)
 	feedback_tag = "changeling_objective"
 	blacklisted_jobs = list(/datum/job/ai, /datum/job/cyborg, /datum/job/submap)
 	protected_jobs = list(/datum/job/officer, /datum/job/warden, /datum/job/detective, /datum/job/captain, /datum/job/hos)
-	welcome_text = "Use say \"%LANGUAGE_PREFIX%g message\" to communicate with your fellow changelings. Remember: you get all of their absorbed DNA if you absorb them."
+	welcome_text = "Для того, чтобы связаться с такими же существами, как и вы, используйте \"%LANGUAGE_PREFIX%g\" при говорение. Помните: вы получаете всю их поглощенную ДНК, если поглощаете их самих."
 	flags = ANTAG_SUSPICIOUS | ANTAG_RANDSPAWN | ANTAG_VOTABLE
 	antaghud_indicator = "hudchangeling"
 
@@ -85,4 +85,4 @@ GLOBAL_DATUM_INIT(changelings, /datum/antagonist/changeling, new)
 					if(player.current.client.prefs.organ_data[BP_CHEST] == "cyborg") // Full synthetic.
 						return 0
 					return 1
- 	return 0
+		return 0

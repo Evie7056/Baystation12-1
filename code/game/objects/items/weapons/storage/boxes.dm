@@ -1,23 +1,23 @@
 /*
- *	Everything derived from the common cardboard box.
- *	Basically everything except the original is a kit (starts full).
- *
- *	Contains:
- *		Empty box, starter boxes (survival/engineer),
- *		Latex glove and sterile mask boxes,
- *		Syringe, beaker, dna injector boxes,
- *		Blanks, flashbangs, and EMP grenade boxes,
- *		Tracking and chemical implant boxes,
- *		Prescription glasses and drinking glass boxes,
- *		Condiment bottle and silly cup boxes,
- *		Donkpocket and monkeycube boxes,
- *		ID and security PDA cart boxes,
- *		Handcuff, mousetrap, and pillbottle boxes,
- *		Snap-pops and matchboxes,
- *		Replacement light boxes.
- *
- *		For syndicate call-ins see uplink_kits.dm
- */
+	*	Everything derived from the common cardboard box.
+	*	Basically everything except the original is a kit (starts full).
+	*
+	*	Contains:
+	*		Empty box, starter boxes (survival/engineer),
+	*		Latex glove and sterile mask boxes,
+	*		Syringe, beaker, dna injector boxes,
+	*		Blanks, flashbangs, and EMP grenade boxes,
+	*		Tracking and chemical implant boxes,
+	*		Prescription glasses and drinking glass boxes,
+	*		Condiment bottle and silly cup boxes,
+	*		Donkpocket and monkeycube boxes,
+	*		ID and security PDA cart boxes,
+	*		Handcuff, mousetrap, and pillbottle boxes,
+	*		Snap-pops and matchboxes,
+	*		Replacement light boxes.
+	*
+	*		For syndicate call-ins see uplink_kits.dm
+	*/
 
 /obj/item/storage/box
 	name = "box"
@@ -527,6 +527,15 @@
 		/obj/item/implanter,
 		/obj/item/implantpad,
 		/obj/item/implantcase/imprinting = 3
+		)
+
+/obj/item/storage/box/psinull
+	name = "box of psi-null implants"
+	desc = "A box full of neural implants with psi dampeners."
+	startswith = list(
+		/obj/item/implanter/psi,
+		/obj/item/implantpad,
+		/obj/item/implantcase/psi = 3
 		)
 
 /obj/item/storage/box/detergent

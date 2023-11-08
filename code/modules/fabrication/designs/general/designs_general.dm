@@ -3,6 +3,13 @@
 
 /datum/fabricator_recipe/mop
 	path = /obj/item/mop
+
+/datum/fabricator_recipe/plant
+	path = /obj/item/device/scanner/plant
+
+/datum/fabricator_recipe/camera
+	path = /obj/item/device/camera
+
 /datum/fabricator_recipe/flashlight
 	path = /obj/item/device/flashlight
 

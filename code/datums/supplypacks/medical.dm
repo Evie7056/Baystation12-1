@@ -130,6 +130,14 @@
 	containername = "medical surplus equipment crate"
 	access = access_medical
 
+/decl/hierarchy/supply_pack/medical/psinull
+	name = "Equipment - Psinull implant (4x)"
+	contains = list(/obj/item/storage/briefcase/psinull)
+	cost = 100
+	containertype = /obj/structure/closet/crate/secure
+	containername = "psinull crate"
+	access = access_medical
+
 /decl/hierarchy/supply_pack/medical/cmogear
 	name = "Gear - Chief medical officer equipment"
 	contains = list(/obj/item/storage/belt/medical,
@@ -210,7 +218,8 @@
 					/obj/item/device/scanner/health,
 					/obj/item/device/flashlight/pen,
 					/obj/item/reagent_containers/syringe,
-					/obj/item/clothing/accessory/storage/white_vest)
+					/obj/item/clothing/accessory/storage/white_vest,
+					/obj/item/storage/pouch/tubular/vial)
 	cost = 22
 	containertype = /obj/structure/closet/crate/secure
 	containername = "paramedic equipment crate"

@@ -8,7 +8,7 @@
 		)
 	charge_cost = 30
 	battery_changable = TRUE
-	battery_type = /obj/item/cell/guncell/pistol/verysmall
+	battery_type = /obj/item/cell/guncell/pistol/small
 	battery_chamber_size = BATTERY_PISTOL
 	max_shots = 5
 	req_access = list(list(access_brig, access_bridge))
@@ -60,7 +60,7 @@
 		)
 	modifystate = "energyrevolverstun"
 	item_state = null
-	init_firemodes = list(
+	firemodes = list(
 		list(mode_name="stun", projectile_type=/obj/item/projectile/beam/stun, modifystate="energyrevolverstun"),
 		list(mode_name="shock", projectile_type=/obj/item/projectile/beam/stun/shock, modifystate="energyrevolvershock"),
 		list(mode_name="kill", projectile_type=/obj/item/projectile/beam, modifystate="energyrevolverkill"),

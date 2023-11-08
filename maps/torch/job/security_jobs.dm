@@ -59,6 +59,7 @@
 	minimum_character_age = list(SPECIES_HUMAN = 25)
 	ideal_character_age = 35
 	skill_points = 14
+	give_psionic_implant_on_join = TRUE
 	alt_titles = list(
 		"Criminal Investigator",
 		"Psionic Sleuth",
@@ -108,6 +109,8 @@
 
 	software_on_spawn = list(/datum/computer_file/program/digitalwarrant,
 							 /datum/computer_file/program/camera_monitor)
+
+
 
 /datum/job/detective/equip(var/mob/living/carbon/human/H)
 	if(H.mind?.role_alt_title == "Psionic Sleuth")

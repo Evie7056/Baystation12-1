@@ -1,16 +1,16 @@
 /* Cards
- * Contains:
- *		DATA CARD
- *		ID CARD
- *		FINGERPRINT CARD HOLDER
- *		FINGERPRINT CARD
- */
+	* Contains:
+	*		DATA CARD
+	*		ID CARD
+	*		FINGERPRINT CARD HOLDER
+	*		FINGERPRINT CARD
+	*/
 
 
 
 /*
- * DATA CARDS - Used for the IC data card reader
- */
+	* DATA CARDS - Used for the IC data card reader
+	*/
 /obj/item/card
 	name = "card"
 	desc = "Does card things."
@@ -80,8 +80,8 @@
 	icon_state = "data_3"
 
 /*
- * ID CARDS
- */
+	* ID CARDS
+	*/
 
 /obj/item/card/emag_broken
 	desc = "It's a blank ID card with a magnetic strip and some odd circuitry attached."
@@ -440,6 +440,7 @@ var/global/const/NO_EMAG_ACT = -50
 /obj/item/card/id/centcom/ERT
 	name = "\improper Emergency Response Team ID"
 	assignment = "Emergency Response Team"
+	extra_details = list("onegoldstripe")
 
 /obj/item/card/id/centcom/ERT/New()
 	..()

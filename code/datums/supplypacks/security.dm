@@ -50,7 +50,8 @@
 					/obj/item/clothing/glasses/tacgoggles,
 					/obj/item/storage/belt/holster/security/tactical,
 					/obj/item/clothing/shoes/tactical,
-					/obj/item/clothing/gloves/tactical)
+					/obj/item/clothing/gloves/tactical,
+					/obj/item/storage/pouch/ammo)
 	cost = 40
 	containertype = /obj/structure/closet/crate/secure
 	containername = "tactical armor crate"
@@ -107,7 +108,8 @@
 					/obj/item/clothing/head/helmet/riot = 4,
 					/obj/item/clothing/suit/armor/riot = 4,
 					/obj/item/storage/box/flashbangs,
-					/obj/item/storage/box/teargas)
+					/obj/item/storage/box/teargas,
+					/obj/item/storage/pouch/baton_holster)
 	cost = 55
 	containertype = /obj/structure/closet/crate/secure
 	containername = "riot gear crate"
@@ -116,7 +118,9 @@
 /decl/hierarchy/supply_pack/security/ballisticarmor
 	name = "Armor - Ballistic"
 	contains = list(/obj/item/clothing/head/helmet/ballistic = 4,
-					/obj/item/clothing/suit/armor/bulletproof = 4)
+					/obj/item/clothing/suit/armor/bulletproof = 4,
+					/obj/item/storage/pouch/pistol_holster = 4,
+					/obj/item/storage/pouch/ammo = 4)
 	cost = 60
 	containertype = /obj/structure/closet/crate/secure
 	containername = "ballistic suit crate"
@@ -137,7 +141,8 @@
 					/obj/item/reagent_containers/spray/pepper = 4,
 					/obj/item/melee/baton/loaded = 4,
 					/obj/item/gun/energy/taser = 4,
-					/obj/item/storage/box/handcuffs)
+					/obj/item/storage/box/handcuffs,
+					)
 	cost = 50
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "security weapons crate"
@@ -214,8 +219,8 @@
 
 /decl/hierarchy/supply_pack/security/frags
 	name = "Weapons - Fragmentation grenades"
-	contains = list(/obj/item/storage/box/frags = 2)
-	cost = 80
+	contains = list(/obj/item/storage/fancy/supply_box/grenade = 2)
+	cost = 75
 	containertype = /obj/structure/closet/crate/secure/weapon
 	containername = "frag grenade crate"
 	access = access_emergency_armory
@@ -226,7 +231,7 @@
 	contains = list(/obj/item/storage/box/flashbangs = 2)
 	cost = 30
 	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "flashbang crate"
+	containername = "flashbang grenade crate"
 	access = access_security
 
 /decl/hierarchy/supply_pack/security/teargas
@@ -239,11 +244,11 @@
 
 /decl/hierarchy/supply_pack/security/battaries
 	name = "Ammunition - Energy rifle small guncells"
-	cost = 40
+	cost = 35
 	contains = list(/obj/item/cell/guncell/small = 2,
 					/obj/item/cell/guncell/verysmall = 2)
 	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "energy rifle guncells crate"
+	containername = "energy guncells crate"
 	access = access_security
 
 /decl/hierarchy/supply_pack/security/battaries/medium
@@ -396,7 +401,7 @@
 	containername = "auxiliary forensic tools crate"
 
 /decl/hierarchy/supply_pack/security/detectivegear
-	name = "Forensics - investigation equipment"
+	name = "Forensics - Investigation equipment"
 	contains = list(/obj/item/storage/box/evidence = 2,
 					/obj/item/device/radio/headset/headset_sec,
 					/obj/item/taperoll/police,
@@ -423,6 +428,13 @@
 	containertype = /obj/structure/closet/crate/secure/large
 	containername = "security barrier crate"
 	access = access_security
+
+/decl/hierarchy/supply_pack/security/portablebarriers
+	name = "Equipment - Portable barriers crate"
+	contains = list(/obj/item/barrier = 6)
+	cost = 32
+	containertype = /obj/structure/closet/crate/war
+	containername = "portable barrier crate"
 
 /decl/hierarchy/supply_pack/security/securitybarriers
 	name = "Equipment - Wall shield Generators"

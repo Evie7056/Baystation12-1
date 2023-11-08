@@ -3235,6 +3235,9 @@
 	pixel_y = 32
 	},
 /obj/machinery/door/firedoor,
+/obj/effect/floor_decal/corner/white/border{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/staging)
 "afI" = (
@@ -5653,7 +5656,6 @@
 "alV" = (
 /obj/structure/closet/secure_closet/forensics,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/cell/guncell/pistol/small,
 /turf/simulated/floor/tiled/monotile,
 /area/security/detectives_office)
 "alW" = (
@@ -8747,8 +8749,6 @@
 /obj/effect/floor_decal/corner/red/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/security_torch,
-/obj/item/cell/guncell/pistol/small,
-/obj/item/cell/guncell/pistol/small,
 /turf/simulated/floor/tiled/monotile,
 /area/security/locker)
 "aCv" = (
@@ -10132,9 +10132,6 @@
 "aJo" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet/secure_closet/brigchief,
-/obj/item/device/radio,
-/obj/item/crowbar,
-/obj/item/clothing/mask/gas/half,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/firealarm{
 	dir = 8;
@@ -10563,12 +10560,11 @@
 /obj/structure/table/rack{
 	dir = 4
 	},
-/obj/item/device/flashlight/flare,
-/obj/item/device/flashlight/flare,
-/obj/item/device/flashlight/flare,
-/obj/item/device/flashlight/flare,
-/obj/item/device/flashlight/flare,
-/obj/item/device/flashlight/flare,
+/obj/item/storage/fancy/supply_box/flare,
+/obj/item/storage/fancy/supply_box/flare{
+	pixel_x = -1;
+	pixel_y = 5
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/storage)
 "aLx" = (
@@ -18101,6 +18097,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/firstdeck/center)
+"hec" = (
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/closet/crate/war,
+/obj/item/barrier,
+/obj/item/barrier,
+/obj/item/barrier,
+/obj/item/barrier,
+/obj/item/barrier,
+/obj/item/barrier,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/command/armoury)
 "hfb" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -19369,6 +19376,11 @@
 	dir = 4;
 	pixel_x = 26
 	},
+/obj/item/storage/box/evidence{
+	pixel_y = 21;
+	pixel_x = 4
+	},
+/obj/item/clothing/suit/storage/toggle/labcoat,
 /turf/simulated/floor/tiled/white,
 /area/security/detectives_office)
 "iGb" = (
@@ -19430,6 +19442,13 @@
 "iLA" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/light,
+/obj/structure/closet/crate/war,
+/obj/item/barrier,
+/obj/item/barrier,
+/obj/item/barrier,
+/obj/item/barrier,
+/obj/item/barrier,
+/obj/item/barrier,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/storage)
 "iLB" = (
@@ -22413,6 +22432,11 @@
 /area/security/questioning)
 "mCe" = (
 /obj/structure/table/glass,
+/obj/item/storage/box/gloves,
+/obj/item/storage/box/syringes{
+	pixel_y = 9;
+	pixel_x = 3
+	},
 /turf/simulated/floor/tiled/white,
 /area/security/detectives_office)
 "mCi" = (
@@ -23742,8 +23766,6 @@
 	pixel_x = 22;
 	pixel_y = -10
 	},
-/obj/item/cell/guncell/pistol/small,
-/obj/item/cell/guncell/pistol/small,
 /turf/simulated/floor/tiled/monotile,
 /area/security/locker)
 "omb" = (
@@ -24817,7 +24839,6 @@
 	id_tag = "tribunal";
 	name = "Court Room"
 	},
-/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/conference)
 "pCb" = (
@@ -25925,16 +25946,11 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/rnd/misc_lab)
 "qSx" = (
-/obj/item/clothing/suit/storage/toggle/labcoat,
-/obj/item/storage/box/evidence,
-/obj/item/storage/box/syringes,
-/obj/item/storage/box/gloves,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /obj/structure/closet/secure_closet/forensics,
-/obj/item/cell/guncell/pistol/small,
 /turf/simulated/floor/tiled/white,
 /area/security/detectives_office)
 "qSD" = (
@@ -26838,7 +26854,13 @@
 /obj/item/roller,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/structure/table/reinforced,
+/obj/structure/window/reinforced{
+	dir = 2
+	},
 /obj/machinery/door/firedoor,
+/obj/effect/floor_decal/corner/white/border{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/staging)
 "rQb" = (
@@ -58381,7 +58403,7 @@ mwA
 jAl
 jAl
 bBv
-aQs
+hec
 aQs
 eRU
 eRU
